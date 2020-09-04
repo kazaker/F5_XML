@@ -1,91 +1,1350 @@
-Parameter Name, Parameter Level, Is Mandatory Parameter, Allow Empty Value, Parameter Value Type, Minimum Length, Maximum Length, Mask Value in Logs, Check characters on this parameter value, Check attack signatures and threat campaigns on this parameter, Allow Repeated Occurrences, Base64 Decoding, Allowed Meta Characters, Disabled Attack Signatures
-A,Global,false,false,user input,Any,100,false,true,true,true,false,%halo&,
-ACCOUNTDEBETNAME,Global,false,false,user input,Any,100,false,true,true,true,false,"halo%,
-ADD,Global,false,true,user input,Any,Any,false,true,true,false,false,LFhalo"halo%halo;,
-AddF0_2.disp2_1,Global,false,true,user input,Any,Any,false,true,true,false,false,",
-AddF0_2.disp2_2,Global,false,true,user input,Any,Any,false,true,true,false,false,",
-AddF0_2.disp2_3,Global,false,true,user input,Any,Any,false,true,true,false,false,",
-AddF5,Global,false,true,user input,Any,Any,false,true,true,false,false,;,
-B,Global,false,true,user input,Any,1000,false,true,true,false,false,;,
-BROWSERVER,Global,false,false,user input,Any,500,false,true,true,false,false,;,
-BankBIC,Global,false,true,user input,Any,Any,false,true,true,false,false,TAB,
-BeforeRequest,Global,false,true,user input,Any,Any,false,true,true,false,false,",
-CARDTYPE,Global,false,true,user input,Any,Any,false,true,true,false,false,[halo],
-CBCCode,Global,false,true,ignore,Any,Any,false,true,true,false,false,TAB,
-CBCComment,Global,false,true,ignore,Any,Any,false,true,true,false,false,TAB,
-CNP,Global,false,true,user input,Any,Any,false,true,true,false,false,;,
-CUSTOMER,Global,false,true,user input,Any,Any,false,true,true,false,false,"halo'halo\,
-CUSTOMERADDRESS,Global,false,true,user input,Any,Any,false,true,true,false,false,"halo'halo\,
-CommunityDeFacto,Global,false,true,user input,Any,Any,false,true,true,false,false,"halo',
-ConIdQues,Global,false,true,user input,Any,Any,false,true,true,false,false,',
-DOCNAME,Global,false,true,user input,Any,Any,false,true,true,false,false,LFhalo"halo%halo&halo;,
-DOCTEXT,Global,false,true,user input,Any,Any,false,true,true,false,false,TABhaloLFhaloCRhalo"halo$halo%halo&halo'halo;halo<halo>halo[halo\halo]halo},200022016
-Email,Global,false,true,user input,Any,Any,false,true,true,false,false,;halo<halo>,
-EmployerHouse,Global,false,true,user input,Any,Any,false,true,true,false,false,"halo\,
-EmployerName,Global,false,true,user input,Any,500,false,true,true,false,false,TABhaloLFhalo"halo&halo'halo<halo>halo\halo`,
-EmployerStreet,Global,false,true,user input,Any,Any,false,true,true,false,false,",
-FAVNAME,Global,false,true,user input,Any,500,false,true,true,false,false,TABhalo"halo$halo%halo&halo'halo;halo<halo>halo\halo`halo{halo|,
-FILE_NAME,Global,false,true,user input,Any,Any,false,true,false,false,false,,200000095halo200000107halo200001142halo200001148halo200001174halo200001480halo200001579halo200003026halo200003031halo200003034halo200003040halo200003041halo200003083halo200003086halo200003087halo200003091halo200003098halo200003105halo200003124halo200004025halo200004048halo200100310
-FILE_PATH,Global,false,false,auto detect,Any,Any,false,true,true,false,false,$halo&halo;halo[halo],200001174
-FORMACTION,Global,false,true,user input,Any,Any,false,true,true,false,false,,200001579
-FavName,Global,false,true,user input,Any,200,false,true,true,false,false,TABhaloLFhalo"halo$halo%halo&halo'halo;halo<halo>halo\halo`halo{halo|,
-GROUND,Global,false,true,user input,Any,500,false,true,true,false,false,LFhalo"halo$halo%halo&halo'halo;halo<halo>halo[halo\halo{halo|halo},
-HouseDeFacto,Global,false,true,user input,Any,Any,false,true,true,false,false,"halo\,
-IDR,Global,false,true,user input,Any,Any,false,true,true,false,false,|,
-IDRT,Global,false,true,user input,Any,Any,false,true,true,false,false,|,
-INT_REF,Global,false,true,user input,Any,Any,false,true,true,false,false,,200018026
-IdCaptcha,Global,false,true,user input,Any,Any,false,true,true,false,false,{halo},
-MBP_RESULT,Global,false,true,user input,Any,Any,false,true,true,false,false,,
-MapID,Global,false,true,user input,Any,Any,false,true,true,false,false,{halo},
-MapID_confirmnewpass,Global,false,true,user input,Any,Any,false,true,true,false,false,{halo},
-MapID_confirmnewpin,Global,false,true,user input,Any,Any,false,true,true,false,false,{halo},
-MapID_currentpass,Global,false,true,user input,Any,Any,false,true,true,false,false,{halo},
-MapID_currentpin,Global,false,true,user input,Any,Any,false,true,true,false,false,{halo},
-MapID_newpass,Global,false,true,user input,Any,Any,false,true,true,false,false,{halo},
-MapID_newpin,Global,false,true,user input,Any,Any,false,true,true,false,false,{halo},
-MobModel,Global,false,false,user input,Any,100,false,true,true,false,false,&halo|,
-NICKNAME,Global,false,true,user input,Any,Any,false,true,true,false,false,"halo$halo%halo[halo\halo],
-NP,Global,false,true,user input,Any,Any,false,true,true,false,false,;,
-OLDP,Global,false,true,user input,Any,Any,false,true,true,false,false,;,
-PAYERNAME,Global,false,true,user input,Any,Any,false,true,true,false,false,"halo&halo'halo\,
-PDC_IMEDIABANKNAME,Global,false,true,user input,Any,Any,false,true,true,false,false,',
-PDC_PAYMENTSDETAILS,Global,false,true,user input,Any,Any,false,true,true,false,false,LFhaloCRhalo"halo$halo%halo&halo'halo;,
-PDC_RECEIVER,Global,false,true,user input,Any,Any,false,true,true,false,false,LFhaloCRhalo',
-PDC_RECEIVERADDRESS,Global,false,true,user input,Any,Any,false,true,true,false,false,LFhaloCRhalo',
-PDC_RECEIVERBANKADDRESS,Global,false,true,user input,Any,Any,false,true,true,false,false,',
-PDC_RECEIVERBANKNAME,Global,false,true,user input,Any,Any,false,true,true,false,false,',
-PDC_RECEIVERBANKPLACE,Global,false,true,user input,Any,Any,false,true,true,false,false,',
-PDC_RECEIVERPLACE,Global,false,true,user input,Any,Any,false,true,true,false,false,',
-PDR_GROUND,Global,false,true,user input,Any,500,false,false,true,false,false,TABhaloLFhalo"halo$halo%halo&halo;halo<halo>halo\halo{halo},
-PDR_RECEIVER,Global,false,true,user input,Any,Any,false,false,true,false,false,TABhaloLFhaloCRhalo"halo%halo'halo;halo<halo>halo\halo`,
-PDR_RECEIVERBANKFULLINFO,Global,false,true,user input,Any,200,false,true,true,false,false,",
-PDR_RECEIVERBANKFULLINFOREK,Global,false,true,user input,Any,200,false,true,true,false,false,",
-PDR_RECEIVERBANKNAME,Global,false,true,user input,Any,Any,false,true,true,false,false,TABhalo",
-PSW,Global,false,true,user input,Any,Any,false,true,true,false,false,"halo$halo&halo'halo\,
-PayerAccountName,Global,false,true,user input,Any,Any,false,true,true,false,false,"halo%halo[halo\halo]halo|,
-QRCODE,Global,false,false,user input,Any,Any,false,false,true,false,false,LFhaloCRhalo"halo%halo&halo'halo;halo<halo>halo\halo`halo|,
-RECEIVER,Global,false,true,user input,Any,Any,false,false,true,false,false,SOHhaloLFhalo"halo'halo<halo>halo[halo\halo],
-RECEIVERBANKNAME,Global,false,true,user input,Any,Any,false,true,true,false,false,",
-RECEIVERINN,Global,false,true,ignore,Any,Any,false,true,true,false,false,TAB,
-REQUESTREASON2,Global,false,true,user input,Any,Any,false,true,true,false,false,"halo',
-StreetDeFacto,Global,false,true,user input,Any,Any,false,true,true,false,false,"halo'halo\,
-T,Global,false,true,user input,Any,Any,false,true,true,false,false,"halo<halo>,
-TAXNUMBER,Global,false,true,user input,Any,50,false,true,true,false,false,;,
-TEXT_AddF375,Global,false,true,user input,Any,Any,false,true,true,false,false,",
-TEXT_AddF54,Global,false,true,user input,Any,Any,false,true,true,false,false,",
-TIDR,Global,false,true,user input,Any,Any,false,true,true,false,false,|,
-TPL_FORM_XSL_FILE,Global,false,true,user input,Any,Any,false,true,true,false,false,\,
-TPL_IDR,Global,false,true,user input,Any,Any,false,true,true,false,false,|,
-UserIdea,Global,false,true,user input,Any,Any,false,true,true,false,false,LFhalo"halo%halo\,
-UserPassport,Global,false,true,user input,Any,Any,false,true,true,false,false,"halo\,
-WORD_RESULT,Global,false,true,user input,Any,Any,false,true,true,false,false,"halo&halo'halo>halo[,
-YourBid,Global,false,true,user input,Any,Any,false,true,true,false,false,%,
-conf_pass,Global,false,true,user input,Any,Any,false,true,true,false,false,;,
-confirmnewpin,Global,false,true,user input,Any,Any,false,true,true,false,false,;,
-currentpin,Global,false,true,user input,Any,Any,false,true,true,false,false,;,
-filename,Global,false,false,user input,Any,200,false,true,true,false,false,$halo&halo'halo;halo[halo\halo],
-findValue,Global,false,true,user input,Any,Any,false,true,true,false,false,"halo&,
-new_pass,Global,false,true,user input,Any,Any,false,true,true,false,false,;,
-newpin,Global,false,true,user input,Any,Any,false,true,true,false,false,;,
-utm_referrer,Global,false,true,user input,Any,Any,false,true,true,false,false,%halo&halo;,
-*,Global,false,true,auto detect,Any,Any,false,true,true,false,false,,
+Parameter Name,A
+Is Mandatory Parameter,false
+Allow Empty Value,false
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,100
+Check characters on this,false
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,true
+Base64 Decoding,false
+Allowed Meta Characters,%halo&
+Disabled Attack Signatures,
+
+Parameter Name,ACCOUNTDEBETNAME
+Is Mandatory Parameter,false
+Allow Empty Value,false
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,100
+Check characters on this,false
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,true
+Base64 Decoding,false
+Allowed Meta Characters,"halo%
+Disabled Attack Signatures,
+
+Parameter Name,ADD
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,LFhalo"halo%halo;
+Disabled Attack Signatures,
+
+Parameter Name,AddF0_2.disp2_1
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"
+Disabled Attack Signatures,
+
+Parameter Name,AddF0_2.disp2_2
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"
+Disabled Attack Signatures,
+
+Parameter Name,AddF0_2.disp2_3
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"
+Disabled Attack Signatures,
+
+Parameter Name,AddF5
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,;
+Disabled Attack Signatures,
+
+Parameter Name,B
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,1000
+Check characters on this,false
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,;
+Disabled Attack Signatures,
+
+Parameter Name,BROWSERVER
+Is Mandatory Parameter,false
+Allow Empty Value,false
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,500
+Check characters on this,false
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,;
+Disabled Attack Signatures,
+
+Parameter Name,BankBIC
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,TAB
+Disabled Attack Signatures,
+
+Parameter Name,BeforeRequest
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"
+Disabled Attack Signatures,
+
+Parameter Name,CARDTYPE
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,[halo]
+Disabled Attack Signatures,
+
+Parameter Name,CBCCode
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,ignore
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,TAB
+Disabled Attack Signatures,
+
+Parameter Name,CBCComment
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,ignore
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,TAB
+Disabled Attack Signatures,
+
+Parameter Name,CNP
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,;
+Disabled Attack Signatures,
+
+Parameter Name,CUSTOMER
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"halo'halo\
+Disabled Attack Signatures,
+
+Parameter Name,CUSTOMERADDRESS
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"halo'halo\
+Disabled Attack Signatures,
+
+Parameter Name,CommunityDeFacto
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"halo'
+Disabled Attack Signatures,
+
+Parameter Name,ConIdQues
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,'
+Disabled Attack Signatures,
+
+Parameter Name,DOCNAME
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,LFhalo"halo%halo&halo;
+Disabled Attack Signatures,
+
+Parameter Name,DOCTEXT
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,false
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,TABhaloLFhaloCRhalo"halo$halo%halo&halo'halo;halo<halo>halo[halo\halo]halo}
+Disabled Attack Signatures,200022016
+
+Parameter Name,Email
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,;halo<halo>
+Disabled Attack Signatures,
+
+Parameter Name,EmployerHouse
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"halo\
+Disabled Attack Signatures,
+
+Parameter Name,EmployerName
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,500
+Check characters on this,false
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,TABhaloLFhalo"halo&halo'halo<halo>halo\halo`
+Disabled Attack Signatures,
+
+Parameter Name,EmployerStreet
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"
+Disabled Attack Signatures,
+
+Parameter Name,FAVNAME
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,500
+Check characters on this,false
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,TABhalo"halo$halo%halo&halo'halo;halo<halo>halo\halo`halo{halo|
+Disabled Attack Signatures,
+
+Parameter Name,FILE_NAME
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,false
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,false
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,
+Disabled Attack Signatures,200000095halo200000107halo200001142halo200001148halo200001174halo200001480halo200001579halo200003026halo200003031halo200003034halo200003040halo200003041halo200003083halo200003086halo200003087halo200003091halo200003098halo200003105halo200003124halo200004025halo200004048halo200100310
+
+Parameter Name,FILE_PATH
+Is Mandatory Parameter,false
+Allow Empty Value,false
+Parameter Value Type,auto detect
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,false
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,$halo&halo;halo[halo]
+Disabled Attack Signatures,200001174
+
+Parameter Name,FORMACTION
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,
+Disabled Attack Signatures,200001579
+
+Parameter Name,FavName
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,200
+Check characters on this,false
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,TABhaloLFhalo"halo$halo%halo&halo'halo;halo<halo>halo\halo`halo{halo|
+Disabled Attack Signatures,
+
+Parameter Name,GROUND
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,500
+Check characters on this,false
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,LFhalo"halo$halo%halo&halo'halo;halo<halo>halo[halo\halo{halo|halo}
+Disabled Attack Signatures,
+
+Parameter Name,HouseDeFacto
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"halo\
+Disabled Attack Signatures,
+
+Parameter Name,IDR
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,|
+Disabled Attack Signatures,
+
+Parameter Name,IDRT
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,|
+Disabled Attack Signatures,
+
+Parameter Name,INT_REF
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,
+Disabled Attack Signatures,200018026
+
+Parameter Name,IdCaptcha
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,{halo}
+Disabled Attack Signatures,
+
+Parameter Name,MBP_RESULT
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,
+Disabled Attack Signatures,
+
+Parameter Name,MapID
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,{halo}
+Disabled Attack Signatures,
+
+Parameter Name,MapID_confirmnewpass
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,{halo}
+Disabled Attack Signatures,
+
+Parameter Name,MapID_confirmnewpin
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,{halo}
+Disabled Attack Signatures,
+
+Parameter Name,MapID_currentpass
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,{halo}
+Disabled Attack Signatures,
+
+Parameter Name,MapID_currentpin
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,{halo}
+Disabled Attack Signatures,
+
+Parameter Name,MapID_newpass
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,{halo}
+Disabled Attack Signatures,
+
+Parameter Name,MapID_newpin
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,{halo}
+Disabled Attack Signatures,
+
+Parameter Name,MobModel
+Is Mandatory Parameter,false
+Allow Empty Value,false
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,100
+Check characters on this,false
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,&halo|
+Disabled Attack Signatures,
+
+Parameter Name,NICKNAME
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"halo$halo%halo[halo\halo]
+Disabled Attack Signatures,
+
+Parameter Name,NP
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,;
+Disabled Attack Signatures,
+
+Parameter Name,OLDP
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,;
+Disabled Attack Signatures,
+
+Parameter Name,PAYERNAME
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"halo&halo'halo\
+Disabled Attack Signatures,
+
+Parameter Name,PDC_IMEDIABANKNAME
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,'
+Disabled Attack Signatures,
+
+Parameter Name,PDC_PAYMENTSDETAILS
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,LFhaloCRhalo"halo$halo%halo&halo'halo;
+Disabled Attack Signatures,
+
+Parameter Name,PDC_RECEIVER
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,LFhaloCRhalo'
+Disabled Attack Signatures,
+
+Parameter Name,PDC_RECEIVERADDRESS
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,LFhaloCRhalo'
+Disabled Attack Signatures,
+
+Parameter Name,PDC_RECEIVERBANKADDRESS
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,'
+Disabled Attack Signatures,
+
+Parameter Name,PDC_RECEIVERBANKNAME
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,'
+Disabled Attack Signatures,
+
+Parameter Name,PDC_RECEIVERBANKPLACE
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,'
+Disabled Attack Signatures,
+
+Parameter Name,PDC_RECEIVERPLACE
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,'
+Disabled Attack Signatures,
+
+Parameter Name,PDR_GROUND
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,500
+Check characters on this,false
+parameter value,false
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,TABhaloLFhalo"halo$halo%halo&halo;halo<halo>halo\halo{halo}
+Disabled Attack Signatures,
+
+Parameter Name,PDR_RECEIVER
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,false
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,TABhaloLFhaloCRhalo"halo%halo'halo;halo<halo>halo\halo`
+Disabled Attack Signatures,
+
+Parameter Name,PDR_RECEIVERBANKFULLINFO
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,200
+Check characters on this,false
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"
+Disabled Attack Signatures,
+
+Parameter Name,PDR_RECEIVERBANKFULLINFOREK
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,200
+Check characters on this,false
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"
+Disabled Attack Signatures,
+
+Parameter Name,PDR_RECEIVERBANKNAME
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,TABhalo"
+Disabled Attack Signatures,
+
+Parameter Name,PSW
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"halo$halo&halo'halo\
+Disabled Attack Signatures,
+
+Parameter Name,PayerAccountName
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"halo%halo[halo\halo]halo|
+Disabled Attack Signatures,
+
+Parameter Name,QRCODE
+Is Mandatory Parameter,false
+Allow Empty Value,false
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,false
+parameter value,false
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,LFhaloCRhalo"halo%halo&halo'halo;halo<halo>halo\halo`halo|
+Disabled Attack Signatures,
+
+Parameter Name,RECEIVER
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,false
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,SOHhaloLFhalo"halo'halo<halo>halo[halo\halo]
+Disabled Attack Signatures,
+
+Parameter Name,RECEIVERBANKNAME
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"
+Disabled Attack Signatures,
+
+Parameter Name,RECEIVERINN
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,ignore
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,TAB
+Disabled Attack Signatures,
+
+Parameter Name,REQUESTREASON2
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"halo'
+Disabled Attack Signatures,
+
+Parameter Name,StreetDeFacto
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"halo'halo\
+Disabled Attack Signatures,
+
+Parameter Name,T
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"halo<halo>
+Disabled Attack Signatures,
+
+Parameter Name,TAXNUMBER
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,50
+Check characters on this,false
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,;
+Disabled Attack Signatures,
+
+Parameter Name,TEXT_AddF375
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"
+Disabled Attack Signatures,
+
+Parameter Name,TEXT_AddF54
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"
+Disabled Attack Signatures,
+
+Parameter Name,TIDR
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,|
+Disabled Attack Signatures,
+
+Parameter Name,TPL_FORM_XSL_FILE
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,\
+Disabled Attack Signatures,
+
+Parameter Name,TPL_IDR
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,|
+Disabled Attack Signatures,
+
+Parameter Name,UserIdea
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,LFhalo"halo%halo\
+Disabled Attack Signatures,
+
+Parameter Name,UserPassport
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"halo\
+Disabled Attack Signatures,
+
+Parameter Name,WORD_RESULT
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"halo&halo'halo>halo[
+Disabled Attack Signatures,
+
+Parameter Name,YourBid
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,%
+Disabled Attack Signatures,
+
+Parameter Name,conf_pass
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,;
+Disabled Attack Signatures,
+
+Parameter Name,confirmnewpin
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,;
+Disabled Attack Signatures,
+
+Parameter Name,currentpin
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,;
+Disabled Attack Signatures,
+
+Parameter Name,filename
+Is Mandatory Parameter,false
+Allow Empty Value,false
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,200
+Check characters on this,false
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,$halo&halo'halo;halo[halo\halo]
+Disabled Attack Signatures,
+
+Parameter Name,findValue
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"halo&
+Disabled Attack Signatures,
+
+Parameter Name,new_pass
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,;
+Disabled Attack Signatures,
+
+Parameter Name,newpin
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,;
+Disabled Attack Signatures,
+
+Parameter Name,utm_referrer
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,%halo&halo;
+Disabled Attack Signatures,
+
+Parameter Name,*
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,auto detect
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,Any
+Check characters on this,true
+parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,
+Disabled Attack Signatures,
+
