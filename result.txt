@@ -1348,3 +1348,109 @@ Base64 Decoding,false
 Allowed Meta Characters,
 Disabled Attack Signatures,
 
+File Type,GIF
+URL Length,100
+Request Length,5000
+Query String Length,1000
+POST Data Length,1000
+Apply Response Signatures,false
+
+File Type,asp
+URL Length,100
+Request Length,100000
+Query String Length,1000
+POST Data Length,1000
+Apply Response Signatures,false
+
+File Type,css
+URL Length,100
+Request Length,10000
+Query String Length,1000
+POST Data Length,1000
+Apply Response Signatures,false
+
+File Type,dll
+URL Length,100
+Request Length,10000000
+Query String Length,1000
+POST Data Length,Any
+Apply Response Signatures,false
+
+File Type,gif
+URL Length,100
+Request Length,10000
+Query String Length,1000
+POST Data Length,1000
+Apply Response Signatures,false
+
+File Type,htc
+URL Length,100
+Request Length,5000
+Query String Length,1000
+POST Data Length,1000
+Apply Response Signatures,false
+
+File Type,htm
+URL Length,100
+Request Length,10000
+Query String Length,1000
+POST Data Length,1000
+Apply Response Signatures,false
+
+File Type,html
+URL Length,100
+Request Length,5000
+Query String Length,1000
+POST Data Length,1000
+Apply Response Signatures,false
+
+File Type,ico
+URL Length,100
+Request Length,10000
+Query String Length,1000
+POST Data Length,1000
+Apply Response Signatures,false
+
+File Type,jpg
+URL Length,100
+Request Length,10000
+Query String Length,1000
+POST Data Length,1000
+Apply Response Signatures,false
+
+File Type,js
+URL Length,100
+Request Length,10000
+Query String Length,1000
+POST Data Length,1000
+Apply Response Signatures,false
+
+File Type,no_ext
+URL Length,100
+Request Length,10000
+Query String Length,1000
+POST Data Length,1000
+Apply Response Signatures,false
+
+File Type,pdf
+URL Length,100
+Request Length,5000
+Query String Length,1000
+POST Data Length,1000
+Apply Response Signatures,false
+
+File Type,png
+URL Length,100
+Request Length,10000
+Query String Length,1000
+POST Data Length,1000
+Apply Response Signatures,false
+
+File Type,*
+URL Length,100
+Request Length,10000
+Query String Length,1000
+POST Data Length,5000
+Apply Response Signatures,false
+
+Disallowed File Types,ashxhaloaspxhalobakhalobathalobckhalobinhalobkphalocerhalocfghalocgihalocmdhalocomhaloconfhaloconfighalocrthalodathaloderhalodohaloemlhaloexehalohtahalohtrhalohtwhaloidahaloidchaloidqhaloinihalojavahalojsphalokeyhalologhaloluahalomsihalonwshalooldhalop12halop7bhalop7chalopemhalopfxhalophphalopolhaloprinterhalopyhaloreghalosavhalosavehaloshtmhaloshtmlhalostmhalosyshalotemphalotmphalowmz
