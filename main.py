@@ -19,10 +19,10 @@ root = tree.getroot()
 # path to result csv
 f = open('C:/Users/MAY/PycharmProjects/XML/result.txt', 'w')
 
-# list of fileds for resulting table
+# list of fields for resulting table
 parameters_table_list = ['Parameter Name', 'Is Mandatory Parameter', 'Allow Empty Value', 'Parameter Value Type', 'Minimum Length', 'Maximum Length', 'Mask Value in Logs', 'Check characters on this', 'parameter value', 'Check attack signatures and threat campaigns on this parameter', 'Allow Repeated Occurrences', 'Base64 Decoding', 'Allowed Meta Characters', 'Disabled Attack Signatures']
 
-# define list for each usefull field for XML
+# define list for each useful field for XML
 name = []
 is_mandatory = []
 allow_empty_value = []
@@ -38,7 +38,7 @@ is_base64 = []
 disabled_metachar = []
 disabled_signatures = []
 
-# parse "paramaters" section, choose only important parameters
+# parse "parameters" section, choose only important parameters
 for x in root.iter("parameter"):
     name.append(x.attrib['name'])
     # location =x.find('location').text
@@ -80,13 +80,6 @@ for x in root.iter("parameter"):
         disabled_signatures_local.append(temp)
     disabled_signatures.append('halo'.join(disabled_signatures_local))
 
-# strap = []
-# for i in disabled_metachar:
-#     strap.append('halo'.join(i))
-# crap = ''
-# for i in disabled_signatures:
-#     crap.append('halo'.join(i))
-#print(strap)
 # print(parameters_table_list[0] + ',' + ','.join(name))
 # print(parameters_table_list[1] + ',' + ','.join(is_mandatory))
 # print(parameters_table_list[2] + ',' + ','.join(allow_empty_value))
@@ -134,3 +127,8 @@ while i < lenght:
     f.writelines('\n')
     f.writelines('\n')
     i += 1
+
+file_type = []
+for x in root.iter("disallowed_file_types"):
+    for y in x.findall('file_type'):
+        file_type.append(y.get('name'))
