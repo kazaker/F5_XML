@@ -1,6 +1,7 @@
 import xml.etree.ElementTree as ET
 
-# Conver 0xNN format numbers to human-readable ASCII-symbols
+
+# Convert 0xNN format numbers to human-readable ASCII-symbols
 def ascii_dict(i):
     if i == 'a':
         return 'LF'
@@ -14,45 +15,55 @@ def ascii_dict(i):
 
 
 # path to XML configure from F5
-tree = ET.parse('C:/Users/MAY/PycharmProjects/XML/data.xml')
+tree = ET.parse('C:/Users/Cynic/PycharmProjects/F5_XML/data.xml')
 root = tree.getroot()
 # path to result csv
-f = open('C:/Users/MAY/PycharmProjects/XML/result.txt', 'w')
+f = open('C:/Users/Cynic/PycharmProjects/F5_XML/result.txt', 'w')
 
+policy_table_list = ['Policy Name', 'Description', 'Policy Type', 'Parent Policy', 'Policy Template', 'Application Language', 'Enforcement Mode', 'Policy Building Learning Mode', '', 'Enforcement Readiness Period', 'Server Technologies', 'Policy is Case Sensitive', 'Event Correlation Reporting', 'Mask Credit Card Numbers in Request Log', 'Maximum HTTP Header Length', 'Maximum Cookie Header Length', 'Allowed Response Status Codes', 'Trigger ASM iRule Events Mode', 'Trust XFF Header', 'Handle Path Parameters']
 
-policy_table_list = ['Policy Name', 'Description', 'Policy Type', 'Parent Policy', 'Application Language', 'Enforcement Mode', ]
-policy_name = ''
-policy_description = ''
-policy_type = ''
-policy_encoding = ''
-policy_parent_policy_name = ''
-policy_encoding = ''
-policy_case_insensitive = ''
-policy_template = ''
+# policy_builder
+policy_learning_mode = ''  # Policy Building Learning Mode
+# Auto-Apply Policy? Multiple parameters
+# Learning Speed?
+# Differentiate between HTTP/WS and HTTPS/WSS URLs?
+# Dynamic Session ID in URL
+
+policy_name = ''  # Policy Name
+policy_description = ''  # Description
+policy_type = ''  # Policy Type
+policy_encoding = ''  # Application Language
+policy_parent_policy_name = ''  # Parent Policy
+policy_case_insensitive = ''  # Policy is Case Sensitive
+policy_template = ''  # Policy Template
 # general
-policy_path_parameter_handling = ''
-policy_mask_sensitive = ''
-policy_trigger_asm_irule_event = ''
-policy_staging_period_in_days = ''
-policy_enable_correlation  = ''
+policy_path_parameter_handling = ''  # Handle Path Parameters
+policy_mask_sensitive = ''  # Mask Credit Card Numbers in Request Lo
+policy_trigger_asm_irule_event = ''  # Trigger ASM iRule Events Mode
+policy_staging_period_in_days = ''  # Enforcement Readiness Period
+policy_enable_correlation = ''  # Event Correlation Reporting
 # header_settings
-policy_maximum_http_length = ''
+policy_maximum_http_length = ''  # Maximum HTTP Header Length
 # cookie_settings
-policy_maximum_cookie_length = ''
+policy_maximum_cookie_length = ''  # Maximum Cookie Header Length
 
-policy_allowed_response_code = []
-policy_trust_xff = ''
+policy_allowed_response_code = []  # Allowed Response Status Codes
+policy_trust_xff = ''  # Trust XFF Header
 # server_technologies
-policy_server_technology = [] # server_technology_name
+policy_server_technology = []  # server_technology_name
 # inheritance
 # section (type)
-policy_inheritance = [] #parent_inheritance_status and child_inheritance_status
-#blocking
-policy_enforcement_mode = ''
-policy_passive_mode = ''
+policy_inheritance = []  # parent_inheritance_status and child_inheritance_status
+# blocking
+policy_enforcement_mode = ''  # Enforcement Mode
+policy_passive_mode = ''  # Enforcement Mode
 
 # list of fields for resulting table
-parameters_table_list = ['Parameter Name', 'Is Mandatory Parameter', 'Allow Empty Value', 'Parameter Value Type', 'Minimum Length', 'Maximum Length', 'Mask Value in Logs', 'Check characters on this', 'parameter value', 'Check attack signatures and threat campaigns on this parameter', 'Allow Repeated Occurrences', 'Base64 Decoding', 'Allowed Meta Characters', 'Disabled Attack Signatures']
+parameters_table_list = ['Parameter Name', 'Is Mandatory Parameter', 'Allow Empty Value', 'Parameter Value Type',
+                         'Minimum Length', 'Maximum Length', 'Mask Value in Logs', 'Check characters on this',
+                         'parameter value', 'Check attack signatures and threat campaigns on this parameter',
+                         'Allow Repeated Occurrences', 'Base64 Decoding', 'Allowed Meta Characters',
+                         'Disabled Attack Signatures']
 
 # define list for each useful field for XML
 parameter_name = []
@@ -100,14 +111,14 @@ for x in root.iter("parameter"):
     parameter_allow_repeated_parameter_name.append(x.find('allow_repeated_parameter_name').text)
     # disallow_file_upload_of_executables = x.find('disallow_file_upload_of_executables').text
     parameter_is_base64.append(x.find('is_base64').text)
-# nested key in this section
+    # nested key in this section
     disabled_metachar_local = []
     for y in x.findall('metachar'):
         temp = y.get('character')
         temp = temp.split("0x", 1)[1]
         disabled_metachar_local.append(ascii_dict(temp))
     parameter_disabled_metachar.append('shpongle'.join(disabled_metachar_local))
-# nested key in this section
+    # nested key in this section
     disabled_signatures_local = []
     for y in x.findall('attack_signature'):
         temp = y.get('sig_id')
@@ -129,9 +140,9 @@ for x in root.iter("parameter"):
 # print(parameters_table_list[13] + ',' + crap)
 
 # write results to file in csv-like format
-lenght = len(parameter_name)
-i=0
-while i < lenght:
+length = len(parameter_name)
+i = 0
+while i < length:
     f.writelines(parameters_table_list[0] + ',' + parameter_name[i])
     f.writelines('\n')
     f.writelines(parameters_table_list[1] + ',' + parameter_is_mandatory[i])
@@ -164,7 +175,8 @@ while i < lenght:
     i += 1
 
 # Now let's export allowed and disalowed file types
-files_table_list = ['File Type', 'URL Length', 'Request Length', 'Query String Length', 'POST Data Length', 'Apply Response Signatures']
+files_table_list = ['File Type', 'URL Length', 'Request Length', 'Query String Length', 'POST Data Length',
+                    'Apply Response Signatures']
 
 allowed_file_type = []
 file_url_length = []
@@ -217,10 +229,12 @@ for i in files_table_list:
     f.writelines(i + ',')
 f.writelines('\n')
 
-lenght = len(allowed_file_type)
-i=0
-while i < lenght:
-    f.writelines(allowed_file_type[i] + ',' + file_url_length[i] + ',' + file_request_length[i] + ',' + file_query_string_length[i] + ',' + file_post_data_length[i] + ',' + file_check_response[i])
+length = len(allowed_file_type)
+i = 0
+while i < length:
+    f.writelines(
+        allowed_file_type[i] + ',' + file_url_length[i] + ',' + file_request_length[i] + ',' + file_query_string_length[
+            i] + ',' + file_post_data_length[i] + ',' + file_check_response[i])
     f.writelines('\n')
     i += 1
 f.writelines('\n')
@@ -234,7 +248,10 @@ f.writelines('\n')
 f.writelines('\n')
 
 # Now let's export URLs
-urls_table_list = ['URL Name', 'URL Type', 'Clickjacking Protection', 'Check Flows to this URL', 'URL is Entry Point', 'URL is Referrer', 'URL can change Domain Cookie', 'Body is Mandatory', 'Wildcard Match Includes Slashes', 'Check attack signatures and threat campaigns on this URL', 'Check characters on this URL', 'Method Enforcement']
+urls_table_list = ['URL Name', 'URL Type', 'Clickjacking Protection', 'Check Flows to this URL', 'URL is Entry Point',
+                   'URL is Referrer', 'URL can change Domain Cookie', 'Body is Mandatory',
+                   'Wildcard Match Includes Slashes', 'Check attack signatures and threat campaigns on this URL',
+                   'Check characters on this URL', 'Method Enforcement']
 
 url_name = []
 url_type = []
@@ -260,7 +277,6 @@ for x in root.iter('urls'):
         url_protocol.append(y.get('protocol'))
         url_method.append(y.get('method'))
 
-
         url_check_methods.append(y.find('check_methods').text)
         url_check_metachars.append(y.find('check_metachars').text)
         url_mandatory_body.append(y.find('mandatory_body').text)
@@ -285,10 +301,11 @@ for x in root.iter('urls'):
                 url_can_change_domain_cookie.append('-')
 
 # write results to file in csv-like format
-lenght = len(url_name)
-i=0
-while i < lenght:
-    f.writelines(urls_table_list[0] + ',' + 'Protocol: ' + url_protocol[i] + 'shpongle' + 'Methods: ' + url_method[i] + 'shpongle' + 'URL: ' + url_name[i])
+length = len(url_name)
+i = 0
+while i < length:
+    f.writelines(urls_table_list[0] + ',' + 'Protocol: ' + url_protocol[i] + 'shpongle' + 'Methods: ' + url_method[
+        i] + 'shpongle' + 'URL: ' + url_name[i])
     f.writelines('\n')
     f.writelines(urls_table_list[1] + ',' + url_type[i])
     f.writelines('\n')
