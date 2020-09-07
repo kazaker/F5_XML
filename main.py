@@ -19,6 +19,38 @@ root = tree.getroot()
 # path to result csv
 f = open('C:/Users/MAY/PycharmProjects/XML/result.txt', 'w')
 
+
+policy_table_list = ['Policy Name', 'Description', 'Policy Type', 'Parent Policy', 'Application Language', 'Enforcement Mode', ]
+policy_name = ''
+policy_description = ''
+policy_type = ''
+policy_encoding = ''
+policy_parent_policy_name = ''
+policy_encoding = ''
+policy_case_insensitive = ''
+policy_template = ''
+# general
+policy_path_parameter_handling = ''
+policy_mask_sensitive = ''
+policy_trigger_asm_irule_event = ''
+policy_staging_period_in_days = ''
+policy_enable_correlation  = ''
+# header_settings
+policy_maximum_http_length = ''
+# cookie_settings
+policy_maximum_cookie_length = ''
+
+policy_allowed_response_code = []
+policy_trust_xff = ''
+# server_technologies
+policy_server_technology = [] # server_technology_name
+# inheritance
+# section (type)
+policy_inheritance = [] #parent_inheritance_status and child_inheritance_status
+#blocking
+policy_enforcement_mode = ''
+policy_passive_mode = ''
+
 # list of fields for resulting table
 parameters_table_list = ['Parameter Name', 'Is Mandatory Parameter', 'Allow Empty Value', 'Parameter Value Type', 'Minimum Length', 'Maximum Length', 'Mask Value in Logs', 'Check characters on this', 'parameter value', 'Check attack signatures and threat campaigns on this parameter', 'Allow Repeated Occurrences', 'Base64 Decoding', 'Allowed Meta Characters', 'Disabled Attack Signatures']
 
@@ -68,12 +100,14 @@ for x in root.iter("parameter"):
     parameter_allow_repeated_parameter_name.append(x.find('allow_repeated_parameter_name').text)
     # disallow_file_upload_of_executables = x.find('disallow_file_upload_of_executables').text
     parameter_is_base64.append(x.find('is_base64').text)
+# nested key in this section
     disabled_metachar_local = []
     for y in x.findall('metachar'):
         temp = y.get('character')
         temp = temp.split("0x", 1)[1]
         disabled_metachar_local.append(ascii_dict(temp))
     parameter_disabled_metachar.append('shpongle'.join(disabled_metachar_local))
+# nested key in this section
     disabled_signatures_local = []
     for y in x.findall('attack_signature'):
         temp = y.get('sig_id')
@@ -94,6 +128,7 @@ for x in root.iter("parameter"):
 # print(parameters_table_list[11] + ',' + ','.join(is_base64))
 # print(parameters_table_list[13] + ',' + crap)
 
+# write results to file in csv-like format
 lenght = len(parameter_name)
 i=0
 while i < lenght:
@@ -128,6 +163,7 @@ while i < lenght:
     f.writelines('\n')
     i += 1
 
+# Now let's export allowed and disalowed file types
 files_table_list = ['File Type', 'URL Length', 'Request Length', 'Query String Length', 'POST Data Length', 'Apply Response Signatures']
 
 allowed_file_type = []
@@ -158,26 +194,123 @@ for x in root.iter("file_types"):
             file_post_data_length.append(y.find('post_data_length').text)
         file_check_response.append(y.find('check_response').text)
 
+# lenght = len(allowed_file_type)
+# i=0
+# while i < lenght:
+#     f.writelines(files_table_list[0] + ',' + allowed_file_type[i])
+#     f.writelines('\n')
+#     f.writelines(files_table_list[1] + ',' + file_url_length[i])
+#     f.writelines('\n')
+#     f.writelines(files_table_list[2] + ',' + file_request_length[i])
+#     f.writelines('\n')
+#     f.writelines(files_table_list[3] + ',' + file_query_string_length[i])
+#     f.writelines('\n')
+#     f.writelines(files_table_list[4] + ',' + file_post_data_length[i])
+#     f.writelines('\n')
+#     f.writelines(files_table_list[5] + ',' + file_check_response[i])
+#     f.writelines('\n')
+#     f.writelines('\n')
+#     i += 1
+
+# write results in the file in csv-like format
+for i in files_table_list:
+    f.writelines(i + ',')
+f.writelines('\n')
+
 lenght = len(allowed_file_type)
 i=0
 while i < lenght:
-    f.writelines(files_table_list[0] + ',' + allowed_file_type[i])
-    f.writelines('\n')
-    f.writelines(files_table_list[1] + ',' + file_url_length[i])
-    f.writelines('\n')
-    f.writelines(files_table_list[2] + ',' + file_request_length[i])
-    f.writelines('\n')
-    f.writelines(files_table_list[3] + ',' + file_query_string_length[i])
-    f.writelines('\n')
-    f.writelines(files_table_list[4] + ',' + file_post_data_length[i])
-    f.writelines('\n')
-    f.writelines(files_table_list[5] + ',' + file_check_response[i])
-    f.writelines('\n')
+    f.writelines(allowed_file_type[i] + ',' + file_url_length[i] + ',' + file_request_length[i] + ',' + file_query_string_length[i] + ',' + file_post_data_length[i] + ',' + file_check_response[i])
     f.writelines('\n')
     i += 1
+f.writelines('\n')
 
 disallowed_file_type = []
 for x in root.iter("disallowed_file_types"):
     for y in x.findall('file_type'):
         disallowed_file_type.append(y.get('name'))
 f.writelines('Disallowed File Types' + ',' + 'shpongle'.join(disallowed_file_type))
+f.writelines('\n')
+f.writelines('\n')
+
+# Now let's export URLs
+urls_table_list = ['URL Name', 'URL Type', 'Clickjacking Protection', 'Check Flows to this URL', 'URL is Entry Point', 'URL is Referrer', 'URL can change Domain Cookie', 'Body is Mandatory', 'Wildcard Match Includes Slashes', 'Check attack signatures and threat campaigns on this URL', 'Check characters on this URL', 'Method Enforcement']
+
+url_name = []
+url_type = []
+url_protocol = []
+url_method = []
+url_clickjacking_protection = []
+url_check_flows = []
+url_is_entry_point = []
+url_is_referrer = []
+url_can_change_domain_cookie = []
+url_flg_wildcard_includes_slash = []
+url_check_methods = []
+url_check_metachars = []
+url_mandatory_body = []
+url_check_attack_signatures = []
+
+for x in root.iter('urls'):
+    for z in root.iter('clickjacking_protection'):
+        url_clickjacking_protection.append(z.find('enabled').text)
+    for y in x.findall('url'):
+        url_name.append(y.get('name'))
+        url_type.append(y.get('type'))
+        url_protocol.append(y.get('protocol'))
+        url_method.append(y.get('method'))
+
+
+        url_check_methods.append(y.find('check_methods').text)
+        url_check_metachars.append(y.find('check_metachars').text)
+        url_mandatory_body.append(y.find('mandatory_body').text)
+        url_check_attack_signatures.append(y.find('check_attack_signatures').text)
+
+        if y.get('type') == 'wildcard':
+            url_flg_wildcard_includes_slash.append(y.find('flg_wildcard_includes_slash').text)
+            url_check_flows.append('-')
+            url_is_entry_point.append('-')
+            url_is_referrer.append('-')
+            url_can_change_domain_cookie.append('-')
+        else:
+            url_flg_wildcard_includes_slash.append('-')
+            url_check_flows.append(y.find('check_flows').text)
+            if y.find('check_flows').text == 'true':
+                url_is_entry_point.append(y.find('is_entry_point').text)
+                url_is_referrer.append(y.find('is_referrer').text)
+                url_can_change_domain_cookie.append(y.find('can_change_domain_cookie').text)
+            else:
+                url_is_entry_point.append('-')
+                url_is_referrer.append('-')
+                url_can_change_domain_cookie.append('-')
+
+# write results to file in csv-like format
+lenght = len(url_name)
+i=0
+while i < lenght:
+    f.writelines(urls_table_list[0] + ',' + 'Protocol: ' + url_protocol[i] + 'shpongle' + 'Methods: ' + url_method[i] + 'shpongle' + 'URL: ' + url_name[i])
+    f.writelines('\n')
+    f.writelines(urls_table_list[1] + ',' + url_type[i])
+    f.writelines('\n')
+    f.writelines(urls_table_list[2] + ',' + url_clickjacking_protection[i])
+    f.writelines('\n')
+    f.writelines(urls_table_list[3] + ',' + url_check_flows[i])
+    f.writelines('\n')
+    f.writelines(urls_table_list[4] + ',' + url_is_entry_point[i])
+    f.writelines('\n')
+    f.writelines(urls_table_list[5] + ',' + url_is_referrer[i])
+    f.writelines('\n')
+    f.writelines(urls_table_list[6] + ',' + url_can_change_domain_cookie[i])
+    f.writelines('\n')
+    f.writelines(urls_table_list[7] + ',' + url_mandatory_body[i])
+    f.writelines('\n')
+    f.writelines(urls_table_list[8] + ',' + url_flg_wildcard_includes_slash[i])
+    f.writelines('\n')
+    f.writelines(urls_table_list[9] + ',' + url_check_attack_signatures[i])
+    f.writelines('\n')
+    f.writelines(urls_table_list[10] + ',' + url_check_metachars[i])
+    f.writelines('\n')
+    f.writelines(urls_table_list[11] + ',' + url_check_methods[i])
+    f.writelines('\n')
+    f.writelines('\n')
+    i += 1

@@ -10,7 +10,7 @@ parameter value,true
 Check attack signatures and threat campaigns on this parameter,true
 Allow Repeated Occurrences,true
 Base64 Decoding,false
-Allowed Meta Characters,%halo&
+Allowed Meta Characters,%shpongle&
 Disabled Attack Signatures,
 
 Parameter Name,ACCOUNTDEBETNAME
@@ -25,7 +25,7 @@ parameter value,true
 Check attack signatures and threat campaigns on this parameter,true
 Allow Repeated Occurrences,true
 Base64 Decoding,false
-Allowed Meta Characters,"halo%
+Allowed Meta Characters,"shpongle%
 Disabled Attack Signatures,
 
 Parameter Name,ADD
@@ -40,7 +40,7 @@ parameter value,true
 Check attack signatures and threat campaigns on this parameter,true
 Allow Repeated Occurrences,false
 Base64 Decoding,false
-Allowed Meta Characters,LFhalo"halo%halo;
+Allowed Meta Characters,LFshpongle"shpongle%shpongle;
 Disabled Attack Signatures,
 
 Parameter Name,AddF0_2.disp2_1
@@ -175,7 +175,7 @@ parameter value,true
 Check attack signatures and threat campaigns on this parameter,true
 Allow Repeated Occurrences,false
 Base64 Decoding,false
-Allowed Meta Characters,[halo]
+Allowed Meta Characters,[shpongle]
 Disabled Attack Signatures,
 
 Parameter Name,CBCCode
@@ -235,7 +235,7 @@ parameter value,true
 Check attack signatures and threat campaigns on this parameter,true
 Allow Repeated Occurrences,false
 Base64 Decoding,false
-Allowed Meta Characters,"halo'halo\
+Allowed Meta Characters,"shpongle'shpongle\
 Disabled Attack Signatures,
 
 Parameter Name,CUSTOMERADDRESS
@@ -250,7 +250,7 @@ parameter value,true
 Check attack signatures and threat campaigns on this parameter,true
 Allow Repeated Occurrences,false
 Base64 Decoding,false
-Allowed Meta Characters,"halo'halo\
+Allowed Meta Characters,"shpongle'shpongle\
 Disabled Attack Signatures,
 
 Parameter Name,CommunityDeFacto
@@ -265,7 +265,7 @@ parameter value,true
 Check attack signatures and threat campaigns on this parameter,true
 Allow Repeated Occurrences,false
 Base64 Decoding,false
-Allowed Meta Characters,"halo'
+Allowed Meta Characters,"shpongle'
 Disabled Attack Signatures,
 
 Parameter Name,ConIdQues
@@ -295,7 +295,7 @@ parameter value,true
 Check attack signatures and threat campaigns on this parameter,true
 Allow Repeated Occurrences,false
 Base64 Decoding,false
-Allowed Meta Characters,LFhalo"halo%halo&halo;
+Allowed Meta Characters,LFshpongle"shpongle%shpongle&shpongle;
 Disabled Attack Signatures,
 
 Parameter Name,DOCTEXT
@@ -310,7 +310,7 @@ parameter value,true
 Check attack signatures and threat campaigns on this parameter,true
 Allow Repeated Occurrences,false
 Base64 Decoding,false
-Allowed Meta Characters,TABhaloLFhaloCRhalo"halo$halo%halo&halo'halo;halo<halo>halo[halo\halo]halo}
+Allowed Meta Characters,TABshpongleLFshpongleCRshpongle"shpongle$shpongle%shpongle&shpongle'shpongle;shpongle<shpongle>shpongle[shpongle\shpongle]shpongle}
 Disabled Attack Signatures,200022016
 
 Parameter Name,Email
@@ -325,7 +325,7 @@ parameter value,true
 Check attack signatures and threat campaigns on this parameter,true
 Allow Repeated Occurrences,false
 Base64 Decoding,false
-Allowed Meta Characters,;halo<halo>
+Allowed Meta Characters,;shpongle<shpongle>
 Disabled Attack Signatures,
 
 Parameter Name,EmployerHouse
@@ -340,7 +340,7 @@ parameter value,true
 Check attack signatures and threat campaigns on this parameter,true
 Allow Repeated Occurrences,false
 Base64 Decoding,false
-Allowed Meta Characters,"halo\
+Allowed Meta Characters,"shpongle\
 Disabled Attack Signatures,
 
 Parameter Name,EmployerName
@@ -355,7 +355,7 @@ parameter value,true
 Check attack signatures and threat campaigns on this parameter,true
 Allow Repeated Occurrences,false
 Base64 Decoding,false
-Allowed Meta Characters,TABhaloLFhalo"halo&halo'halo<halo>halo\halo`
+Allowed Meta Characters,TABshpongleLFshpongle"shpongle&shpongle'shpongle<shpongle>shpongle\shpongle`
 Disabled Attack Signatures,
 
 Parameter Name,EmployerStreet
@@ -385,7 +385,7 @@ parameter value,true
 Check attack signatures and threat campaigns on this parameter,true
 Allow Repeated Occurrences,false
 Base64 Decoding,false
-Allowed Meta Characters,TABhalo"halo$halo%halo&halo'halo;halo<halo>halo\halo`halo{halo|
+Allowed Meta Characters,TABshpongle"shpongle$shpongle%shpongle&shpongle'shpongle;shpongle<shpongle>shpongle\shpongle`shpongle{shpongle|
 Disabled Attack Signatures,
 
 Parameter Name,FILE_NAME
@@ -401,7 +401,7 @@ Check attack signatures and threat campaigns on this parameter,false
 Allow Repeated Occurrences,false
 Base64 Decoding,false
 Allowed Meta Characters,
-Disabled Attack Signatures,200000095halo200000107halo200001142halo200001148halo200001174halo200001480halo200001579halo200003026halo200003031halo200003034halo200003040halo200003041halo200003083halo200003086halo200003087halo200003091halo200003098halo200003105halo200003124halo200004025halo200004048halo200100310
+Disabled Attack Signatures,200000095shpongle200000107shpongle200001142shpongle200001148shpongle200001174shpongle200001480shpongle200001579shpongle200003026shpongle200003031shpongle200003034shpongle200003040shpongle200003041shpongle200003083shpongle200003086shpongle200003087shpongle200003091shpongle200003098shpongle200003105shpongle200003124shpongle200004025shpongle200004048shpongle200100310
 
 Parameter Name,FILE_PATH
 Is Mandatory Parameter,false
@@ -415,7 +415,7 @@ parameter value,true
 Check attack signatures and threat campaigns on this parameter,true
 Allow Repeated Occurrences,false
 Base64 Decoding,false
-Allowed Meta Characters,$halo&halo;halo[halo]
+Allowed Meta Characters,$shpongle&shpongle;shpongle[shpongle]
 Disabled Attack Signatures,200001174
 
 Parameter Name,FORMACTION
@@ -445,7 +445,7 @@ parameter value,true
 Check attack signatures and threat campaigns on this parameter,true
 Allow Repeated Occurrences,false
 Base64 Decoding,false
-Allowed Meta Characters,TABhaloLFhalo"halo$halo%halo&halo'halo;halo<halo>halo\halo`halo{halo|
+Allowed Meta Characters,TABshpongleLFshpongle"shpongle$shpongle%shpongle&shpongle'shpongle;shpongle<shpongle>shpongle\shpongle`shpongle{shpongle|
 Disabled Attack Signatures,
 
 Parameter Name,GROUND
@@ -460,7 +460,7 @@ parameter value,true
 Check attack signatures and threat campaigns on this parameter,true
 Allow Repeated Occurrences,false
 Base64 Decoding,false
-Allowed Meta Characters,LFhalo"halo$halo%halo&halo'halo;halo<halo>halo[halo\halo{halo|halo}
+Allowed Meta Characters,LFshpongle"shpongle$shpongle%shpongle&shpongle'shpongle;shpongle<shpongle>shpongle[shpongle\shpongle{shpongle|shpongle}
 Disabled Attack Signatures,
 
 Parameter Name,HouseDeFacto
@@ -475,7 +475,7 @@ parameter value,true
 Check attack signatures and threat campaigns on this parameter,true
 Allow Repeated Occurrences,false
 Base64 Decoding,false
-Allowed Meta Characters,"halo\
+Allowed Meta Characters,"shpongle\
 Disabled Attack Signatures,
 
 Parameter Name,IDR
@@ -535,7 +535,7 @@ parameter value,true
 Check attack signatures and threat campaigns on this parameter,true
 Allow Repeated Occurrences,false
 Base64 Decoding,false
-Allowed Meta Characters,{halo}
+Allowed Meta Characters,{shpongle}
 Disabled Attack Signatures,
 
 Parameter Name,MBP_RESULT
@@ -565,7 +565,7 @@ parameter value,true
 Check attack signatures and threat campaigns on this parameter,true
 Allow Repeated Occurrences,false
 Base64 Decoding,false
-Allowed Meta Characters,{halo}
+Allowed Meta Characters,{shpongle}
 Disabled Attack Signatures,
 
 Parameter Name,MapID_confirmnewpass
@@ -580,7 +580,7 @@ parameter value,true
 Check attack signatures and threat campaigns on this parameter,true
 Allow Repeated Occurrences,false
 Base64 Decoding,false
-Allowed Meta Characters,{halo}
+Allowed Meta Characters,{shpongle}
 Disabled Attack Signatures,
 
 Parameter Name,MapID_confirmnewpin
@@ -595,7 +595,7 @@ parameter value,true
 Check attack signatures and threat campaigns on this parameter,true
 Allow Repeated Occurrences,false
 Base64 Decoding,false
-Allowed Meta Characters,{halo}
+Allowed Meta Characters,{shpongle}
 Disabled Attack Signatures,
 
 Parameter Name,MapID_currentpass
@@ -610,7 +610,7 @@ parameter value,true
 Check attack signatures and threat campaigns on this parameter,true
 Allow Repeated Occurrences,false
 Base64 Decoding,false
-Allowed Meta Characters,{halo}
+Allowed Meta Characters,{shpongle}
 Disabled Attack Signatures,
 
 Parameter Name,MapID_currentpin
@@ -625,7 +625,7 @@ parameter value,true
 Check attack signatures and threat campaigns on this parameter,true
 Allow Repeated Occurrences,false
 Base64 Decoding,false
-Allowed Meta Characters,{halo}
+Allowed Meta Characters,{shpongle}
 Disabled Attack Signatures,
 
 Parameter Name,MapID_newpass
@@ -640,7 +640,7 @@ parameter value,true
 Check attack signatures and threat campaigns on this parameter,true
 Allow Repeated Occurrences,false
 Base64 Decoding,false
-Allowed Meta Characters,{halo}
+Allowed Meta Characters,{shpongle}
 Disabled Attack Signatures,
 
 Parameter Name,MapID_newpin
@@ -655,7 +655,7 @@ parameter value,true
 Check attack signatures and threat campaigns on this parameter,true
 Allow Repeated Occurrences,false
 Base64 Decoding,false
-Allowed Meta Characters,{halo}
+Allowed Meta Characters,{shpongle}
 Disabled Attack Signatures,
 
 Parameter Name,MobModel
@@ -670,7 +670,7 @@ parameter value,true
 Check attack signatures and threat campaigns on this parameter,true
 Allow Repeated Occurrences,false
 Base64 Decoding,false
-Allowed Meta Characters,&halo|
+Allowed Meta Characters,&shpongle|
 Disabled Attack Signatures,
 
 Parameter Name,NICKNAME
@@ -685,7 +685,7 @@ parameter value,true
 Check attack signatures and threat campaigns on this parameter,true
 Allow Repeated Occurrences,false
 Base64 Decoding,false
-Allowed Meta Characters,"halo$halo%halo[halo\halo]
+Allowed Meta Characters,"shpongle$shpongle%shpongle[shpongle\shpongle]
 Disabled Attack Signatures,
 
 Parameter Name,NP
@@ -730,7 +730,7 @@ parameter value,true
 Check attack signatures and threat campaigns on this parameter,true
 Allow Repeated Occurrences,false
 Base64 Decoding,false
-Allowed Meta Characters,"halo&halo'halo\
+Allowed Meta Characters,"shpongle&shpongle'shpongle\
 Disabled Attack Signatures,
 
 Parameter Name,PDC_IMEDIABANKNAME
@@ -760,7 +760,7 @@ parameter value,true
 Check attack signatures and threat campaigns on this parameter,true
 Allow Repeated Occurrences,false
 Base64 Decoding,false
-Allowed Meta Characters,LFhaloCRhalo"halo$halo%halo&halo'halo;
+Allowed Meta Characters,LFshpongleCRshpongle"shpongle$shpongle%shpongle&shpongle'shpongle;
 Disabled Attack Signatures,
 
 Parameter Name,PDC_RECEIVER
@@ -775,7 +775,7 @@ parameter value,true
 Check attack signatures and threat campaigns on this parameter,true
 Allow Repeated Occurrences,false
 Base64 Decoding,false
-Allowed Meta Characters,LFhaloCRhalo'
+Allowed Meta Characters,LFshpongleCRshpongle'
 Disabled Attack Signatures,
 
 Parameter Name,PDC_RECEIVERADDRESS
@@ -790,7 +790,7 @@ parameter value,true
 Check attack signatures and threat campaigns on this parameter,true
 Allow Repeated Occurrences,false
 Base64 Decoding,false
-Allowed Meta Characters,LFhaloCRhalo'
+Allowed Meta Characters,LFshpongleCRshpongle'
 Disabled Attack Signatures,
 
 Parameter Name,PDC_RECEIVERBANKADDRESS
@@ -865,7 +865,7 @@ parameter value,false
 Check attack signatures and threat campaigns on this parameter,true
 Allow Repeated Occurrences,false
 Base64 Decoding,false
-Allowed Meta Characters,TABhaloLFhalo"halo$halo%halo&halo;halo<halo>halo\halo{halo}
+Allowed Meta Characters,TABshpongleLFshpongle"shpongle$shpongle%shpongle&shpongle;shpongle<shpongle>shpongle\shpongle{shpongle}
 Disabled Attack Signatures,
 
 Parameter Name,PDR_RECEIVER
@@ -880,7 +880,7 @@ parameter value,false
 Check attack signatures and threat campaigns on this parameter,true
 Allow Repeated Occurrences,false
 Base64 Decoding,false
-Allowed Meta Characters,TABhaloLFhaloCRhalo"halo%halo'halo;halo<halo>halo\halo`
+Allowed Meta Characters,TABshpongleLFshpongleCRshpongle"shpongle%shpongle'shpongle;shpongle<shpongle>shpongle\shpongle`
 Disabled Attack Signatures,
 
 Parameter Name,PDR_RECEIVERBANKFULLINFO
@@ -925,7 +925,7 @@ parameter value,true
 Check attack signatures and threat campaigns on this parameter,true
 Allow Repeated Occurrences,false
 Base64 Decoding,false
-Allowed Meta Characters,TABhalo"
+Allowed Meta Characters,TABshpongle"
 Disabled Attack Signatures,
 
 Parameter Name,PSW
@@ -940,7 +940,7 @@ parameter value,true
 Check attack signatures and threat campaigns on this parameter,true
 Allow Repeated Occurrences,false
 Base64 Decoding,false
-Allowed Meta Characters,"halo$halo&halo'halo\
+Allowed Meta Characters,"shpongle$shpongle&shpongle'shpongle\
 Disabled Attack Signatures,
 
 Parameter Name,PayerAccountName
@@ -955,7 +955,7 @@ parameter value,true
 Check attack signatures and threat campaigns on this parameter,true
 Allow Repeated Occurrences,false
 Base64 Decoding,false
-Allowed Meta Characters,"halo%halo[halo\halo]halo|
+Allowed Meta Characters,"shpongle%shpongle[shpongle\shpongle]shpongle|
 Disabled Attack Signatures,
 
 Parameter Name,QRCODE
@@ -970,7 +970,7 @@ parameter value,false
 Check attack signatures and threat campaigns on this parameter,true
 Allow Repeated Occurrences,false
 Base64 Decoding,false
-Allowed Meta Characters,LFhaloCRhalo"halo%halo&halo'halo;halo<halo>halo\halo`halo|
+Allowed Meta Characters,LFshpongleCRshpongle"shpongle%shpongle&shpongle'shpongle;shpongle<shpongle>shpongle\shpongle`shpongle|
 Disabled Attack Signatures,
 
 Parameter Name,RECEIVER
@@ -985,7 +985,7 @@ parameter value,false
 Check attack signatures and threat campaigns on this parameter,true
 Allow Repeated Occurrences,false
 Base64 Decoding,false
-Allowed Meta Characters,SOHhaloLFhalo"halo'halo<halo>halo[halo\halo]
+Allowed Meta Characters,SOHshpongleLFshpongle"shpongle'shpongle<shpongle>shpongle[shpongle\shpongle]
 Disabled Attack Signatures,
 
 Parameter Name,RECEIVERBANKNAME
@@ -1030,7 +1030,7 @@ parameter value,true
 Check attack signatures and threat campaigns on this parameter,true
 Allow Repeated Occurrences,false
 Base64 Decoding,false
-Allowed Meta Characters,"halo'
+Allowed Meta Characters,"shpongle'
 Disabled Attack Signatures,
 
 Parameter Name,StreetDeFacto
@@ -1045,7 +1045,7 @@ parameter value,true
 Check attack signatures and threat campaigns on this parameter,true
 Allow Repeated Occurrences,false
 Base64 Decoding,false
-Allowed Meta Characters,"halo'halo\
+Allowed Meta Characters,"shpongle'shpongle\
 Disabled Attack Signatures,
 
 Parameter Name,T
@@ -1060,7 +1060,7 @@ parameter value,true
 Check attack signatures and threat campaigns on this parameter,true
 Allow Repeated Occurrences,false
 Base64 Decoding,false
-Allowed Meta Characters,"halo<halo>
+Allowed Meta Characters,"shpongle<shpongle>
 Disabled Attack Signatures,
 
 Parameter Name,TAXNUMBER
@@ -1165,7 +1165,7 @@ parameter value,true
 Check attack signatures and threat campaigns on this parameter,true
 Allow Repeated Occurrences,false
 Base64 Decoding,false
-Allowed Meta Characters,LFhalo"halo%halo\
+Allowed Meta Characters,LFshpongle"shpongle%shpongle\
 Disabled Attack Signatures,
 
 Parameter Name,UserPassport
@@ -1180,7 +1180,7 @@ parameter value,true
 Check attack signatures and threat campaigns on this parameter,true
 Allow Repeated Occurrences,false
 Base64 Decoding,false
-Allowed Meta Characters,"halo\
+Allowed Meta Characters,"shpongle\
 Disabled Attack Signatures,
 
 Parameter Name,WORD_RESULT
@@ -1195,7 +1195,7 @@ parameter value,true
 Check attack signatures and threat campaigns on this parameter,true
 Allow Repeated Occurrences,false
 Base64 Decoding,false
-Allowed Meta Characters,"halo&halo'halo>halo[
+Allowed Meta Characters,"shpongle&shpongle'shpongle>shpongle[
 Disabled Attack Signatures,
 
 Parameter Name,YourBid
@@ -1270,7 +1270,7 @@ parameter value,true
 Check attack signatures and threat campaigns on this parameter,true
 Allow Repeated Occurrences,false
 Base64 Decoding,false
-Allowed Meta Characters,$halo&halo'halo;halo[halo\halo]
+Allowed Meta Characters,$shpongle&shpongle'shpongle;shpongle[shpongle\shpongle]
 Disabled Attack Signatures,
 
 Parameter Name,findValue
@@ -1285,7 +1285,7 @@ parameter value,true
 Check attack signatures and threat campaigns on this parameter,true
 Allow Repeated Occurrences,false
 Base64 Decoding,false
-Allowed Meta Characters,"halo&
+Allowed Meta Characters,"shpongle&
 Disabled Attack Signatures,
 
 Parameter Name,new_pass
@@ -1330,7 +1330,7 @@ parameter value,true
 Check attack signatures and threat campaigns on this parameter,true
 Allow Repeated Occurrences,false
 Base64 Decoding,false
-Allowed Meta Characters,%halo&halo;
+Allowed Meta Characters,%shpongle&shpongle;
 Disabled Attack Signatures,
 
 Parameter Name,*
@@ -1348,109 +1348,126 @@ Base64 Decoding,false
 Allowed Meta Characters,
 Disabled Attack Signatures,
 
-File Type,GIF
-URL Length,100
-Request Length,5000
-Query String Length,1000
-POST Data Length,1000
-Apply Response Signatures,false
+File Type,URL Length,Request Length,Query String Length,POST Data Length,Apply Response Signatures,
+GIF,100,5000,1000,1000,false
+asp,100,100000,1000,1000,false
+css,100,10000,1000,1000,false
+dll,100,10000000,1000,Any,false
+gif,100,10000,1000,1000,false
+htc,100,5000,1000,1000,false
+htm,100,10000,1000,1000,false
+html,100,5000,1000,1000,false
+ico,100,10000,1000,1000,false
+jpg,100,10000,1000,1000,false
+js,100,10000,1000,1000,false
+no_ext,100,10000,1000,1000,false
+pdf,100,5000,1000,1000,false
+png,100,10000,1000,1000,false
+*,100,10000,1000,5000,false
 
-File Type,asp
-URL Length,100
-Request Length,100000
-Query String Length,1000
-POST Data Length,1000
-Apply Response Signatures,false
+Disallowed File Types,ashxshpongleaspxshponglebakshponglebatshponglebckshponglebinshponglebkpshponglecershponglecfgshponglecgishponglecmdshponglecomshpongleconfshpongleconfigshponglecrtshpongledatshpongledershpongledoshpongleemlshpongleexeshponglehtashponglehtrshponglehtwshpongleidashpongleidcshpongleidqshpongleinishponglejavashponglejspshponglekeyshponglelogshpongleluashponglemsishponglenwsshpongleoldshponglep12shponglep7bshponglep7cshponglepemshponglepfxshponglephpshponglepolshpongleprintershponglepyshpongleregshponglesavshponglesaveshpongleshtmshpongleshtmlshponglestmshponglesysshpongletempshpongletmpshponglewmz
 
-File Type,css
-URL Length,100
-Request Length,10000
-Query String Length,1000
-POST Data Length,1000
-Apply Response Signatures,false
+URL Name,Protocol: HTTPSshpongleMethods: POSTshpongleURL: /v2/cgi/bsi.dll
+URL Type,explicit
+Clickjacking Protection,false
+Check Flows to this URL,false
+URL is Entry Point,-
+URL is Referrer,-
+URL can change Domain Cookie,-
+Body is Mandatory,false
+Wildcard Match Includes Slashes,-
+Check attack signatures and threat campaigns on this URL,true
+Check characters on this URL,true
+Method Enforcement,false
 
-File Type,dll
-URL Length,100
-Request Length,10000000
-Query String Length,1000
-POST Data Length,Any
-Apply Response Signatures,false
+URL Name,Protocol: HTTPSshpongleMethods: *shpongleURL: *.[Pp][Nn][Gg]
+URL Type,wildcard
+Clickjacking Protection,false
+Check Flows to this URL,-
+URL is Entry Point,-
+URL is Referrer,-
+URL can change Domain Cookie,-
+Body is Mandatory,false
+Wildcard Match Includes Slashes,true
+Check attack signatures and threat campaigns on this URL,true
+Check characters on this URL,true
+Method Enforcement,false
 
-File Type,gif
-URL Length,100
-Request Length,10000
-Query String Length,1000
-POST Data Length,1000
-Apply Response Signatures,false
+URL Name,Protocol: HTTPSshpongleMethods: *shpongleURL: *.[Ii][Cc][Oo]
+URL Type,wildcard
+Clickjacking Protection,false
+Check Flows to this URL,-
+URL is Entry Point,-
+URL is Referrer,-
+URL can change Domain Cookie,-
+Body is Mandatory,false
+Wildcard Match Includes Slashes,true
+Check attack signatures and threat campaigns on this URL,true
+Check characters on this URL,true
+Method Enforcement,false
 
-File Type,htc
-URL Length,100
-Request Length,5000
-Query String Length,1000
-POST Data Length,1000
-Apply Response Signatures,false
+URL Name,Protocol: HTTPSshpongleMethods: *shpongleURL: *.[Jj][Pp][Gg]
+URL Type,wildcard
+Clickjacking Protection,false
+Check Flows to this URL,-
+URL is Entry Point,-
+URL is Referrer,-
+URL can change Domain Cookie,-
+Body is Mandatory,false
+Wildcard Match Includes Slashes,true
+Check attack signatures and threat campaigns on this URL,true
+Check characters on this URL,true
+Method Enforcement,false
 
-File Type,htm
-URL Length,100
-Request Length,10000
-Query String Length,1000
-POST Data Length,1000
-Apply Response Signatures,false
+URL Name,Protocol: HTTPSshpongleMethods: *shpongleURL: *.[Gg][Ii][Ff]
+URL Type,wildcard
+Clickjacking Protection,false
+Check Flows to this URL,-
+URL is Entry Point,-
+URL is Referrer,-
+URL can change Domain Cookie,-
+Body is Mandatory,false
+Wildcard Match Includes Slashes,true
+Check attack signatures and threat campaigns on this URL,true
+Check characters on this URL,true
+Method Enforcement,false
 
-File Type,html
-URL Length,100
-Request Length,5000
-Query String Length,1000
-POST Data Length,1000
-Apply Response Signatures,false
+URL Name,Protocol: HTTPSshpongleMethods: *shpongleURL: *.[Pp][Dd][Ff]
+URL Type,wildcard
+Clickjacking Protection,false
+Check Flows to this URL,-
+URL is Entry Point,-
+URL is Referrer,-
+URL can change Domain Cookie,-
+Body is Mandatory,false
+Wildcard Match Includes Slashes,true
+Check attack signatures and threat campaigns on this URL,true
+Check characters on this URL,true
+Method Enforcement,false
 
-File Type,ico
-URL Length,100
-Request Length,10000
-Query String Length,1000
-POST Data Length,1000
-Apply Response Signatures,false
+URL Name,Protocol: HTTPSshpongleMethods: *shpongleURL: *
+URL Type,wildcard
+Clickjacking Protection,false
+Check Flows to this URL,-
+URL is Entry Point,-
+URL is Referrer,-
+URL can change Domain Cookie,-
+Body is Mandatory,false
+Wildcard Match Includes Slashes,true
+Check attack signatures and threat campaigns on this URL,true
+Check characters on this URL,true
+Method Enforcement,false
 
-File Type,jpg
-URL Length,100
-Request Length,10000
-Query String Length,1000
-POST Data Length,1000
-Apply Response Signatures,false
+URL Name,Protocol: HTTPshpongleMethods: *shpongleURL: *
+URL Type,wildcard
+Clickjacking Protection,false
+Check Flows to this URL,-
+URL is Entry Point,-
+URL is Referrer,-
+URL can change Domain Cookie,-
+Body is Mandatory,false
+Wildcard Match Includes Slashes,true
+Check attack signatures and threat campaigns on this URL,true
+Check characters on this URL,true
+Method Enforcement,false
 
-File Type,js
-URL Length,100
-Request Length,10000
-Query String Length,1000
-POST Data Length,1000
-Apply Response Signatures,false
-
-File Type,no_ext
-URL Length,100
-Request Length,10000
-Query String Length,1000
-POST Data Length,1000
-Apply Response Signatures,false
-
-File Type,pdf
-URL Length,100
-Request Length,5000
-Query String Length,1000
-POST Data Length,1000
-Apply Response Signatures,false
-
-File Type,png
-URL Length,100
-Request Length,10000
-Query String Length,1000
-POST Data Length,1000
-Apply Response Signatures,false
-
-File Type,*
-URL Length,100
-Request Length,10000
-Query String Length,1000
-POST Data Length,5000
-Apply Response Signatures,false
-
-Disallowed File Types,ashxhaloaspxhalobakhalobathalobckhalobinhalobkphalocerhalocfghalocgihalocmdhalocomhaloconfhaloconfighalocrthalodathaloderhalodohaloemlhaloexehalohtahalohtrhalohtwhaloidahaloidchaloidqhaloinihalojavahalojsphalokeyhalologhaloluahalomsihalonwshalooldhalop12halop7bhalop7chalopemhalopfxhalophphalopolhaloprinterhalopyhaloreghalosavhalosavehaloshtmhaloshtmlhalostmhalosyshalotemphalotmphalowmz
