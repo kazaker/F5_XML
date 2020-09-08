@@ -15,48 +15,88 @@ def ascii_dict(i):
 
 
 # path to XML configure from F5
-tree = ET.parse('C:/Users/Cynic/PycharmProjects/F5_XML/data.xml')
+tree = ET.parse('C:/Users/MAY/PycharmProjects/XML/data.xml')
 root = tree.getroot()
 # path to result csv
-f = open('C:/Users/Cynic/PycharmProjects/F5_XML/result.txt', 'w')
+f = open('C:/Users/MAY/PycharmProjects/XML/result.txt', 'w')
 
 policy_table_list = ['Policy Name', 'Description', 'Policy Type', 'Parent Policy', 'Policy Template', 'Application Language', 'Enforcement Mode', 'Policy Building Learning Mode', '', 'Enforcement Readiness Period', 'Server Technologies', 'Policy is Case Sensitive', 'Event Correlation Reporting', 'Mask Credit Card Numbers in Request Log', 'Maximum HTTP Header Length', 'Maximum Cookie Header Length', 'Allowed Response Status Codes', 'Trigger ASM iRule Events Mode', 'Trust XFF Header', 'Handle Path Parameters']
 
-# policy_builder
-policy_learning_mode = ''  # Policy Building Learning Mode
-# Auto-Apply Policy? Multiple parameters
-# Learning Speed?
+# Auto-Apply Policy?
+# Learning Speed? Multiple parameters
 # Differentiate between HTTP/WS and HTTPS/WSS URLs?
-# Dynamic Session ID in URL
-
-policy_name = ''  # Policy Name
-policy_description = ''  # Description
-policy_type = ''  # Policy Type
-policy_encoding = ''  # Application Language
-policy_parent_policy_name = ''  # Parent Policy
-policy_case_insensitive = ''  # Policy is Case Sensitive
-policy_template = ''  # Policy Template
-# general
-policy_path_parameter_handling = ''  # Handle Path Parameters
-policy_mask_sensitive = ''  # Mask Credit Card Numbers in Request Lo
-policy_trigger_asm_irule_event = ''  # Trigger ASM iRule Events Mode
-policy_staging_period_in_days = ''  # Enforcement Readiness Period
-policy_enable_correlation = ''  # Event Correlation Reporting
-# header_settings
-policy_maximum_http_length = ''  # Maximum HTTP Header Length
-# cookie_settings
-policy_maximum_cookie_length = ''  # Maximum Cookie Header Length
 
 policy_allowed_response_code = []  # Allowed Response Status Codes
-policy_trust_xff = ''  # Trust XFF Header
+for x in root.findall('allowed_response_code'):
+    policy_allowed_response_code.append(x.text)
+
 # server_technologies
 policy_server_technology = []  # server_technology_name
+for x in root.findall('server_technologies'):
+    for y in x.iter('server_technology'):
+        for z in y.findall('server_technology_name'):
+            policy_server_technology.append(z.text)
+
 # inheritance
-# section (type)
-policy_inheritance = []  # parent_inheritance_status and child_inheritance_status
+policy_inheritance_types = []
+policy_parent_inheritance_status = []
+policy_child_inheritance_status = []
+for x in root.findall('sections'):
+    for v in x.iter('section'):
+        policy_inheritance_types.append(v.get('type'))
+    for y in x.iter('parent_inheritance_status'):
+        policy_parent_inheritance_status.append(y.text)
+    for z in x.iter('child_inheritance_status'):
+        policy_child_inheritance_status.append(z.text)
+
 # blocking
-policy_enforcement_mode = ''  # Enforcement Mode
-policy_passive_mode = ''  # Enforcement Mode
+policy_violations = []
+policy_alarm_block_learn = []
+for x in root.iter('blocking'):
+    policy_enforcement_mode = x.find('enforcement_mode').text  # Enforcement Mode
+    policy_passive_mode = x.find('passive_mode').text
+    for y in x.iter('violation'):
+        temp = []
+        policy_violations.append(y.get('name'))
+        for z in y.findall('alarm'):
+            temp.append(z.text)
+        for z in y.findall('block'):
+            temp.append(z.text)
+        for z in y.findall('learn'):
+            temp.append(z.text)
+        policy_alarm_block_learn.append(temp)
+
+policy_encoding = root.find('encoding').text  # Policy Name
+policy_description = root.find('description').text  # Description
+policy_type = root.find('type').text  # Policy Type
+policy_encoding = root.find('encoding').text  # Application Language
+policy_parent_policy_name = root.find('parent_policy_name').text  # Parent Policy
+policy_case_insensitive = root.find('case_insensitive').text  # Policy is Case Sensitive
+policy_template = root.find('policy_template').text  # Policy Template
+policy_trust_xff = root.find('trust_xff').text  # Trust XFF Header
+
+for x in root.iter('policy_version'):
+    policy_name = x.find('policy_name').text  # Policy Name
+
+for x in root.iter('general'):
+    policy_path_parameter_handling = x.find('path_parameter_handling').text  # Handle Path Parameters
+    policy_mask_sensitive = x.find('mask_sensitive').text  # Mask Credit Card Numbers in Request Logs
+    policy_trigger_asm_irule_event = x.find('trigger_asm_irule_event').text  # Trigger ASM iRule Events Mode
+    policy_staging_period_in_days = x.find('staging_period_in_days').text  # Enforcement Readiness Period
+    policy_enable_correlation = x.find('enable_correlation').text  # Event Correlation Reporting
+    if x.find('dynamic_session_id_in_url'):   # Dynamic Session ID in URL
+        policy_dynamic_session_id_in_url = 'true'
+    else:
+        policy_dynamic_session_id_in_url = 'false'
+
+for x in root.iter('policy_builder'):
+    policy_learning_mode = x.find('learning_mode').text  # Policy Building Learning Mode
+
+for x in root.iter('header_settings'):
+    policy_maximum_http_length = x.find('maximum_http_length').text  # Maximum HTTP Header Length
+
+for x in root.iter('cookie_settings'):
+    policy_maximum_cookie_length = x.find('maximum_cookie_length').text  # Maximum Cookie Header Length
 
 # list of fields for resulting table
 parameters_table_list = ['Parameter Name', 'Is Mandatory Parameter', 'Allow Empty Value', 'Parameter Value Type',
@@ -82,7 +122,7 @@ parameter_disabled_metachar = []
 parameter_disabled_signatures = []
 
 # parse "parameters" section, choose only important parameters
-for x in root.iter("parameter"):
+for x in root.iter('parameter'):
     parameter_name.append(x.attrib['name'])
     # location =x.find('location').text
     parameter_is_mandatory.append(x.find('is_mandatory').text)
