@@ -100,10 +100,10 @@ for x in root.iter('cookie_settings'):
 
 # list of fields for resulting table
 parameters_table_list = ['Parameter Name', 'Is Mandatory Parameter', 'Allow Empty Value', 'Parameter Value Type',
-                         'Minimum Length', 'Maximum Length', 'Mask Value in Logs', 'Check characters on this',
-                         'parameter value', 'Check attack signatures and threat campaigns on this parameter',
+                         'Minimum Length', 'Maximum Length', 'Mask Value in Logs', 'Check characters on this parameter name',
+                         'Check characters on this parameter value', 'Check attack signatures and threat campaigns on this parameter',
                          'Allow Repeated Occurrences', 'Base64 Decoding', 'Allowed Meta Characters',
-                         'Disabled Attack Signatures']
+                         'Disabled Attack Signatures', 'Data Type']
 
 # define list for each useful field for XML
 parameter_name = []
@@ -120,7 +120,7 @@ parameter_allow_repeated_parameter_name = []
 parameter_is_base64 = []
 parameter_disabled_metachar = []
 parameter_disabled_signatures = []
-
+parameter_data_type = []
 # parse "parameters" section, choose only important parameters
 for x in root.iter('parameter'):
     parameter_name.append(x.attrib['name'])
@@ -164,6 +164,11 @@ for x in root.iter('parameter'):
         temp = y.get('sig_id')
         disabled_signatures_local.append(temp)
     parameter_disabled_signatures.append('shpongle'.join(disabled_signatures_local))
+    temp = x.find('user_input_format').text
+    if temp == 'binary':
+        parameter_data_type.append('File Upload')
+    else:
+        parameter_data_type.append('Alpha-Numeric')
 
 # print(parameters_table_list[0] + ',' + ','.join(name))
 # print(parameters_table_list[1] + ',' + ','.join(is_mandatory))
@@ -190,6 +195,8 @@ while i < length:
     f.writelines(parameters_table_list[2] + ',' + parameter_allow_empty_value[i])
     f.writelines('\n')
     f.writelines(parameters_table_list[3] + ',' + parameter_value_type[i])
+    f.writelines('\n')
+    f.writelines(parameters_table_list[14] + ',' + parameter_data_type[i])
     f.writelines('\n')
     f.writelines(parameters_table_list[4] + ',' + parameter_minimum_length[i])
     f.writelines('\n')
