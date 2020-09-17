@@ -20,7 +20,7 @@ root = tree.getroot()
 # path to result csv
 f = open('C:/Users/MAY/PycharmProjects/XML/result.txt', 'w')
 
-policy_table_list = ['Policy Name', 'Description', 'Policy Type', 'Parent Policy', 'Policy Template', 'Application Language', 'Enforcement Mode', 'Policy Building Learning Mode', '', 'Enforcement Readiness Period', 'Server Technologies', 'Policy is Case Sensitive', 'Event Correlation Reporting', 'Mask Credit Card Numbers in Request Log', 'Maximum HTTP Header Length', 'Maximum Cookie Header Length', 'Allowed Response Status Codes', 'Trigger ASM iRule Events Mode', 'Trust XFF Header', 'Handle Path Parameters']
+policy_table_list = ['Policy Name', 'Description', 'Policy Type', 'Parent Policy', 'Policy Template', 'Application Language', 'Enforcement Mode', 'Policy Building Learning Mode', 'Enforcement Readiness Period in days', 'Server Technologies', 'Policy is Case Sensitive', 'Event Correlation Reporting', 'Mask Credit Card Numbers in Request Log', 'Maximum HTTP Header Length', 'Maximum Cookie Header Length', 'Allowed Response Status Codes', 'Trigger ASM iRule Events Mode', 'Trust XFF Header', 'Handle Path Parameters']
 
 # Auto-Apply Policy?
 # Learning Speed? Multiple parameters
@@ -36,35 +36,6 @@ for x in root.findall('server_technologies'):
     for y in x.iter('server_technology'):
         for z in y.findall('server_technology_name'):
             policy_server_technology.append(z.text)
-
-# inheritance
-policy_inheritance_types = []
-policy_parent_inheritance_status = []
-policy_child_inheritance_status = []
-for x in root.findall('sections'):
-    for v in x.iter('section'):
-        policy_inheritance_types.append(v.get('type'))
-    for y in x.iter('parent_inheritance_status'):
-        policy_parent_inheritance_status.append(y.text)
-    for z in x.iter('child_inheritance_status'):
-        policy_child_inheritance_status.append(z.text)
-
-# blocking
-policy_violations = []
-policy_alarm_block_learn = []
-for x in root.iter('blocking'):
-    policy_enforcement_mode = x.find('enforcement_mode').text  # Enforcement Mode
-    policy_passive_mode = x.find('passive_mode').text
-    for y in x.iter('violation'):
-        temp = []
-        policy_violations.append(y.get('name'))
-        for z in y.findall('alarm'):
-            temp.append(z.text)
-        for z in y.findall('block'):
-            temp.append(z.text)
-        for z in y.findall('learn'):
-            temp.append(z.text)
-        policy_alarm_block_learn.append(temp)
 
 policy_encoding = root.find('encoding').text  # Policy Name
 policy_description = root.find('description').text  # Description
@@ -98,15 +69,102 @@ for x in root.iter('header_settings'):
 for x in root.iter('cookie_settings'):
     policy_maximum_cookie_length = x.find('maximum_cookie_length').text  # Maximum Cookie Header Length
 
+# inheritance
+policy_inheritance_types = []
+policy_parent_inheritance_status = []
+policy_child_inheritance_status = []
+for x in root.findall('sections'):
+    for v in x.iter('section'):
+        policy_inheritance_types.append(v.get('type'))
+    for y in x.iter('parent_inheritance_status'):
+        policy_parent_inheritance_status.append(y.text)
+    for z in x.iter('child_inheritance_status'):
+        policy_child_inheritance_status.append(z.text)
+
+# blocking
+policy_violations = []
+policy_alarm_block_learn = []
+policy_evasions_name = []
+policy_evasions_status = []
+for x in root.iter('blocking'):
+    policy_enforcement_mode = x.find('enforcement_mode').text  # Enforcement Mode
+    policy_passive_mode = x.find('passive_mode').text
+    for y in x.iter('violation'):
+        temp = []
+        policy_violations.append(y.get('name'))
+        for z in y.findall('alarm'):
+            temp.append(z.text)
+        for z in y.findall('block'):
+            temp.append(z.text)
+        for z in y.findall('learn'):
+            temp.append(z.text)
+        policy_alarm_block_learn.append(temp)
+    for y in x.iter('evasion_setting'):
+        policy_evasions_name.append(y.get('name'))
+        policy_evasions_status.append(y.text)
+
+
+f.writelines(policy_table_list[0] + ',' + policy_name)
+f.writelines('\n')
+f.writelines(policy_table_list[1] + ',' + policy_description)
+f.writelines('\n')
+f.writelines(policy_table_list[2] + ',' + policy_type)
+f.writelines('\n')
+f.writelines(policy_table_list[3] + ',' + policy_parent_policy_name)
+f.writelines('\n')
+f.writelines(policy_table_list[4] + ',' + policy_template)
+f.writelines('\n')
+f.writelines(policy_table_list[5] + ',' + policy_encoding)
+f.writelines('\n')
+f.writelines(policy_table_list[6] + ',' + policy_enforcement_mode)
+f.writelines('\n')
+f.writelines(policy_table_list[7] + ',' + policy_learning_mode)
+f.writelines('\n')
+f.writelines(policy_table_list[8] + ',' + policy_staging_period_in_days)
+f.writelines('\n')
+f.writelines(policy_table_list[9] + ',' + 'shpongle'.join(policy_server_technology))
+f.writelines('\n')
+f.writelines(policy_table_list[10] + ',' + policy_case_insensitive)
+f.writelines('\n')
+f.writelines(policy_table_list[11] + ',' + policy_enable_correlation)
+f.writelines('\n')
+f.writelines(policy_table_list[12] + ',' + policy_mask_sensitive)
+f.writelines('\n')
+f.writelines(policy_table_list[13] + ',' + policy_maximum_http_length)
+f.writelines('\n')
+f.writelines(policy_table_list[14] + ',' + policy_maximum_cookie_length)
+f.writelines('\n')
+f.writelines(policy_table_list[15] + ',' + 'shpongle'.join(policy_allowed_response_code))
+f.writelines('\n')
+f.writelines(policy_table_list[16] + ',' + policy_trigger_asm_irule_event)
+f.writelines('\n')
+f.writelines(policy_table_list[17] + ',' + policy_trust_xff)
+f.writelines('\n')
+f.writelines(policy_table_list[18] + ',' + policy_path_parameter_handling)
+f.writelines('\n')
+f.writelines('\n')
+
+f.writelines('Name,Alarm,Block,Learn,Comment')
+f.writelines('\n')
+length = len(policy_violations)
+i = 0
+while i < length:
+    f.writelines(policy_violations[i] + ',' + ','.join(policy_alarm_block_learn[i]) + ',')
+    f.writelines('\n')
+    i += 1
+f.writelines('\n')
+
+
 # list of fields for resulting table
 parameters_table_list = ['Parameter Name', 'Is Mandatory Parameter', 'Allow Empty Value', 'Parameter Value Type',
                          'Minimum Length', 'Maximum Length', 'Mask Value in Logs', 'Check characters on this parameter name',
                          'Check characters on this parameter value', 'Check attack signatures and threat campaigns on this parameter',
                          'Allow Repeated Occurrences', 'Base64 Decoding', 'Allowed Meta Characters',
-                         'Disabled Attack Signatures', 'Data Type']
+                         'Disabled Attack Signatures', 'Data Type', 'Parameter Type']
 
 # define list for each useful field for XML
 parameter_name = []
+parameter_type = []
 parameter_is_mandatory = []
 parameter_allow_empty_value = []
 parameter_value_type = []
@@ -124,11 +182,21 @@ parameter_data_type = []
 # parse "parameters" section, choose only important parameters
 for x in root.iter('parameter'):
     parameter_name.append(x.attrib['name'])
+    parameter_type.append(x.attrib['type'])
     # location =x.find('location').text
     parameter_is_mandatory.append(x.find('is_mandatory').text)
     parameter_allow_empty_value.append(x.find('allow_empty_value').text)
     parameter_value_type.append(x.find('value_type').text)
     # user_input_format = x.find('user_input_format').text
+    #parameter_data_type.append(x.find('user_input_format').text)
+    if x.attrib['type'] != 'wildcard':
+        temp = x.find('user_input_format').text
+        if temp == 'binary':
+            parameter_data_type.append('File Upload')
+        else:
+            parameter_data_type.append('Alpha-Numeric')
+    else:
+        parameter_data_type.append('-')
     # minimum_value = x.find('minimum_value').text
     # maximum_value = x.find('maximum_value').text
     if x.find('minimum_length').text == '0':
@@ -164,11 +232,6 @@ for x in root.iter('parameter'):
         temp = y.get('sig_id')
         disabled_signatures_local.append(temp)
     parameter_disabled_signatures.append('shpongle'.join(disabled_signatures_local))
-    temp = x.find('user_input_format').text
-    if temp == 'binary':
-        parameter_data_type.append('File Upload')
-    else:
-        parameter_data_type.append('Alpha-Numeric')
 
 # print(parameters_table_list[0] + ',' + ','.join(name))
 # print(parameters_table_list[1] + ',' + ','.join(is_mandatory))
@@ -189,6 +252,8 @@ length = len(parameter_name)
 i = 0
 while i < length:
     f.writelines(parameters_table_list[0] + ',' + parameter_name[i])
+    f.writelines('\n')
+    f.writelines(parameters_table_list[15] + ',' + parameter_type[i])
     f.writelines('\n')
     f.writelines(parameters_table_list[1] + ',' + parameter_is_mandatory[i])
     f.writelines('\n')
