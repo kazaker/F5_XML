@@ -15,10 +15,12 @@ def ascii_dict(i):
 
 
 # path to XML configure from F5
-tree = ET.parse('C:/Users/MAY/PycharmProjects/XML/data.xml')
+# tree = ET.parse('C:/Users/MAY/PycharmProjects/XML/data.xml')
+tree = ET.parse('C:/Users/Cynic/PycharmProjects/F5_XML/data.xml')
 root = tree.getroot()
 # path to result csv
-f = open('C:/Users/MAY/PycharmProjects/XML/result.txt', 'w')
+# f = open('C:/Users/MAY/PycharmProjects/XML/result.txt', 'w')
+f = open('C:/Users/Cynic/PycharmProjects/F5_XML/result.txt', 'w')
 
 policy_table_list = ['Policy Name', 'Description', 'Policy Type', 'Parent Policy', 'Policy Template', 'Application Language', 'Enforcement Mode', 'Policy Building Learning Mode', 'Enforcement Readiness Period in days', 'Server Technologies', 'Policy is Case Sensitive', 'Event Correlation Reporting', 'Mask Credit Card Numbers in Request Log', 'Maximum HTTP Header Length', 'Maximum Cookie Header Length', 'Allowed Response Status Codes', 'Trigger ASM iRule Events Mode', 'Trust XFF Header', 'Handle Path Parameters']
 
@@ -41,7 +43,8 @@ policy_encoding = root.find('encoding').text  # Policy Name
 policy_description = root.find('description').text  # Description
 policy_type = root.find('type').text  # Policy Type
 policy_encoding = root.find('encoding').text  # Application Language
-policy_parent_policy_name = root.find('parent_policy_name').text  # Parent Policy
+if policy_type != 'Parent':
+    policy_parent_policy_name = root.find('parent_policy_name').text  # Parent Policy
 policy_case_insensitive = root.find('case_insensitive').text  # Policy is Case Sensitive
 policy_template = root.find('policy_template').text  # Policy Template
 policy_trust_xff = root.find('trust_xff').text  # Trust XFF Header
@@ -67,19 +70,11 @@ for x in root.iter('header_settings'):
     policy_maximum_http_length = x.find('maximum_http_length').text  # Maximum HTTP Header Length
 
 for x in root.iter('cookie_settings'):
-    policy_maximum_cookie_length = x.find('maximum_cookie_length').text  # Maximum Cookie Header Length
+    if x.find('maximum_cookie_length').text == '0':  # Maximum Cookie Header Length
+        policy_maximum_cookie_length = 'Any'
+    else:
+        policy_maximum_cookie_length = x.find('maximum_cookie_length').text
 
-# inheritance
-policy_inheritance_types = []
-policy_parent_inheritance_status = []
-policy_child_inheritance_status = []
-for x in root.findall('sections'):
-    for v in x.iter('section'):
-        policy_inheritance_types.append(v.get('type'))
-    for y in x.iter('parent_inheritance_status'):
-        policy_parent_inheritance_status.append(y.text)
-    for z in x.iter('child_inheritance_status'):
-        policy_child_inheritance_status.append(z.text)
 
 # blocking
 policy_violations = []
@@ -110,8 +105,9 @@ f.writelines(policy_table_list[1] + ',' + policy_description)
 f.writelines('\n')
 f.writelines(policy_table_list[2] + ',' + policy_type)
 f.writelines('\n')
-f.writelines(policy_table_list[3] + ',' + policy_parent_policy_name)
-f.writelines('\n')
+if policy_type != 'Parent':
+    f.writelines(policy_table_list[3] + ',' + policy_parent_policy_name)
+    f.writelines('\n')
 f.writelines(policy_table_list[4] + ',' + policy_template)
 f.writelines('\n')
 f.writelines(policy_table_list[5] + ',' + policy_encoding)
@@ -152,8 +148,38 @@ while i < length:
     f.writelines(policy_violations[i] + ',' + ','.join(policy_alarm_block_learn[i]) + ',')
     f.writelines('\n')
     i += 1
+length = len(policy_evasions_name)
+i = 0
+while i < length:
+    f.writelines(policy_evasions_name[i] + ',' + policy_evasions_status[i])
+    f.writelines('\n')
+    i += 1
 f.writelines('\n')
 
+# inheritance
+inheritance_types = []
+inheritance_parent_status = []
+inheritance_child_status = []
+for x in root.findall('sections'):
+    for v in x.iter('section'):
+        inheritance_types.append(v.get('type'))
+    for y in x.iter('parent_inheritance_status'):
+        inheritance_parent_status.append(y.text)
+    for z in x.iter('child_inheritance_status'):
+        inheritance_child_status.append(z.text)
+
+f.writelines('Policy Section,Parent Inheritance Settings,Child Inheritance Settings,Comment')
+f.writelines('\n')
+length = len(inheritance_types)
+i = 0
+while i < length:
+    if inheritance_parent_status[i] == 'none':
+        f.writelines(inheritance_types[i] + ',' + inheritance_parent_status[i] + ',' + 'Not Inherited' + ',')
+    else:
+        f.writelines(inheritance_types[i] + ',' + inheritance_parent_status[i] + ',' + inheritance_child_status[i] + ',')
+    f.writelines('\n')
+    i += 1
+f.writelines('\n')
 
 # list of fields for resulting table
 parameters_table_list = ['Parameter Name', 'Is Mandatory Parameter', 'Allow Empty Value', 'Parameter Value Type',
@@ -163,22 +189,22 @@ parameters_table_list = ['Parameter Name', 'Is Mandatory Parameter', 'Allow Empt
                          'Disabled Attack Signatures', 'Data Type', 'Parameter Type']
 
 # define list for each useful field for XML
-parameter_name = []
-parameter_type = []
-parameter_is_mandatory = []
-parameter_allow_empty_value = []
-parameter_value_type = []
-parameter_minimum_length = []
-parameter_is_sensitive = []
-parameter_maximum_length = []
-parameter_parameter_name_metachars = []
-parameter_check_metachars = []
-parameter_check_attack_signatures = []
-parameter_allow_repeated_parameter_name = []
-parameter_is_base64 = []
-parameter_disabled_metachar = []
-parameter_disabled_signatures = []
-parameter_data_type = []
+parameter_name = []  # Parameter Name
+parameter_type = []  # Parameter Type
+parameter_is_mandatory = []  # Is Mandatory Parameter
+parameter_allow_empty_value = []  # Allow Empty Value
+parameter_value_type = []  # Parameter Value Type
+parameter_minimum_length = []  # Minimum Length
+parameter_is_sensitive = []  # Mask Value in Logs
+parameter_maximum_length = []  # Maximum Length
+parameter_parameter_name_metachars = []  # Check characters on this parameter name
+parameter_check_metachars = []  # Check characters on this parameter value
+parameter_check_attack_signatures = []  # Check attack signatures and threat campaigns on this parameter
+parameter_allow_repeated_parameter_name = []  # Allow Repeated Occurrences
+parameter_is_base64 = []  # Base64 Decoding
+parameter_disabled_metachar = []  # Allowed Meta Characters
+parameter_disabled_signatures = []  # Disabled Attack Signatures
+parameter_data_type = []  # Data Type
 # parse "parameters" section, choose only important parameters
 for x in root.iter('parameter'):
     parameter_name.append(x.attrib['name'])
@@ -190,11 +216,14 @@ for x in root.iter('parameter'):
     # user_input_format = x.find('user_input_format').text
     #parameter_data_type.append(x.find('user_input_format').text)
     if x.attrib['type'] != 'wildcard':
-        temp = x.find('user_input_format').text
-        if temp == 'binary':
-            parameter_data_type.append('File Upload')
+        if x.find('user_input_format'):
+            temp = x.find('user_input_format').text
+            if temp == 'binary':
+                parameter_data_type.append('File Upload')
+            else:
+                parameter_data_type.append('Alpha-Numeric')
         else:
-            parameter_data_type.append('Alpha-Numeric')
+            parameter_data_type.append('-')
     else:
         parameter_data_type.append('-')
     # minimum_value = x.find('minimum_value').text
@@ -267,7 +296,7 @@ while i < length:
     f.writelines('\n')
     f.writelines(parameters_table_list[5] + ',' + parameter_minimum_length[i])
     f.writelines('\n')
-    f.writelines(parameters_table_list[6] + ',' + parameter_maximum_length[i])
+    f.writelines(parameters_table_list[6] + ',' + parameter_is_sensitive[i])
     f.writelines('\n')
     f.writelines(parameters_table_list[7] + ',' + parameter_parameter_name_metachars[i])
     f.writelines('\n')
