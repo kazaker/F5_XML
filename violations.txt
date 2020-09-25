@@ -1,0 +1,87 @@
+Malformed XML data
+Login URL bypassed
+Plain text data does not comply with format settings
+Binary content found in text only WebSocket
+Illegal meta character in value
+Illegal cookie length
+Brute Force: Maximum login attempts are exceeded
+GWT data does not comply with format settings
+HTTP protocol compliance failed
+Host name mismatch
+Illegal repeated parameter name
+Illegal flow to URL
+Illegal WebSocket extension
+Threat Campaign detected
+Mandatory request body is missing
+Mask not found in client frame
+Illegal attachment in SOAP message
+Access from disallowed User/Session/IP/Device ID
+CSRF authentication expired
+Illegal method
+SOAP method not allowed
+Bad Actor Detected
+Null character found in WebSocket text message
+Bad WebSocket handshake request
+Modified ASM cookie
+XML data does not comply with schema or WSDL document
+JSON data does not comply with JSON schema
+Illegal parameter numeric value
+Illegal parameter
+Illegal URL
+Illegal empty parameter value
+Malformed GWT data
+Illegal Base64 value
+Illegal session ID in URL
+Illegal request content type
+ASM Cookie Hijacking
+Illegal host name
+Failure in WebSocket framing protocol
+Bad Actor Convicted
+Mandatory parameter is missing
+Malformed JSON data
+XML data does not comply with format settings
+Illegal meta character in URL
+Disallowed file upload content detected
+Illegal WebSocket frame length
+Access from disallowed Geolocation
+Illegal WebSocket binary message length
+Illegal entry point
+IP is blacklisted
+Illegal file type
+Illegal query string length
+Parameter value does not comply with regular expression
+Illegal meta character in header
+Illegal number of frames per message
+Data Guard: Information leakage detected
+Illegal static parameter value
+JSON data does not comply with format settings
+Illegal parameter array value
+Illegal number of mandatory parameters
+Illegal cross-origin request
+Evasion technique detected
+Cookie not RFC-compliant
+Illegal dynamic parameter value
+Illegal meta character in parameter name
+Login URL expired
+Illegal redirection attempt
+Virus detected
+Illegal POST data length
+Illegal HTTP status in response
+Text content found in binary only WebSocket
+Failed to convert character
+Illegal header length
+Mandatory HTTP header is missing
+Null in multi-part parameter value
+Illegal parameter value length
+Access from malicious IP address
+Illegal parameter data type
+CSRF attack detected
+Illegal parameter location
+Blocking Condition Detected
+Request length exceeds defined buffer size
+Web Services Security failure
+Illegal query string or POST data
+Illegal URL length
+Modified domain cookie(s)
+Expired timestamp
+Illegal request length
