@@ -1,26 +1,10 @@
 import xml.etree.ElementTree as ET
+import static
+import func_module
 
-
-# Convert 0xNN format numbers to human-readable ASCII-symbols
-def ascii_dict(i):
-    if i == 'a':
-        return 'LF'
-    if i == 'd':
-        return 'CR'
-    if i == '9':
-        return 'TAB'
-    if i == '1':
-        return 'SOH'
-    return bytes.fromhex(i).decode('utf-8')
-
-
-# path to XML configure from F5
-# tree = ET.parse('C:/Users/MAY/PycharmProjects/XML/data.xml')
-tree = ET.parse('C:/Users/Cynic/PycharmProjects/F5_XML/data.xml')
+tree = ET.parse(static.source_file)
 root = tree.getroot()
-# path to result csv
-# f = open('C:/Users/MAY/PycharmProjects/XML/result.txt', 'w')
-f = open('C:/Users/Cynic/PycharmProjects/F5_XML/result.txt', 'w')
+f = open(static.result_file, 'w')
 
 policy_table_list = ['Policy Name', 'Description', 'Policy Type', 'Parent Policy', 'Policy Template', 'Application Language', 'Enforcement Mode', 'Policy Building Learning Mode', 'Enforcement Readiness Period in days', 'Server Technologies', 'Policy is Case Sensitive', 'Event Correlation Reporting', 'Mask Credit Card Numbers in Request Log', 'Maximum HTTP Header Length', 'Maximum Cookie Header Length', 'Allowed Response Status Codes', 'Trigger ASM iRule Events Mode', 'Trust XFF Header', 'Handle Path Parameters']
 
@@ -44,7 +28,10 @@ policy_description = root.find('description').text  # Description
 policy_type = root.find('type').text  # Policy Type
 policy_encoding = root.find('encoding').text  # Application Language
 if policy_type != 'Parent':
-    policy_parent_policy_name = root.find('parent_policy_name').text  # Parent Policy
+    if root.find('parent_policy_name'):
+        policy_parent_policy_name = root.find('parent_policy_name').text  # Parent Policy
+    else:
+        policy_parent_policy_name = 'None'
 policy_case_insensitive = root.find('case_insensitive').text  # Policy is Case Sensitive
 policy_template = root.find('policy_template').text  # Policy Template
 policy_trust_xff = root.find('trust_xff').text  # Trust XFF Header
@@ -81,23 +68,54 @@ policy_violations = []
 policy_alarm_block_learn = []
 policy_evasions_name = []
 policy_evasions_status = []
+policy_http_protocol_compliance_setting_name = []
+policy_http_protocol_compliance_setting_status = []
+policy_invalid_violations = ['Mitigation action determined by Threat Analysis Platform', 'Leaked Credentials Detection']
+policy_web_services_security_settings_name = []
+policy_web_services_security_settings_status = []
+
 for x in root.iter('blocking'):
     policy_enforcement_mode = x.find('enforcement_mode').text  # Enforcement Mode
     policy_passive_mode = x.find('passive_mode').text
     for y in x.iter('violation'):
-        temp = []
-        policy_violations.append(y.get('name'))
-        for z in y.findall('alarm'):
-            temp.append(z.text)
-        for z in y.findall('block'):
-            temp.append(z.text)
-        for z in y.findall('learn'):
-            temp.append(z.text)
-        policy_alarm_block_learn.append(temp)
+        temp = y.get('name')
+        temp_list = []
+        if temp in policy_invalid_violations:
+            continue
+        else:
+            policy_violations.append(temp)
+            for z in y.findall('alarm'):
+                temp_list.append(z.text)
+            for z in y.findall('block'):
+                temp_list.append(z.text)
+            for z in y.findall('learn'):
+                temp_list.append(z.text)
+            policy_alarm_block_learn.append(temp_list)
     for y in x.iter('evasion_setting'):
-        policy_evasions_name.append(y.get('name'))
-        policy_evasions_status.append(y.text)
-
+        temp = y.get('name')
+        if temp == 'Multiple decoding':
+            policy_evasions_name.append(temp + ' (considered an evasion after ' + y.get('max_decoding_passes') + ' decoding passes)')
+            policy_evasions_status.append(y.text)
+        else:
+            policy_evasions_name.append(temp)
+            policy_evasions_status.append(y.text)
+    for y in x.iter('http_protocol_compliance_setting'):
+        temp = y.get('name')
+        if temp == 'Check maximum number of headers':
+            policy_http_protocol_compliance_setting_name.append(temp + ' (maximum ' + y.get('maximum_headers') + ' headers)')
+            policy_http_protocol_compliance_setting_status.append(y.text)
+        elif temp == 'Check maximum number of parameters':
+            policy_http_protocol_compliance_setting_name.append(temp + ' (maximum ' + y.get('maximum_parameters') + ' parameters)')
+            policy_http_protocol_compliance_setting_status.append(y.text)
+        else:
+            policy_http_protocol_compliance_setting_name.append(temp)
+            policy_http_protocol_compliance_setting_status.append(y.text)
+    for y in x.iter('web_services_security_settings'):
+        if y.get('name'):
+            temp_list = [y.get('policy_builder_tracking'), y.text]
+            policy_web_services_security_settings_status.append(temp_list)
+            temp = y.get('name').split('_')
+            policy_web_services_security_settings_name.append(' '.join(temp[2:]).capitalize())
 
 f.writelines(policy_table_list[0] + ',' + policy_name)
 f.writelines('\n')
@@ -142,16 +160,211 @@ f.writelines('\n')
 
 f.writelines('Name,Alarm,Block,Learn,Comment')
 f.writelines('\n')
-length = len(policy_violations)
-i = 0
-while i < length:
-    f.writelines(policy_violations[i] + ',' + ','.join(policy_alarm_block_learn[i]) + ',')
-    f.writelines('\n')
-    i += 1
+f.writelines('Antivirus')
+f.writelines('\n')
+f.writelines('Virus detected' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Virus detected')]))
+f.writelines('\n')
+f.writelines('Malformed XML data' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Malformed XML data')]))
+f.writelines('\n')
+f.writelines('Login URL bypassed' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Login URL bypassed')]))
+f.writelines('\n')
+f.writelines('Plain text data does not comply with format settings' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Plain text data does not comply with format settings')]))
+f.writelines('\n')
+f.writelines('Binary content found in text only WebSocket' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Binary content found in text only WebSocket')]))
+f.writelines('\n')
+f.writelines('Illegal meta character in value' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Illegal meta character in value')]))
+f.writelines('\n')
+f.writelines('Illegal cookie length' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Illegal cookie length')]))
+f.writelines('\n')
+f.writelines('Brute Force: Maximum login attempts are exceeded' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Brute Force: Maximum login attempts are exceeded')]))
+f.writelines('\n')
+f.writelines('GWT data does not comply with format settings' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('GWT data does not comply with format settings')]))
+f.writelines('\n')
+
+f.writelines('Host name mismatch' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Host name mismatch')]))
+f.writelines('\n')
+f.writelines('Illegal repeated parameter name' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Illegal repeated parameter name')]))
+f.writelines('\n')
+f.writelines('Illegal flow to URL' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Illegal flow to URL')]))
+f.writelines('\n')
+f.writelines('Illegal WebSocket extension' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Illegal WebSocket extension')]))
+f.writelines('\n')
+f.writelines('Threat Campaign detected' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Threat Campaign detected')]))
+f.writelines('\n')
+f.writelines('Mandatory request body is missing' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Mandatory request body is missing')]))
+f.writelines('\n')
+f.writelines('Mask not found in client frame' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Mask not found in client frame')]))
+f.writelines('\n')
+f.writelines('Illegal attachment in SOAP message' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Illegal attachment in SOAP message')]))
+f.writelines('\n')
+f.writelines('Access from disallowed User/Session/IP/Device ID' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Access from disallowed User/Session/IP/Device ID')]))
+f.writelines('\n')
+f.writelines('CSRF authentication expired' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('CSRF authentication expired')]))
+f.writelines('\n')
+f.writelines('Illegal method' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Illegal method')]))
+f.writelines('\n')
+f.writelines('SOAP method not allowed' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('SOAP method not allowed')]))
+f.writelines('\n')
+f.writelines('Bad Actor Detected' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Bad Actor Detected')]))
+f.writelines('\n')
+f.writelines('Null character found in WebSocket text message' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Null character found in WebSocket text message')]))
+f.writelines('\n')
+f.writelines('Bad WebSocket handshake request' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Bad WebSocket handshake request')]))
+f.writelines('\n')
+f.writelines('Modified ASM cookie' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Modified ASM cookie')]))
+f.writelines('\n')
+f.writelines('XML data does not comply with schema or WSDL document' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('XML data does not comply with schema or WSDL document')]))
+f.writelines('\n')
+f.writelines('JSON data does not comply with JSON schema' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('JSON data does not comply with JSON schema')]))
+f.writelines('\n')
+f.writelines('Illegal parameter numeric value' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Illegal parameter numeric value')]))
+f.writelines('\n')
+f.writelines('Illegal parameter' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Illegal parameter')]))
+f.writelines('\n')
+f.writelines('Illegal URL' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Illegal URL')]))
+f.writelines('\n')
+f.writelines('Illegal empty parameter value' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Illegal empty parameter value')]))
+f.writelines('\n')
+f.writelines('Malformed GWT data' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Malformed GWT data')]))
+f.writelines('\n')
+f.writelines('Illegal Base64 value' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Illegal Base64 value')]))
+f.writelines('\n')
+f.writelines('Illegal session ID in URL' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Illegal session ID in URL')]))
+f.writelines('\n')
+f.writelines('Illegal request content type' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Illegal request content type')]))
+f.writelines('\n')
+f.writelines('ASM Cookie Hijacking' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('ASM Cookie Hijacking')]))
+f.writelines('\n')
+f.writelines('Illegal host name' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Illegal host name')]))
+f.writelines('\n')
+f.writelines('Failure in WebSocket framing protocol' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Failure in WebSocket framing protocol')]))
+f.writelines('\n')
+f.writelines('Bad Actor Convicted' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Bad Actor Convicted')]))
+f.writelines('\n')
+f.writelines('Mandatory parameter is missing' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Mandatory parameter is missing')]))
+f.writelines('\n')
+f.writelines('Malformed JSON data' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Malformed JSON data')]))
+f.writelines('\n')
+f.writelines('XML data does not comply with format settings' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('XML data does not comply with format settings')]))
+f.writelines('\n')
+f.writelines('Illegal meta character in URL' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Illegal meta character in URL')]))
+f.writelines('\n')
+f.writelines('Disallowed file upload content detected' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Disallowed file upload content detected')]))
+f.writelines('\n')
+f.writelines('Illegal WebSocket frame length' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Illegal WebSocket frame length')]))
+f.writelines('\n')
+f.writelines('Access from disallowed Geolocation' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Access from disallowed Geolocation')]))
+f.writelines('\n')
+f.writelines('Illegal WebSocket binary message length' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Illegal WebSocket binary message length')]))
+f.writelines('\n')
+f.writelines('Illegal entry point' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Illegal entry point')]))
+f.writelines('\n')
+f.writelines('IP is blacklisted' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('IP is blacklisted')]))
+f.writelines('\n')
+f.writelines('Illegal file type' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Illegal file type')]))
+f.writelines('\n')
+f.writelines('Illegal query string length' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Illegal query string length')]))
+f.writelines('\n')
+f.writelines('Parameter value does not comply with regular expression' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Parameter value does not comply with regular expression')]))
+f.writelines('\n')
+f.writelines('Illegal meta character in header' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Illegal meta character in header')]))
+f.writelines('\n')
+f.writelines('Illegal number of frames per message' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Illegal number of frames per message')]))
+f.writelines('\n')
+f.writelines('Data Guard: Information leakage detected' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Data Guard: Information leakage detected')]))
+f.writelines('\n')
+f.writelines('Illegal static parameter value' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Illegal static parameter value')]))
+f.writelines('\n')
+f.writelines('JSON data does not comply with format settings' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('JSON data does not comply with format settings')]))
+f.writelines('\n')
+f.writelines('Illegal parameter array value' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Illegal parameter array value')]))
+f.writelines('\n')
+f.writelines('Illegal number of mandatory parameters' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Illegal number of mandatory parameters')]))
+f.writelines('\n')
+f.writelines('Illegal cross-origin request' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Illegal cross-origin request')]))
+f.writelines('\n')
+
+f.writelines('Cookie not RFC-compliant' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Cookie not RFC-compliant')]))
+f.writelines('\n')
+f.writelines('Illegal dynamic parameter value' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Illegal dynamic parameter value')]))
+f.writelines('\n')
+f.writelines('Illegal meta character in parameter name' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Illegal meta character in parameter name')]))
+f.writelines('\n')
+f.writelines('Login URL expired' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Login URL expired')]))
+f.writelines('\n')
+f.writelines('Illegal redirection attempt' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Illegal redirection attempt')]))
+f.writelines('\n')
+f.writelines('Virus detected' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Virus detected')]))
+f.writelines('\n')
+f.writelines('Illegal POST data length' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Illegal POST data length')]))
+f.writelines('\n')
+f.writelines('Illegal HTTP status in response' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Illegal HTTP status in response')]))
+f.writelines('\n')
+f.writelines('Text content found in binary only WebSocket' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Text content found in binary only WebSocket')]))
+f.writelines('\n')
+f.writelines('Failed to convert character' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Failed to convert character')]))
+f.writelines('\n')
+f.writelines('Illegal header length' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Illegal header length')]))
+f.writelines('\n')
+f.writelines('Mandatory HTTP header is missing' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Mandatory HTTP header is missing')]))
+f.writelines('\n')
+f.writelines('Null in multi-part parameter value' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Null in multi-part parameter value')]))
+f.writelines('\n')
+f.writelines('Illegal parameter value length' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Illegal parameter value length')]))
+f.writelines('\n')
+f.writelines('Access from malicious IP address' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Access from malicious IP address')]))
+f.writelines('\n')
+f.writelines('Illegal parameter data type' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Illegal parameter data type')]))
+f.writelines('\n')
+f.writelines('CSRF attack detected' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('CSRF attack detected')]))
+f.writelines('\n')
+f.writelines('Illegal parameter location' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Illegal parameter location')]))
+f.writelines('\n')
+f.writelines('Blocking Condition Detected' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Blocking Condition Detected')]))
+f.writelines('\n')
+f.writelines('Request length exceeds defined buffer size' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Request length exceeds defined buffer size')]))
+f.writelines('\n')
+
+f.writelines('Illegal query string or POST data' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Illegal query string or POST data')]))
+f.writelines('\n')
+f.writelines('Illegal URL length' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Illegal URL length')]))
+f.writelines('\n')
+f.writelines('Modified domain cookie(s)' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Modified domain cookie(s)')]))
+f.writelines('\n')
+f.writelines('Expired timestamp' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Expired timestamp')]))
+f.writelines('\n')
+f.writelines('Illegal request length' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Illegal request length')]))
+f.writelines('\n')
+f.writelines('\n')
+
+f.writelines('Evasion technique detected' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Evasion technique detected')]))
+f.writelines('\n')
 length = len(policy_evasions_name)
 i = 0
 while i < length:
     f.writelines(policy_evasions_name[i] + ',' + policy_evasions_status[i])
+    f.writelines('\n')
+    i += 1
+f.writelines('\n')
+
+f.writelines('HTTP protocol compliance failed' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('HTTP protocol compliance failed')]))
+f.writelines('\n')
+length = len(policy_http_protocol_compliance_setting_name)
+i = 0
+while i < length:
+    f.writelines(policy_http_protocol_compliance_setting_name[i] + ',' + policy_http_protocol_compliance_setting_status[i])
+    f.writelines('\n')
+    i += 1
+f.writelines('\n')
+
+f.writelines('Web Services Security failure' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Web Services Security failure')]))
+f.writelines('\n')
+f.writelines('Name,Learn,Enable,Comment')
+f.writelines('\n')
+length = len(policy_web_services_security_settings_name)
+i = 0
+while i < length:
+    f.writelines(policy_web_services_security_settings_name[i] + ',' + ','.join(policy_web_services_security_settings_status[i]))
     f.writelines('\n')
     i += 1
 f.writelines('\n')
@@ -214,7 +427,7 @@ for x in root.iter('parameter'):
     parameter_allow_empty_value.append(x.find('allow_empty_value').text)
     parameter_value_type.append(x.find('value_type').text)
     # user_input_format = x.find('user_input_format').text
-    #parameter_data_type.append(x.find('user_input_format').text)
+    # parameter_data_type.append(x.find('user_input_format').text)
     if x.attrib['type'] != 'wildcard':
         if x.find('user_input_format'):
             temp = x.find('user_input_format').text
@@ -253,7 +466,7 @@ for x in root.iter('parameter'):
     for y in x.findall('metachar'):
         temp = y.get('character')
         temp = temp.split("0x", 1)[1]
-        disabled_metachar_local.append(ascii_dict(temp))
+        disabled_metachar_local.append(func_module.ascii_dict(temp))
     parameter_disabled_metachar.append('shpongle'.join(disabled_metachar_local))
     # nested key in this section
     disabled_signatures_local = []
@@ -261,20 +474,6 @@ for x in root.iter('parameter'):
         temp = y.get('sig_id')
         disabled_signatures_local.append(temp)
     parameter_disabled_signatures.append('shpongle'.join(disabled_signatures_local))
-
-# print(parameters_table_list[0] + ',' + ','.join(name))
-# print(parameters_table_list[1] + ',' + ','.join(is_mandatory))
-# print(parameters_table_list[2] + ',' + ','.join(allow_empty_value))
-# print(parameters_table_list[3] + ',' + ','.join(value_type))
-# print(parameters_table_list[4] + ',' + ','.join(minimum_length))
-# print(parameters_table_list[5] + ',' + ','.join(is_sensitive))
-# print(parameters_table_list[6] + ',' + ','.join(maximum_length))
-# print(parameters_table_list[7] + ',' + ','.join(parameter_name_metachars))
-# print(parameters_table_list[8] + ',' + ','.join(check_metachars))
-# print(parameters_table_list[9] + ',' + ','.join(check_attack_signatures))
-# print(parameters_table_list[10] + ',' + ','.join(allow_repeated_parameter_name))
-# print(parameters_table_list[11] + ',' + ','.join(is_base64))
-# print(parameters_table_list[13] + ',' + crap)
 
 # write results to file in csv-like format
 length = len(parameter_name)
@@ -346,24 +545,6 @@ for x in root.iter("file_types"):
         else:
             file_post_data_length.append(y.find('post_data_length').text)
         file_check_response.append(y.find('check_response').text)
-
-# lenght = len(allowed_file_type)
-# i=0
-# while i < lenght:
-#     f.writelines(files_table_list[0] + ',' + allowed_file_type[i])
-#     f.writelines('\n')
-#     f.writelines(files_table_list[1] + ',' + file_url_length[i])
-#     f.writelines('\n')
-#     f.writelines(files_table_list[2] + ',' + file_request_length[i])
-#     f.writelines('\n')
-#     f.writelines(files_table_list[3] + ',' + file_query_string_length[i])
-#     f.writelines('\n')
-#     f.writelines(files_table_list[4] + ',' + file_post_data_length[i])
-#     f.writelines('\n')
-#     f.writelines(files_table_list[5] + ',' + file_check_response[i])
-#     f.writelines('\n')
-#     f.writelines('\n')
-#     i += 1
 
 # write results in the file in csv-like format
 for i in files_table_list:
