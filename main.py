@@ -231,6 +231,61 @@ for x in root.iter('policy_builder_parameter'):
         use_statistics_forms = y.find('use_statistics_forms').text
         use_statistics_links = y.find('use_statistics_links').text
 
+# Learning URLs options
+for x in root.iter('policy_builder_url'):
+    learn_urls = x.find('learn_urls').text
+    learn_websocket_urls = x.find('learn_websocket_urls').text
+    maximum_urls = x.find('maximum_urls').text
+    maximum_websocket_urls = x.find('maximum_websocket_urls').text
+    collapse_urls = x.find('collapse_urls').text
+    collapse_urls_occurrences = x.find('collapse_urls_occurrences').text
+    classify_urls = x.find('classify_urls').text
+    classify_websocket_urls = x.find('classify_websocket_urls').text
+    set_method_override_on_url = x.find('set_method_override_on_url').text
+    url_filetypes = []
+    for y in x.findall('filetype'):
+        url_filetypes.append(y.text)
+
+# Learning headers options
+for x in root.iter('policy_builder_header'):
+    valid_host_names = x.find('valid_host_names').text
+    maximum_hosts = x.find('maximum_hosts').text
+
+
+# Learning redirection options
+for x in root.iter('policy_builder_redirection_protection'):
+    learn_redirection_domains = x.find('learn_redirection_domains').text
+    maximum_redirection_domains = x.find('maximum_redirection_domains').text
+
+# Learning session options
+for x in root.iter('policy_builder_sessions_and_logins'):
+    flg_learn_login_pages = x.find('flg_learn_login_pages').text
+
+# Learning Server tech options
+for x in root.iter('policy_builder_server_technologies'):
+    learn_server_technologies = x.find('learn_server_technologies').text
+
+headers_type = []
+headers_name = []
+headers_is_mandatory = []
+headers_check_signatures = []
+headers_is_base64 = []
+headers_percent_normalization = []
+headers_uri_normalization = []
+headers_html_normalization = []
+headers_is_default = []
+headers_mask_value = []
+for y in root.findall('header'):
+    headers_type.append(y.get('type'))
+    headers_name.append(y.get('name'))
+    headers_is_mandatory.append(y.find('is_mandatory').text)
+    headers_check_signatures.append(y.find('check_signatures').text)
+    headers_is_base64.append(y.find('is_base64').text)
+    headers_percent_normalization.append(y.find('percent_normalization').text)
+    headers_uri_normalization.append(y.find('uri_normalization').text)
+    headers_html_normalization.append(y.find('html_normalization').text)
+    headers_is_default.append(y.find('is_default').text)
+    headers_mask_value.append(y.find('mask_value').text)
 
 f.writelines('Name,Learn,Alarm,Block,Comment')
 f.writelines('\n')
