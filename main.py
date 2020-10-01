@@ -467,6 +467,14 @@ f.writelines('\n')
 f.writelines('Mandatory HTTP header is missing' + ',' + ','.join(
     policy_alarm_block_learn[policy_violations.index('Mandatory HTTP header is missing')]))
 f.writelines('\n')
+f.writelines('Learn Host Names' + ',' + valid_host_names)
+f.writelines('\n')
+if learn_file_types != 'Never':
+    f.writelines('Maximum Learned Host Names' + ',' + maximum_hosts)
+    f.writelines('\n')
+else:
+    f.writelines('Maximum Learned Host Names' + ',' + '-')
+    f.writelines('\n')
 
 f.writelines('HTTP protocol compliance failed' + ',' + ','.join(
     policy_alarm_block_learn[policy_violations.index('HTTP protocol compliance failed')]))
@@ -495,6 +503,14 @@ f.writelines('\n')
 
 f.writelines('Parameters')
 f.writelines('\n')
+f.writelines('Learn New Parameters' + ',' + learn_parameters)
+f.writelines('\n')
+if learn_file_types != 'Never':
+    f.writelines('Maximum Learned Parameters' + ',' + maximum_parameters)
+    f.writelines('\n')
+else:
+    f.writelines('Maximum Learned Parameters' + ',' + '-')
+    f.writelines('\n')
 f.writelines('Disallowed file upload content detected' + ',' + ','.join(
     policy_alarm_block_learn[policy_violations.index('Disallowed file upload content detected')]))
 f.writelines('\n')
@@ -543,19 +559,37 @@ f.writelines('\n')
 f.writelines('Parameter value does not comply with regular expression' + ',' + ','.join(
     policy_alarm_block_learn[policy_violations.index('Parameter value does not comply with regular expression')]))
 f.writelines('\n')
+f.writelines('Parameter Level' + ',' + parameter_level)
+f.writelines('\n')
+f.writelines('Collapse many common Parameters into one wildcard Parameter after ' + collapse_parameters_occurrences + ' occurences' + ',' + collapse_parameters)
+f.writelines('\n')
+f.writelines('Classify Value Content of Learned Parameters' + ',' + classify_parameters)
+f.writelines('\n')
+f.writelines('Learn Integer Parameters' + ',' + parameters_integer_value)
+f.writelines('\n')
 
 f.writelines('Redirection Domains')
 f.writelines('\n')
+f.writelines('Learn New Redirection Domains' + ',' + learn_redirection_domains)
+f.writelines('\n')
+if learn_file_types != 'Never':
+    f.writelines('Maximum Learned Redirection Domains' + ',' + maximum_redirection_domains)
+    f.writelines('\n')
+else:
+    f.writelines('Maximum Learned Redirection Domains' + ',' + '-')
+    f.writelines('\n')
 f.writelines('Illegal redirection attempt' + ',' + ','.join(
     policy_alarm_block_learn[policy_violations.index('Illegal redirection attempt')]))
 f.writelines('\n')
 
 f.writelines('Server Technologies')
 f.writelines('\n')
-f.writelines('BOING-BOING')
+f.writelines('Enable Server Technology Detection' + ',' + learn_server_technologies)
 f.writelines('\n')
 
 f.writelines('Sessions and Logins')
+f.writelines('\n')
+f.writelines('Detect login pages' + ',' + flg_learn_login_pages)
 f.writelines('\n')
 f.writelines(
     'ASM Cookie Hijacking' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('ASM Cookie Hijacking')]))
@@ -584,6 +618,22 @@ f.writelines('\n')
 
 f.writelines('URLs')
 f.writelines('\n')
+f.writelines('Learn New HTTP URLs' + ',' + learn_urls)
+f.writelines('\n')
+if learn_file_types != 'Never':
+    f.writelines('Maximum Learned HTTP URLs' + ',' + maximum_urls)
+    f.writelines('\n')
+else:
+    f.writelines('Maximum Learned HTTP URLs' + ',' + '-')
+    f.writelines('\n')
+f.writelines('Learn New WebSocket URLs' + ',' + learn_websocket_urls)
+f.writelines('\n')
+if learn_file_types != 'Never':
+    f.writelines('Maximum Learned WebSocket URLs' + ',' + maximum_websocket_urls)
+    f.writelines('\n')
+else:
+    f.writelines('Maximum Learned WebSocket URLs' + ',' + '-')
+    f.writelines('\n')
 f.writelines('Binary content found in text only WebSocket' + ',' + ','.join(
     policy_alarm_block_learn[policy_violations.index('Binary content found in text only WebSocket')]))
 f.writelines('\n')
@@ -627,6 +677,16 @@ f.writelines('Mandatory request body is missing' + ',' + ','.join(
 f.writelines('\n')
 f.writelines('Text content found in binary only WebSocket' + ',' + ','.join(
     policy_alarm_block_learn[policy_violations.index('Text content found in binary only WebSocket')]))
+f.writelines('\n')
+f.writelines('Classify Request Content of Learned HTTP URLs' + ',' + classify_urls)
+f.writelines('\n')
+f.writelines('Classify Client Message Payload Format of Learned WebSocket URLs' + ',' + classify_websocket_urls)
+f.writelines('\n')
+f.writelines('Learn Allowed Methods on HTTP URLs' + ',' + set_method_override_on_url)
+f.writelines('\n')
+f.writelines('Collapse many common HTTP URLs into one wildcard HTTP URL after ' + collapse_urls_occurrences + ' occurences' + ',' + collapse_urls)
+f.writelines('\n')
+f.writelines('File types for which wildcard HTTP URLs will be configured' + ',' + 'shpongle'.join(url_filetypes))
 f.writelines('\n')
 
 f.writelines('WebSocket Protocol Compliance')

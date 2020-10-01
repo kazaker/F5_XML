@@ -1,0 +1,2803 @@
+Policy Name,/ENTRLK/POL_SECURITY_MB
+Description,Fundamental Policy
+Policy Type,Security
+Parent Policy,None
+Policy Template,Fundamental
+Application Language,utf-8
+Enforcement Mode,transparent
+Policy Building Learning Mode,Manual
+Enforcement Readiness Period in days,7
+Server Technologies,jQueryshpongleJava Servlets/JSPshpongleASPshpongleIISshpongleASP.NETshpongleMicrosoft WindowsshpongleJavaScriptshpongleGoogle Web ToolkitshpongleRequireJS
+Policy is Case Sensitive,false
+Event Correlation Reporting,true
+Mask Credit Card Numbers in Request Log,true
+Maximum HTTP Header Length,8192
+Maximum Cookie Header Length,Any
+Allowed Response Status Codes,400shpongle401shpongle403shpongle404shpongle405shpongle407shpongle413shpongle417shpongle500shpongle503
+Trigger ASM iRule Events Mode,Disabled
+Trust XFF Header,false
+Handle Path Parameters,as parameters
+
+Name,Learn,Alarm,Block,Comment
+Antivirus
+Virus detected,false,false,false
+Signature Sets
+Server-Side Request Forgery Signatures (High/Medium Accuracy),true,true,true
+Server-Side Request Forgery Signatures (High Accuracy),true,true,true
+Server-Side Request Forgery Signatures,true,true,true
+Generic Detection Signatures (High/Medium Accuracy),true,true,true
+High Accuracy Detection Evasion Signatures,true,true,true
+Other Application Attacks Signatures,true,true,true
+Predictable Resource Location Signatures,true,true,true
+Remote File Include Signatures,true,true,true
+Directory Indexing Signatures,true,true,true
+Information Leakage Signatures,true,true,true
+Server Side Code Injection Signatures,true,true,true
+Command Execution Signatures,true,true,true
+XPath Injection Signatures,true,true,true
+Path Traversal Signatures,true,true,true
+HTTP Response Splitting Signatures,true,true,true
+OS Command Injection Signatures,true,true,true
+Cross Site Scripting Signatures,true,true,true
+SQL Injection Signatures,true,true,true
+Medium Accuracy Signatures,true,true,true
+High Accuracy Signatures,true,true,true
+Apache Tomcat Signatures (High/Medium Accuracy),true,true,true
+Java Servlets/JSP Signatures (High/Medium Accuracy),true,true,true
+Apache/NCSA HTTP Server Signatures (High/Medium Accuracy),true,true,true
+All systems Signatures (High/Medium Accuracy),true,true,true
+JavaScript Signatures (High/Medium Accuracy),true,true,true
+Unix/Linux Signatures (High/Medium Accuracy),true,true,true
+jQuery Signatures (High/Medium Accuracy),true,true,true
+Microsoft Windows Signatures (High/Medium Accuracy),true,true,true
+IIS Signatures (High/Medium Accuracy),true,true,true
+ASP.NET Signatures (High/Medium Accuracy),true,true,true
+ASP Signatures (High/Medium Accuracy),true,true,true
+Spring Boot Signatures (High/Medium Accuracy),true,true,true
+CSRF Protection
+CSRF authentication expired,true,true,true
+CSRF attack detected,false,true,true
+Content Profiles
+GWT data does not comply with format settings,false,false,false
+Illegal attachment in SOAP message,false,false,false
+JSON data does not comply with JSON schema,false,true,true
+JSON data does not comply with format settings,false,false,false
+Malformed GWT data,false,false,false
+Malformed JSON data,true,true,true
+Malformed XML data,true,true,true
+Plain text data does not comply with format settings,false,false,false
+SOAP method not allowed,false,false,false
+XML data does not comply with format settings,false,false,false
+XML data does not comply with schema or WSDL document,false,false,false
+Web Services Security failure,false,false,false
+Name,Enable,Learn
+Internal error,enabled,disabled
+Malformed error,enabled,disabled
+Certificate expired,enabled,disabled
+Certificate error,enabled,disabled
+Decryption error,enabled,disabled
+Encryption error,enabled,disabled
+Signing error,enabled,disabled
+Verification error,enabled,disabled
+Missing timestamp,enabled,disabled
+Invalid timestamp,enabled,disabled
+Expired timestamp,enabled,disabled
+Timestamp expiration too far in the future,enabled,disabled
+Unsigned timestamp,enabled,disabled
+Cookies
+Learn New Cookies,Never
+Maximum Learned Cookies,-
+Learn and enforce new unmodified cookies,true
+Cookie not RFC-compliant,true,true,true
+Expired timestamp,false,false,false
+Illegal cookie length,true,true,true
+Modified ASM cookie,true,true,true
+Modified domain cookie(s),false,false,false
+Collapse many common Cookies into one wildcard Cookie after 10 occurences,false
+Data Guard
+Data Guard: Information leakage detected,false,false,false
+Evasion technique detected,true,true,true
+Name,Enable,Learn
+Directory traversals,enabled,enabled
+Multiple decoding (considered an evasion after 3 decoding passes),enabled,enabled
+%u decoding,enabled,enabled
+IIS backslashes,enabled,enabled
+IIS Unicode codepoints,enabled,enabled
+Bare byte decoding,enabled,enabled
+Apache whitespace,enabled,enabled
+Bad unescape,enabled,enabled
+File Types
+Learn New File Types,Compact
+Maximum Learned File Types,50
+Illegal POST data length,true,true,false
+Illegal URL length,true,true,false
+Illegal file type,true,true,true
+Illegal query string length,true,true,false
+Illegal request length,true,true,false
+General Settings
+Blocking Condition Detected,false,true,true
+Failed to convert character,false,true,false
+Illegal Base64 value,true,true,true
+Illegal HTTP status in response,true,true,false
+Illegal session ID in URL,false,false,false
+Request length exceeds defined buffer size,false,false,false
+Headers
+Host name mismatch,false,true,true
+Illegal header length,true,true,false
+Illegal host name,false,false,false
+Illegal meta character in header,true,true,true
+Illegal method,true,true,true
+Mandatory HTTP header is missing,true,true,true
+Learn Host Names,true
+Maximum Learned Host Names,10000
+HTTP protocol compliance failed,true,true,true
+Name,Enable,Learn
+POST request with Content-Length: 0,enabled,enabled
+Header name with no header value,disabled,disabled
+Several Content-Length headers,enabled,enabled
+Chunked request with Content-Length header,enabled,enabled
+Body in GET or HEAD requests,disabled,disabled
+Bad multipart/form-data request parsing,enabled,enabled
+Bad multipart parameters parsing,disabled,disabled
+No Host header in HTTP/1.1 request,enabled,enabled
+CRLF characters before request start,enabled,enabled
+Host header contains IP address,disabled,disabled
+Content length should be a positive number,enabled,enabled
+Bad HTTP version,enabled,disabled
+Null in request,disabled,disabled
+High ASCII characters in headers,disabled,disabled
+Unparsable request content,disabled,disabled
+Check maximum number of headers (maximum 45 headers),enabled,enabled
+Bad host header value,enabled,enabled
+Check maximum number of parameters (maximum 500 parameters),enabled,enabled
+Multiple host headers,enabled,enabled
+IP Addresses and Geolocations
+Access from disallowed Geolocation,true,true,true
+Access from malicious IP address,false,true,true
+Bad Actor Detected,false,true,true
+IP is blacklisted,false,true,true
+Parameters
+Learn New Parameters,When Violation Detected
+Maximum Learned Parameters,10000
+Disallowed file upload content detected,true,true,true
+Illegal dynamic parameter value,true,true,true
+Illegal empty parameter value,true,true,true
+Illegal meta character in parameter name,true,true,true
+Illegal meta character in value,true,true,true
+Illegal parameter,true,true,true
+Illegal parameter array value,false,true,true
+Illegal parameter data type,true,true,true
+Illegal parameter location,false,true,true
+Illegal parameter numeric value,true,true,true
+Illegal parameter value length,true,true,false
+Illegal repeated parameter name,false,false,false
+Illegal static parameter value,true,true,true
+Mandatory parameter is missing,false,true,true
+Null in multi-part parameter value,false,false,false
+Parameter value does not comply with regular expression,true,true,true
+Parameter Level,global
+Collapse many common Parameters into one wildcard Parameter after 10 occurences,true
+Classify Value Content of Learned Parameters,true
+Learn Integer Parameters,false
+Redirection Domains
+Learn New Redirection Domains,Always
+Maximum Learned Redirection Domains,100
+Illegal redirection attempt,true,true,true
+Server Technologies
+Enable Server Technology Detection,true
+Sessions and Logins
+Detect login pages,true
+ASM Cookie Hijacking,false,false,false
+Access from disallowed User/Session/IP/Device ID,true,true,true
+Bad Actor Convicted,false,true,true
+Brute Force: Maximum login attempts are exceeded,false,true,true
+Login URL bypassed,false,false,false
+Login URL expired,false,false,false
+Threat Campaigns
+Threat Campaign detected,false,true,true
+URLs
+Learn New HTTP URLs,When Violation Detected
+Maximum Learned HTTP URLs,10000
+Learn New WebSocket URLs,When Violation Detected
+Maximum Learned WebSocket URLs,100
+Binary content found in text only WebSocket,false,false,false
+Illegal URL,false,false,true
+Illegal WebSocket binary message length,false,false,false
+Illegal WebSocket extension,false,false,false
+Illegal WebSocket frame length,false,false,false
+Illegal cross-origin request,false,false,false
+Illegal entry point,false,false,false
+Illegal flow to URL,false,false,false
+Illegal meta character in URL,true,true,true
+Illegal number of frames per message,true,true,true
+Illegal number of mandatory parameters,false,false,false
+Illegal query string or POST data,false,false,false
+Illegal request content type,true,true,true
+Mandatory request body is missing,false,false,false
+Text content found in binary only WebSocket,false,false,false
+WebSocket Protocol Compliance
+Bad WebSocket handshake request,false,false,false
+Failure in WebSocket framing protocol,false,false,false
+Mask not found in client frame,false,false,false
+Null character found in WebSocket text message,false,false,false
+
+Policy Section,Parent Inheritance Settings,Child Inheritance Settings,Comment
+General Policy Settings,optional,declined,
+HTTP Protocol Compliance,optional,accepted,
+WebSocket Protocol Compliance,optional,accepted,
+Attack Signatures Sets,optional,accepted,
+Evasion Techniques,optional,accepted,
+File Types,optional,accepted,
+Parameters,none,Not Inherited,
+Headers,optional,accepted,
+IP Addresses and Geolocations,optional,accepted,
+Data Guard,optional,accepted,
+Policy Building Process,optional,accepted,
+Custom Violations,none,Not Inherited,
+URLs,N/A,N/A,
+Sessions and Logins,N/A,N/A,
+Cookies,N/A,N/A,
+Redirection Protection,N/A,N/A,
+CSRF Protection,N/A,N/A,
+Antivirus,N/A,N/A,
+Content Profiles,N/A,N/A,
+Server Technologies,optional,accepted,
+Threat Campaigns,mandatory,mandatory,
+
+Parameter Name,A
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,false
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,true
+Base64 Decoding,false
+Allowed Meta Characters,TABshpongle"shpongle$shpongle%shpongle&shpongle'shpongle;shpongle`
+Disabled Attack Signatures,
+
+Parameter Name,ACCOUNTDEBETNAME
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,false
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,true
+Base64 Decoding,false
+Allowed Meta Characters,"shpongle%shpongle[shpongle]
+Disabled Attack Signatures,
+
+Parameter Name,ADD
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,LFshpongle"shpongle%shpongle;
+Disabled Attack Signatures,
+
+Parameter Name,ANSWERTO
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,false
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,true
+Base64 Decoding,false
+Allowed Meta Characters,LFshpongle"shpongle%shpongle;
+Disabled Attack Signatures,
+
+Parameter Name,AQuest
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,;
+Disabled Attack Signatures,
+
+Parameter Name,AWord
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,%
+Disabled Attack Signatures,
+
+Parameter Name,AddF0_2.disp2_1
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"
+Disabled Attack Signatures,
+
+Parameter Name,AddF0_2.disp2_2
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"
+Disabled Attack Signatures,
+
+Parameter Name,AddF0_2.disp2_3
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"
+Disabled Attack Signatures,
+
+Parameter Name,AddF0_2.disp2_4
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,false
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,true
+Base64 Decoding,false
+Allowed Meta Characters,"
+Disabled Attack Signatures,
+
+Parameter Name,AddF11
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,false
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,true
+Base64 Decoding,false
+Allowed Meta Characters,;
+Disabled Attack Signatures,
+
+Parameter Name,AddF2
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,false
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,true
+Base64 Decoding,false
+Allowed Meta Characters,%
+Disabled Attack Signatures,
+
+Parameter Name,AddF5
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,;
+Disabled Attack Signatures,
+
+Parameter Name,Addr
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,false
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,true
+Base64 Decoding,false
+Allowed Meta Characters,"
+Disabled Attack Signatures,
+
+Parameter Name,B
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,;
+Disabled Attack Signatures,
+
+Parameter Name,BIC
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,false
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,true
+Base64 Decoding,false
+Allowed Meta Characters,"
+Disabled Attack Signatures,
+
+Parameter Name,BROWSERVER
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,false
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,;
+Disabled Attack Signatures,
+
+Parameter Name,BankBIC
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,TABshpongle"
+Disabled Attack Signatures,
+
+Parameter Name,BankName
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"shpongle'
+Disabled Attack Signatures,
+
+Parameter Name,BeforeRequest
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"
+Disabled Attack Signatures,
+
+Parameter Name,CANCELDOCNOTIFICATION
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,LFshpongle"
+Disabled Attack Signatures,
+
+Parameter Name,CARDTYPE
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,[shpongle]
+Disabled Attack Signatures,
+
+Parameter Name,CBCCode
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,TAB
+Disabled Attack Signatures,
+
+Parameter Name,CBCComment
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,TAB
+Disabled Attack Signatures,
+
+Parameter Name,CINFO
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,false
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,true
+Base64 Decoding,false
+Allowed Meta Characters,LF
+Disabled Attack Signatures,
+
+Parameter Name,CLIENT
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,false
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,true
+Base64 Decoding,false
+Allowed Meta Characters,"shpongle'shpongle\
+Disabled Attack Signatures,
+
+Parameter Name,CNP
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,;
+Disabled Attack Signatures,
+
+Parameter Name,COMMENT
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,true
+Base64 Decoding,false
+Allowed Meta Characters,LF
+Disabled Attack Signatures,
+
+Parameter Name,CONFIRMNEWPIN
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,false
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,true
+Base64 Decoding,false
+Allowed Meta Characters,;
+Disabled Attack Signatures,
+
+Parameter Name,CURRENTPIN
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,false
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,true
+Base64 Decoding,false
+Allowed Meta Characters,;
+Disabled Attack Signatures,
+
+Parameter Name,CUSTOMER
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"shpongle'shpongle\
+Disabled Attack Signatures,
+
+Parameter Name,CUSTOMERADDRESS
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"shpongle'shpongle\
+Disabled Attack Signatures,
+
+Parameter Name,CUSTOMERNAME
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,false
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,true
+Base64 Decoding,false
+Allowed Meta Characters,'
+Disabled Attack Signatures,
+
+Parameter Name,CommunityDeFacto
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"shpongle'
+Disabled Attack Signatures,
+
+Parameter Name,ConIdQues
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,'
+Disabled Attack Signatures,
+
+Parameter Name,DEVICENAME
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,false
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,true
+Base64 Decoding,false
+Allowed Meta Characters,&shpongle|
+Disabled Attack Signatures,
+
+Parameter Name,DISINF
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,true
+Base64 Decoding,false
+Allowed Meta Characters,%
+Disabled Attack Signatures,
+
+Parameter Name,DOCNAME
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,LFshpongle"shpongle%shpongle&shpongle;shpongle\shpongle`
+Disabled Attack Signatures,
+
+Parameter Name,DOCTEXT
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,false
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,
+Disabled Attack Signatures,200022016
+
+Parameter Name,DOCTEXTAUTH
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,false
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,true
+Base64 Decoding,false
+Allowed Meta Characters,LFshpongle"shpongle$shpongle;
+Disabled Attack Signatures,
+
+Parameter Name,Email
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,;shpongle<shpongle>
+Disabled Attack Signatures,
+
+Parameter Name,EmployerCommunity
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"
+Disabled Attack Signatures,
+
+Parameter Name,EmployerCountry
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,true
+Base64 Decoding,false
+Allowed Meta Characters,LF
+Disabled Attack Signatures,
+
+Parameter Name,EmployerHouse
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"shpongle\
+Disabled Attack Signatures,
+
+Parameter Name,EmployerINN
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,TAB
+Disabled Attack Signatures,
+
+Parameter Name,EmployerName
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,false
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,
+Disabled Attack Signatures,
+
+Parameter Name,EmployerStreet
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"shpongle;
+Disabled Attack Signatures,
+
+Parameter Name,FAVNAME
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,false
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,
+Disabled Attack Signatures,
+
+Parameter Name,FILE_NAME
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,false
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,
+Disabled Attack Signatures,200000095shpongle200000107shpongle200001142shpongle200001148shpongle200001174shpongle200001480shpongle200001579shpongle200003026shpongle200003031shpongle200003034shpongle200003040shpongle200003041shpongle200003083shpongle200003086shpongle200003087shpongle200003091shpongle200003098shpongle200003105shpongle200003124shpongle200004025shpongle200004048shpongle200100310
+
+Parameter Name,FILE_PATH
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,auto detect
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,$shpongle&shpongle;shpongle[shpongle]
+Disabled Attack Signatures,200001174
+
+Parameter Name,FORMACTION
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,
+Disabled Attack Signatures,200001579
+
+Parameter Name,FavName
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,false
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,
+Disabled Attack Signatures,
+
+Parameter Name,GROUND
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,false
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,
+Disabled Attack Signatures,
+
+Parameter Name,HouseDeFacto
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"shpongle'shpongle\
+Disabled Attack Signatures,
+
+Parameter Name,ID
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,{shpongle}
+Disabled Attack Signatures,
+
+Parameter Name,IDCaptcha
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,false
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,true
+Base64 Decoding,false
+Allowed Meta Characters,{shpongle}
+Disabled Attack Signatures,
+
+Parameter Name,IDR
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,|
+Disabled Attack Signatures,
+
+Parameter Name,IDRT
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,|
+Disabled Attack Signatures,
+
+Parameter Name,INT_REF
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,
+Disabled Attack Signatures,200018026
+
+Parameter Name,IdCaptcha
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,{shpongle}
+Disabled Attack Signatures,
+
+Parameter Name,LONGNAME
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,false
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,true
+Base64 Decoding,false
+Allowed Meta Characters,"
+Disabled Attack Signatures,
+
+Parameter Name,LPCARDNICK
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,false
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,true
+Base64 Decoding,false
+Allowed Meta Characters,[shpongle]
+Disabled Attack Signatures,
+
+Parameter Name,LPNAME
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,false
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,true
+Base64 Decoding,false
+Allowed Meta Characters,[shpongle]
+Disabled Attack Signatures,
+
+Parameter Name,MAPID_CONFIRMNEWPIN
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,false
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,true
+Base64 Decoding,false
+Allowed Meta Characters,{shpongle}
+Disabled Attack Signatures,
+
+Parameter Name,MAPID_CURRENTPIN
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,false
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,true
+Base64 Decoding,false
+Allowed Meta Characters,{shpongle}
+Disabled Attack Signatures,
+
+Parameter Name,MAPID_NEWPIN
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,false
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,true
+Base64 Decoding,false
+Allowed Meta Characters,{shpongle}
+Disabled Attack Signatures,
+
+Parameter Name,MBP_RESULT
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,
+Disabled Attack Signatures,
+
+Parameter Name,MIDDLENAME
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,false
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,true
+Base64 Decoding,false
+Allowed Meta Characters,'
+Disabled Attack Signatures,
+
+Parameter Name,MapID
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,{shpongle}
+Disabled Attack Signatures,
+
+Parameter Name,MapID_confirmnewpass
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,{shpongle}
+Disabled Attack Signatures,
+
+Parameter Name,MapID_confirmnewpin
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,{shpongle}
+Disabled Attack Signatures,
+
+Parameter Name,MapID_currentpass
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,{shpongle}
+Disabled Attack Signatures,
+
+Parameter Name,MapID_currentpin
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,{shpongle}
+Disabled Attack Signatures,
+
+Parameter Name,MapID_newpass
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,{shpongle}
+Disabled Attack Signatures,
+
+Parameter Name,MapID_newpin
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,{shpongle}
+Disabled Attack Signatures,
+
+Parameter Name,MobModel
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,false
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,&shpongle|
+Disabled Attack Signatures,
+
+Parameter Name,NEWPIN
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,false
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,true
+Base64 Decoding,false
+Allowed Meta Characters,;
+Disabled Attack Signatures,
+
+Parameter Name,NICKNAME
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"shpongle$shpongle%shpongle'shpongle[shpongle\shpongle]
+Disabled Attack Signatures,
+
+Parameter Name,NP
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,;
+Disabled Attack Signatures,
+
+Parameter Name,OLDP
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,;
+Disabled Attack Signatures,
+
+Parameter Name,OperPromoCode
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,true
+Base64 Decoding,false
+Allowed Meta Characters,$
+Disabled Attack Signatures,
+
+Parameter Name,OperationName
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"shpongle'
+Disabled Attack Signatures,
+
+Parameter Name,P1
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,false
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,true
+Base64 Decoding,false
+Allowed Meta Characters,LFshpongle"shpongle'
+Disabled Attack Signatures,
+
+Parameter Name,PARAM
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,false
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,true
+Base64 Decoding,false
+Allowed Meta Characters,LF
+Disabled Attack Signatures,
+
+Parameter Name,PAYERNAME
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"shpongle&shpongle'shpongle\
+Disabled Attack Signatures,
+
+Parameter Name,PCARDNAME
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,false
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,true
+Base64 Decoding,false
+Allowed Meta Characters,[shpongle]
+Disabled Attack Signatures,
+
+Parameter Name,PDC_ADDITIONALINFO
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,LF
+Disabled Attack Signatures,
+
+Parameter Name,PDC_IMEDIABANKNAME
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,'
+Disabled Attack Signatures,
+
+Parameter Name,PDC_PAYMENTSDETAILS
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,false
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,
+Disabled Attack Signatures,
+
+Parameter Name,PDC_RECEIVER
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,LFshpongleCRshpongle'
+Disabled Attack Signatures,
+
+Parameter Name,PDC_RECEIVERADDRESS
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,LFshpongleCRshpongle'
+Disabled Attack Signatures,
+
+Parameter Name,PDC_RECEIVERBANKADDRESS
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,'
+Disabled Attack Signatures,
+
+Parameter Name,PDC_RECEIVERBANKFULLINFO
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,true
+Base64 Decoding,false
+Allowed Meta Characters,"shpongle'
+Disabled Attack Signatures,
+
+Parameter Name,PDC_RECEIVERBANKFULLINFOREK
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,false
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,true
+Base64 Decoding,false
+Allowed Meta Characters,"shpongle'
+Disabled Attack Signatures,
+
+Parameter Name,PDC_RECEIVERBANKNAME
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,'
+Disabled Attack Signatures,
+
+Parameter Name,PDC_RECEIVERBANKPLACE
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,'
+Disabled Attack Signatures,
+
+Parameter Name,PDC_RECEIVERPLACE
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,'
+Disabled Attack Signatures,
+
+Parameter Name,PDR_GROUND
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,false
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,
+Disabled Attack Signatures,
+
+Parameter Name,PDR_RECEIVER
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,false
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,
+Disabled Attack Signatures,
+
+Parameter Name,PDR_RECEIVERBANKFULLINFO
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"
+Disabled Attack Signatures,
+
+Parameter Name,PDR_RECEIVERBANKFULLINFOREK
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"
+Disabled Attack Signatures,
+
+Parameter Name,PDR_RECEIVERBANKNAME
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,TABshpongle"
+Disabled Attack Signatures,
+
+Parameter Name,PSW
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"shpongle$shpongle&shpongle'shpongle\
+Disabled Attack Signatures,
+
+Parameter Name,PUNameFind
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,TABshpongle"shpongle'shpongle;shpongle<shpongle>shpongle\shpongle]
+Disabled Attack Signatures,
+
+Parameter Name,PatternName
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"shpongle%shpongle>
+Disabled Attack Signatures,
+
+Parameter Name,PayerAccountName
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"shpongle%shpongle[shpongle\shpongle]shpongle|
+Disabled Attack Signatures,
+
+Parameter Name,PositionClient
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,true
+Base64 Decoding,false
+Allowed Meta Characters,"shpongle&
+Disabled Attack Signatures,
+
+Parameter Name,PostText
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,true
+Base64 Decoding,false
+Allowed Meta Characters,"
+Disabled Attack Signatures,
+
+Parameter Name,QRCODE
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,false
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,false
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,
+Disabled Attack Signatures,200003038
+
+Parameter Name,RECEIVER
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,false
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,
+Disabled Attack Signatures,
+
+Parameter Name,RECEIVERBANKFULLINFO
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,false
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,true
+Base64 Decoding,false
+Allowed Meta Characters,"
+Disabled Attack Signatures,
+
+Parameter Name,RECEIVERBANKFULLINFOREK
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,false
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,true
+Base64 Decoding,false
+Allowed Meta Characters,"
+Disabled Attack Signatures,
+
+Parameter Name,RECEIVERBANKNAME
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"
+Disabled Attack Signatures,
+
+Parameter Name,RECEIVERINN
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,TAB
+Disabled Attack Signatures,
+
+Parameter Name,REQUESTREASON2
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"shpongle'
+Disabled Attack Signatures,
+
+Parameter Name,Receiver
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,false
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,true
+Base64 Decoding,false
+Allowed Meta Characters,"shpongle'
+Disabled Attack Signatures,
+
+Parameter Name,SMS_RESULT
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,true
+Base64 Decoding,false
+Allowed Meta Characters,$
+Disabled Attack Signatures,
+
+Parameter Name,StreetDeFacto
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"shpongle'shpongle\
+Disabled Attack Signatures,
+
+Parameter Name,T
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"shpongle<shpongle>
+Disabled Attack Signatures,
+
+Parameter Name,TAXNUMBER
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,;
+Disabled Attack Signatures,
+
+Parameter Name,TEXT_AddF375
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"
+Disabled Attack Signatures,
+
+Parameter Name,TEXT_AddF54
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"
+Disabled Attack Signatures,
+
+Parameter Name,TIDR
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,|
+Disabled Attack Signatures,
+
+Parameter Name,TPL_FORM_XSL_FILE
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,\
+Disabled Attack Signatures,
+
+Parameter Name,TPL_IDR
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,|
+Disabled Attack Signatures,
+
+Parameter Name,UserIdea
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,LFshpongle"shpongle%shpongle\
+Disabled Attack Signatures,
+
+Parameter Name,UserPassport
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"shpongle'shpongle\
+Disabled Attack Signatures,
+
+Parameter Name,WORD_RESULT
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"shpongle&shpongle'shpongle>shpongle[shpongle|shpongle}
+Disabled Attack Signatures,
+
+Parameter Name,YourBid
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,%
+Disabled Attack Signatures,
+
+Parameter Name,bfor
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,false
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,true
+Base64 Decoding,false
+Allowed Meta Characters,LF
+Disabled Attack Signatures,
+
+Parameter Name,conf_pass
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,;
+Disabled Attack Signatures,
+
+Parameter Name,confirmnewpin
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,;
+Disabled Attack Signatures,
+
+Parameter Name,currentpin
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,;
+Disabled Attack Signatures,
+
+Parameter Name,email
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,true
+Base64 Decoding,false
+Allowed Meta Characters,TABshpongleLF
+Disabled Attack Signatures,
+
+Parameter Name,filename
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,false
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,$shpongle&shpongle'shpongle;shpongle[shpongle\shpongle]
+Disabled Attack Signatures,200016003
+
+Parameter Name,findValue
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"shpongle&
+Disabled Attack Signatures,
+
+Parameter Name,id
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,{shpongle}
+Disabled Attack Signatures,
+
+Parameter Name,new_pass
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,;
+Disabled Attack Signatures,
+
+Parameter Name,newpin
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,;
+Disabled Attack Signatures,
+
+Parameter Name,p
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,false
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,false
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,true
+Base64 Decoding,false
+Allowed Meta Characters,"
+Disabled Attack Signatures,
+
+Parameter Name,sName
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,ignore
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,"
+Disabled Attack Signatures,
+
+Parameter Name,utm_referrer
+Parameter Type,explicit
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,user input
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,%shpongle&shpongle;
+Disabled Attack Signatures,
+
+Parameter Name,*
+Parameter Type,wildcard
+Is Mandatory Parameter,false
+Allow Empty Value,true
+Parameter Value Type,auto detect
+Data Type,-
+Minimum Length,Any
+Maximum Length,Any
+Mask Value in Logs,false
+Check characters on this parameter name,true
+Check characters on this parameter value,true
+Check attack signatures and threat campaigns on this parameter,true
+Allow Repeated Occurrences,false
+Base64 Decoding,false
+Allowed Meta Characters,
+Disabled Attack Signatures,
+
+File Type,URL Length,Request Length,Query String Length,POST Data Length,Apply Response Signatures,
+GIF,100,5000,1000,1000,false
+asp,100,100000,1000,1000,false
+css,100,10000,1000,1000,false
+dll,100,10000000,1000,Any,false
+gif,100,10000,1000,1000,false
+htc,100,5000,1000,1000,false
+htm,100,10000,1000,1000,false
+html,100,5000,1000,1000,false
+ico,100,10000,1000,1000,false
+jpg,100,10000,1000,1000,false
+js,100,10000,1000,1000,false
+no_ext,100,10000,1000,1000,false
+pdf,100,5000,1000,1000,false
+png,100,10000,1000,1000,false
+*,100,10000,1000,5000,false
+
+Disallowed File Types,ashxshpongleaspxshponglebakshponglebatshponglebckshponglebinshponglebkpshponglecershponglecfgshponglecgishponglecmdshponglecomshpongleconfshpongleconfigshponglecrtshpongledatshpongledershpongledoshpongleemlshpongleexeshponglehtashponglehtrshponglehtwshpongleidashpongleidcshpongleidqshpongleinishponglejavashponglejspshponglekeyshponglelogshpongleluashponglemsishponglenwsshpongleoldshponglep12shponglep7bshponglep7cshponglepemshponglepfxshponglephpshponglepolshpongleprintershponglepyshpongleregshponglesavshponglesaveshpongleshtmshpongleshtmlshponglestmshponglesysshpongletempshpongletmpshponglewmz
+
+URL Name,Protocol: HTTPSshpongleMethods: POSTshpongleURL: /v2/cgi/bsi.dll
+URL Type,explicit
+Clickjacking Protection,false
+Check Flows to this URL,false
+URL is Entry Point,-
+URL is Referrer,-
+URL can change Domain Cookie,-
+Body is Mandatory,false
+Wildcard Match Includes Slashes,-
+Check attack signatures and threat campaigns on this URL,true
+Check characters on this URL,true
+Method Enforcement,false
+
+URL Name,Protocol: HTTPSshpongleMethods: *shpongleURL: *.[Pp][Nn][Gg]
+URL Type,wildcard
+Clickjacking Protection,false
+Check Flows to this URL,-
+URL is Entry Point,-
+URL is Referrer,-
+URL can change Domain Cookie,-
+Body is Mandatory,false
+Wildcard Match Includes Slashes,true
+Check attack signatures and threat campaigns on this URL,true
+Check characters on this URL,true
+Method Enforcement,false
+
+URL Name,Protocol: HTTPSshpongleMethods: *shpongleURL: *.[Ii][Cc][Oo]
+URL Type,wildcard
+Clickjacking Protection,false
+Check Flows to this URL,-
+URL is Entry Point,-
+URL is Referrer,-
+URL can change Domain Cookie,-
+Body is Mandatory,false
+Wildcard Match Includes Slashes,true
+Check attack signatures and threat campaigns on this URL,true
+Check characters on this URL,true
+Method Enforcement,false
+
+URL Name,Protocol: HTTPSshpongleMethods: *shpongleURL: *.[Jj][Pp][Gg]
+URL Type,wildcard
+Clickjacking Protection,false
+Check Flows to this URL,-
+URL is Entry Point,-
+URL is Referrer,-
+URL can change Domain Cookie,-
+Body is Mandatory,false
+Wildcard Match Includes Slashes,true
+Check attack signatures and threat campaigns on this URL,true
+Check characters on this URL,true
+Method Enforcement,false
+
+URL Name,Protocol: HTTPSshpongleMethods: *shpongleURL: *.[Gg][Ii][Ff]
+URL Type,wildcard
+Clickjacking Protection,false
+Check Flows to this URL,-
+URL is Entry Point,-
+URL is Referrer,-
+URL can change Domain Cookie,-
+Body is Mandatory,false
+Wildcard Match Includes Slashes,true
+Check attack signatures and threat campaigns on this URL,true
+Check characters on this URL,true
+Method Enforcement,false
+
+URL Name,Protocol: HTTPSshpongleMethods: *shpongleURL: *.[Pp][Dd][Ff]
+URL Type,wildcard
+Clickjacking Protection,false
+Check Flows to this URL,-
+URL is Entry Point,-
+URL is Referrer,-
+URL can change Domain Cookie,-
+Body is Mandatory,false
+Wildcard Match Includes Slashes,true
+Check attack signatures and threat campaigns on this URL,true
+Check characters on this URL,true
+Method Enforcement,false
+
+URL Name,Protocol: HTTPSshpongleMethods: *shpongleURL: *
+URL Type,wildcard
+Clickjacking Protection,false
+Check Flows to this URL,-
+URL is Entry Point,-
+URL is Referrer,-
+URL can change Domain Cookie,-
+Body is Mandatory,false
+Wildcard Match Includes Slashes,true
+Check attack signatures and threat campaigns on this URL,true
+Check characters on this URL,true
+Method Enforcement,false
+
+URL Name,Protocol: HTTPshpongleMethods: *shpongleURL: *
+URL Type,wildcard
+Clickjacking Protection,false
+Check Flows to this URL,-
+URL is Entry Point,-
+URL is Referrer,-
+URL can change Domain Cookie,-
+Body is Mandatory,false
+Wildcard Match Includes Slashes,true
+Check attack signatures and threat campaigns on this URL,true
+Check characters on this URL,true
+Method Enforcement,false
+
+
+Globally Disabled Signatures
+200011026
