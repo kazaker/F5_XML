@@ -158,6 +158,11 @@ for x in root.iter('attack_signatures'):
         signature_names.append(y.get('signature_id'))
         for z in y.findall('enabled'):
             signature_status.append(z.text)
+    enable_staging = x.find('enable_staging').text
+    place_signatures_in_staging = x.find('place_signatures_in_staging').text
+    min_accuracy_for_auto_added_signatures = x.find('min_accuracy_for_auto_added_signatures').text
+    attack_signature_false_positive_mode = x.find('attack_signature_false_positive_mode').text
+
 for x in signature_status:
     if x == 'false':
         disabled_signatures.append(signature_names[signature_status.index(x)])
@@ -202,6 +207,11 @@ f.writelines('\n')
 f.writelines(policy_table_list[18] + ',' + policy_path_parameter_handling)
 f.writelines('\n')
 f.writelines('\n')
+
+# Learning Threat Campaign options
+for x in root.iter('threat_campaign_attributes'):
+    enable_staging = x.find('enable_staging').text
+    staging_period_in_days = x.find('staging_period_in_days').text
 
 # Learning cookies options
 for x in root.iter('policy_builder_cookie'):
@@ -294,12 +304,24 @@ f.writelines('Antivirus')
 f.writelines('\n')
 f.writelines('Virus detected' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Virus detected')]))
 f.writelines('\n')
+f.writelines('\n')
 
-f.writelines('Signature Sets')
+f.writelines('Attach Signatures')
 f.writelines('\n')
 for index, item in enumerate(policy_attack_signature_sets):
     f.writelines(item + ',' + ','.join(signatures_alarm_block_learn[index]))
     f.writelines('\n')
+f.writelines('Auto-Added Signature Accuracy' + ',' + min_accuracy_for_auto_added_signatures)
+f.writelines('\n')
+f.writelines('Enable Signature Staging' + ',' + enable_staging)
+f.writelines('\n')
+place_signatures_in_staging = 'Retain previous rule enforcement and place updated rule in staging' if place_signatures_in_staging == 'true' else 'Enforce updated rule immediately for non-staged signatures'
+f.writelines('Updated Signature Enforcement' + ',' + place_signatures_in_staging)
+f.writelines('\n')
+f.writelines('Attack Signature False Positive Mode' + ',' + attack_signature_false_positive_mode)
+f.writelines('\n')
+f.writelines('\n')
+
 
 f.writelines('CSRF Protection')
 f.writelines('\n')
@@ -308,6 +330,7 @@ f.writelines('CSRF authentication expired' + ',' + ','.join(
 f.writelines('\n')
 f.writelines(
     'CSRF attack detected' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('CSRF attack detected')]))
+f.writelines('\n')
 f.writelines('\n')
 
 f.writelines('Content Profiles')
@@ -345,6 +368,7 @@ f.writelines('\n')
 f.writelines('XML data does not comply with schema or WSDL document' + ',' + ','.join(
     policy_alarm_block_learn[policy_violations.index('XML data does not comply with schema or WSDL document')]))
 f.writelines('\n')
+f.writelines('\n')
 
 f.writelines('Web Services Security failure' + ',' + ','.join(
     policy_alarm_block_learn[policy_violations.index('Web Services Security failure')]))
@@ -355,6 +379,7 @@ for index, item in enumerate(policy_web_services_security_settings_name):
     f.writelines(
         item + ',' + ','.join(policy_web_services_security_settings_status[index]))
     f.writelines('\n')
+f.writelines('\n')
 
 f.writelines('Cookies')
 f.writelines('\n')
@@ -385,11 +410,13 @@ f.writelines('Modified domain cookie(s)' + ',' + ','.join(
 f.writelines('\n')
 f.writelines('Collapse many common Cookies into one wildcard Cookie after ' + collapse_cookies_occurrences + ' occurences' + ',' + collapse_cookies)
 f.writelines('\n')
+f.writelines('\n')
 
 f.writelines('Data Guard')
 f.writelines('\n')
 f.writelines('Data Guard: Information leakage detected' + ',' + ','.join(
     policy_alarm_block_learn[policy_violations.index('Data Guard: Information leakage detected')]))
+f.writelines('\n')
 f.writelines('\n')
 
 f.writelines('Evasion technique detected' + ',' + ','.join(
@@ -400,6 +427,7 @@ f.writelines('\n')
 for index, item in enumerate(policy_evasions_name):
     f.writelines(item + ',' + ','.join(policy_evasions_status[index]))
     f.writelines('\n')
+f.writelines('\n')
 
 f.writelines('File Types')
 f.writelines('\n')
@@ -426,6 +454,7 @@ f.writelines('\n')
 f.writelines('Illegal request length' + ',' + ','.join(
     policy_alarm_block_learn[policy_violations.index('Illegal request length')]))
 f.writelines('\n')
+f.writelines('\n')
 
 f.writelines('General Settings')
 f.writelines('\n')
@@ -446,6 +475,7 @@ f.writelines('Illegal session ID in URL' + ',' + ','.join(
 f.writelines('\n')
 f.writelines('Request length exceeds defined buffer size' + ',' + ','.join(
     policy_alarm_block_learn[policy_violations.index('Request length exceeds defined buffer size')]))
+f.writelines('\n')
 f.writelines('\n')
 
 f.writelines('Headers')
@@ -475,6 +505,7 @@ if learn_file_types != 'Never':
 else:
     f.writelines('Maximum Learned Host Names' + ',' + '-')
     f.writelines('\n')
+f.writelines('\n')
 
 f.writelines('HTTP protocol compliance failed' + ',' + ','.join(
     policy_alarm_block_learn[policy_violations.index('HTTP protocol compliance failed')]))
@@ -485,6 +516,7 @@ for index, item in enumerate(policy_http_protocol_compliance_setting_name):
     f.writelines(
         item + ',' + ','.join(policy_http_protocol_compliance_setting_status[index]))
     f.writelines('\n')
+f.writelines('\n')
 
 f.writelines('IP Addresses and Geolocations')
 f.writelines('\n')
@@ -499,6 +531,7 @@ f.writelines(
 f.writelines('\n')
 f.writelines(
     'IP is blacklisted' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('IP is blacklisted')]))
+f.writelines('\n')
 f.writelines('\n')
 
 f.writelines('Parameters')
@@ -567,6 +600,7 @@ f.writelines('Classify Value Content of Learned Parameters' + ',' + classify_par
 f.writelines('\n')
 f.writelines('Learn Integer Parameters' + ',' + parameters_integer_value)
 f.writelines('\n')
+f.writelines('\n')
 
 f.writelines('Redirection Domains')
 f.writelines('\n')
@@ -581,10 +615,12 @@ else:
 f.writelines('Illegal redirection attempt' + ',' + ','.join(
     policy_alarm_block_learn[policy_violations.index('Illegal redirection attempt')]))
 f.writelines('\n')
+f.writelines('\n')
 
 f.writelines('Server Technologies')
 f.writelines('\n')
 f.writelines('Enable Server Technology Detection' + ',' + learn_server_technologies)
+f.writelines('\n')
 f.writelines('\n')
 
 f.writelines('Sessions and Logins')
@@ -609,11 +645,17 @@ f.writelines('\n')
 f.writelines(
     'Login URL expired' + ',' + ','.join(policy_alarm_block_learn[policy_violations.index('Login URL expired')]))
 f.writelines('\n')
+f.writelines('\n')
 
 f.writelines('Threat Campaigns')
 f.writelines('\n')
 f.writelines('Threat Campaign detected' + ',' + ','.join(
     policy_alarm_block_learn[policy_violations.index('Threat Campaign detected')]))
+f.writelines('\n')
+f.writelines('Enable Threat Campaign Staging' + ',' + enable_staging)
+f.writelines('\n')
+f.writelines('Threat Campaign Enforcement Readiness Period' + ',' + staging_period_in_days + ' day')
+f.writelines('\n')
 f.writelines('\n')
 
 f.writelines('URLs')
@@ -687,6 +729,7 @@ f.writelines('\n')
 f.writelines('Collapse many common HTTP URLs into one wildcard HTTP URL after ' + collapse_urls_occurrences + ' occurences' + ',' + collapse_urls)
 f.writelines('\n')
 f.writelines('File types for which wildcard HTTP URLs will be configured' + ',' + 'shpongle'.join(url_filetypes))
+f.writelines('\n')
 f.writelines('\n')
 
 f.writelines('WebSocket Protocol Compliance')

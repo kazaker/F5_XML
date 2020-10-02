@@ -21,7 +21,8 @@ Handle Path Parameters,as parameters
 Name,Learn,Alarm,Block,Comment
 Antivirus
 Virus detected,false,false,false
-Signature Sets
+
+Attach Signatures
 Server-Side Request Forgery Signatures (High/Medium Accuracy),true,true,true
 Server-Side Request Forgery Signatures (High Accuracy),true,true,true
 Server-Side Request Forgery Signatures,true,true,true
@@ -54,9 +55,15 @@ IIS Signatures (High/Medium Accuracy),true,true,true
 ASP.NET Signatures (High/Medium Accuracy),true,true,true
 ASP Signatures (High/Medium Accuracy),true,true,true
 Spring Boot Signatures (High/Medium Accuracy),true,true,true
+Auto-Added Signature Accuracy,Medium
+Enable Signature Staging,false
+Updated Signature Enforcement,Retain previous rule enforcement and place updated rule in staging
+Attack Signature False Positive Mode,Disabled
+
 CSRF Protection
 CSRF authentication expired,true,true,true
 CSRF attack detected,false,true,true
+
 Content Profiles
 GWT data does not comply with format settings,false,false,false
 Illegal attachment in SOAP message,false,false,false
@@ -69,6 +76,7 @@ Plain text data does not comply with format settings,false,false,false
 SOAP method not allowed,false,false,false
 XML data does not comply with format settings,false,false,false
 XML data does not comply with schema or WSDL document,false,false,false
+
 Web Services Security failure,false,false,false
 Name,Enable,Learn
 Internal error,enabled,disabled
@@ -84,6 +92,7 @@ Invalid timestamp,enabled,disabled
 Expired timestamp,enabled,disabled
 Timestamp expiration too far in the future,enabled,disabled
 Unsigned timestamp,enabled,disabled
+
 Cookies
 Learn New Cookies,Never
 Maximum Learned Cookies,-
@@ -94,8 +103,10 @@ Illegal cookie length,true,true,true
 Modified ASM cookie,true,true,true
 Modified domain cookie(s),false,false,false
 Collapse many common Cookies into one wildcard Cookie after 10 occurences,false
+
 Data Guard
 Data Guard: Information leakage detected,false,false,false
+
 Evasion technique detected,true,true,true
 Name,Enable,Learn
 Directory traversals,enabled,enabled
@@ -106,6 +117,7 @@ IIS Unicode codepoints,enabled,enabled
 Bare byte decoding,enabled,enabled
 Apache whitespace,enabled,enabled
 Bad unescape,enabled,enabled
+
 File Types
 Learn New File Types,Compact
 Maximum Learned File Types,50
@@ -114,6 +126,7 @@ Illegal URL length,true,true,false
 Illegal file type,true,true,true
 Illegal query string length,true,true,false
 Illegal request length,true,true,false
+
 General Settings
 Blocking Condition Detected,false,true,true
 Failed to convert character,false,true,false
@@ -121,6 +134,7 @@ Illegal Base64 value,true,true,true
 Illegal HTTP status in response,true,true,false
 Illegal session ID in URL,false,false,false
 Request length exceeds defined buffer size,false,false,false
+
 Headers
 Host name mismatch,false,true,true
 Illegal header length,true,true,false
@@ -130,6 +144,7 @@ Illegal method,true,true,true
 Mandatory HTTP header is missing,true,true,true
 Learn Host Names,true
 Maximum Learned Host Names,10000
+
 HTTP protocol compliance failed,true,true,true
 Name,Enable,Learn
 POST request with Content-Length: 0,enabled,enabled
@@ -151,11 +166,13 @@ Check maximum number of headers (maximum 45 headers),enabled,enabled
 Bad host header value,enabled,enabled
 Check maximum number of parameters (maximum 500 parameters),enabled,enabled
 Multiple host headers,enabled,enabled
+
 IP Addresses and Geolocations
 Access from disallowed Geolocation,true,true,true
 Access from malicious IP address,false,true,true
 Bad Actor Detected,false,true,true
 IP is blacklisted,false,true,true
+
 Parameters
 Learn New Parameters,When Violation Detected
 Maximum Learned Parameters,10000
@@ -179,12 +196,15 @@ Parameter Level,global
 Collapse many common Parameters into one wildcard Parameter after 10 occurences,true
 Classify Value Content of Learned Parameters,true
 Learn Integer Parameters,false
+
 Redirection Domains
 Learn New Redirection Domains,Always
 Maximum Learned Redirection Domains,100
 Illegal redirection attempt,true,true,true
+
 Server Technologies
 Enable Server Technology Detection,true
+
 Sessions and Logins
 Detect login pages,true
 ASM Cookie Hijacking,false,false,false
@@ -193,8 +213,12 @@ Bad Actor Convicted,false,true,true
 Brute Force: Maximum login attempts are exceeded,false,true,true
 Login URL bypassed,false,false,false
 Login URL expired,false,false,false
+
 Threat Campaigns
 Threat Campaign detected,false,true,true
+Enable Threat Campaign Staging,false
+Threat Campaign Enforcement Readiness Period,1 day
+
 URLs
 Learn New HTTP URLs,When Violation Detected
 Maximum Learned HTTP URLs,10000
@@ -215,6 +239,12 @@ Illegal query string or POST data,false,false,false
 Illegal request content type,true,true,true
 Mandatory request body is missing,false,false,false
 Text content found in binary only WebSocket,false,false,false
+Classify Request Content of Learned HTTP URLs,true
+Classify Client Message Payload Format of Learned WebSocket URLs,false
+Learn Allowed Methods on HTTP URLs,false
+Collapse many common HTTP URLs into one wildcard HTTP URL after 500 occurences,false
+File types for which wildcard HTTP URLs will be configured,gifshpongleicoshponglepcxshponglepdfshpongleswfshponglejpegshponglewavshponglejpgshponglepngshponglebmp
+
 WebSocket Protocol Compliance
 Bad WebSocket handshake request,false,false,false
 Failure in WebSocket framing protocol,false,false,false

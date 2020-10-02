@@ -1,0 +1,5334 @@
+{
+    "value": [
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-1049",
+            "name": "[as.shabaeva] CentOS 7",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1056",
+            "name": "[pa.yankov] DC",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1059",
+            "name": "[pa.yankov] RootCA",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1060",
+            "name": "[pa.yankov] EnterpriseCA",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1083",
+            "name": "[pa.yankov] SQL",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1084",
+            "name": "[pa.yankov] CDP",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-1111",
+            "name": "[dkazmirchuk] Win2016+FSSO 10.31.46.120",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1121",
+            "name": "marusov_ksmg-1.1.2-12.x86_64",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-1130",
+            "name": "[aa.patsyuk]_wsa_coeus-10-5-1-296_10.31.41.134",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 32768,
+            "vm": "vm-1131",
+            "name": "demo_GDB",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 16
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1158",
+            "name": "[es.lyapustin] ServGate2 10-31-46-48",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1159",
+            "name": "[es.lyapustin] ServGate1 10-31-46-47%2f49",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 1024,
+            "vm": "vm-1187",
+            "name": "vtok-srv-2",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 24576,
+            "vm": "vm-1188",
+            "name": "[so.reznikov] Dozor",
+            "power_state": "POWERED_ON",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-1189",
+            "name": "demo_DC01",
+            "power_state": "POWERED_ON",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1191",
+            "name": "demo_srv_DB01",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-1192",
+            "name": "[dkazmirchuk] FortiMail 10.31.45.120",
+            "power_state": "POWERED_ON",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1193",
+            "name": "demo_SDKU_Server-02",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1194",
+            "name": "demo_ModBus_Slave_02",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-1195",
+            "name": "[dkazmirchuk] FortiGate 10.31.43.125",
+            "power_state": "POWERED_ON",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4000,
+            "vm": "vm-1196",
+            "name": "[av.nedorezov]-CP_MGMT-77.30",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 1024,
+            "vm": "vm-1198",
+            "name": "Fortigate-VM",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1199",
+            "name": "AD1_RSA",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1200",
+            "name": "AD2_RSA",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1201",
+            "name": "[so.reznikov] DC 2008 R2",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-1203",
+            "name": "RSA Authentication Manager_Pri",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-1204",
+            "name": "RSA Authentication Manager_Rep",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 10240,
+            "vm": "vm-1205",
+            "name": "[dkazmirchuk] [CP] GW 10.31.44.121",
+            "power_state": "SUSPENDED",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-1206",
+            "name": "[dkazmirchuk] Carbon Black Protection Server 10.31.42.136",
+            "power_state": "POWERED_ON",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1211",
+            "name": "AD_2003 forest",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1216",
+            "name": "MS CA1 2016",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-1217",
+            "name": "[es.shmatova] CPM%2fPVWA%2fPSM",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1225",
+            "name": "[KOSTIN]_Win7_Tecon_ARM",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 1024,
+            "vm": "vm-1227",
+            "name": "vtok-internal-client",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1229",
+            "name": "DC",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1230",
+            "name": "demo_XSpider",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-1233",
+            "name": "[Gumerova]-FortiManager-VM",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-1234",
+            "name": "[ai.serov] TMDS console",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1235",
+            "name": "[askuznetsov] IWDM_IWPM",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 49152,
+            "vm": "vm-1236",
+            "name": "pagolovistikov_arcsight",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1241",
+            "name": "[as.shabaeva] Win2016",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1242",
+            "name": "[so.reznikov] AirWatch Core win2016",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-1244",
+            "name": "demo_sec_Tufin_10.31.37.42",
+            "power_state": "POWERED_ON",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-1246",
+            "name": "[aa.rogovoy] CP_SMS_77.30",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-1247",
+            "name": "[av.nedorezov] Win7_Tamplate",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-1248",
+            "name": "[aa.rogovoy] CP_sms_80_10",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-1250",
+            "name": "[Marusov] Proxy",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4312,
+            "vm": "vm-1251",
+            "name": "[es.lyapustin] scaner",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 1952,
+            "vm": "vm-1252",
+            "name": "[es.lyapustin] Linux",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-1253",
+            "name": "[av.nedorezov] CP-CLUSTER1-n2_10.31.40.11",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-1257",
+            "name": "[av.nedorezov] CP_Endpoint_Security_User_PC1",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 256,
+            "vm": "vm-1258",
+            "name": "[Marusov] S-Terra_4.1_GW1",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1260",
+            "name": "[ai.serov] OEL6",
+            "power_state": "POWERED_ON",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-1262",
+            "name": "[marusov] Kaspersky",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 24576,
+            "vm": "vm-1263",
+            "name": "[shoroh] CentOS6.5 Dozor 5.0.4 Seminar (34.180)",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1271",
+            "name": "IWSVA65sp2",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-1273",
+            "name": "[so.reznikov] CentOS - Oracle ACCELLION nginx",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 12288,
+            "vm": "vm-1275",
+            "name": "demo_LTM_Server",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1277",
+            "name": "demo_AIS_Server",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1279",
+            "name": "demo_Hacker",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1280",
+            "name": "demo_SDKU_Server",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1281",
+            "name": "demo_ModBus_Slave",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1282",
+            "name": "demo_Engineer",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1287",
+            "name": "[marusov] CHP77.30mgmt",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1288",
+            "name": "[marusov] CHP77.30sep2",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 9216,
+            "vm": "vm-1289",
+            "name": "demo_Sec_NGFW",
+            "power_state": "SUSPENDED",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 24576,
+            "vm": "vm-1291",
+            "name": "demo_sec_IBM_Guardium_Colllector",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-1292",
+            "name": "[ai.serov] LinuxRedHat-ora12c-asm",
+            "power_state": "POWERED_ON",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1294",
+            "name": "[dkazmirchuk] FortiManager 10.31.34.131",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-1295",
+            "name": "[dp.borisov] - hq-fml01",
+            "power_state": "POWERED_ON",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-1296",
+            "name": "[dp.borisov] - ws2012-dc",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1297",
+            "name": "[dp.borisov] - hq-faz",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1298",
+            "name": "[dp.borisov] - wd10-external",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1299",
+            "name": "[av.nedorezov] - FortiAnalyzer1",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-1300",
+            "name": "[dkazmirchuk] Carbon Black Response Server 10.31.46.122",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-1306",
+            "name": "[marusov] DC & EXCH",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1308",
+            "name": "[dp.borisov] - ws2008R2-TMG",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 12288,
+            "vm": "vm-1312",
+            "name": "[so.reznikov] Zecurion win2012",
+            "power_state": "POWERED_ON",
+            "cpu_count": 6
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1313",
+            "name": "[so.reznikov] Zecuriontestarm win7x64",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-1314",
+            "name": "[so.reznikov] AirWatch win2012R2",
+            "power_state": "POWERED_ON",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1315",
+            "name": "[as.shabaeva] Win7",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-1316",
+            "name": "[as.shabaeva] Netwrix Auditor Server",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1318",
+            "name": "[askuznetsov] SDLP OCR",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 24576,
+            "vm": "vm-1320",
+            "name": "Archer Test",
+            "power_state": "POWERED_ON",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 12288,
+            "vm": "vm-1322",
+            "name": "demo_sec_Tufin_10.31.34.82_VTB",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1324",
+            "name": "[so.reznikov] AirWatch DB win2016 (MS SQL 2016) + TMDS DB",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-1333",
+            "name": "[abogdanov] MobileIron Core",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 5
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1334",
+            "name": "[askuznetsov] dozorad",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1335",
+            "name": "[av.nedorezov] FTS-VM-64-10.31.40.13",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-1336",
+            "name": "[av.nedorezov] CP-CLUSTER1-n1_10.31.41.10",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4080,
+            "vm": "vm-1339",
+            "name": "[es.lyapustin] DC_vgate_4.1 10-31-45-44",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-1340",
+            "name": "[sapunov]-CentOs-6.5",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 12288,
+            "vm": "vm-1343",
+            "name": "[ai.serov] Win_2016",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1344",
+            "name": "[vtok] Lamp4",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1345",
+            "name": "[ai.serov] Oracle Linux 7.3+ Oracle 12cR2",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 6496,
+            "vm": "vm-1346",
+            "name": "[es.lyapustin] SNS Serv 10-31-45-45",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1347",
+            "name": "[askuznetsov] ARM_Win7_VPN",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 12288,
+            "vm": "vm-1348",
+            "name": "[Sorokina] Server-2008(RemApp)34.88",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-1351",
+            "name": "[alopatin] Efros",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-1352",
+            "name": "[alopatin] AlgoSec_6.8",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-1355",
+            "name": "[alopatin] Tufin",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1363",
+            "name": "[Emelyanova] Win2008",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-1364",
+            "name": "[alopatin] Skybox",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1366",
+            "name": "demo_srv_sap01",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-1367",
+            "name": "[denisov] Win7_client",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 1024,
+            "vm": "vm-1368",
+            "name": "[Emelyanova] XP_VK",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1371",
+            "name": "[sapunov]-DC_2012_isc.jet.demo",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-1372",
+            "name": "vtok-gns",
+            "power_state": "SUSPENDED",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1373",
+            "name": "shmatko-win2008r2",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 24576,
+            "vm": "vm-1378",
+            "name": "[es.markov] Dozor 6.8 %2f CentOS 7.6",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-1382",
+            "name": "[yo.bykhankov] skybox98",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-1388",
+            "name": "[shoroh] CentOS 7.3 34.188 SNS LSP",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-1394",
+            "name": "[so.reznikov] DeviceLock Server win2012R2",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1396",
+            "name": "[so.reznikov] DeviceLock ARM win7x64",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1397",
+            "name": "KOSTIN]_WinXP_SP3_SIMATIC_ES",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1400",
+            "name": "KOSTIN_Win_2003_R2_St_SIMATIC_SRV1",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1403",
+            "name": "remove_demo_Sec_MaxPatrol",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-1406",
+            "name": "[marusov] CHP_80.10_gate",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-1407",
+            "name": "[marusov] CHPE",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-141",
+            "name": "demo_infra_Linux",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-1410",
+            "name": "[dkazmirchuk] [CP] SMS 10.31.44.122",
+            "power_state": "SUSPENDED",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1412",
+            "name": "[KOSTIN] _WinSrv12StdUpd_VD",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1414",
+            "name": "[KOSTIN] Win7_OPC2",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1416",
+            "name": "[KOSTIN] _Win7_x86_OPC",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1419",
+            "name": "[KOSTIN] win7_x86_vd_client1",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1420",
+            "name": "[KOSTIN] win7_x86_vd_agent",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-1421",
+            "name": "WinServ",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1423",
+            "name": "[dp.borisov] - hq-fml02",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-1424",
+            "name": "[askuznetsov] IWTM 6.10",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-1425",
+            "name": "bobrikov_ASAv",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 7864,
+            "vm": "vm-1426",
+            "name": "[KOSTIN] Debian_ISIM_02",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1430",
+            "name": "[KOSTIN] Win7_RedCheck",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-1432",
+            "name": "[askuznetsov] SDLP_Blackbox_15.5",
+            "power_state": "POWERED_ON",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1433",
+            "name": "[KOSTIN] Win7_SNS",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1435",
+            "name": "[KOSTIN] _WinSrv12StdUpd_SNS",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-1437",
+            "name": "[KOSTIN] CentOS7_KICS_Networks",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1440",
+            "name": "FTS-VM-64-10.31.40.11",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-1441",
+            "name": "av.nedorezov_transneft-test2",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-1442",
+            "name": "av.nedorezov_PC1_10.31.41.18",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 32768,
+            "vm": "vm-1443",
+            "name": "aa.patsyuk_Win2k12_DC_10.31.41.133",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1444",
+            "name": "abogdanov_windows7",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 6496,
+            "vm": "vm-1445",
+            "name": "es.lyapustin_SNS 10-31-44-52",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-1446",
+            "name": "av.nedorezov_PC_Windows10_Tamplate",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-1448",
+            "name": "av.nedorezov_CP_Management_TMH",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-1449",
+            "name": "aa.patsyuk_trendmicro_10.31.41.138",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 17364,
+            "vm": "vm-1450",
+            "name": "es.lyapustin_vCenter 10-31-44-46",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 3972,
+            "vm": "vm-1451",
+            "name": "es.lyapustin_AdminIB 10-31-44-44",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1452",
+            "name": "es.lyapustin_DC 10-31-45-43",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6496,
+            "vm": "vm-1453",
+            "name": "es.lyapustin_AdminVI 10-31-44-45",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1454",
+            "name": "avkuznetsov_WinSRV_KCS",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-1455",
+            "name": "[shoroh] win2012_DeviceLock_SRV_Communigate",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 32768,
+            "vm": "vm-1457",
+            "name": "[askuznetsov] Dozor_6.7",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-1458",
+            "name": "[marusov] CHP_80.10_mgmt",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1459",
+            "name": "KOSTIN_WinSrv2003_R2_St_SIMATIC_SRV2",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1462",
+            "name": "KOSTIN_WinXP_SP3_SIMATIC_OS",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 65536,
+            "vm": "vm-1466",
+            "name": "remove_demo_MaxPatrolSIEM_Agent",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 32768,
+            "vm": "vm-1467",
+            "name": "demo_MaxPAtrol SIEM Core",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-1468",
+            "name": "remove_demo_MaxPatrol SIEM UCS",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 1024,
+            "vm": "vm-1470",
+            "name": "[dp.borisov] - hq-fac",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-1478",
+            "name": "RedHat",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-1479",
+            "name": "[es.shmatova] CentOS",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 512,
+            "vm": "vm-1480",
+            "name": "123",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 60996,
+            "vm": "vm-1483",
+            "name": "[es.lyapustin] ESXi 6.5_vgate_4.1 10-31-46-43",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-1485",
+            "name": "[av.nedorezov] transneft-test",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1486",
+            "name": "[av.nedorezov] FortiAnalizerl1_10.31.40.14",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-1494",
+            "name": "[ts.mutovkina] SNS 8.5+ KSC",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-1495",
+            "name": "[ts.mutovkina] arm SNS 8.5+ KES 11.1.1.126",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-1499",
+            "name": "Gumerova_InAgent",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1502",
+            "name": "Gumerova_ADtest",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1503",
+            "name": "Gumerova_SVRIndeed",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1505",
+            "name": "Gumerova_SQL",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 1024,
+            "vm": "vm-1515",
+            "name": "vtok-bind",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 1024,
+            "vm": "vm-1516",
+            "name": "vtok-webserver2",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-1517",
+            "name": "vtok-aleph",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-1518",
+            "name": "demo_Sec_FortiSandbox",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 16
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1525",
+            "name": "[es.shmatova] EPV",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-1546",
+            "name": "marusov_Panorama-ESX-8.0.2",
+            "power_state": "POWERED_ON",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1547",
+            "name": "[as.kuznetsov] ARM Win7",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 32768,
+            "vm": "vm-1549",
+            "name": "demo_IBM_Guardium",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-1554",
+            "name": "[va.starostina]_server_windows_10.31.42.132",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1577",
+            "name": "[KOSTIN] nozomihalich",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1581",
+            "name": "[av.izotov]",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1593",
+            "name": "[as.shabaeva]  Wallix",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-1611",
+            "name": "[bobrikov]Cisco_Firepower_Threat_Defense",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1614",
+            "name": "da.shley_centos7",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-1621",
+            "name": "[av.izotov] DC",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 20480,
+            "vm": "vm-1624",
+            "name": "[av.izotov] ESXi-1",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 20480,
+            "vm": "vm-1626",
+            "name": "[av.izotov] ESXi-2",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 512,
+            "vm": "vm-1634",
+            "name": "[yo.bykhankov] MDS_CP",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1635",
+            "name": "[av.izotov] AVI",
+            "power_state": "POWERED_ON",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1636",
+            "name": "[av.izotov] ABI",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 512,
+            "vm": "vm-1639",
+            "name": "[yo.bykhankov] Forcepoint",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1652",
+            "name": "[KOSTIN] nozomi_SCADAguardian",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-1654",
+            "name": "Huawei EasySuite",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-1680",
+            "name": "[aa.rogovoy]Kali",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-1681",
+            "name": "VirtualBlade01",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-1682",
+            "name": "VirtualBlade02",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1685",
+            "name": "[aa.rogovoy]Kali_Linux",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-1700",
+            "name": "[yo.bykhankov] ngatemgmt",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 10240,
+            "vm": "vm-1710",
+            "name": "[sapunov] - Win10",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1718",
+            "name": "[ml.malyshev]Windows 10",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1719",
+            "name": "[mn.matushkin]-PSB-CUS-Continent3-9-1",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-1729",
+            "name": "[ml.malyshev]Windows 2",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 6
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1731",
+            "name": "[ml.malyshev]Windows 2 (1)",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 1024,
+            "vm": "vm-1733",
+            "name": "[yo.bykhankov] ngate_complete",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1738",
+            "name": "[dd.elchishchev] DC1",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-1756",
+            "name": "[dd.elchishchev] RSA-AM-8.4",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 1024,
+            "vm": "vm-1765",
+            "name": "[yo.bykhankov] ngatenodeN",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 32768,
+            "vm": "vm-1770",
+            "name": "al.navoynikov_Huawei_ELOG",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1779",
+            "name": "[dv.bulgakov] DCwin16",
+            "power_state": "POWERED_ON",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1780",
+            "name": "[dv.bulgakov] IIS_server",
+            "power_state": "POWERED_ON",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1781",
+            "name": "[dv.bulgakov] RootCA",
+            "power_state": "POWERED_ON",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1782",
+            "name": "[dv.bulgakov] SubCA",
+            "power_state": "POWERED_ON",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-1783",
+            "name": "al.navoynikov-Kali_for_Huawei",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-1788",
+            "name": "[yo.bykhankov] smcfp",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1798",
+            "name": "[mn.matushkin]-PSB-Continent-3-9-ARBAT",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1799",
+            "name": "[mn.matushkin]-PSB-Continent3-9-COD",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1801",
+            "name": "[dkazmirchuk] Kali Att",
+            "power_state": "SUSPENDED",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1803",
+            "name": "[dkazmirchuk] Kali Linux",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-1805",
+            "name": "[ds.kottsov] - Centos with Skybox",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-1816",
+            "name": "[ds.kottsov] - Skybox.iso",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 5120,
+            "vm": "vm-1818",
+            "name": "[ds.kottsov] - Skybox Manager",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-1823",
+            "name": "[ds.kottsov] - Check Point for Skybox",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1824",
+            "name": "[dkazmirchuk] Kali Vic",
+            "power_state": "SUSPENDED",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-1869",
+            "name": "[ds.kottsov] - AD for Skybox",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-1876",
+            "name": "[yo.bykhankov] tufin",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-1922",
+            "name": "[ds.kottsov] - FortiGate test",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 1024,
+            "vm": "vm-1940",
+            "name": "[aa.turabaev] - APKSH_3_9_NCC_AS",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 32768,
+            "vm": "vm-1947",
+            "name": "[dkazmirchuk] Huntbox",
+            "power_state": "SUSPENDED",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 32768,
+            "vm": "vm-1949",
+            "name": "Skybox for trening",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1953",
+            "name": "PC for Skybox",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-1969",
+            "name": "[ds.kottsov] - Kali Linux",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-197",
+            "name": "[av.nedorezov] FortiMail1_10.31.40.12",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 20480,
+            "vm": "vm-1980",
+            "name": "[es.markov] GardaBD",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 12
+        },
+        {
+            "memory_size_MiB": 1024,
+            "vm": "vm-1988",
+            "name": "[aa.turabaev] - APKSH_3_9_FW",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2004",
+            "name": "marusov_BIGIP-15.0.1-0.0.11-vmware",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 1024,
+            "vm": "vm-2018",
+            "name": "[yo.bykhankov] kontinent-tls",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 32768,
+            "vm": "vm-2020",
+            "name": "aa.bobrikov_FMC-6.5",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 32768,
+            "vm": "vm-2041",
+            "name": "demo_sec_Skybox_10.31.37.41",
+            "power_state": "POWERED_ON",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2042",
+            "name": "aa.bobrikov_FTD_6.5",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-2043",
+            "name": "[es.markov] rhel6",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-2045",
+            "name": "[es.markov] rgel7",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2061",
+            "name": "[va.karpov] nsvpx-test1",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2069",
+            "name": "[ia.klimin] - FMC_6.3.0",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-2070",
+            "name": "sapunov-RHEL-7.4v3",
+            "power_state": "POWERED_ON",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-2071",
+            "name": "[ds.kottsov] - FortiGate_Test_2",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 12288,
+            "vm": "vm-2083",
+            "name": "[la.baulina] - SNS_Server",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2084",
+            "name": "[la.baulina] - DC",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2087",
+            "name": "[la.baulina] - Client",
+            "power_state": "POWERED_ON",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2089",
+            "name": "[Rogovoy]VTB_Test_Host",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 5632,
+            "vm": "vm-2091",
+            "name": "[ds.kottsov] - Palo_Alto_for_SkyBox",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2097",
+            "name": "vtok_win10",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 32768,
+            "vm": "vm-2098",
+            "name": "abogdanov_SDLP",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2100",
+            "name": "shoroh_DARS-AD1 (34.186)",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 32768,
+            "vm": "vm-2101",
+            "name": "[abogdanov] DOZOR6",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2103",
+            "name": "FortiAnalyzer-VM",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2104",
+            "name": "iv.smirnov_KSC",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-2107",
+            "name": "[aa.bobrikov] Cisco Wireless Lan Controller",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2108",
+            "name": "[abogdanov] Usergate UTM",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 12288,
+            "vm": "vm-2113",
+            "name": "shoroh_SMAP_5.0.2_ORACLE",
+            "power_state": "SUSPENDED",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2114",
+            "name": "[dkazmirchuk] FSSO Agent 10.31.34.136",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2117",
+            "name": "[dkazmirchuk] SMS 10.31.44.120",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 3072,
+            "vm": "vm-2118",
+            "name": "[abogdanov] ARM",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2119",
+            "name": "[abogdanov] DM",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-2120",
+            "name": "[abogdanov] TM",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 6
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2121",
+            "name": "[abogdanov] EPV2",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2122",
+            "name": "[abogdanov] EPV1",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2123",
+            "name": "aa.rogovoy_Kali_Linux_1",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 15568,
+            "vm": "vm-2125",
+            "name": "[zaytseva] Ubuntu 16.04 Unibank",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2127",
+            "name": "aa.bobrikov_WinXP",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2128",
+            "name": "aa.rogovoy_Test_Host_Win_CP_VTB_mgmt",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2129",
+            "name": "[abogdanov] ProxySG Model SWG",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 24576,
+            "vm": "vm-2130",
+            "name": "skybox500_10.31.41.138",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 6
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2131",
+            "name": "AD_bobrikov",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2134",
+            "name": "[abogdanov] CRM+PVWA",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-2138",
+            "name": "[ve.chaplygin] - HashiCorp-Vault-RHEL7",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2139",
+            "name": "pagolovistikov_kafka",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-214",
+            "name": "[sapunov] test-plan-opzs_new",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 1024,
+            "vm": "vm-215",
+            "name": "[ae.konopak] OWASP",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2150",
+            "name": "shoroh_Win10 Acrobat Pro и Finereader",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 32768,
+            "vm": "vm-2151",
+            "name": "shoroh_Dozor7 (34.185)",
+            "power_state": "POWERED_ON",
+            "cpu_count": 12
+        },
+        {
+            "memory_size_MiB": 12288,
+            "vm": "vm-2164",
+            "name": "marusov_Exchange2016",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2174",
+            "name": "[abogdanov] AD-Cyber",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-2177",
+            "name": "aa.bobrikov_ISE_2.7",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 32768,
+            "vm": "vm-2179",
+            "name": "[ia.klimin] - FMC_6.5",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2180",
+            "name": "pagolovistikov_resilientIS",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2187",
+            "name": "[ia.klimin] - FTD_6.5.0",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 9216,
+            "vm": "vm-2194",
+            "name": "marusov_PA-VM",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2195",
+            "name": "[es.shmatova] SIManager1",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2203",
+            "name": "sapunov_test_vm",
+            "power_state": "POWERED_ON",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2206",
+            "name": "[pa.glushkov]WinServer2012",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 1024,
+            "vm": "vm-2211",
+            "name": "[pa.glushkov]FortiGate-01",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2213",
+            "name": "[pa.glushkov] - FortiGate-01",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-2214",
+            "name": "[pa.glushkov] - FortiGate-02",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2215",
+            "name": "[pa.glushkov] - Ubuntu",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2217",
+            "name": "[pa.glushkov] - FortiSandbox",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2220",
+            "name": "[es.markov] McAffe WG",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 65536,
+            "vm": "vm-2226",
+            "name": "[es.markov] KPSN",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2228",
+            "name": "[pa.glushkov] - FortiManager",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2230",
+            "name": "[aa.patsyuk]ksmg",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2231",
+            "name": "[aa.patsyuk]ksmg1_10.31.41.133",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-2232",
+            "name": "[sp.bastrykin]Debian-GEOIP-MQ",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-2233",
+            "name": "[sp.bastrykin]Debian-GEOIP-DB",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-2234",
+            "name": "[sp.bastrykin]Debian-GEOIP-Main",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2237",
+            "name": "[va.karpov] Test_DC_Win2k16",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 1024,
+            "vm": "vm-2238",
+            "name": "[pa.glushkov] - FortiGate-03",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2245",
+            "name": "[ma.skomorokhov] - MFlash_WEB",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2249",
+            "name": "[es.shmatova] SIManager02",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2250",
+            "name": "[es.shmatova] Collector01",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2251",
+            "name": "[es.shmatova] Collector02",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2253",
+            "name": "[pa.glushkov] - BIGIP",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2254",
+            "name": "[ds.kudryashov] SLES 15",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-2267",
+            "name": "[dp.borisov] - FortiPoC 1.5.37",
+            "power_state": "POWERED_ON",
+            "cpu_count": 6
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2272",
+            "name": "[pa.glushkov] - FortiAnalyzer",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2286",
+            "name": "[ea.stepanov] MFlash_web_10.31.41.175",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-2287",
+            "name": "[ea.stepanov] Mflash_Data_10.31.41.176",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2290",
+            "name": "[dv.dushenok] - win10_host1",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2291",
+            "name": "[as.shabaeva] fudo-1",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2292",
+            "name": "[as.shabaeva] fudo-2",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2293",
+            "name": "[dv.dushenok] - FortiGate-VM64_FW1",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2294",
+            "name": "[dv.dushenok] - FortiGate-VM64_FW2",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2295",
+            "name": "[abogdanov] PSM",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 12288,
+            "vm": "vm-2297",
+            "name": "aa.bobrikov_Prime",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2298",
+            "name": "FortiManager_for_Test",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 1024,
+            "vm": "vm-2299",
+            "name": "[KOSTIN] FortiGate-VM64n01",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 16276,
+            "vm": "vm-2303",
+            "name": "[dkazmirchuk] TrapX.TSOC 10.31.45.123",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2306",
+            "name": "[ds.kottsov]FortiAnalyzer-VM64",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2307",
+            "name": "[ds.kottsov] - FortiAnalyzer-VM64",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2308",
+            "name": "[dv.dushenok] - FortiManager-VM64",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2309",
+            "name": "[dv.dushenok] - FortiAnalyzer-VM64",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2310",
+            "name": "[dv.dushenok] - DC01_Win2019",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2321",
+            "name": "Panorama-ESX-9.0.1",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2329",
+            "name": "[aa.turabaev] - sterra_kp_base",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-2331",
+            "name": "[pa.glushkov] Fortimail-vm",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2333",
+            "name": "sterra_kp_05_Перенесено на ПАК",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2337",
+            "name": "sterra_kp_08_Перенесено на ПАК",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2338",
+            "name": "sterra_kp_10_Перенесено на ПАК",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2340",
+            "name": "sterra_kp_11_Перенесено на ПАК",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2341",
+            "name": "sterra_kp_12_Перенесено на ПАК",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2342",
+            "name": "sterra_kp_13_Перенесено на ПАК",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2343",
+            "name": "sterra_kp_18_Перенесено на ПАК",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2344",
+            "name": "sterra_kp_21_Перенесено на ПАК",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2345",
+            "name": "sterra_kp_26_Перенесено на ПАК",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2346",
+            "name": "sterra_kp_29-Перенесено на ПАК",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2348",
+            "name": "sterra_kp_33_Перенесено на ПАК",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2349",
+            "name": "sterra_kp_34_Перенесено на ПАК",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2350",
+            "name": "sterra_kp_35_Перенесено на ПАК",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2353",
+            "name": "sterra_kp_32_Перенесено на ПАК",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2356",
+            "name": "sterra_kp_36_Перенесено на ПАК",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2357",
+            "name": "sterra_kp_40_Перенесено на ПАК",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2358",
+            "name": "sterra_kp_43_Перенесено на ПАК",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2359",
+            "name": "sterra_kp_44_Перенесено на ПАК",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2360",
+            "name": "sterra_kp_45_Перенесено на ПАК",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2362",
+            "name": "sterra_kp_46_Перенесено на ПАК",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2367",
+            "name": "sterra_kp_47_Перенесено на ПАК",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2368",
+            "name": "sterra_kp_48_old",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2369",
+            "name": "sterra_kp_50_old",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2370",
+            "name": "sterra_kp_52_Перенесено на ПАК",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2371",
+            "name": "sterra_kp_56_Перенесено на ПАК",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2372",
+            "name": "sterra_kp_57_Перенесено на ПАК",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2373",
+            "name": "sterra_kp_59_Перенесено на ПАК",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2374",
+            "name": "sterra_kp_61_Перенесено на ПАК",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2376",
+            "name": "sterra_kp_62_Перенесено на ПАК",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2377",
+            "name": "sterra_kp_67_Перенесено на ПАК",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2379",
+            "name": "sterra_kp_68_Перенесено на ПАК",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2380",
+            "name": "sterra_kp_69_Перенесено на ПАК",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2382",
+            "name": "sterra_kp_71_Перенесено на ПАК",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2383",
+            "name": "sterra_kp_72_Перенесено на ПАК",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2384",
+            "name": "sterra_kp_74_Перенесено на ПАК",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2385",
+            "name": "sterra_kp_73_Перенесено на ПАК",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2386",
+            "name": "sterra_kp_76_Перенесено на ПАК",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2387",
+            "name": "sterra_kp_01_Перенесено на ПАК",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2388",
+            "name": "sterra_kp_06_Перенесено на ПАК",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2392",
+            "name": "sterra_kp_63_Перенесено на ПАК",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2395",
+            "name": "sterra_kp_48_Перенесено на ПАК",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2396",
+            "name": "sterra_kp_50_Перенесено на ПАК",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2401",
+            "name": "Alladin",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2404",
+            "name": "[dkazmirchuk] X.Windows Client",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2405",
+            "name": "[dkazmirchuk] X.Server",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2407",
+            "name": "[dkazmirchuk] X.Honeypot",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-2447",
+            "name": "[dkazmirchuk] Fidelis.Decoy.Server 45.125",
+            "power_state": "SUSPENDED",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 24576,
+            "vm": "vm-2450",
+            "name": "[ds.kudryashov] PangeoRadar",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 12
+        },
+        {
+            "memory_size_MiB": 24576,
+            "vm": "vm-2484",
+            "name": "[dkazmirchuk] Fidelis.CP 45.124",
+            "power_state": "SUSPENDED",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2485",
+            "name": "[sy.bortnikov] XelMServ",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2486",
+            "name": "[sy.bortnikov] XekDServ",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 12288,
+            "vm": "vm-2487",
+            "name": "[la.baulina] - KSC",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-2501",
+            "name": "[dkazmirchuk] Fidelis.Internal.Sensor",
+            "power_state": "SUSPENDED",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2502",
+            "name": "[es.lyapustin] SNS",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2503",
+            "name": "[es.lyapustin] ksc",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2505",
+            "name": "[sy.bortnikov] XelHost1",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 24576,
+            "vm": "vm-2506",
+            "name": "[as.kuznetsov] IWTM 6.11 Vision",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2509",
+            "name": "[ak.elizarov] - ARM_modbus",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2511",
+            "name": "[sy.bortnikov] XelMServ2",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2512",
+            "name": "[dkazmirchuk] EnCase SAFE 45.126",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 65536,
+            "vm": "vm-2513",
+            "name": "[dkazmirchuk] EnCase Endpoint Security 45.127",
+            "power_state": "POWERED_ON",
+            "cpu_count": 16
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2517",
+            "name": "aa.bobrikov_ISE_2.6",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2518",
+            "name": "[sy.bortnikov] XelHost2",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2519",
+            "name": "[sy.bortnikov] XelHost3",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2520",
+            "name": "[sy.bortnikov] XelHost4",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2521",
+            "name": "[sy.bortnikov] XelHost5",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2582",
+            "name": "[es.lyapustin]CentOS 7",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2584",
+            "name": "[es.lyapustin] CentOS 7",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2585",
+            "name": "sterra_kp_38_Перенесено на ПАК",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2586",
+            "name": "sterra_kp_24-Перенесено на ПАК",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2587",
+            "name": "sterra_kp_02_Перенесено на ПАК",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2588",
+            "name": "sterra_kp_55_Перенесено на ПАК",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2589",
+            "name": "sterra_kp_22_Перенесено на ПАК",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2590",
+            "name": "sterra_kp_66_Перенесено на ПАК",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2591",
+            "name": "sterra_kp_14_Перенесено на ПАК",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2592",
+            "name": "sterra_kp_54_Перенесено на ПАК",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2593",
+            "name": "sterra_kp_42_Перенесено на ПАК",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2594",
+            "name": "sterra_kp_64_Перенесено на ПАК",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2595",
+            "name": "[ds.kudryashov] zabbix",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2614",
+            "name": "[ae.konopak] new ViPNet admin",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-2622",
+            "name": "[as.ivashneva] Qradar_all",
+            "power_state": "POWERED_ON",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-2625",
+            "name": "[dkazmirchuk] EnCase Client 45.128",
+            "power_state": "POWERED_ON",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-2626",
+            "name": "[pa.glushkov] - FortiAuthenticator-1",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2627",
+            "name": "[as.ivashneva] FortiSIEM-Collector",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2634",
+            "name": "[as.ivashneva] NFS-Storage",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2639",
+            "name": "[dkazmirchuk] EnCase User 46.123",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2642",
+            "name": "asmolov_F5",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 12288,
+            "vm": "vm-2646",
+            "name": "[as.ivashneva] FortiSIEM-Worker",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 6
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2656",
+            "name": "[pa.yankov] VipNet CA",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2657",
+            "name": "[pa.yankov] VipNet HSM",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2662",
+            "name": "vi.shekemov_AD",
+            "power_state": "POWERED_ON",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2672",
+            "name": "[ks.kuznetsov] R-Vision",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 10812,
+            "vm": "vm-2677",
+            "name": "vi.shekemov_esxi",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 24576,
+            "vm": "vm-2678",
+            "name": "ambari-mnt-001",
+            "power_state": "POWERED_ON",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-2680",
+            "name": "hdp-dnt-002",
+            "power_state": "POWERED_ON",
+            "cpu_count": 6
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-2681",
+            "name": "hdp-dnt-003",
+            "power_state": "POWERED_ON",
+            "cpu_count": 6
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2682",
+            "name": "[azhuk] SmartLogger",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-2685",
+            "name": "hdp-dnt-001",
+            "power_state": "POWERED_ON",
+            "cpu_count": 6
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2689",
+            "name": "[as.ditenkova] Consul",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 32768,
+            "vm": "vm-2691",
+            "name": "[dv.dushenok] Netsight_64bit.8.4.2.38-Medium",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 16
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2699",
+            "name": "[as.ditenkova] HashiCorp Vault",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2700",
+            "name": "[es.lyapustin] win8.1",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2716",
+            "name": "[es.markov] AD",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2717",
+            "name": "[es.markov] KSC",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2718",
+            "name": "[es.markov] AV-test",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2719",
+            "name": "[dv.bulgakov] win7-moesk-admin",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 40960,
+            "vm": "vm-2726",
+            "name": "[as.ivashneva] MP-All-in-One",
+            "power_state": "POWERED_ON",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2728",
+            "name": "[dv.dushenok] - DC02_Win2019",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 1024,
+            "vm": "vm-2732",
+            "name": "[ds.kottsov] - FortiGate_for_Achim",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-2733",
+            "name": "[ys.lisovol] -PTAF3.7.3",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2734",
+            "name": "[as.ditenkova] workstation",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-2736",
+            "name": "[dv.dushenok] - nac_appliance_64bit.8.4.3.24-Medium",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 16
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2737",
+            "name": "[dp.borisov] - wd10-internal",
+            "power_state": "POWERED_ON",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-2738",
+            "name": "[dv.dushenok] - CentOS6.5",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2740",
+            "name": "[aa.patsyuk]Cronus_2.8.1_10.31.41.132",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2741",
+            "name": "ad.server.hdp",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2747",
+            "name": "[pa.yankov] w10 vipnet",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 32768,
+            "vm": "vm-2751",
+            "name": "[es.markov] KATA 3.7",
+            "power_state": "POWERED_ON",
+            "cpu_count": 16
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2757",
+            "name": "vi.shekemov_ad2008",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-2766",
+            "name": "[as.ivashneva] Qradar_HA",
+            "power_state": "POWERED_ON",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2768",
+            "name": "[va.starostina]_BIGIP-13.1.3.3-0.0.6_10.31.42.131",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 128,
+            "vm": "vm-2770",
+            "name": "[dv.dushenok] - MikroTik_CHR_release_6.45.9",
+            "power_state": "POWERED_ON",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 1024,
+            "vm": "vm-2773",
+            "name": "[ys.lisovol] - OWASP_Broken_Web_Apps_VM_1.2",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2777",
+            "name": "[dkazmirchuk] XP",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2780",
+            "name": "[dkazmirchuk] 2008 Server 10.31.44.121",
+            "power_state": "POWERED_ON",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2785",
+            "name": "[dkazmirchuk] 2008 Server-2 10.31.44.122",
+            "power_state": "POWERED_ON",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2786",
+            "name": "sterra_kp_51_Перенесено на ПАК",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2787",
+            "name": "[sp.bastrykin] NKCKI",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-2788",
+            "name": "vi.shekemov_astra-instal",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2792",
+            "name": "[dv.bulgakov] IndeedAM-main+SAML",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2796",
+            "name": "pagolovistikov_resilient2",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2798",
+            "name": "[dv.bulgakov] IndeedAM-selfservice",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2799",
+            "name": "[dv.bulgakov] IndeedAM-RDP-Server",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2803",
+            "name": "[ds.kudryashov] pt ucs 9.4_res",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2808",
+            "name": "[va.starostina]_BIGIP-13.1.3.3-0.0.6_10.31.42.131clone3",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2811",
+            "name": "[va.starostina]_BIGIP-13.1.3.3-0.0.6_10.31.42.132 NODE 2",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2812",
+            "name": "[dp.borisov] - br-fg-1",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2813",
+            "name": "[dp.borisov] - hq-fmg",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2814",
+            "name": "[dp.borisov] - winserv2016",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-2824",
+            "name": "[sp.bastrykin] NKCKI s-terra",
+            "power_state": "POWERED_ON",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 1024,
+            "vm": "vm-2825",
+            "name": "[sp.bastrykin] NKCKI - kontinent",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2831",
+            "name": "[dv.bulgakov] IndeedAM-log_server",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-2832",
+            "name": "[as.ivashneva] r-vision",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-2833",
+            "name": "marusov_fortimail-v62-build0263",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2834",
+            "name": "marusov_fortiweb-vm-6.3.0",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2835",
+            "name": "[pa.glushkov] - CSR1000v",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2839",
+            "name": "consul.n1",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2840",
+            "name": "vault.n1",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-2847",
+            "name": "[se.nozhenko] Cortex XSOAR",
+            "power_state": "POWERED_ON",
+            "cpu_count": 12
+        },
+        {
+            "memory_size_MiB": 10240,
+            "vm": "vm-2849",
+            "name": "[as.ivashneva] win",
+            "power_state": "POWERED_ON",
+            "cpu_count": 6
+        },
+        {
+            "memory_size_MiB": 10240,
+            "vm": "vm-2850",
+            "name": "[as.ivashneva] exch",
+            "power_state": "POWERED_ON",
+            "cpu_count": 6
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2853",
+            "name": "[as.ivashneva] win10",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2855",
+            "name": "[ds.kudryashov] arcsight connectors new",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2858",
+            "name": "[ae.konopak] Win10",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "vm": "vm-286",
+            "name": "[test] New Virtual MachineX",
+            "power_state": "POWERED_OFF"
+        },
+        {
+            "memory_size_MiB": 24064,
+            "vm": "vm-2867",
+            "name": "[as.ivashneva] Archer",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-2875",
+            "name": "[dv.dushenok] - CheckPoint_MGMT1",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2877",
+            "name": "[pa.yankov] Cpro-CS",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2878",
+            "name": "[pa.yankov] Cpro-CR",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2879",
+            "name": "[as.shabaeva] SafeInspect M1",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2881",
+            "name": "[pa.glushkov] - Win2008",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 1024,
+            "vm": "vm-2882",
+            "name": "[pa.glushkov] - ASAv",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-2888",
+            "name": "[pa.glushkov] - ISE",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2889",
+            "name": "[pa.glushkov] - Win10Domain",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2890",
+            "name": "[pa.glushkov] - WSA",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2892",
+            "name": "[dkazmirchuk] CentOS7",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 10240,
+            "vm": "vm-2893",
+            "name": "[se.nozhenko] TS_Win10",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2897",
+            "name": "pagolovistikovws19",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 1024,
+            "vm": "vm-2899",
+            "name": "[yo.bykhankov] linux_universal",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2902",
+            "name": "[ts.mutovkina]indeed_mgmt",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 12288,
+            "vm": "vm-2903",
+            "name": "[ts.mutovkina]indeed_access",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 12
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2906",
+            "name": "[ts.mutovkina]indeed_storage",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2907",
+            "name": "[ts.mutovkina]indeed_arm",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2912",
+            "name": "[va.starostina]_BIGIP-13.1.3.3-0.0.6_10.31.42.131",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2914",
+            "name": "[yo.bykhankov] win10",
+            "power_state": "POWERED_ON",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 12288,
+            "vm": "vm-2920",
+            "name": "[ae.konopak] Win2016_MaxPatrol",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 1024,
+            "vm": "vm-2924",
+            "name": "[dv.dushenok] - CHKP_Log",
+            "power_state": "POWERED_ON",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2926",
+            "name": "[yo.bykhankov] EFROS_SERVER",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2928",
+            "name": "[yo.bykhankov] EFROS_DB",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 512,
+            "vm": "vm-2931",
+            "name": "[yo.bykhankov] sterra1",
+            "power_state": "POWERED_ON",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 512,
+            "vm": "vm-2932",
+            "name": "[yo.bykhankov] sterra2",
+            "power_state": "POWERED_ON",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2934",
+            "name": "[aa.patsyuk]ksmg2_",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2937",
+            "name": "[ds.kudryashov] Rapid7VA",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-2939",
+            "name": "[ds.kudryashov] arcmc",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2942",
+            "name": "da.shley_DC",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 12288,
+            "vm": "vm-2943",
+            "name": "[dv.dushenok] - Extreme-nac-Small",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-2944",
+            "name": "[dv.dushenok] - XMC-temp",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2946",
+            "name": "[vv.kutueva] - kics4node",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2947",
+            "name": "[vv.kutueva] -ksc",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2949",
+            "name": "[aa.patsyuk]_Fortify_win10_10.31.41.135",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 384,
+            "vm": "vm-295",
+            "name": "[es.shmatova] W",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2951",
+            "name": "[aa.patsyuk]_!Fortify_win10_10.31.41.135",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2954",
+            "name": "[as.ditenkova] CentOS_Images",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 65536,
+            "vm": "vm-2955",
+            "name": "[aa.patsyuk]_Fortify_10.31.41.135_win",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 18432,
+            "vm": "vm-2956",
+            "name": "[ai.serov] Hadoop-datanode1",
+            "power_state": "POWERED_ON",
+            "cpu_count": 6
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-2957",
+            "name": "[ai.serov] Guardium_col_11",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 512,
+            "vm": "vm-2959",
+            "name": "[se.nozhenko] Redmine-15.2",
+            "power_state": "POWERED_ON",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2960",
+            "name": "[yo.bykhankov] EFROS_COLLECTOR",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2962",
+            "name": "[pa.yankov] Cpro-Services",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 24576,
+            "vm": "vm-2965",
+            "name": "[ai.serov] Hadoop-Ambari",
+            "power_state": "POWERED_ON",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 1024,
+            "vm": "vm-2966",
+            "name": "[ys.lisovol] - cont_cus_3,9",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2968",
+            "name": "[pa.yankov] One-ID-SPS",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2971",
+            "name": "[ys.lisovol] - WinServer2016",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2974",
+            "name": "[ts.mutovkina]arm-nix",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-2975",
+            "name": "[dp.borisov] - Arbor-APS-6.4.1",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-2976",
+            "name": "[se.nozhenko] WinSrv2016",
+            "power_state": "POWERED_ON",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2979",
+            "name": "[pa.yankov] SAS-b",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2984",
+            "name": "[yo.bykhankov] skybox11",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-2985",
+            "name": "MaxPatrol 8",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 1024,
+            "vm": "vm-2987",
+            "name": "[yo.bykhankov] SMC_FP_638_linux",
+            "power_state": "POWERED_ON",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-2988",
+            "name": "[ts.mutovkina]indeed_mgmt2",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-300",
+            "name": "marusov_F5 SSLO + APM 13.1",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-302",
+            "name": "[dkazmirchuk] FortiGate-VM64 10.31.44.120",
+            "power_state": "SUSPENDED",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-3023",
+            "name": "[as.kuznetsov] IWTM6.10_exam",
+            "power_state": "POWERED_ON",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-303",
+            "name": "[dkazmirchuk] FortiSandbox-VM 10.31.44.129",
+            "power_state": "POWERED_ON",
+            "cpu_count": 16
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-3032",
+            "name": "[ys.lisovol] - vn-hw-1000-2",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-3033",
+            "name": "[ys.lisovol] - vn-hw-1000-1",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 32768,
+            "vm": "vm-3035",
+            "name": "[as.kuznetsov] Garda",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 10
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-3037",
+            "name": "[dkazmirchuk] Illusive Management 45.124",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-3038",
+            "name": "[dkazmirchuk] Illusive Trap Server 45.125, 46.129",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-304",
+            "name": "[dkazmirchuk] Win7 Manager 10.31.44.126",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-3042",
+            "name": "[so.reznikov] Mflash 6 Win 2016",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-3044",
+            "name": "[dv.dushenok] - Zabbix5",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-3045",
+            "name": "[ts.mutovkina]haproxy",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 12288,
+            "vm": "vm-3046",
+            "name": "demo_MAIL01",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-305",
+            "name": "[dkazmirchuk] FortiAnalyzer-VM64 10.31.44.127",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-3050",
+            "name": "[pa.glushkov] - OpenOTP",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-3075",
+            "name": "[ia.klimin] - win7(x64)",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-3077",
+            "name": "[shoroh] Avkw6.3.0-ng20_Standalone_(33.35)",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-3090",
+            "name": "[aa.rogovoy]CP_SMS_80",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-3093",
+            "name": "[aa.rogovoy]CP_SG_1",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-3094",
+            "name": "kubeadm-mng",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-3095",
+            "name": "kubeadm-node1",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-3096",
+            "name": "kubeadm-node2",
+            "power_state": "POWERED_ON",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-3098",
+            "name": "[ys.lisovol] - ksh2",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-3099",
+            "name": "[ys.lisovol] - ksh1",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-3100",
+            "name": "[dv.bulgakov] SKDPU-NT-v158",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 1024,
+            "vm": "vm-3101",
+            "name": "[dv.bulgakov] skdpu504_cert",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 12288,
+            "vm": "vm-3104",
+            "name": "[so.reznikov] InfoWatch db CentOS PostgreSQL",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-3105",
+            "name": "[so.reznikov] InfoWatch Node CentOS",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-3106",
+            "name": "[ia.kudryavtsev] -win10pclab",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-311",
+            "name": "[so.reznikov] staffcop4_3",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-3111",
+            "name": "[ia.kudryavtsev] -cp77.30l1",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-3115",
+            "name": "[dp.borisov] - hq-fgt",
+            "power_state": "POWERED_ON",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-3116",
+            "name": "[dv.bulgakov] Ubuntu",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-3118",
+            "name": "[ys.lisovol] - wintest",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-312",
+            "name": "[so.reznikov] StaffCop agent",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-3121",
+            "name": "[ia.kudryavtsev] -cp7730l2",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-3122",
+            "name": "[ia.kudryavtsev] -cp77.30l3",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-3124",
+            "name": "[vv.kutueva] - ePO",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-3127",
+            "name": "[dv.bulgakov] HyTrust-KeyControl-5.1.2",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-3128",
+            "name": "[dv.dushenok] - CheckPoint_GW4_77.30",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-3130",
+            "name": "[aa.patsyuk]Checkmarx_10.31.41.131",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-3132",
+            "name": "[aa.patsyuk]_",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "vm": "vm-3141",
+            "name": "%2fvmfs%2fvolumes%2f5b350a74-f0f9a6d8-e54b-501d939e20a8%2f[ds.kottsov] - for Col",
+            "power_state": "POWERED_OFF"
+        },
+        {
+            "memory_size_MiB": 9216,
+            "vm": "vm-3149",
+            "name": "marusov_PA-VM-ESX-10.0.0",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 12288,
+            "vm": "vm-3150",
+            "name": "marusov_ptaf_3.7.3_node1",
+            "power_state": "POWERED_ON",
+            "cpu_count": 6
+        },
+        {
+            "memory_size_MiB": 12288,
+            "vm": "vm-3151",
+            "name": "marusov_PTAF_3.7.3_cluster",
+            "power_state": "POWERED_ON",
+            "cpu_count": 6
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-3152",
+            "name": "_prod_ASAv",
+            "power_state": "POWERED_ON",
+            "cpu_count": 3
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-3153",
+            "name": "HP_IBM_Configurator",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 18432,
+            "vm": "vm-3154",
+            "name": "[ai.serov] Hadoop-datanode2",
+            "power_state": "POWERED_ON",
+            "cpu_count": 6
+        },
+        {
+            "memory_size_MiB": 18432,
+            "vm": "vm-3155",
+            "name": "[ai.serov] Hadoop-datanode3",
+            "power_state": "POWERED_ON",
+            "cpu_count": 6
+        },
+        {
+            "memory_size_MiB": 256,
+            "vm": "vm-3156",
+            "name": "Console RS232",
+            "power_state": "POWERED_ON",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-3181",
+            "name": "demo_Srv_DC02",
+            "power_state": "POWERED_ON",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-3186",
+            "name": "[KOSTIN] isim_netview_2_3",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-3189",
+            "name": "marusov_nios-8.4.4-386831-2019-08-02-03-45-48-ddi",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-3191",
+            "name": "[Marusov] TMG_2010",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-3192",
+            "name": "[marusov] TMDS",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-3193",
+            "name": "[marusov] MWG2",
+            "power_state": "SUSPENDED",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-3194",
+            "name": "[marusov] CHP_77.10_cert",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-3195",
+            "name": "[ds.kottsov] - AD_rt.ru",
+            "power_state": "POWERED_ON",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-3196",
+            "name": "[marusov] Cisco ESA",
+            "power_state": "SUSPENDED",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-3197",
+            "name": "[marusov] Cisco WSA",
+            "power_state": "SUSPENDED",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 32768,
+            "vm": "vm-3198",
+            "name": "[marusov] ESXi6.5 TEMPLATE",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 16
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-3199",
+            "name": "[Marusov] GoodDynamics",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-3206",
+            "name": "[ds.kottsov] - AD_for_gd.rt.ru",
+            "power_state": "POWERED_ON",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-3208",
+            "name": "[yo.bykhankov] pfsense",
+            "power_state": "POWERED_ON",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 1024,
+            "vm": "vm-3209",
+            "name": "[pa.glushkov] - FortiAuthenticator54",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-3210",
+            "name": "[ds.kudryashov] arcsight-logger7",
+            "power_state": "POWERED_ON",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-3211",
+            "name": "[ds.kottsov] - AD_for_ks.rt.ru",
+            "power_state": "POWERED_ON",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-3214",
+            "name": "[dv.bulgakov] NTP-Server",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-3216",
+            "name": "da.shley_admin_vipnet",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-3219",
+            "name": "[yo.bykhankov]_BIGIP-13.1.3.3-0.0.6",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-3222",
+            "name": "[ds.kottsov] - test_for_gd",
+            "power_state": "POWERED_ON",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-3223",
+            "name": "[ds.kottsov] - test_for_ks",
+            "power_state": "POWERED_ON",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-3226",
+            "name": "[dv.dushenok] - CheckPoint_GW1_77.30",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-3227",
+            "name": "[dv.dushenok] - CheckPoint_GW2_77.30",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-3228",
+            "name": "[ia.kudryavtsev] -win10lab3",
+            "power_state": "POWERED_ON",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-3229",
+            "name": "gluster.n1",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-3230",
+            "name": "[aa.aptsyuk]Win10_kedr_10.",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 10240,
+            "vm": "vm-3234",
+            "name": "[so.reznikov] Exchange 2016 Win srv 2012r2",
+            "power_state": "POWERED_ON",
+            "cpu_count": 6
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-3235",
+            "name": "[so.reznikov] KSC 10 win 10",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-3236",
+            "name": "[so.reznikov] SNS+KES win 10",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-3237",
+            "name": "[so.reznikov] Skype4B win srv 2016",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-3238",
+            "name": "[so.reznikov] unified-access-gateway-3.6.0.0",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-3239",
+            "name": "[yo.bykhankov] AD",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-3240",
+            "name": "[dv.bulgakov] ZPTI-win10",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-3241",
+            "name": "[ys.lisovol] - WinSer2016-VN",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-3242",
+            "name": "[KOSTIN] isim_TGK1",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-3243",
+            "name": "ad.hdp.lc",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-3245",
+            "name": "[so.reznikov] UAG 3.10 for Cloud",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-3246",
+            "name": "[ds.kudryashov] CentOS 4.7",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 32768,
+            "vm": "vm-3248",
+            "name": "pagolovistikov_qradar",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-3256",
+            "name": "[as.kuznetsov] IWDM6.10_exam",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 1024,
+            "vm": "vm-3257",
+            "name": "[an.zhukov] - FortiGate-6.2.5",
+            "power_state": "POWERED_ON",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-3258",
+            "name": "[an.zhukov] - FortiAnalyzer-6.2.5",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-3259",
+            "name": "[an.zhukov] - FortiManager-6.2.5",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-3264",
+            "name": "[ts.mutovkina] serv_sn",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-3267",
+            "name": "[ts.mutovkina] serv_ad",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-3284",
+            "name": "[dv.bulgakov] IndeedCM-test-server",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-3285",
+            "name": "[vv.kutueva] - ePO1",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-3286",
+            "name": "[as.ivashneva] FortiSIEM-Supervisor",
+            "power_state": "POWERED_ON",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-3290",
+            "name": "[fa.litvyakov] - winserv2008-base",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-3291",
+            "name": "da.shley_Rapid7",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-3293",
+            "name": "[yo.bykhankov] IVA_VKS",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-3294",
+            "name": "[yo.bykhankov] win10_iva_client",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-3295",
+            "name": "[vv.kutueva] - McAfee Endpoint Security",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-3296",
+            "name": "[as.ivashneva] Anomali-Threatstream",
+            "power_state": "POWERED_ON",
+            "cpu_count": 10
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-3297",
+            "name": "[dkazmirchuk] TrapX Appliance 10.31.45.122",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 32768,
+            "vm": "vm-3299",
+            "name": "[as.ivashneva] Anomali-Match",
+            "power_state": "POWERED_ON",
+            "cpu_count": 16
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-3300",
+            "name": "[as.ivashneva] Anomali-Integrator",
+            "power_state": "POWERED_ON",
+            "cpu_count": 6
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-3301",
+            "name": "[fa.litvyakov] - windows7_vipnet_client_2",
+            "power_state": "POWERED_ON",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-3302",
+            "name": "[fa.litvyakov] - windows7_vipnet_client_3",
+            "power_state": "POWERED_ON",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-3304",
+            "name": "[fa.litvyakov] - hw_va_vipnet_2",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-3305",
+            "name": "[fa.litvyakov] - WinServ_vipnet_client_adm",
+            "power_state": "POWERED_ON",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-3307",
+            "name": "[an.zhukov] - CSM_Win2016",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-3312",
+            "name": "[fa.litvyakov] - hw_va_vipnet_1",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-3313",
+            "name": "[se.nozhenko] Ubuntu 18.04",
+            "power_state": "POWERED_ON",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-3317",
+            "name": "vi.shekemov_vpn",
+            "power_state": "POWERED_ON",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-3318",
+            "name": "[as.kuznetsov] Crosstech_DSS",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-3321",
+            "name": "[so.reznikov] Trend Micro DS Manager",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-3322",
+            "name": "vi,shekemov_serv1",
+            "power_state": "POWERED_ON",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-3323",
+            "name": "vi.shekemov_srv2",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-3324",
+            "name": "vi.shekemov_microserv",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-3325",
+            "name": "vi.shekemov_ARM2",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-3326",
+            "name": "vi.shekemov_ARM1",
+            "power_state": "POWERED_ON",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 512,
+            "vm": "vm-3327",
+            "name": "[ia.kudryavtsev] -sterra4.2lab",
+            "power_state": "POWERED_ON",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-3328",
+            "name": "[dv.bulgakov} JMS",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-3329",
+            "name": "[as.kuznetsov] Esxi-6.5",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-3330",
+            "name": "[dv.dushenok] - CheckPoint_MGMT2",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-3331",
+            "name": "[dv.dushenok] - CHKP_Log2",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-3333",
+            "name": "[an.zhukov]- Cisco_FMC-6.2.3",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-3337",
+            "name": "[an.zhukov] - CiscoFTD_6.5.0",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-3338",
+            "name": "[an.zhukov] - CiscoFMC_6.5.0",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-3341",
+            "name": "[ia.kudryavtsev] -cp77.30vsx",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-3342",
+            "name": "[dv.bulgakov] Win16_RADIUS",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 512,
+            "vm": "vm-3344",
+            "name": "[ia.kudryavtsev] -sterralab4.2n2",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-3346",
+            "name": "marusov_BIGIP-15.1.0.4-0.0.6-vmware",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-3349",
+            "name": "es.markov-la-svm",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 12288,
+            "vm": "vm-3350",
+            "name": "[as.ivashneva] Centos",
+            "power_state": "POWERED_ON",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-3352",
+            "name": "[so.reznikov] MobileIron Core",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 12288,
+            "vm": "vm-3353",
+            "name": "[so.reznikov] InfoWatch db CentOS PostgreSQL node2",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-3354",
+            "name": "vi.shekemov_astra 1.6",
+            "power_state": "POWERED_ON",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-3356",
+            "name": "[dv.dushenok] - CheckPoint_MGMT3",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-3357",
+            "name": "[so.reznikov] Mflash 7 CentOS Web",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-3361",
+            "name": "[dkazmirchuk] Illusive Decoy 10.31.45.231",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-3363",
+            "name": "[dkazmirchuk] Illusive Emulations 10.31.45.232-233",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-3368",
+            "name": "[so.reznikov] Mflash 7 Windows Data",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-3369",
+            "name": "[dp.borisov] - uralsib-fac",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-3374",
+            "name": "[ya.leonov] cortex-xsoar-test",
+            "power_state": "POWERED_ON",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-3376",
+            "name": "da.shley_vipnet_moesk",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-3377",
+            "name": "da.shley_HW-VA",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-3379",
+            "name": "[ya.leonov] nessus_test",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-3381",
+            "name": "[ys.lisovol] - cpr80.10-sms",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-3382",
+            "name": "[azhuk] JMS-1",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-3383",
+            "name": "[am.pankin] -TenableSC_Test",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-3384",
+            "name": "[ys.lisovol] - cpr80.10-sg",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-3385",
+            "name": "[av.izotov] vGate1",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-3386",
+            "name": "[av.izotov] vGate2",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-3387",
+            "name": "[azhuk] JMS-2",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-361",
+            "name": "[ae.konopak] CentOS+Skybox",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-369",
+            "name": "marusov_ESXi 6.5-1",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-395",
+            "name": "[dp.borisov] - ws2016-mail",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-396",
+            "name": "[dp.borisov] - ubusrv-18.04-nfs",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-423",
+            "name": "[shoroh] CentOS 6.9 46.186 CommuniGate",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 1024,
+            "vm": "vm-430",
+            "name": "asmolov_owasp_bwa",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-431",
+            "name": "marusov_ELK",
+            "power_state": "SUSPENDED",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-434",
+            "name": "asmolov__kali",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-441",
+            "name": "asmolov_fortigate_1",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-442",
+            "name": "asmolov_fortigate_2",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-472",
+            "name": "asmolov_win2012_r2",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-473",
+            "name": "asmolov_win7",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-496",
+            "name": "asmolov_win10",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 6144,
+            "vm": "vm-500",
+            "name": "New Virtual Machine",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-544",
+            "name": "VMware vCenter Server Appliance",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-548",
+            "name": "BIG-IP_VE_A",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 1024,
+            "vm": "vm-549",
+            "name": "vtok-ubu",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-555",
+            "name": "[sapunov] – Win2016-Archer",
+            "power_state": "POWERED_ON",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 1024,
+            "vm": "vm-591",
+            "name": "[asmolov] asav-esxi",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-595",
+            "name": "marusov_MineMeldviaProxy",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-596",
+            "name": "[dp.borisov] - hq-fsa",
+            "power_state": "POWERED_ON",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-604",
+            "name": "marusov_BIGIP-14.1.0-0.0.116-scsi-SSLO",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 49152,
+            "vm": "vm-607",
+            "name": "[ds.kudryashov] arcsight-esm-7",
+            "power_state": "POWERED_ON",
+            "cpu_count": 16
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-610",
+            "name": "[ds.kudryashov] arcsght-connectors",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 6
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-620",
+            "name": "[sapunov] - BIGIP-14.0.0.2-0.0.2-scsi",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-623",
+            "name": "[ae.asmolov] - FSA 10.31.45.122",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-624",
+            "name": "[ae.asmolov] - FML G 10.31.45.120",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-625",
+            "name": "[ae.asmolov] - FML S 10.31.34.121",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-658",
+            "name": "[iv.smirnov] ArcMC",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-707",
+            "name": "[so.reznikov] SearchInform win2012r2",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-714",
+            "name": "[ds.kudryashov] arcsight-logger",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-749",
+            "name": "[pa.yankov] RADIUS-2",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 32,
+            "vm": "vm-758",
+            "name": "%2fvmfs%2fvolumes%2fe8f15f2e-c0f7ea6a%2f123%2f123.vmx",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 32768,
+            "vm": "vm-770",
+            "name": "[aa.patsyuk]ISE-2.6.0.156_10.31.41.139",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 16
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-773",
+            "name": "[dkazmirchuk] CBR Offline",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-794",
+            "name": "[es.shmatova] Windows 7 - 1",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 2048,
+            "vm": "vm-795",
+            "name": "[so.reznikov] Searchinform Arm win 7x64",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-823",
+            "name": "sapunov-Ixia_BreakingPoint_Virtual_Blade_8.40.17_EA_ESXi_skipmanifest",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-824",
+            "name": "sapunov-Ixia_BreakingPoint_Virtual_Controller_8.40.17_EA_ESXi_skipmanifest",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 8
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-834",
+            "name": "VirtualBlade301",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 32
+        },
+        {
+            "memory_size_MiB": 16384,
+            "vm": "vm-849",
+            "name": "[dkazmirchuk] CBR Minion",
+            "power_state": "SUSPENDED",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-852",
+            "name": "[aa.patsyuk]zabbix3.4_10.31.41.136",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-863",
+            "name": "[dkazmirchuk] Windows Server DC 10.31.43.124",
+            "power_state": "POWERED_ON",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-866",
+            "name": "[mi.ragulin]_Win_10_Rus",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-871",
+            "name": "[dkazmirchuk] Windows 10 10.31.44.125",
+            "power_state": "POWERED_ON",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-877",
+            "name": "pagolovistikov_resilient",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-887",
+            "name": "Avkw5.1.2-ng3_n2_34.202",
+            "power_state": "POWERED_ON",
+            "cpu_count": 6
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-888",
+            "name": "Avkw5.1.2-ng3_n3_34.203",
+            "power_state": "POWERED_ON",
+            "cpu_count": 6
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-894",
+            "name": "Avkw5.1.2-ng3_n1_34.201",
+            "power_state": "POWERED_ON",
+            "cpu_count": 6
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-899",
+            "name": "Avkw5.1.2-ng3_n4_34.204",
+            "power_state": "POWERED_ON",
+            "cpu_count": 6
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-900",
+            "name": "Avkw5.1.2-ng3_n5_34.205",
+            "power_state": "POWERED_ON",
+            "cpu_count": 6
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-919",
+            "name": "[dkazmirchuk] RedHat",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-939",
+            "name": "[shoroh] SI Manager",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 4
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-943",
+            "name": "[shoroh] SI Collector1",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 4096,
+            "vm": "vm-951",
+            "name": "[shoroh] SI Collector2",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 3072,
+            "vm": "vm-954",
+            "name": "[es.shmatova] win2008",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        },
+        {
+            "memory_size_MiB": 2500,
+            "vm": "vm-957",
+            "name": "[es.shmatova] RedHat",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 1
+        },
+        {
+            "memory_size_MiB": 8192,
+            "vm": "vm-964",
+            "name": "[ia.morozov] - Zabbix_Clear_Inet",
+            "power_state": "POWERED_OFF",
+            "cpu_count": 2
+        }
+    ]
+}
