@@ -1,763 +1,763 @@
-Name#Status
-[as.shabaeva] CentOS 7#POWERED_OFF
-[pa.yankov] DC#POWERED_OFF
-[pa.yankov] RootCA#POWERED_OFF
-[pa.yankov] EnterpriseCA#POWERED_ON
-[pa.yankov] SQL#POWERED_OFF
-[pa.yankov] CDP#POWERED_ON
-[dkazmirchuk] Win2016+FSSO 10.31.46.120#POWERED_ON
-marusov_ksmg-1.1.2-12.x86_64#POWERED_OFF
-[aa.patsyuk]_wsa_coeus-10-5-1-296_10.31.41.134#POWERED_OFF
-demo_GDB#POWERED_OFF
-[es.lyapustin] ServGate2 10-31-46-48#POWERED_OFF
-[es.lyapustin] ServGate1 10-31-46-47%2f49#POWERED_OFF
-vtok-srv-2#POWERED_OFF
-[so.reznikov] Dozor#POWERED_ON
-demo_DC01#POWERED_ON
-demo_srv_DB01#POWERED_OFF
-[dkazmirchuk] FortiMail 10.31.45.120#POWERED_ON
-demo_SDKU_Server-02#POWERED_OFF
-demo_ModBus_Slave_02#POWERED_OFF
-[dkazmirchuk] FortiGate 10.31.43.125#POWERED_ON
-[av.nedorezov]-CP_MGMT-77.30#POWERED_OFF
-Fortigate-VM#POWERED_OFF
-AD1_RSA#POWERED_OFF
-AD2_RSA#POWERED_OFF
-[so.reznikov] DC 2008 R2#POWERED_ON
-RSA Authentication Manager_Pri#POWERED_OFF
-RSA Authentication Manager_Rep#POWERED_OFF
-[dkazmirchuk] [CP] GW 10.31.44.121#SUSPENDED
-[dkazmirchuk] Carbon Black Protection Server 10.31.42.136#POWERED_ON
-AD_2003 forest#POWERED_OFF
-MS CA1 2016#POWERED_OFF
-[es.shmatova] CPM%2fPVWA%2fPSM#POWERED_OFF
-[KOSTIN]_Win7_Tecon_ARM#POWERED_OFF
-vtok-internal-client#POWERED_OFF
-DC#POWERED_OFF
-demo_XSpider#POWERED_OFF
-[Gumerova]-FortiManager-VM#POWERED_OFF
-[ai.serov] TMDS console#POWERED_ON
-[askuznetsov] IWDM_IWPM#POWERED_ON
-pagolovistikov_arcsight#POWERED_OFF
-[as.shabaeva] Win2016#POWERED_OFF
-[so.reznikov] AirWatch Core win2016#POWERED_ON
-demo_sec_Tufin_10.31.37.42#POWERED_ON
-[aa.rogovoy] CP_SMS_77.30#POWERED_OFF
-[av.nedorezov] Win7_Tamplate#POWERED_OFF
-[aa.rogovoy] CP_sms_80_10#POWERED_OFF
-[Marusov] Proxy#POWERED_ON
-[es.lyapustin] scaner#POWERED_OFF
-[es.lyapustin] Linux#POWERED_OFF
-[av.nedorezov] CP-CLUSTER1-n2_10.31.40.11#POWERED_OFF
-[av.nedorezov] CP_Endpoint_Security_User_PC1#POWERED_OFF
-[Marusov] S-Terra_4.1_GW1#POWERED_OFF
-[ai.serov] OEL6#POWERED_ON
-[marusov] Kaspersky#POWERED_OFF
-[shoroh] CentOS6.5 Dozor 5.0.4 Seminar (34.180)#POWERED_OFF
-IWSVA65sp2#POWERED_OFF
-[so.reznikov] CentOS - Oracle ACCELLION nginx#POWERED_ON
-demo_LTM_Server#POWERED_OFF
-demo_AIS_Server#POWERED_OFF
-demo_Hacker#POWERED_OFF
-demo_SDKU_Server#POWERED_OFF
-demo_ModBus_Slave#POWERED_OFF
-demo_Engineer#POWERED_OFF
-[marusov] CHP77.30mgmt#POWERED_OFF
-[marusov] CHP77.30sep2#POWERED_OFF
-demo_Sec_NGFW#SUSPENDED
-demo_sec_IBM_Guardium_Colllector#POWERED_ON
-[ai.serov] LinuxRedHat-ora12c-asm#POWERED_ON
-[dkazmirchuk] FortiManager 10.31.34.131#POWERED_ON
-[dp.borisov] - hq-fml01#POWERED_ON
-[dp.borisov] - ws2012-dc#POWERED_ON
-[dp.borisov] - hq-faz#POWERED_ON
-[dp.borisov] - wd10-external#POWERED_OFF
-[av.nedorezov] - FortiAnalyzer1#POWERED_OFF
-[dkazmirchuk] Carbon Black Response Server 10.31.46.122#POWERED_ON
-[marusov] DC & EXCH#POWERED_ON
-[dp.borisov] - ws2008R2-TMG#POWERED_ON
-[so.reznikov] Zecurion win2012#POWERED_ON
-[so.reznikov] Zecuriontestarm win7x64#POWERED_ON
-[so.reznikov] AirWatch win2012R2#POWERED_ON
-[as.shabaeva] Win7#POWERED_OFF
-[as.shabaeva] Netwrix Auditor Server#POWERED_OFF
-[askuznetsov] SDLP OCR#POWERED_OFF
-Archer Test#POWERED_ON
-demo_sec_Tufin_10.31.34.82_VTB#POWERED_OFF
-[so.reznikov] AirWatch DB win2016 (MS SQL 2016) + TMDS DB#POWERED_ON
-[abogdanov] MobileIron Core#POWERED_OFF
-[askuznetsov] dozorad#POWERED_ON
-[av.nedorezov] FTS-VM-64-10.31.40.13#POWERED_OFF
-[av.nedorezov] CP-CLUSTER1-n1_10.31.41.10#POWERED_OFF
-[es.lyapustin] DC_vgate_4.1 10-31-45-44#POWERED_OFF
-[sapunov]-CentOs-6.5#POWERED_OFF
-[ai.serov] Win_2016#POWERED_OFF
-[vtok] Lamp4#POWERED_OFF
-[ai.serov] Oracle Linux 7.3+ Oracle 12cR2#POWERED_ON
-[es.lyapustin] SNS Serv 10-31-45-45#POWERED_OFF
-[askuznetsov] ARM_Win7_VPN#POWERED_OFF
-[Sorokina] Server-2008(RemApp)34.88#POWERED_OFF
-[alopatin] Efros#POWERED_OFF
-[alopatin] AlgoSec_6.8#POWERED_OFF
-[alopatin] Tufin#POWERED_OFF
-[Emelyanova] Win2008#POWERED_OFF
-[alopatin] Skybox#POWERED_OFF
-demo_srv_sap01#POWERED_OFF
-[denisov] Win7_client#POWERED_OFF
-[Emelyanova] XP_VK#POWERED_OFF
-[sapunov]-DC_2012_isc.jet.demo#POWERED_OFF
-vtok-gns#SUSPENDED
-shmatko-win2008r2#POWERED_OFF
-[es.markov] Dozor 6.8 %2f CentOS 7.6#POWERED_OFF
-[yo.bykhankov] skybox98#POWERED_OFF
-[shoroh] CentOS 7.3 34.188 SNS LSP#POWERED_OFF
-[so.reznikov] DeviceLock Server win2012R2#POWERED_OFF
-[so.reznikov] DeviceLock ARM win7x64#POWERED_OFF
-KOSTIN]_WinXP_SP3_SIMATIC_ES#POWERED_OFF
-KOSTIN_Win_2003_R2_St_SIMATIC_SRV1#POWERED_OFF
-remove_demo_Sec_MaxPatrol#POWERED_OFF
-[marusov] CHP_80.10_gate#POWERED_OFF
-[marusov] CHPE#POWERED_ON
-demo_infra_Linux#POWERED_OFF
-[dkazmirchuk] [CP] SMS 10.31.44.122#SUSPENDED
-[KOSTIN] _WinSrv12StdUpd_VD#POWERED_OFF
-[KOSTIN] Win7_OPC2#POWERED_OFF
-[KOSTIN] _Win7_x86_OPC#POWERED_OFF
-[KOSTIN] win7_x86_vd_client1#POWERED_OFF
-[KOSTIN] win7_x86_vd_agent#POWERED_OFF
-WinServ#POWERED_OFF
-[dp.borisov] - hq-fml02#POWERED_OFF
-[askuznetsov] IWTM 6.10#POWERED_ON
-bobrikov_ASAv#POWERED_OFF
-[KOSTIN] Debian_ISIM_02#POWERED_OFF
-[KOSTIN] Win7_RedCheck#POWERED_OFF
-[askuznetsov] SDLP_Blackbox_15.5#POWERED_ON
-[KOSTIN] Win7_SNS#POWERED_OFF
-[KOSTIN] _WinSrv12StdUpd_SNS#POWERED_OFF
-[KOSTIN] CentOS7_KICS_Networks#POWERED_OFF
-FTS-VM-64-10.31.40.11#POWERED_OFF
-av.nedorezov_transneft-test2#POWERED_OFF
-av.nedorezov_PC1_10.31.41.18#POWERED_OFF
-aa.patsyuk_Win2k12_DC_10.31.41.133#POWERED_OFF
-abogdanov_windows7#POWERED_OFF
-es.lyapustin_SNS 10-31-44-52#POWERED_OFF
-av.nedorezov_PC_Windows10_Tamplate#POWERED_OFF
-av.nedorezov_CP_Management_TMH#POWERED_OFF
-aa.patsyuk_trendmicro_10.31.41.138#POWERED_OFF
-es.lyapustin_vCenter 10-31-44-46#POWERED_OFF
-es.lyapustin_AdminIB 10-31-44-44#POWERED_OFF
-es.lyapustin_DC 10-31-45-43#POWERED_OFF
-es.lyapustin_AdminVI 10-31-44-45#POWERED_OFF
-avkuznetsov_WinSRV_KCS#POWERED_OFF
-[shoroh] win2012_DeviceLock_SRV_Communigate#POWERED_OFF
-[askuznetsov] Dozor_6.7#POWERED_OFF
-[marusov] CHP_80.10_mgmt#POWERED_ON
-KOSTIN_WinSrv2003_R2_St_SIMATIC_SRV2#POWERED_OFF
-KOSTIN_WinXP_SP3_SIMATIC_OS#POWERED_OFF
-remove_demo_MaxPatrolSIEM_Agent#POWERED_OFF
-demo_MaxPAtrol SIEM Core#POWERED_OFF
-remove_demo_MaxPatrol SIEM UCS#POWERED_OFF
-[dp.borisov] - hq-fac#POWERED_ON
-RedHat#POWERED_OFF
-[es.shmatova] CentOS#POWERED_OFF
-123#POWERED_OFF
-[es.lyapustin] ESXi 6.5_vgate_4.1 10-31-46-43#POWERED_OFF
-[av.nedorezov] transneft-test#POWERED_OFF
-[av.nedorezov] FortiAnalizerl1_10.31.40.14#POWERED_OFF
-[ts.mutovkina] SNS 8.5+ KSC#POWERED_OFF
-[ts.mutovkina] arm SNS 8.5+ KES 11.1.1.126#POWERED_OFF
-Gumerova_InAgent#POWERED_OFF
-Gumerova_ADtest#POWERED_OFF
-Gumerova_SVRIndeed#POWERED_OFF
-Gumerova_SQL#POWERED_OFF
-vtok-bind#POWERED_OFF
-vtok-webserver2#POWERED_OFF
-vtok-aleph#POWERED_OFF
-demo_Sec_FortiSandbox#POWERED_OFF
-[es.shmatova] EPV#POWERED_OFF
-marusov_Panorama-ESX-8.0.2#POWERED_ON
-[as.kuznetsov] ARM Win7#POWERED_OFF
-demo_IBM_Guardium#POWERED_ON
-[va.starostina]_server_windows_10.31.42.132#POWERED_OFF
-[KOSTIN] nozomihalich#POWERED_OFF
-[av.izotov]#POWERED_OFF
-[as.shabaeva]  Wallix#POWERED_OFF
-[bobrikov]Cisco_Firepower_Threat_Defense#POWERED_OFF
-da.shley_centos7#POWERED_OFF
-[av.izotov] DC#POWERED_OFF
-[av.izotov] ESXi-1#POWERED_ON
-[av.izotov] ESXi-2#POWERED_ON
-[yo.bykhankov] MDS_CP#POWERED_OFF
-[av.izotov] AVI#POWERED_ON
-[av.izotov] ABI#POWERED_ON
-[yo.bykhankov] Forcepoint#POWERED_OFF
-[KOSTIN] nozomi_SCADAguardian#POWERED_OFF
-Huawei EasySuite#POWERED_OFF
-[aa.rogovoy]Kali#POWERED_OFF
-VirtualBlade01#POWERED_OFF
-VirtualBlade02#POWERED_OFF
-[aa.rogovoy]Kali_Linux#POWERED_OFF
-[yo.bykhankov] ngatemgmt#POWERED_OFF
-[sapunov] - Win10#POWERED_OFF
-[ml.malyshev]Windows 10#POWERED_OFF
-[mn.matushkin]-PSB-CUS-Continent3-9-1#POWERED_OFF
-[ml.malyshev]Windows 2#POWERED_OFF
-[ml.malyshev]Windows 2 (1)#POWERED_OFF
-[yo.bykhankov] ngate_complete#POWERED_OFF
-[dd.elchishchev] DC1#POWERED_OFF
-[dd.elchishchev] RSA-AM-8.4#POWERED_OFF
-[yo.bykhankov] ngatenodeN#POWERED_OFF
-al.navoynikov_Huawei_ELOG#POWERED_OFF
-[dv.bulgakov] DCwin16#POWERED_ON
-[dv.bulgakov] IIS_server#POWERED_ON
-[dv.bulgakov] RootCA#POWERED_ON
-[dv.bulgakov] SubCA#POWERED_ON
-al.navoynikov-Kali_for_Huawei#POWERED_OFF
-[yo.bykhankov] smcfp#POWERED_OFF
-[mn.matushkin]-PSB-Continent-3-9-ARBAT#POWERED_OFF
-[mn.matushkin]-PSB-Continent3-9-COD#POWERED_OFF
-[dkazmirchuk] Kali Att#SUSPENDED
-[dkazmirchuk] Kali Linux#POWERED_ON
-[ds.kottsov] - Centos with Skybox#POWERED_OFF
-[ds.kottsov] - Skybox.iso#POWERED_OFF
-[ds.kottsov] - Skybox Manager#POWERED_OFF
-[ds.kottsov] - Check Point for Skybox#POWERED_OFF
-[dkazmirchuk] Kali Vic#SUSPENDED
-[ds.kottsov] - AD for Skybox#POWERED_OFF
-[yo.bykhankov] tufin#POWERED_OFF
-[ds.kottsov] - FortiGate test#POWERED_OFF
-[aa.turabaev] - APKSH_3_9_NCC_AS#POWERED_OFF
-[dkazmirchuk] Huntbox#SUSPENDED
-Skybox for trening#POWERED_OFF
-PC for Skybox#POWERED_OFF
-[ds.kottsov] - Kali Linux#POWERED_OFF
-[av.nedorezov] FortiMail1_10.31.40.12#POWERED_OFF
-[es.markov] GardaBD#POWERED_OFF
-[aa.turabaev] - APKSH_3_9_FW#POWERED_OFF
-marusov_BIGIP-15.0.1-0.0.11-vmware#POWERED_ON
-[yo.bykhankov] kontinent-tls#POWERED_OFF
-aa.bobrikov_FMC-6.5#POWERED_OFF
-demo_sec_Skybox_10.31.37.41#POWERED_ON
-aa.bobrikov_FTD_6.5#POWERED_OFF
-[es.markov] rhel6#POWERED_OFF
-[es.markov] rgel7#POWERED_OFF
-[va.karpov] nsvpx-test1#POWERED_OFF
-[ia.klimin] - FMC_6.3.0#POWERED_OFF
-sapunov-RHEL-7.4v3#POWERED_ON
-[ds.kottsov] - FortiGate_Test_2#POWERED_OFF
-[la.baulina] - SNS_Server#POWERED_ON
-[la.baulina] - DC#POWERED_ON
-[la.baulina] - Client#POWERED_ON
-[Rogovoy]VTB_Test_Host#POWERED_OFF
-[ds.kottsov] - Palo_Alto_for_SkyBox#POWERED_OFF
-vtok_win10#POWERED_OFF
-abogdanov_SDLP#POWERED_OFF
-shoroh_DARS-AD1 (34.186)#POWERED_OFF
-[abogdanov] DOZOR6#POWERED_OFF
-FortiAnalyzer-VM#POWERED_OFF
-iv.smirnov_KSC#POWERED_OFF
-[aa.bobrikov] Cisco Wireless Lan Controller#POWERED_OFF
-[abogdanov] Usergate UTM#POWERED_OFF
-shoroh_SMAP_5.0.2_ORACLE#SUSPENDED
-[dkazmirchuk] FSSO Agent 10.31.34.136#POWERED_OFF
-[dkazmirchuk] SMS 10.31.44.120#POWERED_OFF
-[abogdanov] ARM#POWERED_OFF
-[abogdanov] DM#POWERED_OFF
-[abogdanov] TM#POWERED_OFF
-[abogdanov] EPV2#POWERED_OFF
-[abogdanov] EPV1#POWERED_OFF
-aa.rogovoy_Kali_Linux_1#POWERED_OFF
-[zaytseva] Ubuntu 16.04 Unibank#POWERED_OFF
-aa.bobrikov_WinXP#POWERED_OFF
-aa.rogovoy_Test_Host_Win_CP_VTB_mgmt#POWERED_OFF
-[abogdanov] ProxySG Model SWG#POWERED_OFF
-skybox500_10.31.41.138#POWERED_OFF
-AD_bobrikov#POWERED_OFF
-[abogdanov] CRM+PVWA#POWERED_OFF
-[ve.chaplygin] - HashiCorp-Vault-RHEL7#POWERED_OFF
-pagolovistikov_kafka#POWERED_OFF
-[sapunov] test-plan-opzs_new#POWERED_OFF
-[ae.konopak] OWASP#POWERED_OFF
-shoroh_Win10 Acrobat Pro и Finereader#POWERED_ON
-shoroh_Dozor7 (34.185)#POWERED_ON
-marusov_Exchange2016#POWERED_ON
-[abogdanov] AD-Cyber#POWERED_OFF
-aa.bobrikov_ISE_2.7#POWERED_OFF
-[ia.klimin] - FMC_6.5#POWERED_OFF
-pagolovistikov_resilientIS#POWERED_OFF
-[ia.klimin] - FTD_6.5.0#POWERED_OFF
-marusov_PA-VM#POWERED_OFF
-[es.shmatova] SIManager1#POWERED_OFF
-sapunov_test_vm#POWERED_ON
-[pa.glushkov]WinServer2012#POWERED_OFF
-[pa.glushkov]FortiGate-01#POWERED_OFF
-[pa.glushkov] - FortiGate-01#POWERED_OFF
-[pa.glushkov] - FortiGate-02#POWERED_OFF
-[pa.glushkov] - Ubuntu#POWERED_OFF
-[pa.glushkov] - FortiSandbox#POWERED_OFF
-[es.markov] McAffe WG#POWERED_OFF
-[es.markov] KPSN#POWERED_OFF
-[pa.glushkov] - FortiManager#POWERED_OFF
-[aa.patsyuk]ksmg#POWERED_OFF
-[aa.patsyuk]ksmg1_10.31.41.133#POWERED_ON
-[sp.bastrykin]Debian-GEOIP-MQ#POWERED_OFF
-[sp.bastrykin]Debian-GEOIP-DB#POWERED_OFF
-[sp.bastrykin]Debian-GEOIP-Main#POWERED_OFF
-[va.karpov] Test_DC_Win2k16#POWERED_OFF
-[pa.glushkov] - FortiGate-03#POWERED_OFF
-[ma.skomorokhov] - MFlash_WEB#POWERED_OFF
-[es.shmatova] SIManager02#POWERED_OFF
-[es.shmatova] Collector01#POWERED_OFF
-[es.shmatova] Collector02#POWERED_OFF
-[pa.glushkov] - BIGIP#POWERED_OFF
-[ds.kudryashov] SLES 15#POWERED_OFF
-[dp.borisov] - FortiPoC 1.5.37#POWERED_ON
-[pa.glushkov] - FortiAnalyzer#POWERED_OFF
-[ea.stepanov] MFlash_web_10.31.41.175#POWERED_OFF
-[ea.stepanov] Mflash_Data_10.31.41.176#POWERED_OFF
-[dv.dushenok] - win10_host1#POWERED_ON
-[as.shabaeva] fudo-1#POWERED_ON
-[as.shabaeva] fudo-2#POWERED_ON
-[dv.dushenok] - FortiGate-VM64_FW1#POWERED_OFF
-[dv.dushenok] - FortiGate-VM64_FW2#POWERED_OFF
-[abogdanov] PSM#POWERED_OFF
-aa.bobrikov_Prime#POWERED_OFF
-FortiManager_for_Test#POWERED_OFF
-[KOSTIN] FortiGate-VM64n01#POWERED_OFF
-[dkazmirchuk] TrapX.TSOC 10.31.45.123#POWERED_ON
-[ds.kottsov]FortiAnalyzer-VM64#POWERED_OFF
-[ds.kottsov] - FortiAnalyzer-VM64#POWERED_OFF
-[dv.dushenok] - FortiManager-VM64#POWERED_OFF
-[dv.dushenok] - FortiAnalyzer-VM64#POWERED_OFF
-[dv.dushenok] - DC01_Win2019#POWERED_ON
-Panorama-ESX-9.0.1#POWERED_OFF
-[aa.turabaev] - sterra_kp_base#POWERED_OFF
-[pa.glushkov] Fortimail-vm#POWERED_OFF
-sterra_kp_05_Перенесено на ПАК#POWERED_OFF
-sterra_kp_08_Перенесено на ПАК#POWERED_ON
-sterra_kp_10_Перенесено на ПАК#POWERED_OFF
-sterra_kp_11_Перенесено на ПАК#POWERED_OFF
-sterra_kp_12_Перенесено на ПАК#POWERED_OFF
-sterra_kp_13_Перенесено на ПАК#POWERED_OFF
-sterra_kp_18_Перенесено на ПАК#POWERED_OFF
-sterra_kp_21_Перенесено на ПАК#POWERED_OFF
-sterra_kp_26_Перенесено на ПАК#POWERED_OFF
-sterra_kp_29-Перенесено на ПАК#POWERED_OFF
-sterra_kp_33_Перенесено на ПАК#POWERED_OFF
-sterra_kp_34_Перенесено на ПАК#POWERED_OFF
-sterra_kp_35_Перенесено на ПАК#POWERED_OFF
-sterra_kp_32_Перенесено на ПАК#POWERED_OFF
-sterra_kp_36_Перенесено на ПАК#POWERED_OFF
-sterra_kp_40_Перенесено на ПАК#POWERED_ON
-sterra_kp_43_Перенесено на ПАК#POWERED_OFF
-sterra_kp_44_Перенесено на ПАК#POWERED_OFF
-sterra_kp_45_Перенесено на ПАК#POWERED_OFF
-sterra_kp_46_Перенесено на ПАК#POWERED_OFF
-sterra_kp_47_Перенесено на ПАК#POWERED_OFF
-sterra_kp_48_old#POWERED_OFF
-sterra_kp_50_old#POWERED_OFF
-sterra_kp_52_Перенесено на ПАК#POWERED_OFF
-sterra_kp_56_Перенесено на ПАК#POWERED_OFF
-sterra_kp_57_Перенесено на ПАК#POWERED_OFF
-sterra_kp_59_Перенесено на ПАК#POWERED_OFF
-sterra_kp_61_Перенесено на ПАК#POWERED_OFF
-sterra_kp_62_Перенесено на ПАК#POWERED_OFF
-sterra_kp_67_Перенесено на ПАК#POWERED_OFF
-sterra_kp_68_Перенесено на ПАК#POWERED_OFF
-sterra_kp_69_Перенесено на ПАК#POWERED_OFF
-sterra_kp_71_Перенесено на ПАК#POWERED_OFF
-sterra_kp_72_Перенесено на ПАК#POWERED_OFF
-sterra_kp_74_Перенесено на ПАК#POWERED_OFF
-sterra_kp_73_Перенесено на ПАК#POWERED_OFF
-sterra_kp_76_Перенесено на ПАК#POWERED_OFF
-sterra_kp_01_Перенесено на ПАК#POWERED_OFF
-sterra_kp_06_Перенесено на ПАК#POWERED_OFF
-sterra_kp_63_Перенесено на ПАК#POWERED_OFF
-sterra_kp_48_Перенесено на ПАК#POWERED_OFF
-sterra_kp_50_Перенесено на ПАК#POWERED_OFF
-Alladin#POWERED_OFF
-[dkazmirchuk] X.Windows Client#POWERED_OFF
-[dkazmirchuk] X.Server#POWERED_OFF
-[dkazmirchuk] X.Honeypot#POWERED_OFF
-[dkazmirchuk] Fidelis.Decoy.Server 45.125#SUSPENDED
-[ds.kudryashov] PangeoRadar#POWERED_OFF
-[dkazmirchuk] Fidelis.CP 45.124#SUSPENDED
-[sy.bortnikov] XelMServ#POWERED_OFF
-[sy.bortnikov] XekDServ#POWERED_OFF
-[la.baulina] - KSC#POWERED_ON
-[dkazmirchuk] Fidelis.Internal.Sensor#SUSPENDED
-[es.lyapustin] SNS#POWERED_OFF
-[es.lyapustin] ksc#POWERED_OFF
-[sy.bortnikov] XelHost1#POWERED_OFF
-[as.kuznetsov] IWTM 6.11 Vision#POWERED_OFF
-[ak.elizarov] - ARM_modbus#POWERED_OFF
-[sy.bortnikov] XelMServ2#POWERED_OFF
-[dkazmirchuk] EnCase SAFE 45.126#POWERED_ON
-[dkazmirchuk] EnCase Endpoint Security 45.127#POWERED_ON
-aa.bobrikov_ISE_2.6#POWERED_OFF
-[sy.bortnikov] XelHost2#POWERED_OFF
-[sy.bortnikov] XelHost3#POWERED_OFF
-[sy.bortnikov] XelHost4#POWERED_OFF
-[sy.bortnikov] XelHost5#POWERED_OFF
-[es.lyapustin]CentOS 7#POWERED_OFF
-[es.lyapustin] CentOS 7#POWERED_OFF
-sterra_kp_38_Перенесено на ПАК#POWERED_OFF
-sterra_kp_24-Перенесено на ПАК#POWERED_OFF
-sterra_kp_02_Перенесено на ПАК#POWERED_OFF
-sterra_kp_55_Перенесено на ПАК#POWERED_OFF
-sterra_kp_22_Перенесено на ПАК#POWERED_OFF
-sterra_kp_66_Перенесено на ПАК#POWERED_OFF
-sterra_kp_14_Перенесено на ПАК#POWERED_OFF
-sterra_kp_54_Перенесено на ПАК#POWERED_OFF
-sterra_kp_42_Перенесено на ПАК#POWERED_OFF
-sterra_kp_64_Перенесено на ПАК#POWERED_OFF
-[ds.kudryashov] zabbix#POWERED_ON
-[ae.konopak] new ViPNet admin#POWERED_OFF
-[as.ivashneva] Qradar_all#POWERED_ON
-[dkazmirchuk] EnCase Client 45.128#POWERED_ON
-[pa.glushkov] - FortiAuthenticator-1#POWERED_OFF
-[as.ivashneva] FortiSIEM-Collector#POWERED_ON
-[as.ivashneva] NFS-Storage#POWERED_ON
-[dkazmirchuk] EnCase User 46.123#POWERED_ON
-asmolov_F5#POWERED_OFF
-[as.ivashneva] FortiSIEM-Worker#POWERED_OFF
-[pa.yankov] VipNet CA#POWERED_OFF
-[pa.yankov] VipNet HSM#POWERED_OFF
-vi.shekemov_AD#POWERED_ON
-[ks.kuznetsov] R-Vision#POWERED_OFF
-vi.shekemov_esxi#POWERED_ON
-ambari-mnt-001#POWERED_ON
-hdp-dnt-002#POWERED_ON
-hdp-dnt-003#POWERED_ON
-[azhuk] SmartLogger#POWERED_OFF
-hdp-dnt-001#POWERED_ON
-[as.ditenkova] Consul#POWERED_ON
-[dv.dushenok] Netsight_64bit.8.4.2.38-Medium#POWERED_OFF
-[as.ditenkova] HashiCorp Vault#POWERED_ON
-[es.lyapustin] win8.1#POWERED_ON
-[es.markov] AD#POWERED_ON
-[es.markov] KSC#POWERED_ON
-[es.markov] AV-test#POWERED_ON
-[dv.bulgakov] win7-moesk-admin#POWERED_ON
-[as.ivashneva] MP-All-in-One#POWERED_ON
-[dv.dushenok] - DC02_Win2019#POWERED_ON
-[ds.kottsov] - FortiGate_for_Achim#POWERED_OFF
-[ys.lisovol] -PTAF3.7.3#POWERED_OFF
-[as.ditenkova] workstation#POWERED_ON
-[dv.dushenok] - nac_appliance_64bit.8.4.3.24-Medium#POWERED_OFF
-[dp.borisov] - wd10-internal#POWERED_ON
-[dv.dushenok] - CentOS6.5#POWERED_OFF
-[aa.patsyuk]Cronus_2.8.1_10.31.41.132#POWERED_ON
-ad.server.hdp#POWERED_OFF
-[pa.yankov] w10 vipnet#POWERED_OFF
-[es.markov] KATA 3.7#POWERED_ON
-vi.shekemov_ad2008#POWERED_OFF
-[as.ivashneva] Qradar_HA#POWERED_ON
-[va.starostina]_BIGIP-13.1.3.3-0.0.6_10.31.42.131#POWERED_ON
-[dv.dushenok] - MikroTik_CHR_release_6.45.9#POWERED_ON
-[ys.lisovol] - OWASP_Broken_Web_Apps_VM_1.2#POWERED_OFF
-[dkazmirchuk] XP#POWERED_OFF
-[dkazmirchuk] 2008 Server 10.31.44.121#POWERED_ON
-[dkazmirchuk] 2008 Server-2 10.31.44.122#POWERED_ON
-sterra_kp_51_Перенесено на ПАК#POWERED_OFF
-[sp.bastrykin] NKCKI#POWERED_ON
-vi.shekemov_astra-instal#POWERED_OFF
-[dv.bulgakov] IndeedAM-main+SAML#POWERED_ON
-pagolovistikov_resilient2#POWERED_OFF
-[dv.bulgakov] IndeedAM-selfservice#POWERED_OFF
-[dv.bulgakov] IndeedAM-RDP-Server#POWERED_ON
-[ds.kudryashov] pt ucs 9.4_res#POWERED_OFF
-[va.starostina]_BIGIP-13.1.3.3-0.0.6_10.31.42.131clone3#POWERED_OFF
-[va.starostina]_BIGIP-13.1.3.3-0.0.6_10.31.42.132 NODE 2#POWERED_ON
-[dp.borisov] - br-fg-1#POWERED_OFF
-[dp.borisov] - hq-fmg#POWERED_ON
-[dp.borisov] - winserv2016#POWERED_OFF
-[sp.bastrykin] NKCKI s-terra#POWERED_ON
-[sp.bastrykin] NKCKI - kontinent#POWERED_ON
-[dv.bulgakov] IndeedAM-log_server#POWERED_OFF
-[as.ivashneva] r-vision#POWERED_ON
-marusov_fortimail-v62-build0263#POWERED_OFF
-marusov_fortiweb-vm-6.3.0#POWERED_OFF
-[pa.glushkov] - CSR1000v#POWERED_OFF
-consul.n1#POWERED_ON
-vault.n1#POWERED_ON
-[se.nozhenko] Cortex XSOAR#POWERED_ON
-[as.ivashneva] win#POWERED_ON
-[as.ivashneva] exch#POWERED_ON
-[as.ivashneva] win10#POWERED_ON
-[ds.kudryashov] arcsight connectors new#POWERED_ON
-[ae.konopak] Win10#POWERED_ON
-[test] New Virtual MachineX#POWERED_OFF
-[as.ivashneva] Archer#POWERED_OFF
-[dv.dushenok] - CheckPoint_MGMT1#POWERED_ON
-[pa.yankov] Cpro-CS#POWERED_OFF
-[pa.yankov] Cpro-CR#POWERED_OFF
-[as.shabaeva] SafeInspect M1#POWERED_OFF
-[pa.glushkov] - Win2008#POWERED_OFF
-[pa.glushkov] - ASAv#POWERED_OFF
-[pa.glushkov] - ISE#POWERED_OFF
-[pa.glushkov] - Win10Domain#POWERED_OFF
-[pa.glushkov] - WSA#POWERED_OFF
-[dkazmirchuk] CentOS7#POWERED_OFF
-[se.nozhenko] TS_Win10#POWERED_ON
-pagolovistikovws19#POWERED_OFF
-[yo.bykhankov] linux_universal#POWERED_OFF
-[ts.mutovkina]indeed_mgmt#POWERED_ON
-[ts.mutovkina]indeed_access#POWERED_OFF
-[ts.mutovkina]indeed_storage#POWERED_OFF
-[ts.mutovkina]indeed_arm#POWERED_ON
-[va.starostina]_BIGIP-13.1.3.3-0.0.6_10.31.42.131#POWERED_OFF
-[yo.bykhankov] win10#POWERED_ON
-[ae.konopak] Win2016_MaxPatrol#POWERED_OFF
-[dv.dushenok] - CHKP_Log#POWERED_ON
-[yo.bykhankov] EFROS_SERVER#POWERED_ON
-[yo.bykhankov] EFROS_DB#POWERED_ON
-[yo.bykhankov] sterra1#POWERED_ON
-[yo.bykhankov] sterra2#POWERED_ON
-[aa.patsyuk]ksmg2_#POWERED_OFF
-[ds.kudryashov] Rapid7VA#POWERED_ON
-[ds.kudryashov] arcmc#POWERED_ON
-da.shley_DC#POWERED_OFF
-[dv.dushenok] - Extreme-nac-Small#POWERED_OFF
-[dv.dushenok] - XMC-temp#POWERED_OFF
-[vv.kutueva] - kics4node#POWERED_OFF
-[vv.kutueva] -ksc#POWERED_OFF
-[aa.patsyuk]_Fortify_win10_10.31.41.135#POWERED_OFF
-[es.shmatova] W#POWERED_OFF
-[aa.patsyuk]_!Fortify_win10_10.31.41.135#POWERED_OFF
-[as.ditenkova] CentOS_Images#POWERED_OFF
-[aa.patsyuk]_Fortify_10.31.41.135_win#POWERED_OFF
-[ai.serov] Hadoop-datanode1#POWERED_ON
-[ai.serov] Guardium_col_11#POWERED_ON
-[se.nozhenko] Redmine-15.2#POWERED_ON
-[yo.bykhankov] EFROS_COLLECTOR#POWERED_ON
-[pa.yankov] Cpro-Services#POWERED_OFF
-[ai.serov] Hadoop-Ambari#POWERED_ON
-[ys.lisovol] - cont_cus_3,9#POWERED_OFF
-[pa.yankov] One-ID-SPS#POWERED_OFF
-[ys.lisovol] - WinServer2016#POWERED_OFF
-[ts.mutovkina]arm-nix#POWERED_OFF
-[dp.borisov] - Arbor-APS-6.4.1#POWERED_OFF
-[se.nozhenko] WinSrv2016#POWERED_ON
-[pa.yankov] SAS-b#POWERED_ON
-[yo.bykhankov] skybox11#POWERED_OFF
-MaxPatrol 8#POWERED_OFF
-[yo.bykhankov] SMC_FP_638_linux#POWERED_ON
-[ts.mutovkina]indeed_mgmt2#POWERED_OFF
-marusov_F5 SSLO + APM 13.1#POWERED_OFF
-[dkazmirchuk] FortiGate-VM64 10.31.44.120#SUSPENDED
-[as.kuznetsov] IWTM6.10_exam#POWERED_ON
-[dkazmirchuk] FortiSandbox-VM 10.31.44.129#POWERED_ON
-[ys.lisovol] - vn-hw-1000-2#POWERED_OFF
-[ys.lisovol] - vn-hw-1000-1#POWERED_ON
-[as.kuznetsov] Garda#POWERED_OFF
-[dkazmirchuk] Illusive Management 45.124#POWERED_ON
-[dkazmirchuk] Illusive Trap Server 45.125, 46.129#POWERED_ON
-[dkazmirchuk] Win7 Manager 10.31.44.126#POWERED_ON
-[so.reznikov] Mflash 6 Win 2016#POWERED_ON
-[dv.dushenok] - Zabbix5#POWERED_OFF
-[ts.mutovkina]haproxy#POWERED_OFF
-demo_MAIL01#POWERED_OFF
-[dkazmirchuk] FortiAnalyzer-VM64 10.31.44.127#POWERED_ON
-[pa.glushkov] - OpenOTP#POWERED_OFF
-[ia.klimin] - win7(x64)#POWERED_OFF
-[shoroh] Avkw6.3.0-ng20_Standalone_(33.35)#POWERED_ON
-[aa.rogovoy]CP_SMS_80#POWERED_OFF
-[aa.rogovoy]CP_SG_1#POWERED_OFF
-kubeadm-mng#POWERED_ON
-kubeadm-node1#POWERED_ON
-kubeadm-node2#POWERED_ON
-[ys.lisovol] - ksh2#POWERED_OFF
-[ys.lisovol] - ksh1#POWERED_OFF
-[dv.bulgakov] SKDPU-NT-v158#POWERED_OFF
-[dv.bulgakov] skdpu504_cert#POWERED_OFF
-[so.reznikov] InfoWatch db CentOS PostgreSQL#POWERED_OFF
-[so.reznikov] InfoWatch Node CentOS#POWERED_ON
-[ia.kudryavtsev] -win10pclab#POWERED_ON
-[so.reznikov] staffcop4_3#POWERED_ON
-[ia.kudryavtsev] -cp77.30l1#POWERED_ON
-[dp.borisov] - hq-fgt#POWERED_ON
-[dv.bulgakov] Ubuntu#POWERED_ON
-[ys.lisovol] - wintest#POWERED_OFF
-[so.reznikov] StaffCop agent#POWERED_OFF
-[ia.kudryavtsev] -cp7730l2#POWERED_ON
-[ia.kudryavtsev] -cp77.30l3#POWERED_ON
-[vv.kutueva] - ePO#POWERED_OFF
-[dv.bulgakov] HyTrust-KeyControl-5.1.2#POWERED_ON
-[dv.dushenok] - CheckPoint_GW4_77.30#POWERED_OFF
-[aa.patsyuk]Checkmarx_10.31.41.131#POWERED_OFF
-[aa.patsyuk]_#POWERED_ON
-%2fvmfs%2fvolumes%2f5b350a74-f0f9a6d8-e54b-501d939e20a8%2f[ds.kottsov] - for Col#POWERED_OFF
-marusov_PA-VM-ESX-10.0.0#POWERED_ON
-marusov_ptaf_3.7.3_node1#POWERED_ON
-marusov_PTAF_3.7.3_cluster#POWERED_ON
-_prod_ASAv#POWERED_ON
-HP_IBM_Configurator#POWERED_ON
-[ai.serov] Hadoop-datanode2#POWERED_ON
-[ai.serov] Hadoop-datanode3#POWERED_ON
-Console RS232#POWERED_ON
-demo_Srv_DC02#POWERED_ON
-[KOSTIN] isim_netview_2_3#POWERED_ON
-marusov_nios-8.4.4-386831-2019-08-02-03-45-48-ddi#POWERED_OFF
-[Marusov] TMG_2010#POWERED_OFF
-[marusov] TMDS#POWERED_OFF
-[marusov] MWG2#SUSPENDED
-[marusov] CHP_77.10_cert#POWERED_OFF
-[ds.kottsov] - AD_rt.ru#POWERED_ON
-[marusov] Cisco ESA#SUSPENDED
-[marusov] Cisco WSA#SUSPENDED
-[marusov] ESXi6.5 TEMPLATE#POWERED_OFF
-[Marusov] GoodDynamics#POWERED_OFF
-[ds.kottsov] - AD_for_gd.rt.ru#POWERED_ON
-[yo.bykhankov] pfsense#POWERED_ON
-[pa.glushkov] - FortiAuthenticator54#POWERED_OFF
-[ds.kudryashov] arcsight-logger7#POWERED_ON
-[ds.kottsov] - AD_for_ks.rt.ru#POWERED_ON
-[dv.bulgakov] NTP-Server#POWERED_ON
-da.shley_admin_vipnet#POWERED_ON
-[yo.bykhankov]_BIGIP-13.1.3.3-0.0.6#POWERED_ON
-[ds.kottsov] - test_for_gd#POWERED_ON
-[ds.kottsov] - test_for_ks#POWERED_ON
-[dv.dushenok] - CheckPoint_GW1_77.30#POWERED_ON
-[dv.dushenok] - CheckPoint_GW2_77.30#POWERED_ON
-[ia.kudryavtsev] -win10lab3#POWERED_ON
-gluster.n1#POWERED_ON
-[aa.aptsyuk]Win10_kedr_10.#POWERED_ON
-[so.reznikov] Exchange 2016 Win srv 2012r2#POWERED_ON
-[so.reznikov] KSC 10 win 10#POWERED_ON
-[so.reznikov] SNS+KES win 10#POWERED_ON
-[so.reznikov] Skype4B win srv 2016#POWERED_ON
-[so.reznikov] unified-access-gateway-3.6.0.0#POWERED_ON
-[yo.bykhankov] AD#POWERED_ON
-[dv.bulgakov] ZPTI-win10#POWERED_OFF
-[ys.lisovol] - WinSer2016-VN#POWERED_ON
-[KOSTIN] isim_TGK1#POWERED_OFF
-ad.hdp.lc#POWERED_ON
-[so.reznikov] UAG 3.10 for Cloud#POWERED_OFF
-[ds.kudryashov] CentOS 4.7#POWERED_ON
-pagolovistikov_qradar#POWERED_ON
-[as.kuznetsov] IWDM6.10_exam#POWERED_ON
-[an.zhukov] - FortiGate-6.2.5#POWERED_ON
-[an.zhukov] - FortiAnalyzer-6.2.5#POWERED_ON
-[an.zhukov] - FortiManager-6.2.5#POWERED_ON
-[ts.mutovkina] serv_sn#POWERED_ON
-[ts.mutovkina] serv_ad#POWERED_ON
-[dv.bulgakov] IndeedCM-test-server#POWERED_ON
-[vv.kutueva] - ePO1#POWERED_OFF
-[as.ivashneva] FortiSIEM-Supervisor#POWERED_ON
-[fa.litvyakov] - winserv2008-base#POWERED_OFF
-da.shley_Rapid7#POWERED_OFF
-[yo.bykhankov] IVA_VKS#POWERED_ON
-[yo.bykhankov] win10_iva_client#POWERED_ON
-[vv.kutueva] - McAfee Endpoint Security#POWERED_OFF
-[as.ivashneva] Anomali-Threatstream#POWERED_ON
-[dkazmirchuk] TrapX Appliance 10.31.45.122#POWERED_ON
-[as.ivashneva] Anomali-Match#POWERED_ON
-[as.ivashneva] Anomali-Integrator#POWERED_ON
-[fa.litvyakov] - windows7_vipnet_client_2#POWERED_ON
-[fa.litvyakov] - windows7_vipnet_client_3#POWERED_ON
-[fa.litvyakov] - hw_va_vipnet_2#POWERED_ON
-[fa.litvyakov] - WinServ_vipnet_client_adm#POWERED_ON
-[an.zhukov] - CSM_Win2016#POWERED_ON
-[fa.litvyakov] - hw_va_vipnet_1#POWERED_ON
-[se.nozhenko] Ubuntu 18.04#POWERED_ON
-vi.shekemov_vpn#POWERED_ON
-[as.kuznetsov] Crosstech_DSS#POWERED_ON
-[so.reznikov] Trend Micro DS Manager#POWERED_ON
-vi,shekemov_serv1#POWERED_ON
-vi.shekemov_srv2#POWERED_OFF
-vi.shekemov_microserv#POWERED_ON
-vi.shekemov_ARM2#POWERED_OFF
-vi.shekemov_ARM1#POWERED_ON
-[ia.kudryavtsev] -sterra4.2lab#POWERED_ON
-[dv.bulgakov} JMS#POWERED_ON
-[as.kuznetsov] Esxi-6.5#POWERED_ON
-[dv.dushenok] - CheckPoint_MGMT2#POWERED_ON
-[dv.dushenok] - CHKP_Log2#POWERED_ON
-[an.zhukov]- Cisco_FMC-6.2.3#POWERED_OFF
-[an.zhukov] - CiscoFTD_6.5.0#POWERED_OFF
-[an.zhukov] - CiscoFMC_6.5.0#POWERED_OFF
-[ia.kudryavtsev] -cp77.30vsx#POWERED_ON
-[dv.bulgakov] Win16_RADIUS#POWERED_ON
-[ia.kudryavtsev] -sterralab4.2n2#POWERED_OFF
-marusov_BIGIP-15.1.0.4-0.0.6-vmware#POWERED_ON
-es.markov-la-svm#POWERED_ON
-[as.ivashneva] Centos#POWERED_ON
-[so.reznikov] MobileIron Core#POWERED_ON
-[so.reznikov] InfoWatch db CentOS PostgreSQL node2#POWERED_OFF
-vi.shekemov_astra 1.6#POWERED_ON
-[dv.dushenok] - CheckPoint_MGMT3#POWERED_ON
-[so.reznikov] Mflash 7 CentOS Web#POWERED_ON
-[dkazmirchuk] Illusive Decoy 10.31.45.231#POWERED_ON
-[dkazmirchuk] Illusive Emulations 10.31.45.232-233#POWERED_ON
-[so.reznikov] Mflash 7 Windows Data#POWERED_ON
-[dp.borisov] - uralsib-fac#POWERED_ON
-[ya.leonov] cortex-xsoar-test#POWERED_ON
-da.shley_vipnet_moesk#POWERED_ON
-da.shley_HW-VA#POWERED_ON
-[ya.leonov] nessus_test#POWERED_ON
-[ys.lisovol] - cpr80.10-sms#POWERED_ON
-[azhuk] JMS-1#POWERED_ON
-[am.pankin] -TenableSC_Test#POWERED_ON
-[ys.lisovol] - cpr80.10-sg#POWERED_ON
-[av.izotov] vGate1#POWERED_OFF
-[av.izotov] vGate2#POWERED_OFF
-[azhuk] JMS-2#POWERED_ON
-[ae.konopak] CentOS+Skybox#POWERED_OFF
-marusov_ESXi 6.5-1#POWERED_OFF
-[dp.borisov] - ws2016-mail#POWERED_OFF
-[dp.borisov] - ubusrv-18.04-nfs#POWERED_OFF
-[shoroh] CentOS 6.9 46.186 CommuniGate#POWERED_ON
-asmolov_owasp_bwa#POWERED_OFF
-marusov_ELK#SUSPENDED
-asmolov__kali#POWERED_OFF
-asmolov_fortigate_1#POWERED_OFF
-asmolov_fortigate_2#POWERED_OFF
-asmolov_win2012_r2#POWERED_OFF
-asmolov_win7#POWERED_OFF
-asmolov_win10#POWERED_OFF
-New Virtual Machine#POWERED_OFF
-VMware vCenter Server Appliance#POWERED_ON
-BIG-IP_VE_A#POWERED_OFF
-vtok-ubu#POWERED_OFF
-[sapunov] – Win2016-Archer#POWERED_ON
-[asmolov] asav-esxi#POWERED_OFF
-marusov_MineMeldviaProxy#POWERED_OFF
-[dp.borisov] - hq-fsa#POWERED_ON
-marusov_BIGIP-14.1.0-0.0.116-scsi-SSLO#POWERED_OFF
-[ds.kudryashov] arcsight-esm-7#POWERED_ON
-[ds.kudryashov] arcsght-connectors#POWERED_OFF
-[sapunov] - BIGIP-14.0.0.2-0.0.2-scsi#POWERED_OFF
-[ae.asmolov] - FSA 10.31.45.122#POWERED_OFF
-[ae.asmolov] - FML G 10.31.45.120#POWERED_OFF
-[ae.asmolov] - FML S 10.31.34.121#POWERED_OFF
-[iv.smirnov] ArcMC#POWERED_OFF
-[so.reznikov] SearchInform win2012r2#POWERED_OFF
-[ds.kudryashov] arcsight-logger#POWERED_OFF
-[pa.yankov] RADIUS-2#POWERED_OFF
-%2fvmfs%2fvolumes%2fe8f15f2e-c0f7ea6a%2f123%2f123.vmx#POWERED_OFF
-[aa.patsyuk]ISE-2.6.0.156_10.31.41.139#POWERED_OFF
-[dkazmirchuk] CBR Offline#POWERED_OFF
-[es.shmatova] Windows 7 - 1#POWERED_OFF
-[so.reznikov] Searchinform Arm win 7x64#POWERED_OFF
-sapunov-Ixia_BreakingPoint_Virtual_Blade_8.40.17_EA_ESXi_skipmanifest#POWERED_OFF
-sapunov-Ixia_BreakingPoint_Virtual_Controller_8.40.17_EA_ESXi_skipmanifest#POWERED_OFF
-VirtualBlade301#POWERED_OFF
-[dkazmirchuk] CBR Minion#SUSPENDED
-[aa.patsyuk]zabbix3.4_10.31.41.136#POWERED_OFF
-[dkazmirchuk] Windows Server DC 10.31.43.124#POWERED_ON
-[mi.ragulin]_Win_10_Rus#POWERED_OFF
-[dkazmirchuk] Windows 10 10.31.44.125#POWERED_ON
-pagolovistikov_resilient#POWERED_OFF
-Avkw5.1.2-ng3_n2_34.202#POWERED_ON
-Avkw5.1.2-ng3_n3_34.203#POWERED_ON
-Avkw5.1.2-ng3_n1_34.201#POWERED_ON
-Avkw5.1.2-ng3_n4_34.204#POWERED_ON
-Avkw5.1.2-ng3_n5_34.205#POWERED_ON
-[dkazmirchuk] RedHat#POWERED_OFF
-[shoroh] SI Manager#POWERED_OFF
-[shoroh] SI Collector1#POWERED_OFF
-[shoroh] SI Collector2#POWERED_OFF
-[es.shmatova] win2008#POWERED_OFF
-[es.shmatova] RedHat#POWERED_OFF
-[ia.morozov] - Zabbix_Clear_Inet#POWERED_OFF
+Name#Status#Prev.status#Start#Distance#Warn
+[as.shabaeva] CentOS 7#POWERED_OFF#POWERED_OFF#1601916645.4726923#334.34030747413635#False
+[pa.yankov] DC#POWERED_OFF#POWERED_OFF#1601916645.4726923#334.34030747413635#False
+[pa.yankov] RootCA#POWERED_OFF#POWERED_OFF#1601916645.4726923#334.34030747413635#False
+[pa.yankov] EnterpriseCA#POWERED_ON#POWERED_ON#0#0#False
+[pa.yankov] SQL#POWERED_OFF#POWERED_OFF#1601916645.4726923#334.34030747413635#False
+[pa.yankov] CDP#POWERED_ON#POWERED_ON#0#0#False
+[dkazmirchuk] Win2016+FSSO 10.31.46.120#POWERED_ON#POWERED_ON#0#0#False
+marusov_ksmg-1.1.2-12.x86_64#POWERED_OFF#POWERED_OFF#1601916645.4726923#334.34030747413635#False
+[aa.patsyuk]_wsa_coeus-10-5-1-296_10.31.41.134#POWERED_OFF#POWERED_OFF#1601916645.4726923#334.34030747413635#False
+demo_GDB#POWERED_OFF#POWERED_OFF#1601916645.4726923#334.34030747413635#False
+[es.lyapustin] ServGate2 10-31-46-48#POWERED_OFF#POWERED_OFF#1601916645.4726923#334.34030747413635#False
+[es.lyapustin] ServGate1 10-31-46-47%2f49#POWERED_OFF#POWERED_OFF#1601916645.4726923#334.34030747413635#False
+vtok-srv-2#POWERED_OFF#POWERED_OFF#1601916645.4726923#334.34030747413635#False
+[so.reznikov] Dozor#POWERED_ON#POWERED_ON#0#0#False
+demo_DC01#POWERED_ON#POWERED_ON#0#0#False
+demo_srv_DB01#POWERED_OFF#POWERED_OFF#1601916645.4726923#334.34030747413635#False
+[dkazmirchuk] FortiMail 10.31.45.120#POWERED_ON#POWERED_ON#0#0#False
+demo_SDKU_Server-02#POWERED_OFF#POWERED_OFF#1601916645.4726923#334.34030747413635#False
+demo_ModBus_Slave_02#POWERED_OFF#POWERED_OFF#1601916645.4726923#334.34030747413635#False
+[dkazmirchuk] FortiGate 10.31.43.125#POWERED_ON#POWERED_ON#0#0#False
+[av.nedorezov]-CP_MGMT-77.30#POWERED_OFF#POWERED_OFF#1601916645.4726923#334.34030747413635#False
+Fortigate-VM#POWERED_OFF#POWERED_OFF#1601916645.4726923#334.34030747413635#False
+AD1_RSA#POWERED_OFF#POWERED_OFF#1601916645.4726923#334.34030747413635#False
+AD2_RSA#POWERED_OFF#POWERED_OFF#1601916645.4726923#334.34030747413635#False
+[so.reznikov] DC 2008 R2#POWERED_ON#POWERED_ON#0#0#False
+RSA Authentication Manager_Pri#POWERED_OFF#POWERED_OFF#1601916645.4726923#334.34030747413635#False
+RSA Authentication Manager_Rep#POWERED_OFF#POWERED_OFF#1601916645.4726923#334.34030747413635#False
+[dkazmirchuk] [CP] GW 10.31.44.121#SUSPENDED#POWERED_OFF#1601916645.4726923#0#False
+[dkazmirchuk] Carbon Black Protection Server 10.31.42.136#POWERED_ON#POWERED_ON#0#0#False
+AD_2003 forest#POWERED_OFF#POWERED_OFF#1601916645.4726923#334.34030747413635#False
+MS CA1 2016#POWERED_OFF#POWERED_OFF#1601916645.4726923#334.34030747413635#False
+[es.shmatova] CPM%2fPVWA%2fPSM#POWERED_OFF#POWERED_OFF#1601916645.4726923#334.34030747413635#False
+[KOSTIN]_Win7_Tecon_ARM#POWERED_OFF#POWERED_OFF#1601916645.4726923#334.34030747413635#False
+vtok-internal-client#POWERED_OFF#POWERED_OFF#1601916645.4726923#334.34030747413635#False
+DC#POWERED_OFF#POWERED_OFF#1601916645.4726923#334.34030747413635#False
+demo_XSpider#POWERED_OFF#POWERED_OFF#1601916645.4726923#334.34030747413635#False
+[Gumerova]-FortiManager-VM#POWERED_OFF#POWERED_OFF#1601916645.4726923#334.34030747413635#False
+[ai.serov] TMDS console#POWERED_ON#POWERED_ON#0#0#False
+[askuznetsov] IWDM_IWPM#POWERED_ON#POWERED_ON#0#0#False
+pagolovistikov_arcsight#POWERED_OFF#POWERED_OFF#1601916645.4726923#334.34030747413635#False
+[as.shabaeva] Win2016#POWERED_OFF#POWERED_OFF#1601916645.4726923#334.34030747413635#False
+[so.reznikov] AirWatch Core win2016#POWERED_ON#POWERED_ON#0#0#False
+demo_sec_Tufin_10.31.37.42#POWERED_ON#POWERED_ON#0#0#False
+[aa.rogovoy] CP_SMS_77.30#POWERED_OFF#POWERED_OFF#1601916645.4726923#334.34030747413635#False
+[av.nedorezov] Win7_Tamplate#POWERED_OFF#POWERED_OFF#1601916645.4726923#334.34030747413635#False
+[aa.rogovoy] CP_sms_80_10#POWERED_OFF#POWERED_OFF#1601916645.4726923#334.34030747413635#False
+[Marusov] Proxy#POWERED_ON#POWERED_ON#0#0#False
+[es.lyapustin] scaner#POWERED_OFF#POWERED_OFF#1601916645.4726923#334.34030747413635#False
+[es.lyapustin] Linux#POWERED_OFF#POWERED_OFF#1601916645.4726923#334.34030747413635#False
+[av.nedorezov] CP-CLUSTER1-n2_10.31.40.11#POWERED_OFF#POWERED_OFF#1601916645.4726923#334.34030747413635#False
+[av.nedorezov] CP_Endpoint_Security_User_PC1#POWERED_OFF#POWERED_OFF#1601916645.4726923#334.34030747413635#False
+[Marusov] S-Terra_4.1_GW1#POWERED_OFF#POWERED_OFF#1601916645.4726923#334.34030747413635#False
+[ai.serov] OEL6#POWERED_ON#POWERED_ON#0#0#False
+[marusov] Kaspersky#POWERED_OFF#POWERED_OFF#1601916645.4726923#334.34030747413635#False
+[shoroh] CentOS6.5 Dozor 5.0.4 Seminar (34.180)#POWERED_OFF#POWERED_OFF#1601916645.4726923#334.34030747413635#False
+IWSVA65sp2#POWERED_OFF#POWERED_OFF#1601916645.4726923#334.34030747413635#False
+[so.reznikov] CentOS - Oracle ACCELLION nginx#POWERED_ON#POWERED_ON#0#0#False
+demo_LTM_Server#POWERED_OFF#POWERED_OFF#1601916645.4726923#334.34030747413635#False
+demo_AIS_Server#POWERED_OFF#POWERED_OFF#1601916645.4726923#334.34030747413635#False
+demo_Hacker#POWERED_OFF#POWERED_OFF#1601916645.4726923#334.34030747413635#False
+demo_SDKU_Server#POWERED_OFF#POWERED_OFF#1601916645.4726923#334.34030747413635#False
+demo_ModBus_Slave#POWERED_OFF#POWERED_OFF#1601916645.4726923#334.34030747413635#False
+demo_Engineer#POWERED_OFF#POWERED_OFF#1601916645.4726923#334.34030747413635#False
+[marusov] CHP77.30mgmt#POWERED_OFF#POWERED_OFF#1601916645.4726923#334.34030747413635#False
+[marusov] CHP77.30sep2#POWERED_OFF#POWERED_OFF#1601916645.4726923#334.34030747413635#False
+demo_Sec_NGFW#SUSPENDED#POWERED_OFF#1601916645.4726923#0#False
+demo_sec_IBM_Guardium_Colllector#POWERED_ON#POWERED_ON#0#0#False
+[ai.serov] LinuxRedHat-ora12c-asm#POWERED_ON#POWERED_ON#0#0#False
+[dkazmirchuk] FortiManager 10.31.34.131#POWERED_ON#POWERED_ON#0#0#False
+[dp.borisov] - hq-fml01#POWERED_ON#POWERED_ON#0#0#False
+[dp.borisov] - ws2012-dc#POWERED_ON#POWERED_ON#0#0#False
+[dp.borisov] - hq-faz#POWERED_ON#POWERED_ON#0#0#False
+[dp.borisov] - wd10-external#POWERED_OFF#POWERED_OFF#1601916645.4726923#334.34030747413635#False
+[av.nedorezov] - FortiAnalyzer1#POWERED_OFF#POWERED_OFF#1601916645.4726923#334.34030747413635#False
+[dkazmirchuk] Carbon Black Response Server 10.31.46.122#POWERED_ON#POWERED_ON#0#0#False
+[marusov] DC & EXCH#POWERED_ON#POWERED_ON#0#0#False
+[dp.borisov] - ws2008R2-TMG#POWERED_ON#POWERED_ON#0#0#False
+[so.reznikov] Zecurion win2012#POWERED_ON#POWERED_ON#0#0#False
+[so.reznikov] Zecuriontestarm win7x64#POWERED_ON#POWERED_ON#0#0#False
+[so.reznikov] AirWatch win2012R2#POWERED_ON#POWERED_ON#0#0#False
+[as.shabaeva] Win7#POWERED_OFF#POWERED_OFF#1601916645.4736888#334.3393108844757#False
+[as.shabaeva] Netwrix Auditor Server#POWERED_OFF#POWERED_OFF#1601916645.4736888#334.3393108844757#False
+[askuznetsov] SDLP OCR#POWERED_OFF#POWERED_OFF#1601916645.4736888#334.3393108844757#False
+Archer Test#POWERED_ON#POWERED_ON#0#0#False
+demo_sec_Tufin_10.31.34.82_VTB#POWERED_OFF#POWERED_OFF#1601916645.4736888#334.3393108844757#False
+[so.reznikov] AirWatch DB win2016 (MS SQL 2016) + TMDS DB#POWERED_ON#POWERED_ON#0#0#False
+[abogdanov] MobileIron Core#POWERED_OFF#POWERED_OFF#1601916645.4736888#334.3393108844757#False
+[askuznetsov] dozorad#POWERED_ON#POWERED_ON#0#0#False
+[av.nedorezov] FTS-VM-64-10.31.40.13#POWERED_OFF#POWERED_OFF#1601916645.4736888#334.3393108844757#False
+[av.nedorezov] CP-CLUSTER1-n1_10.31.41.10#POWERED_OFF#POWERED_OFF#1601916645.4736888#334.3393108844757#False
+[es.lyapustin] DC_vgate_4.1 10-31-45-44#POWERED_OFF#POWERED_OFF#1601916645.4736888#334.3393108844757#False
+[sapunov]-CentOs-6.5#POWERED_OFF#POWERED_OFF#1601916645.4736888#334.3393108844757#False
+[ai.serov] Win_2016#POWERED_OFF#POWERED_OFF#1601916645.4736888#334.3393108844757#False
+[vtok] Lamp4#POWERED_OFF#POWERED_OFF#1601916645.4736888#334.3393108844757#False
+[ai.serov] Oracle Linux 7.3+ Oracle 12cR2#POWERED_ON#POWERED_ON#0#0#False
+[es.lyapustin] SNS Serv 10-31-45-45#POWERED_OFF#POWERED_OFF#1601916645.4736888#334.3393108844757#False
+[askuznetsov] ARM_Win7_VPN#POWERED_OFF#POWERED_OFF#1601916645.4736888#334.3393108844757#False
+[Sorokina] Server-2008(RemApp)34.88#POWERED_OFF#POWERED_OFF#1601916645.4736888#334.3393108844757#False
+[alopatin] Efros#POWERED_OFF#POWERED_OFF#1601916645.4736888#334.3393108844757#False
+[alopatin] AlgoSec_6.8#POWERED_OFF#POWERED_OFF#1601916645.4736888#334.3393108844757#False
+[alopatin] Tufin#POWERED_OFF#POWERED_OFF#1601916645.4736888#334.3393108844757#False
+[Emelyanova] Win2008#POWERED_OFF#POWERED_OFF#1601916645.4736888#334.3393108844757#False
+[alopatin] Skybox#POWERED_OFF#POWERED_OFF#1601916645.4736888#334.3393108844757#False
+demo_srv_sap01#POWERED_OFF#POWERED_OFF#1601916645.4736888#334.3393108844757#False
+[denisov] Win7_client#POWERED_OFF#POWERED_OFF#1601916645.4736888#334.3393108844757#False
+[Emelyanova] XP_VK#POWERED_OFF#POWERED_OFF#1601916645.4736888#334.3393108844757#False
+[sapunov]-DC_2012_isc.jet.demo#POWERED_OFF#POWERED_OFF#1601916645.4736888#334.3393108844757#False
+vtok-gns#SUSPENDED#POWERED_OFF#1601916645.4736888#0#False
+shmatko-win2008r2#POWERED_OFF#POWERED_OFF#1601916645.4736888#334.3393108844757#False
+[es.markov] Dozor 6.8 %2f CentOS 7.6#POWERED_OFF#POWERED_OFF#1601916645.4736888#334.3393108844757#False
+[yo.bykhankov] skybox98#POWERED_OFF#POWERED_OFF#1601916645.4736888#334.3393108844757#False
+[shoroh] CentOS 7.3 34.188 SNS LSP#POWERED_OFF#POWERED_OFF#1601916645.4736888#334.3393108844757#False
+[so.reznikov] DeviceLock Server win2012R2#POWERED_OFF#POWERED_OFF#1601916645.4736888#334.3393108844757#False
+[so.reznikov] DeviceLock ARM win7x64#POWERED_OFF#POWERED_OFF#1601916645.4736888#334.3393108844757#False
+KOSTIN]_WinXP_SP3_SIMATIC_ES#POWERED_OFF#POWERED_OFF#1601916645.4736888#334.3393108844757#False
+KOSTIN_Win_2003_R2_St_SIMATIC_SRV1#POWERED_OFF#POWERED_OFF#1601916645.4736888#334.3393108844757#False
+remove_demo_Sec_MaxPatrol#POWERED_OFF#POWERED_OFF#1601916645.4746857#334.3383140563965#False
+[marusov] CHP_80.10_gate#POWERED_OFF#POWERED_OFF#1601916645.4746857#334.3383140563965#False
+[marusov] CHPE#POWERED_ON#POWERED_ON#0#0#False
+demo_infra_Linux#POWERED_OFF#POWERED_OFF#1601916645.4746857#334.3383140563965#False
+[dkazmirchuk] [CP] SMS 10.31.44.122#SUSPENDED#POWERED_OFF#1601916645.4746857#0#False
+[KOSTIN] _WinSrv12StdUpd_VD#POWERED_OFF#POWERED_OFF#1601916645.4746857#334.3383140563965#False
+[KOSTIN] Win7_OPC2#POWERED_OFF#POWERED_OFF#1601916645.4746857#334.3383140563965#False
+[KOSTIN] _Win7_x86_OPC#POWERED_OFF#POWERED_OFF#1601916645.4746857#334.3383140563965#False
+[KOSTIN] win7_x86_vd_client1#POWERED_OFF#POWERED_OFF#1601916645.4746857#334.3383140563965#False
+[KOSTIN] win7_x86_vd_agent#POWERED_OFF#POWERED_OFF#1601916645.4746857#334.3383140563965#False
+WinServ#POWERED_OFF#POWERED_OFF#1601916645.4746857#334.3383140563965#False
+[dp.borisov] - hq-fml02#POWERED_OFF#POWERED_OFF#1601916645.4746857#334.3383140563965#False
+[askuznetsov] IWTM 6.10#POWERED_ON#POWERED_ON#0#0#False
+bobrikov_ASAv#POWERED_OFF#POWERED_OFF#1601916645.4746857#334.3383140563965#False
+[KOSTIN] Debian_ISIM_02#POWERED_OFF#POWERED_OFF#1601916645.4746857#334.3383140563965#False
+[KOSTIN] Win7_RedCheck#POWERED_OFF#POWERED_OFF#1601916645.4746857#334.3383140563965#False
+[askuznetsov] SDLP_Blackbox_15.5#POWERED_ON#POWERED_ON#0#0#False
+[KOSTIN] Win7_SNS#POWERED_OFF#POWERED_OFF#1601916645.4746857#334.3383140563965#False
+[KOSTIN] _WinSrv12StdUpd_SNS#POWERED_OFF#POWERED_OFF#1601916645.4746857#334.3383140563965#False
+[KOSTIN] CentOS7_KICS_Networks#POWERED_OFF#POWERED_OFF#1601916645.4746857#334.3383140563965#False
+FTS-VM-64-10.31.40.11#POWERED_OFF#POWERED_OFF#1601916645.4746857#334.3383140563965#False
+av.nedorezov_transneft-test2#POWERED_OFF#POWERED_OFF#1601916645.4746857#334.3383140563965#False
+av.nedorezov_PC1_10.31.41.18#POWERED_OFF#POWERED_OFF#1601916645.4746857#334.3383140563965#False
+aa.patsyuk_Win2k12_DC_10.31.41.133#POWERED_OFF#POWERED_OFF#1601916645.4756842#334.3373155593872#False
+abogdanov_windows7#POWERED_OFF#POWERED_OFF#1601916645.4756842#334.3373155593872#False
+es.lyapustin_SNS 10-31-44-52#POWERED_OFF#POWERED_OFF#1601916645.4756842#334.3373155593872#False
+av.nedorezov_PC_Windows10_Tamplate#POWERED_OFF#POWERED_OFF#1601916645.4756842#334.3373155593872#False
+av.nedorezov_CP_Management_TMH#POWERED_OFF#POWERED_OFF#1601916645.4756842#334.3373155593872#False
+aa.patsyuk_trendmicro_10.31.41.138#POWERED_OFF#POWERED_OFF#1601916645.4756842#334.3373155593872#False
+es.lyapustin_vCenter 10-31-44-46#POWERED_OFF#POWERED_OFF#1601916645.4756842#334.3373155593872#False
+es.lyapustin_AdminIB 10-31-44-44#POWERED_OFF#POWERED_OFF#1601916645.4756842#334.3373155593872#False
+es.lyapustin_DC 10-31-45-43#POWERED_OFF#POWERED_OFF#1601916645.4756842#334.3373155593872#False
+es.lyapustin_AdminVI 10-31-44-45#POWERED_OFF#POWERED_OFF#1601916645.4756842#334.3373155593872#False
+avkuznetsov_WinSRV_KCS#POWERED_OFF#POWERED_OFF#1601916645.4756842#334.3373155593872#False
+[shoroh] win2012_DeviceLock_SRV_Communigate#POWERED_OFF#POWERED_OFF#1601916645.4756842#334.3373155593872#False
+[askuznetsov] Dozor_6.7#POWERED_OFF#POWERED_OFF#1601916645.4756842#334.3373155593872#False
+[marusov] CHP_80.10_mgmt#POWERED_OFF#POWERED_OFF#1601916812.0011551#167.81184458732605#False
+KOSTIN_WinSrv2003_R2_St_SIMATIC_SRV2#POWERED_OFF#POWERED_OFF#1601916645.4756842#334.3373155593872#False
+KOSTIN_WinXP_SP3_SIMATIC_OS#POWERED_OFF#POWERED_OFF#1601916645.4756842#334.3373155593872#False
+remove_demo_MaxPatrolSIEM_Agent#POWERED_OFF#POWERED_OFF#1601916645.4756842#334.3373155593872#False
+demo_MaxPAtrol SIEM Core#POWERED_OFF#POWERED_OFF#1601916645.4756842#334.3373155593872#False
+remove_demo_MaxPatrol SIEM UCS#POWERED_OFF#POWERED_OFF#1601916645.4766834#334.3363163471222#False
+[dp.borisov] - hq-fac#POWERED_ON#POWERED_ON#0#0#False
+RedHat#POWERED_OFF#POWERED_OFF#1601916645.4766834#334.3363163471222#False
+[es.shmatova] CentOS#POWERED_OFF#POWERED_OFF#1601916645.4766834#334.3363163471222#False
+123#POWERED_OFF#POWERED_OFF#1601916645.4766834#334.3363163471222#False
+[es.lyapustin] ESXi 6.5_vgate_4.1 10-31-46-43#POWERED_OFF#POWERED_OFF#1601916645.4766834#334.3363163471222#False
+[av.nedorezov] transneft-test#POWERED_OFF#POWERED_OFF#1601916645.4766834#334.3363163471222#False
+[av.nedorezov] FortiAnalizerl1_10.31.40.14#POWERED_OFF#POWERED_OFF#1601916645.4766834#334.3363163471222#False
+[ts.mutovkina] SNS 8.5+ KSC#POWERED_OFF#POWERED_OFF#1601916645.4766834#334.3363163471222#False
+[ts.mutovkina] arm SNS 8.5+ KES 11.1.1.126#POWERED_OFF#POWERED_OFF#1601916645.4766834#334.3363163471222#False
+Gumerova_InAgent#POWERED_OFF#POWERED_OFF#1601916645.4766834#334.3363163471222#False
+Gumerova_ADtest#POWERED_OFF#POWERED_OFF#1601916645.4766834#334.3363163471222#False
+Gumerova_SVRIndeed#POWERED_OFF#POWERED_OFF#1601916645.4766834#334.3363163471222#False
+Gumerova_SQL#POWERED_OFF#POWERED_OFF#1601916645.4766834#334.3363163471222#False
+vtok-bind#POWERED_OFF#POWERED_OFF#1601916645.4766834#334.3363163471222#False
+vtok-webserver2#POWERED_OFF#POWERED_OFF#1601916645.4766834#334.3363163471222#False
+vtok-aleph#POWERED_OFF#POWERED_OFF#1601916645.4766834#334.3363163471222#False
+demo_Sec_FortiSandbox#POWERED_OFF#POWERED_OFF#1601916645.4766834#334.3363163471222#False
+[es.shmatova] EPV#POWERED_OFF#POWERED_OFF#1601916645.4766834#334.3363163471222#False
+marusov_Panorama-ESX-8.0.2#POWERED_ON#POWERED_ON#0#0#False
+[as.kuznetsov] ARM Win7#POWERED_OFF#POWERED_OFF#1601916645.4766834#334.3363163471222#False
+demo_IBM_Guardium#POWERED_ON#POWERED_ON#0#0#False
+[va.starostina]_server_windows_10.31.42.132#POWERED_OFF#POWERED_OFF#1601916645.4766834#334.3363163471222#False
+[KOSTIN] nozomihalich#POWERED_OFF#POWERED_OFF#1601916645.4776778#334.33532190322876#False
+[av.izotov]#POWERED_OFF#POWERED_OFF#1601916645.4776778#334.33532190322876#False
+[as.shabaeva]  Wallix#POWERED_OFF#POWERED_OFF#1601916645.4776778#334.33532190322876#False
+[bobrikov]Cisco_Firepower_Threat_Defense#POWERED_OFF#POWERED_OFF#1601916645.4776778#334.33532190322876#False
+da.shley_centos7#POWERED_OFF#POWERED_OFF#1601916645.4776778#334.33532190322876#False
+[av.izotov] DC#POWERED_OFF#POWERED_OFF#1601916645.4776778#334.33532190322876#False
+[av.izotov] ESXi-1#POWERED_ON#POWERED_ON#0#0#False
+[av.izotov] ESXi-2#POWERED_ON#POWERED_ON#0#0#False
+[yo.bykhankov] MDS_CP#POWERED_OFF#POWERED_OFF#1601916645.4776778#334.33532190322876#False
+[av.izotov] AVI#POWERED_ON#POWERED_ON#0#0#False
+[av.izotov] ABI#POWERED_ON#POWERED_ON#0#0#False
+[yo.bykhankov] Forcepoint#POWERED_OFF#POWERED_OFF#1601916645.4776778#334.33532190322876#False
+[KOSTIN] nozomi_SCADAguardian#POWERED_OFF#POWERED_OFF#1601916645.4776778#334.33532190322876#False
+Huawei EasySuite#POWERED_OFF#POWERED_OFF#1601916645.4776778#334.33532190322876#False
+[aa.rogovoy]Kali#POWERED_OFF#POWERED_OFF#1601916645.4776778#334.33532190322876#False
+VirtualBlade01#POWERED_OFF#POWERED_OFF#1601916645.4776778#334.33532190322876#False
+VirtualBlade02#POWERED_OFF#POWERED_OFF#1601916645.4776778#334.33532190322876#False
+[aa.rogovoy]Kali_Linux#POWERED_OFF#POWERED_OFF#1601916645.4776778#334.33532190322876#False
+[yo.bykhankov] ngatemgmt#POWERED_OFF#POWERED_OFF#1601916645.4776778#334.33532190322876#False
+[sapunov] - Win10#POWERED_OFF#POWERED_OFF#1601916645.4776778#334.33532190322876#False
+[ml.malyshev]Windows 10#POWERED_OFF#POWERED_OFF#1601916645.4776778#334.33532190322876#False
+[mn.matushkin]-PSB-CUS-Continent3-9-1#POWERED_OFF#POWERED_OFF#1601916645.4776778#334.33532190322876#False
+[ml.malyshev]Windows 2#POWERED_OFF#POWERED_OFF#1601916645.4786754#334.3343243598938#False
+[ml.malyshev]Windows 2 (1)#POWERED_OFF#POWERED_OFF#1601916645.4786754#334.3343243598938#False
+[yo.bykhankov] ngate_complete#POWERED_OFF#POWERED_OFF#1601916645.4786754#334.3343243598938#False
+[dd.elchishchev] DC1#POWERED_OFF#POWERED_OFF#1601916645.4786754#334.3343243598938#False
+[dd.elchishchev] RSA-AM-8.4#POWERED_OFF#POWERED_OFF#1601916645.4786754#334.3343243598938#False
+[yo.bykhankov] ngatenodeN#POWERED_OFF#POWERED_OFF#1601916645.4786754#334.3343243598938#False
+al.navoynikov_Huawei_ELOG#POWERED_OFF#POWERED_OFF#1601916645.4786754#334.3343243598938#False
+[dv.bulgakov] DCwin16#POWERED_ON#POWERED_ON#0#0#False
+[dv.bulgakov] IIS_server#POWERED_ON#POWERED_ON#0#0#False
+[dv.bulgakov] RootCA#POWERED_ON#POWERED_ON#0#0#False
+[dv.bulgakov] SubCA#POWERED_ON#POWERED_ON#0#0#False
+al.navoynikov-Kali_for_Huawei#POWERED_OFF#POWERED_OFF#1601916645.4786754#334.3343243598938#False
+[yo.bykhankov] smcfp#POWERED_OFF#POWERED_OFF#1601916645.4786754#334.3343243598938#False
+[mn.matushkin]-PSB-Continent-3-9-ARBAT#POWERED_OFF#POWERED_OFF#1601916645.4786754#334.3343243598938#False
+[mn.matushkin]-PSB-Continent3-9-COD#POWERED_OFF#POWERED_OFF#1601916645.4786754#334.3343243598938#False
+[dkazmirchuk] Kali Att#SUSPENDED#POWERED_OFF#1601916645.4786754#0#False
+[dkazmirchuk] Kali Linux#POWERED_ON#POWERED_ON#0#0#False
+[ds.kottsov] - Centos with Skybox#POWERED_OFF#POWERED_OFF#1601916645.4786754#334.3343243598938#False
+[ds.kottsov] - Skybox.iso#POWERED_OFF#POWERED_OFF#1601916645.4786754#334.3343243598938#False
+[ds.kottsov] - Skybox Manager#POWERED_OFF#POWERED_OFF#1601916645.4796727#334.3333270549774#False
+[ds.kottsov] - Check Point for Skybox#POWERED_OFF#POWERED_OFF#1601916645.4796727#334.3333270549774#False
+[dkazmirchuk] Kali Vic#SUSPENDED#POWERED_OFF#1601916645.4796727#0#False
+[ds.kottsov] - AD for Skybox#POWERED_OFF#POWERED_OFF#1601916645.4796727#334.3333270549774#False
+[yo.bykhankov] tufin#POWERED_OFF#POWERED_OFF#1601916645.4796727#334.3333270549774#False
+[ds.kottsov] - FortiGate test#POWERED_OFF#POWERED_OFF#1601916645.4796727#334.3333270549774#False
+[aa.turabaev] - APKSH_3_9_NCC_AS#POWERED_OFF#POWERED_OFF#1601916645.4796727#334.3333270549774#False
+[dkazmirchuk] Huntbox#SUSPENDED#POWERED_OFF#1601916645.4796727#0#False
+Skybox for trening#POWERED_OFF#POWERED_OFF#1601916645.4796727#334.3333270549774#False
+PC for Skybox#POWERED_OFF#POWERED_OFF#1601916645.4796727#334.3333270549774#False
+[ds.kottsov] - Kali Linux#POWERED_OFF#POWERED_OFF#1601916645.4796727#334.3333270549774#False
+[av.nedorezov] FortiMail1_10.31.40.12#POWERED_OFF#POWERED_OFF#1601916645.4796727#334.3333270549774#False
+[es.markov] GardaBD#POWERED_OFF#POWERED_OFF#1601916645.4796727#334.3333270549774#False
+[aa.turabaev] - APKSH_3_9_FW#POWERED_OFF#POWERED_OFF#1601916645.4796727#334.3333270549774#False
+marusov_BIGIP-15.0.1-0.0.11-vmware#POWERED_ON#POWERED_ON#0#0#False
+[yo.bykhankov] kontinent-tls#POWERED_OFF#POWERED_OFF#1601916645.4796727#334.3333270549774#False
+aa.bobrikov_FMC-6.5#POWERED_OFF#POWERED_OFF#1601916645.4796727#334.3333270549774#False
+demo_sec_Skybox_10.31.37.41#POWERED_ON#POWERED_ON#0#0#False
+aa.bobrikov_FTD_6.5#POWERED_OFF#POWERED_OFF#1601916645.4796727#334.3333270549774#False
+[es.markov] rhel6#POWERED_OFF#POWERED_OFF#1601916645.4806697#334.3323299884796#False
+[es.markov] rgel7#POWERED_OFF#POWERED_OFF#1601916645.4806697#334.3323299884796#False
+[va.karpov] nsvpx-test1#POWERED_OFF#POWERED_OFF#1601916645.4806697#334.3323299884796#False
+[ia.klimin] - FMC_6.3.0#POWERED_OFF#POWERED_OFF#1601916645.4806697#334.3323299884796#False
+sapunov-RHEL-7.4v3#POWERED_ON#POWERED_ON#0#0#False
+[ds.kottsov] - FortiGate_Test_2#POWERED_OFF#POWERED_OFF#1601916645.4806697#334.3323299884796#False
+[la.baulina] - SNS_Server#POWERED_ON#POWERED_ON#0#0#False
+[la.baulina] - DC#POWERED_ON#POWERED_ON#0#0#False
+[la.baulina] - Client#POWERED_ON#POWERED_ON#0#0#False
+[Rogovoy]VTB_Test_Host#POWERED_OFF#POWERED_OFF#1601916645.4806697#334.3323299884796#False
+[ds.kottsov] - Palo_Alto_for_SkyBox#POWERED_OFF#POWERED_OFF#1601916645.4806697#334.3323299884796#False
+vtok_win10#POWERED_OFF#POWERED_OFF#1601916645.4806697#334.3323299884796#False
+abogdanov_SDLP#POWERED_OFF#POWERED_OFF#1601916645.4806697#334.3323299884796#False
+shoroh_DARS-AD1 (34.186)#POWERED_OFF#POWERED_OFF#1601916645.4806697#334.3323299884796#False
+[abogdanov] DOZOR6#POWERED_OFF#POWERED_OFF#1601916645.4806697#334.3323299884796#False
+FortiAnalyzer-VM#POWERED_OFF#POWERED_OFF#1601916645.4816675#334.3313322067261#False
+iv.smirnov_KSC#POWERED_OFF#POWERED_OFF#1601916645.4816675#334.3313322067261#False
+[aa.bobrikov] Cisco Wireless Lan Controller#POWERED_OFF#POWERED_OFF#1601916645.4816675#334.3313322067261#False
+[abogdanov] Usergate UTM#POWERED_OFF#POWERED_OFF#1601916645.4816675#334.3313322067261#False
+shoroh_SMAP_5.0.2_ORACLE#SUSPENDED#POWERED_OFF#1601916645.4816675#0#False
+[dkazmirchuk] FSSO Agent 10.31.34.136#POWERED_OFF#POWERED_OFF#1601916645.4816675#334.3313322067261#False
+[dkazmirchuk] SMS 10.31.44.120#POWERED_OFF#POWERED_OFF#1601916645.4816675#334.3313322067261#False
+[abogdanov] ARM#POWERED_OFF#POWERED_OFF#1601916645.4816675#334.3313322067261#False
+[abogdanov] DM#POWERED_OFF#POWERED_OFF#1601916645.4816675#334.3313322067261#False
+[abogdanov] TM#POWERED_OFF#POWERED_OFF#1601916645.4816675#334.3313322067261#False
+[abogdanov] EPV2#POWERED_OFF#POWERED_OFF#1601916645.4816675#334.3313322067261#False
+[abogdanov] EPV1#POWERED_OFF#POWERED_OFF#1601916645.4816675#334.3313322067261#False
+aa.rogovoy_Kali_Linux_1#POWERED_OFF#POWERED_OFF#1601916645.4816675#334.3313322067261#False
+[zaytseva] Ubuntu 16.04 Unibank#POWERED_OFF#POWERED_OFF#1601916645.4816675#334.3313322067261#False
+aa.bobrikov_WinXP#POWERED_OFF#POWERED_OFF#1601916645.4816675#334.3313322067261#False
+aa.rogovoy_Test_Host_Win_CP_VTB_mgmt#POWERED_OFF#POWERED_OFF#1601916645.4816675#334.3313322067261#False
+[abogdanov] ProxySG Model SWG#POWERED_OFF#POWERED_OFF#1601916645.482664#334.33033561706543#False
+skybox500_10.31.41.138#POWERED_OFF#POWERED_OFF#1601916645.482664#334.33033561706543#False
+AD_bobrikov#POWERED_OFF#POWERED_OFF#1601916645.482664#334.33033561706543#False
+[abogdanov] CRM+PVWA#POWERED_OFF#POWERED_OFF#1601916645.482664#334.33033561706543#False
+[ve.chaplygin] - HashiCorp-Vault-RHEL7#POWERED_OFF#POWERED_OFF#1601916645.482664#334.33033561706543#False
+pagolovistikov_kafka#POWERED_OFF#POWERED_OFF#1601916645.482664#334.33033561706543#False
+[sapunov] test-plan-opzs_new#POWERED_OFF#POWERED_OFF#1601916645.482664#334.33033561706543#False
+[ae.konopak] OWASP#POWERED_OFF#POWERED_OFF#1601916645.482664#334.33033561706543#False
+shoroh_Win10 Acrobat Pro и Finereader#POWERED_ON#POWERED_ON#0#0#False
+shoroh_Dozor7 (34.185)#POWERED_ON#POWERED_ON#0#0#False
+marusov_Exchange2016#POWERED_ON#POWERED_ON#0#0#False
+[abogdanov] AD-Cyber#POWERED_OFF#POWERED_OFF#1601916645.482664#334.33033561706543#False
+aa.bobrikov_ISE_2.7#POWERED_OFF#POWERED_OFF#1601916645.482664#334.33033561706543#False
+[ia.klimin] - FMC_6.5#POWERED_OFF#POWERED_OFF#1601916645.482664#334.33033561706543#False
+pagolovistikov_resilientIS#POWERED_OFF#POWERED_OFF#1601916645.482664#334.33033561706543#False
+[ia.klimin] - FTD_6.5.0#POWERED_OFF#POWERED_OFF#1601916645.482664#334.33033561706543#False
+marusov_PA-VM#POWERED_OFF#POWERED_OFF#1601916645.4836614#334.32933831214905#False
+[es.shmatova] SIManager1#POWERED_OFF#POWERED_OFF#1601916645.4836614#334.32933831214905#False
+sapunov_test_vm#POWERED_ON#POWERED_ON#0#0#False
+[pa.glushkov]WinServer2012#POWERED_OFF#POWERED_OFF#1601916645.4836614#334.32933831214905#False
+[pa.glushkov]FortiGate-01#POWERED_OFF#POWERED_OFF#1601916645.4836614#334.32933831214905#False
+[pa.glushkov] - FortiGate-01#POWERED_OFF#POWERED_OFF#1601916645.4836614#334.32933831214905#False
+[pa.glushkov] - FortiGate-02#POWERED_OFF#POWERED_OFF#1601916645.4836614#334.32933831214905#False
+[pa.glushkov] - Ubuntu#POWERED_OFF#POWERED_OFF#1601916645.4836614#334.32933831214905#False
+[pa.glushkov] - FortiSandbox#POWERED_OFF#POWERED_OFF#1601916645.4836614#334.32933831214905#False
+[es.markov] McAffe WG#POWERED_OFF#POWERED_OFF#1601916645.4836614#334.32933831214905#False
+[es.markov] KPSN#POWERED_OFF#POWERED_OFF#1601916645.4836614#334.32933831214905#False
+[pa.glushkov] - FortiManager#POWERED_OFF#POWERED_OFF#1601916645.4836614#334.32933831214905#False
+[aa.patsyuk]ksmg#POWERED_OFF#POWERED_OFF#1601916645.4836614#334.32933831214905#False
+[aa.patsyuk]ksmg1_10.31.41.133#POWERED_ON#POWERED_ON#0#0#False
+[sp.bastrykin]Debian-GEOIP-MQ#POWERED_OFF#POWERED_OFF#1601916645.4836614#334.32933831214905#False
+[sp.bastrykin]Debian-GEOIP-DB#POWERED_OFF#POWERED_OFF#1601916645.484659#334.3283407688141#False
+[sp.bastrykin]Debian-GEOIP-Main#POWERED_OFF#POWERED_OFF#1601916645.484659#334.3283407688141#False
+[va.karpov] Test_DC_Win2k16#POWERED_OFF#POWERED_OFF#1601916645.484659#334.3283407688141#False
+[pa.glushkov] - FortiGate-03#POWERED_OFF#POWERED_OFF#1601916645.484659#334.3283407688141#False
+[ma.skomorokhov] - MFlash_WEB#POWERED_OFF#POWERED_OFF#1601916645.484659#334.3283407688141#False
+[es.shmatova] SIManager02#POWERED_OFF#POWERED_OFF#1601916645.484659#334.3283407688141#False
+[es.shmatova] Collector01#POWERED_OFF#POWERED_OFF#1601916645.484659#334.3283407688141#False
+[es.shmatova] Collector02#POWERED_OFF#POWERED_OFF#1601916645.484659#334.3283407688141#False
+[pa.glushkov] - BIGIP#POWERED_OFF#POWERED_OFF#1601916645.484659#334.3283407688141#False
+[ds.kudryashov] SLES 15#POWERED_OFF#POWERED_OFF#1601916645.484659#334.3283407688141#False
+[dp.borisov] - FortiPoC 1.5.37#POWERED_ON#POWERED_ON#0#0#False
+[pa.glushkov] - FortiAnalyzer#POWERED_OFF#POWERED_OFF#1601916645.484659#334.3283407688141#False
+[ea.stepanov] MFlash_web_10.31.41.175#POWERED_OFF#POWERED_OFF#1601916645.484659#334.3283407688141#False
+[ea.stepanov] Mflash_Data_10.31.41.176#POWERED_OFF#POWERED_OFF#1601916645.484659#334.3283407688141#False
+[dv.dushenok] - win10_host1#POWERED_ON#POWERED_ON#0#0#False
+[as.shabaeva] fudo-1#POWERED_ON#POWERED_ON#0#0#False
+[as.shabaeva] fudo-2#POWERED_ON#POWERED_ON#0#0#False
+[dv.dushenok] - FortiGate-VM64_FW1#POWERED_OFF#POWERED_OFF#1601916645.485656#334.3273437023163#False
+[dv.dushenok] - FortiGate-VM64_FW2#POWERED_OFF#POWERED_OFF#1601916645.485656#334.3273437023163#False
+[abogdanov] PSM#POWERED_OFF#POWERED_OFF#1601916645.485656#334.3273437023163#False
+aa.bobrikov_Prime#POWERED_OFF#POWERED_OFF#1601916645.485656#334.3273437023163#False
+FortiManager_for_Test#POWERED_OFF#POWERED_OFF#1601916645.485656#334.3273437023163#False
+[KOSTIN] FortiGate-VM64n01#POWERED_OFF#POWERED_OFF#1601916645.485656#334.3273437023163#False
+[dkazmirchuk] TrapX.TSOC 10.31.45.123#POWERED_ON#POWERED_ON#0#0#False
+[ds.kottsov]FortiAnalyzer-VM64#POWERED_OFF#POWERED_OFF#1601916645.485656#334.3273437023163#False
+[ds.kottsov] - FortiAnalyzer-VM64#POWERED_OFF#POWERED_OFF#1601916645.485656#334.3273437023163#False
+[dv.dushenok] - FortiManager-VM64#POWERED_OFF#POWERED_OFF#1601916645.485656#334.3273437023163#False
+[dv.dushenok] - FortiAnalyzer-VM64#POWERED_OFF#POWERED_OFF#1601916645.485656#334.3273437023163#False
+[dv.dushenok] - DC01_Win2019#POWERED_ON#POWERED_ON#0#0#False
+Panorama-ESX-9.0.1#POWERED_OFF#POWERED_OFF#1601916645.4866538#334.32634592056274#False
+[aa.turabaev] - sterra_kp_base#POWERED_OFF#POWERED_OFF#1601916645.4866538#334.32634592056274#False
+[pa.glushkov] Fortimail-vm#POWERED_OFF#POWERED_OFF#1601916645.4866538#334.32634592056274#False
+sterra_kp_05_Перенесено на ПАК#POWERED_OFF#POWERED_OFF#1601916645.4866538#334.32634592056274#False
+sterra_kp_08_Перенесено на ПАК#POWERED_ON#POWERED_ON#0#0#False
+sterra_kp_10_Перенесено на ПАК#POWERED_OFF#POWERED_OFF#1601916645.4866538#334.32634592056274#False
+sterra_kp_11_Перенесено на ПАК#POWERED_OFF#POWERED_OFF#1601916645.4866538#334.32634592056274#False
+sterra_kp_12_Перенесено на ПАК#POWERED_OFF#POWERED_OFF#1601916645.4866538#334.32634592056274#False
+sterra_kp_13_Перенесено на ПАК#POWERED_OFF#POWERED_OFF#1601916645.4866538#334.32634592056274#False
+sterra_kp_18_Перенесено на ПАК#POWERED_OFF#POWERED_OFF#1601916645.4866538#334.32634592056274#False
+sterra_kp_21_Перенесено на ПАК#POWERED_OFF#POWERED_OFF#1601916645.4866538#334.32634592056274#False
+sterra_kp_26_Перенесено на ПАК#POWERED_OFF#POWERED_OFF#1601916645.4876513#334.3253483772278#False
+sterra_kp_29-Перенесено на ПАК#POWERED_OFF#POWERED_OFF#1601916645.4876513#334.3253483772278#False
+sterra_kp_33_Перенесено на ПАК#POWERED_OFF#POWERED_OFF#1601916645.4876513#334.3253483772278#False
+sterra_kp_34_Перенесено на ПАК#POWERED_OFF#POWERED_OFF#1601916645.4876513#334.3253483772278#False
+sterra_kp_35_Перенесено на ПАК#POWERED_OFF#POWERED_OFF#1601916645.4876513#334.3253483772278#False
+sterra_kp_32_Перенесено на ПАК#POWERED_OFF#POWERED_OFF#1601916645.4876513#334.3253483772278#False
+sterra_kp_36_Перенесено на ПАК#POWERED_OFF#POWERED_OFF#1601916645.4876513#334.3253483772278#False
+sterra_kp_40_Перенесено на ПАК#POWERED_ON#POWERED_ON#0#0#False
+sterra_kp_43_Перенесено на ПАК#POWERED_OFF#POWERED_OFF#1601916645.4876513#334.3253483772278#False
+sterra_kp_44_Перенесено на ПАК#POWERED_OFF#POWERED_OFF#1601916645.4876513#334.3253483772278#False
+sterra_kp_45_Перенесено на ПАК#POWERED_OFF#POWERED_OFF#1601916645.4876513#334.3253483772278#False
+sterra_kp_46_Перенесено на ПАК#POWERED_OFF#POWERED_OFF#1601916645.4876513#334.3253483772278#False
+sterra_kp_47_Перенесено на ПАК#POWERED_OFF#POWERED_OFF#1601916645.4876513#334.3253483772278#False
+sterra_kp_48_old#POWERED_OFF#POWERED_OFF#1601916645.4886482#334.32435154914856#False
+sterra_kp_50_old#POWERED_OFF#POWERED_OFF#1601916645.4886482#334.32435154914856#False
+sterra_kp_52_Перенесено на ПАК#POWERED_OFF#POWERED_OFF#1601916645.4886482#334.32435154914856#False
+sterra_kp_56_Перенесено на ПАК#POWERED_OFF#POWERED_OFF#1601916645.4886482#334.32435154914856#False
+sterra_kp_57_Перенесено на ПАК#POWERED_OFF#POWERED_OFF#1601916645.4886482#334.32435154914856#False
+sterra_kp_59_Перенесено на ПАК#POWERED_OFF#POWERED_OFF#1601916645.4886482#334.32435154914856#False
+sterra_kp_61_Перенесено на ПАК#POWERED_OFF#POWERED_OFF#1601916645.4886482#334.32435154914856#False
+sterra_kp_62_Перенесено на ПАК#POWERED_OFF#POWERED_OFF#1601916645.4886482#334.32435154914856#False
+sterra_kp_67_Перенесено на ПАК#POWERED_OFF#POWERED_OFF#1601916645.4886482#334.32435154914856#False
+sterra_kp_68_Перенесено на ПАК#POWERED_OFF#POWERED_OFF#1601916645.4886482#334.32435154914856#False
+sterra_kp_69_Перенесено на ПАК#POWERED_OFF#POWERED_OFF#1601916645.4886482#334.32435154914856#False
+sterra_kp_71_Перенесено на ПАК#POWERED_OFF#POWERED_OFF#1601916645.4886482#334.32435154914856#False
+sterra_kp_72_Перенесено на ПАК#POWERED_OFF#POWERED_OFF#1601916645.4896457#334.3233540058136#False
+sterra_kp_74_Перенесено на ПАК#POWERED_OFF#POWERED_OFF#1601916645.4896457#334.3233540058136#False
+sterra_kp_73_Перенесено на ПАК#POWERED_OFF#POWERED_OFF#1601916645.4896457#334.3233540058136#False
+sterra_kp_76_Перенесено на ПАК#POWERED_OFF#POWERED_OFF#1601916645.4896457#334.3233540058136#False
+sterra_kp_01_Перенесено на ПАК#POWERED_OFF#POWERED_OFF#1601916645.4896457#334.3233540058136#False
+sterra_kp_06_Перенесено на ПАК#POWERED_OFF#POWERED_OFF#1601916645.4896457#334.3233540058136#False
+sterra_kp_63_Перенесено на ПАК#POWERED_OFF#POWERED_OFF#1601916645.4896457#334.3233540058136#False
+sterra_kp_48_Перенесено на ПАК#POWERED_OFF#POWERED_OFF#1601916645.4896457#334.3233540058136#False
+sterra_kp_50_Перенесено на ПАК#POWERED_OFF#POWERED_OFF#1601916645.4896457#334.3233540058136#False
+Alladin#POWERED_OFF#POWERED_OFF#1601916645.4896457#334.3233540058136#False
+[dkazmirchuk] X.Windows Client#POWERED_OFF#POWERED_OFF#1601916645.4896457#334.3233540058136#False
+[dkazmirchuk] X.Server#POWERED_OFF#POWERED_OFF#1601916645.490643#334.3223567008972#False
+[dkazmirchuk] X.Honeypot#POWERED_OFF#POWERED_OFF#1601916645.490643#334.3223567008972#False
+[dkazmirchuk] Fidelis.Decoy.Server 45.125#SUSPENDED#POWERED_OFF#1601916645.490643#0#False
+[ds.kudryashov] PangeoRadar#POWERED_OFF#POWERED_OFF#1601916645.490643#334.3223567008972#False
+[dkazmirchuk] Fidelis.CP 45.124#SUSPENDED#POWERED_OFF#1601916645.490643#0#False
+[sy.bortnikov] XelMServ#POWERED_OFF#POWERED_OFF#1601916645.490643#334.3223567008972#False
+[sy.bortnikov] XekDServ#POWERED_OFF#POWERED_OFF#1601916645.4916432#334.3213565349579#False
+[la.baulina] - KSC#POWERED_ON#POWERED_ON#0#0#False
+[dkazmirchuk] Fidelis.Internal.Sensor#SUSPENDED#POWERED_OFF#1601916645.4916432#0#False
+[es.lyapustin] SNS#POWERED_OFF#POWERED_OFF#1601916645.4916432#334.3213565349579#False
+[es.lyapustin] ksc#POWERED_OFF#POWERED_OFF#1601916645.4916432#334.3213565349579#False
+[sy.bortnikov] XelHost1#POWERED_OFF#POWERED_OFF#1601916645.4916432#334.3213565349579#False
+[as.kuznetsov] IWTM 6.11 Vision#POWERED_OFF#POWERED_OFF#1601916645.4916432#334.3213565349579#False
+[ak.elizarov] - ARM_modbus#POWERED_OFF#POWERED_OFF#1601916645.4926417#334.3203580379486#False
+[sy.bortnikov] XelMServ2#POWERED_OFF#POWERED_OFF#1601916645.4926417#334.3203580379486#False
+[dkazmirchuk] EnCase SAFE 45.126#POWERED_ON#POWERED_ON#0#0#False
+[dkazmirchuk] EnCase Endpoint Security 45.127#POWERED_ON#POWERED_ON#0#0#False
+aa.bobrikov_ISE_2.6#POWERED_OFF#POWERED_OFF#1601916645.4926417#334.3203580379486#False
+[sy.bortnikov] XelHost2#POWERED_OFF#POWERED_OFF#1601916645.4926417#334.3203580379486#False
+[sy.bortnikov] XelHost3#POWERED_OFF#POWERED_OFF#1601916645.4926417#334.3203580379486#False
+[sy.bortnikov] XelHost4#POWERED_OFF#POWERED_OFF#1601916645.4926417#334.3203580379486#False
+[sy.bortnikov] XelHost5#POWERED_OFF#POWERED_OFF#1601916645.4926417#334.3203580379486#False
+[es.lyapustin]CentOS 7#POWERED_OFF#POWERED_OFF#1601916645.4936411#334.319358587265#False
+[es.lyapustin] CentOS 7#POWERED_OFF#POWERED_OFF#1601916645.4936411#334.319358587265#False
+sterra_kp_38_Перенесено на ПАК#POWERED_OFF#POWERED_OFF#1601916645.4936411#334.319358587265#False
+sterra_kp_24-Перенесено на ПАК#POWERED_OFF#POWERED_OFF#1601916645.4936411#334.319358587265#False
+sterra_kp_02_Перенесено на ПАК#POWERED_OFF#POWERED_OFF#1601916645.4936411#334.319358587265#False
+sterra_kp_55_Перенесено на ПАК#POWERED_OFF#POWERED_OFF#1601916645.4936411#334.319358587265#False
+sterra_kp_22_Перенесено на ПАК#POWERED_OFF#POWERED_OFF#1601916645.4936411#334.319358587265#False
+sterra_kp_66_Перенесено на ПАК#POWERED_OFF#POWERED_OFF#1601916645.4936411#334.319358587265#False
+sterra_kp_14_Перенесено на ПАК#POWERED_OFF#POWERED_OFF#1601916645.4936411#334.319358587265#False
+sterra_kp_54_Перенесено на ПАК#POWERED_OFF#POWERED_OFF#1601916645.4936411#334.319358587265#False
+sterra_kp_42_Перенесено на ПАК#POWERED_OFF#POWERED_OFF#1601916645.4936411#334.319358587265#False
+sterra_kp_64_Перенесено на ПАК#POWERED_OFF#POWERED_OFF#1601916645.4946709#334.3183288574219#False
+[ds.kudryashov] zabbix#POWERED_ON#POWERED_ON#0#0#False
+[ae.konopak] new ViPNet admin#POWERED_OFF#POWERED_OFF#1601916645.4946709#334.3183288574219#False
+[as.ivashneva] Qradar_all#POWERED_ON#POWERED_ON#0#0#False
+[dkazmirchuk] EnCase Client 45.128#POWERED_ON#POWERED_ON#0#0#False
+[pa.glushkov] - FortiAuthenticator-1#POWERED_OFF#POWERED_OFF#1601916645.4946709#334.3183288574219#False
+[as.ivashneva] FortiSIEM-Collector#POWERED_ON#POWERED_ON#0#0#False
+[as.ivashneva] NFS-Storage#POWERED_ON#POWERED_ON#0#0#False
+[dkazmirchuk] EnCase User 46.123#POWERED_ON#POWERED_ON#0#0#False
+asmolov_F5#POWERED_OFF#POWERED_OFF#1601916645.4956675#334.31733226776123#False
+[as.ivashneva] FortiSIEM-Worker#POWERED_OFF#POWERED_OFF#1601916645.4956675#334.31733226776123#False
+[pa.yankov] VipNet CA#POWERED_OFF#POWERED_OFF#1601916645.4956675#334.31733226776123#False
+[pa.yankov] VipNet HSM#POWERED_OFF#POWERED_OFF#1601916645.4956675#334.31733226776123#False
+vi.shekemov_AD#POWERED_ON#POWERED_ON#0#0#False
+[ks.kuznetsov] R-Vision#POWERED_OFF#POWERED_OFF#1601916645.4956675#334.31733226776123#False
+vi.shekemov_esxi#POWERED_ON#POWERED_ON#0#0#False
+ambari-mnt-001#POWERED_ON#POWERED_ON#0#0#False
+hdp-dnt-002#POWERED_ON#POWERED_ON#0#0#False
+hdp-dnt-003#POWERED_ON#POWERED_ON#0#0#False
+[azhuk] SmartLogger#POWERED_OFF#POWERED_OFF#1601916645.4966652#334.3163344860077#False
+hdp-dnt-001#POWERED_ON#POWERED_ON#0#0#False
+[as.ditenkova] Consul#POWERED_ON#POWERED_ON#0#0#False
+[dv.dushenok] Netsight_64bit.8.4.2.38-Medium#POWERED_OFF#POWERED_OFF#1601916645.4966652#334.3163344860077#False
+[as.ditenkova] HashiCorp Vault#POWERED_ON#POWERED_ON#0#0#False
+[es.lyapustin] win8.1#POWERED_ON#POWERED_ON#0#0#False
+[es.markov] AD#POWERED_ON#POWERED_ON#0#0#False
+[es.markov] KSC#POWERED_ON#POWERED_ON#0#0#False
+[es.markov] AV-test#POWERED_ON#POWERED_ON#0#0#False
+[dv.bulgakov] win7-moesk-admin#POWERED_ON#POWERED_ON#0#0#False
+[as.ivashneva] MP-All-in-One#POWERED_ON#POWERED_ON#0#0#False
+[dv.dushenok] - DC02_Win2019#POWERED_ON#POWERED_ON#0#0#False
+[ds.kottsov] - FortiGate_for_Achim#POWERED_OFF#POWERED_OFF#1601916645.4976625#334.3153371810913#False
+[ys.lisovol] -PTAF3.7.3#POWERED_OFF#POWERED_OFF#1601916645.4976625#334.3153371810913#False
+[as.ditenkova] workstation#POWERED_ON#POWERED_ON#0#0#False
+[dv.dushenok] - nac_appliance_64bit.8.4.3.24-Medium#POWERED_OFF#POWERED_OFF#1601916645.4976625#334.3153371810913#False
+[dp.borisov] - wd10-internal#POWERED_ON#POWERED_ON#0#0#False
+[dv.dushenok] - CentOS6.5#POWERED_OFF#POWERED_OFF#1601916645.4976625#334.3153371810913#False
+[aa.patsyuk]Cronus_2.8.1_10.31.41.132#POWERED_ON#POWERED_ON#0#0#False
+ad.server.hdp#POWERED_OFF#POWERED_OFF#1601916645.4986613#334.31433844566345#False
+[pa.yankov] w10 vipnet#POWERED_OFF#POWERED_OFF#1601916645.4986613#334.31433844566345#False
+[es.markov] KATA 3.7#POWERED_ON#POWERED_ON#0#0#False
+vi.shekemov_ad2008#POWERED_OFF#POWERED_OFF#1601916645.4986613#334.31433844566345#False
+[as.ivashneva] Qradar_HA#POWERED_ON#POWERED_ON#0#0#False
+[va.starostina]_BIGIP-13.1.3.3-0.0.6_10.31.42.131#POWERED_OFF#POWERED_OFF#1601916645.4986613#334.31433844566345#False
+[dv.dushenok] - MikroTik_CHR_release_6.45.9#POWERED_ON#POWERED_ON#0#0#False
+[ys.lisovol] - OWASP_Broken_Web_Apps_VM_1.2#POWERED_OFF#POWERED_OFF#1601916645.4986613#334.31433844566345#False
+[dkazmirchuk] XP#POWERED_OFF#POWERED_OFF#1601916645.4986613#334.31433844566345#False
+[dkazmirchuk] 2008 Server 10.31.44.121#POWERED_ON#POWERED_ON#0#0#False
+[dkazmirchuk] 2008 Server-2 10.31.44.122#POWERED_ON#POWERED_ON#0#0#False
+sterra_kp_51_Перенесено на ПАК#POWERED_OFF#POWERED_OFF#1601916645.4996572#334.31334257125854#False
+[sp.bastrykin] NKCKI#POWERED_ON#POWERED_ON#0#0#False
+vi.shekemov_astra-instal#POWERED_OFF#POWERED_OFF#1601916645.4996572#334.31334257125854#False
+[dv.bulgakov] IndeedAM-main+SAML#POWERED_ON#POWERED_ON#0#0#False
+pagolovistikov_resilient2#POWERED_OFF#POWERED_OFF#1601916645.4996572#334.31334257125854#False
+[dv.bulgakov] IndeedAM-selfservice#POWERED_OFF#POWERED_OFF#1601916645.4996572#334.31334257125854#False
+[dv.bulgakov] IndeedAM-RDP-Server#POWERED_ON#POWERED_ON#0#0#False
+[ds.kudryashov] pt ucs 9.4_res#POWERED_OFF#POWERED_OFF#1601916645.5006535#334.3123462200165#False
+[va.starostina]_BIGIP-13.1.3.3-0.0.6_10.31.42.131clone3#POWERED_OFF#POWERED_OFF#1601916645.5006535#334.3123462200165#False
+[va.starostina]_BIGIP-13.1.3.3-0.0.6_10.31.42.132 NODE 2#POWERED_ON#POWERED_ON#0#0#False
+[dp.borisov] - br-fg-1#POWERED_OFF#POWERED_OFF#1601916645.5006535#334.3123462200165#False
+[dp.borisov] - hq-fmg#POWERED_ON#POWERED_ON#0#0#False
+[dp.borisov] - winserv2016#POWERED_OFF#POWERED_OFF#1601916645.5006535#334.3123462200165#False
+[sp.bastrykin] NKCKI s-terra#POWERED_ON#POWERED_ON#0#0#False
+[sp.bastrykin] NKCKI - kontinent#POWERED_ON#POWERED_ON#0#0#False
+[dv.bulgakov] IndeedAM-log_server#POWERED_OFF#POWERED_OFF#1601916645.5006535#334.3123462200165#False
+[as.ivashneva] r-vision#POWERED_ON#POWERED_ON#0#0#False
+marusov_fortimail-v62-build0263#POWERED_OFF#POWERED_OFF#1601916645.5016527#334.31134700775146#False
+marusov_fortiweb-vm-6.3.0#POWERED_OFF#POWERED_OFF#1601916645.5016527#334.31134700775146#False
+[pa.glushkov] - CSR1000v#POWERED_OFF#POWERED_OFF#1601916645.5016527#334.31134700775146#False
+consul.n1#POWERED_ON#POWERED_ON#0#0#False
+vault.n1#POWERED_ON#POWERED_ON#0#0#False
+[se.nozhenko] Cortex XSOAR#POWERED_ON#POWERED_ON#0#0#False
+[as.ivashneva] win#POWERED_ON#POWERED_ON#0#0#False
+[as.ivashneva] exch#POWERED_ON#POWERED_ON#0#0#False
+[as.ivashneva] win10#POWERED_ON#POWERED_ON#0#0#False
+[ds.kudryashov] arcsight connectors new#POWERED_ON#POWERED_ON#0#0#False
+[ae.konopak] Win10#POWERED_ON#POWERED_ON#0#0#False
+[test] New Virtual MachineX#POWERED_OFF#POWERED_OFF#1601916645.5026486#334.31035113334656#False
+[as.ivashneva] Archer#POWERED_OFF#POWERED_OFF#1601916645.5026486#334.31035113334656#False
+[dv.dushenok] - CheckPoint_MGMT1#POWERED_ON#POWERED_ON#0#0#False
+[pa.yankov] Cpro-CS#POWERED_OFF#POWERED_OFF#1601916645.5026486#334.31035113334656#False
+[pa.yankov] Cpro-CR#POWERED_OFF#POWERED_OFF#1601916645.5026486#334.31035113334656#False
+[as.shabaeva] SafeInspect M1#POWERED_OFF#POWERED_OFF#1601916645.5026486#334.31035113334656#False
+[pa.glushkov] - Win2008#POWERED_OFF#POWERED_OFF#1601916645.5036452#334.3093545436859#False
+[pa.glushkov] - ASAv#POWERED_OFF#POWERED_OFF#1601916645.5036452#334.3093545436859#False
+[pa.glushkov] - ISE#POWERED_OFF#POWERED_OFF#1601916645.5036452#334.3093545436859#False
+[pa.glushkov] - Win10Domain#POWERED_OFF#POWERED_OFF#1601916645.5036452#334.3093545436859#False
+[pa.glushkov] - WSA#POWERED_OFF#POWERED_OFF#1601916645.5036452#334.3093545436859#False
+[dkazmirchuk] CentOS7#POWERED_OFF#POWERED_OFF#1601916645.5036452#334.3093545436859#False
+[se.nozhenko] TS_Win10#POWERED_ON#POWERED_ON#0#0#False
+pagolovistikovws19#POWERED_OFF#POWERED_OFF#1601916645.5036452#334.3093545436859#False
+[yo.bykhankov] linux_universal#POWERED_OFF#POWERED_OFF#1601916645.5036452#334.3093545436859#False
+[ts.mutovkina]indeed_mgmt#POWERED_ON#POWERED_ON#0#0#False
+[ts.mutovkina]indeed_access#POWERED_OFF#POWERED_OFF#1601916645.5046446#334.3083550930023#False
+[ts.mutovkina]indeed_storage#POWERED_OFF#POWERED_OFF#1601916645.5046446#334.3083550930023#False
+[ts.mutovkina]indeed_arm#POWERED_ON#POWERED_ON#0#0#False
+[yo.bykhankov] win10#POWERED_ON#POWERED_ON#0#0#False
+[ae.konopak] Win2016_MaxPatrol#POWERED_OFF#POWERED_OFF#1601916645.5046446#334.3083550930023#False
+[dv.dushenok] - CHKP_Log#POWERED_ON#POWERED_ON#0#0#False
+[yo.bykhankov] EFROS_SERVER#POWERED_ON#POWERED_ON#0#0#False
+[yo.bykhankov] EFROS_DB#POWERED_ON#POWERED_ON#0#0#False
+[yo.bykhankov] sterra1#POWERED_ON#POWERED_ON#0#0#False
+[yo.bykhankov] sterra2#POWERED_ON#POWERED_ON#0#0#False
+[aa.patsyuk]ksmg2_#POWERED_OFF#POWERED_OFF#1601916645.5056405#334.3073592185974#False
+[ds.kudryashov] Rapid7VA#POWERED_ON#POWERED_ON#0#0#False
+[ds.kudryashov] arcmc#POWERED_ON#POWERED_ON#0#0#False
+da.shley_DC#POWERED_OFF#POWERED_OFF#1601916645.5056405#334.3073592185974#False
+[dv.dushenok] - Extreme-nac-Small#POWERED_OFF#POWERED_OFF#1601916645.5066397#334.3063600063324#False
+[dv.dushenok] - XMC-temp#POWERED_OFF#POWERED_OFF#1601916645.5066397#334.3063600063324#False
+[vv.kutueva] - kics4node#POWERED_OFF#POWERED_OFF#1601916645.5066397#334.3063600063324#False
+[vv.kutueva] -ksc#POWERED_OFF#POWERED_OFF#1601916645.5066397#334.3063600063324#False
+[aa.patsyuk]_Fortify_win10_10.31.41.135#POWERED_OFF#POWERED_OFF#1601916645.5066397#334.3063600063324#False
+[es.shmatova] W#POWERED_OFF#POWERED_OFF#1601916645.5066397#334.3063600063324#False
+[aa.patsyuk]_!Fortify_win10_10.31.41.135#POWERED_OFF#POWERED_OFF#1601916645.5066397#334.3063600063324#False
+[as.ditenkova] CentOS_Images#POWERED_OFF#POWERED_OFF#1601916645.5076354#334.30536437034607#False
+[aa.patsyuk]_Fortify_10.31.41.135_win#POWERED_OFF#POWERED_OFF#1601916645.5076354#334.30536437034607#False
+[ai.serov] Hadoop-datanode1#POWERED_ON#POWERED_ON#0#0#False
+[ai.serov] Guardium_col_11#POWERED_ON#POWERED_ON#0#0#False
+[se.nozhenko] Redmine-15.2#POWERED_ON#POWERED_ON#0#0#False
+[yo.bykhankov] EFROS_COLLECTOR#POWERED_ON#POWERED_ON#0#0#False
+[pa.yankov] Cpro-Services#POWERED_OFF#POWERED_OFF#1601916645.5076354#334.30536437034607#False
+[ai.serov] Hadoop-Ambari#POWERED_ON#POWERED_ON#0#0#False
+[ys.lisovol] - cont_cus_3,9#POWERED_OFF#POWERED_OFF#1601916645.5086358#334.30436396598816#False
+[pa.yankov] One-ID-SPS#POWERED_OFF#POWERED_OFF#1601916645.5086358#334.30436396598816#False
+[ys.lisovol] - WinServer2016#POWERED_OFF#POWERED_OFF#1601916645.5086358#334.30436396598816#False
+[ts.mutovkina]arm-nix#POWERED_OFF#POWERED_OFF#1601916645.5086358#334.30436396598816#False
+[dp.borisov] - Arbor-APS-6.4.1#POWERED_OFF#POWERED_OFF#1601916645.509593#334.30340671539307#False
+[se.nozhenko] WinSrv2016#POWERED_ON#POWERED_ON#0#0#False
+[pa.yankov] SAS-b#POWERED_ON#POWERED_ON#0#0#False
+[yo.bykhankov] skybox11#POWERED_OFF#POWERED_OFF#1601916645.509593#334.30340671539307#False
+MaxPatrol 8#POWERED_OFF#POWERED_OFF#1601916645.509593#334.30340671539307#False
+[yo.bykhankov] SMC_FP_638_linux#POWERED_ON#POWERED_ON#0#0#False
+[ts.mutovkina]indeed_mgmt2#POWERED_OFF#POWERED_OFF#1601916645.509593#334.30340671539307#False
+marusov_F5 SSLO + APM 13.1#POWERED_OFF#POWERED_OFF#1601916645.509593#334.30340671539307#False
+[dkazmirchuk] FortiGate-VM64 10.31.44.120#SUSPENDED#POWERED_OFF#1601916645.5105896#0#False
+[as.kuznetsov] IWTM6.10_exam#POWERED_ON#POWERED_ON#0#0#False
+[dkazmirchuk] FortiSandbox-VM 10.31.44.129#POWERED_ON#POWERED_ON#0#0#False
+[ys.lisovol] - vn-hw-1000-2#POWERED_OFF#POWERED_OFF#1601916645.5105896#334.3024101257324#False
+[ys.lisovol] - vn-hw-1000-1#POWERED_ON#POWERED_ON#0#0#False
+[as.kuznetsov] Garda#POWERED_OFF#POWERED_OFF#1601916645.5105896#334.3024101257324#False
+[dkazmirchuk] Illusive Management 45.124#POWERED_ON#POWERED_ON#0#0#False
+[dkazmirchuk] Illusive Trap Server 45.125, 46.129#POWERED_ON#POWERED_ON#0#0#False
+[dkazmirchuk] Win7 Manager 10.31.44.126#POWERED_ON#POWERED_ON#0#0#False
+[so.reznikov] Mflash 6 Win 2016#POWERED_ON#POWERED_ON#0#0#False
+[dv.dushenok] - Zabbix5#POWERED_OFF#POWERED_OFF#1601916645.5115874#334.3014123439789#False
+[ts.mutovkina]haproxy#POWERED_OFF#POWERED_OFF#1601916645.5115874#334.3014123439789#False
+demo_MAIL01#POWERED_OFF#POWERED_OFF#1601916645.5115874#334.3014123439789#False
+[dkazmirchuk] FortiAnalyzer-VM64 10.31.44.127#POWERED_ON#POWERED_ON#0#0#False
+[pa.glushkov] - OpenOTP#POWERED_OFF#POWERED_OFF#1601916645.5115874#334.3014123439789#False
+[ia.klimin] - win7(x64)#POWERED_OFF#POWERED_OFF#1601916645.5125847#334.3004150390625#False
+[shoroh] Avkw6.3.0-ng20_Standalone_(33.35)#POWERED_ON#POWERED_ON#0#0#False
+[aa.rogovoy]CP_SMS_80#POWERED_OFF#POWERED_OFF#1601916645.5125847#334.3004150390625#False
+[aa.rogovoy]CP_SG_1#POWERED_OFF#POWERED_OFF#1601916645.5125847#334.3004150390625#False
+kubeadm-mng#POWERED_ON#POWERED_ON#0#0#False
+kubeadm-node1#POWERED_ON#POWERED_ON#0#0#False
+kubeadm-node2#POWERED_ON#POWERED_ON#0#0#False
+[ys.lisovol] - ksh2#POWERED_OFF#POWERED_OFF#1601916645.5135818#334.2994179725647#False
+[ys.lisovol] - ksh1#POWERED_OFF#POWERED_OFF#1601916645.5135818#334.2994179725647#False
+[dv.bulgakov] SKDPU-NT-v158#POWERED_OFF#POWERED_OFF#1601916645.5135818#334.2994179725647#False
+[dv.bulgakov] skdpu504_cert#POWERED_OFF#POWERED_OFF#1601916645.5135818#334.2994179725647#False
+[so.reznikov] InfoWatch db CentOS PostgreSQL#POWERED_OFF#POWERED_OFF#1601916645.5135818#334.2994179725647#False
+[so.reznikov] InfoWatch Node CentOS#POWERED_ON#POWERED_ON#0#0#False
+[ia.kudryavtsev] -win10pclab#POWERED_ON#POWERED_ON#0#0#False
+[so.reznikov] staffcop4_3#POWERED_ON#POWERED_ON#0#0#False
+[ia.kudryavtsev] -cp77.30l1#POWERED_ON#POWERED_ON#0#0#False
+[dp.borisov] - hq-fgt#POWERED_ON#POWERED_ON#0#0#False
+[dv.bulgakov] Ubuntu#POWERED_ON#POWERED_ON#0#0#False
+[ys.lisovol] - wintest#POWERED_OFF#POWERED_OFF#1601916645.5145793#334.29842042922974#False
+[so.reznikov] StaffCop agent#POWERED_OFF#POWERED_OFF#1601916645.5145793#334.29842042922974#False
+[ia.kudryavtsev] -cp7730l2#POWERED_ON#POWERED_ON#0#0#False
+[ia.kudryavtsev] -cp77.30l3#POWERED_ON#POWERED_ON#0#0#False
+[vv.kutueva] - ePO#POWERED_OFF#POWERED_OFF#1601916645.5155785#334.2974212169647#False
+[dv.bulgakov] HyTrust-KeyControl-5.1.2#POWERED_ON#POWERED_ON#0#0#False
+[dv.dushenok] - CheckPoint_GW4_77.30#POWERED_OFF#POWERED_OFF#1601916645.5155785#334.2974212169647#False
+[aa.patsyuk]Checkmarx_10.31.41.131#POWERED_OFF#POWERED_OFF#1601916645.5155785#334.2974212169647#False
+[aa.patsyuk]_#POWERED_ON#POWERED_ON#0#0#False
+%2fvmfs%2fvolumes%2f5b350a74-f0f9a6d8-e54b-501d939e20a8%2f[ds.kottsov] - for Col#POWERED_OFF#POWERED_OFF#1601916645.516576#334.29642367362976#False
+marusov_PA-VM-ESX-10.0.0#POWERED_ON#POWERED_ON#0#0#False
+marusov_ptaf_3.7.3_node1#POWERED_ON#POWERED_ON#0#0#False
+marusov_PTAF_3.7.3_cluster#POWERED_ON#POWERED_ON#0#0#False
+_prod_ASAv#POWERED_ON#POWERED_ON#0#0#False
+HP_IBM_Configurator#POWERED_ON#POWERED_ON#0#0#False
+[ai.serov] Hadoop-datanode2#POWERED_ON#POWERED_ON#0#0#False
+[ai.serov] Hadoop-datanode3#POWERED_ON#POWERED_ON#0#0#False
+Console RS232#POWERED_ON#POWERED_ON#0#0#False
+demo_Srv_DC02#POWERED_ON#POWERED_ON#0#0#False
+[KOSTIN] isim_netview_2_3#POWERED_ON#POWERED_ON#0#0#False
+marusov_nios-8.4.4-386831-2019-08-02-03-45-48-ddi#POWERED_OFF#POWERED_OFF#1601916645.5175734#334.2954263687134#False
+[Marusov] TMG_2010#POWERED_OFF#POWERED_OFF#1601916645.5175734#334.2954263687134#False
+[marusov] TMDS#POWERED_OFF#POWERED_OFF#1601916645.5175734#334.2954263687134#False
+[marusov] MWG2#SUSPENDED#POWERED_OFF#1601916645.5175734#0#False
+[marusov] CHP_77.10_cert#POWERED_OFF#POWERED_OFF#1601916645.51857#334.29442977905273#False
+[ds.kottsov] - AD_rt.ru#POWERED_ON#POWERED_ON#0#0#False
+[marusov] Cisco ESA#SUSPENDED#POWERED_OFF#1601916645.51857#0#False
+[marusov] Cisco WSA#SUSPENDED#POWERED_OFF#1601916645.51857#0#False
+[marusov] ESXi6.5 TEMPLATE#POWERED_OFF#POWERED_OFF#1601916645.5195684#334.29343128204346#False
+[Marusov] GoodDynamics#POWERED_OFF#POWERED_OFF#1601916645.5195684#334.29343128204346#False
+[ds.kottsov] - AD_for_gd.rt.ru#POWERED_ON#POWERED_ON#0#0#False
+[yo.bykhankov] pfsense#POWERED_ON#POWERED_ON#0#0#False
+[pa.glushkov] - FortiAuthenticator54#POWERED_OFF#POWERED_OFF#1601916645.5195684#334.29343128204346#False
+[ds.kudryashov] arcsight-logger7#POWERED_ON#POWERED_ON#0#0#False
+[ds.kottsov] - AD_for_ks.rt.ru#POWERED_ON#POWERED_ON#0#0#False
+[dv.bulgakov] NTP-Server#POWERED_ON#POWERED_ON#0#0#False
+da.shley_admin_vipnet#POWERED_ON#POWERED_ON#0#0#False
+[yo.bykhankov]_BIGIP-13.1.3.3-0.0.6#POWERED_ON#POWERED_ON#0#0#False
+[ds.kottsov] - test_for_gd#POWERED_ON#POWERED_ON#0#0#False
+[ds.kottsov] - test_for_ks#POWERED_ON#POWERED_ON#0#0#False
+[dv.dushenok] - CheckPoint_GW1_77.30#POWERED_ON#POWERED_ON#0#0#False
+[dv.dushenok] - CheckPoint_GW2_77.30#POWERED_ON#POWERED_ON#0#0#False
+[ia.kudryavtsev] -win10lab3#POWERED_ON#POWERED_ON#0#0#False
+gluster.n1#POWERED_ON#POWERED_ON#0#0#False
+[aa.aptsyuk]Win10_kedr_10.#POWERED_ON#POWERED_ON#0#0#False
+[so.reznikov] Exchange 2016 Win srv 2012r2#POWERED_ON#POWERED_ON#0#0#False
+[so.reznikov] KSC 10 win 10#POWERED_ON#POWERED_ON#0#0#False
+[so.reznikov] SNS+KES win 10#POWERED_ON#POWERED_ON#0#0#False
+[so.reznikov] Skype4B win srv 2016#POWERED_ON#POWERED_ON#0#0#False
+[so.reznikov] unified-access-gateway-3.6.0.0#POWERED_ON#POWERED_ON#0#0#False
+[yo.bykhankov] AD#POWERED_ON#POWERED_ON#0#0#False
+[dv.bulgakov] ZPTI-win10#POWERED_OFF#POWERED_OFF#1601916645.5225594#334.2904403209686#False
+[ys.lisovol] - WinSer2016-VN#POWERED_ON#POWERED_ON#0#0#False
+[KOSTIN] isim_TGK1#POWERED_OFF#POWERED_OFF#1601916645.5225594#334.2904403209686#False
+ad.hdp.lc#POWERED_ON#POWERED_ON#0#0#False
+[so.reznikov] UAG 3.10 for Cloud#POWERED_ON#POWERED_ON#0#0#False
+[ds.kudryashov] CentOS 4.7#POWERED_ON#POWERED_ON#0#0#False
+pagolovistikov_qradar#POWERED_ON#POWERED_ON#0#0#False
+[as.kuznetsov] IWDM6.10_exam#POWERED_ON#POWERED_ON#0#0#False
+[an.zhukov] - FortiGate-6.2.5#POWERED_ON#POWERED_ON#0#0#False
+[an.zhukov] - FortiAnalyzer-6.2.5#POWERED_ON#POWERED_ON#0#0#False
+[an.zhukov] - FortiManager-6.2.5#POWERED_ON#POWERED_ON#0#0#False
+[ts.mutovkina] serv_sn#POWERED_ON#POWERED_ON#0#0#False
+[ts.mutovkina] serv_ad#POWERED_ON#POWERED_ON#0#0#False
+[dv.bulgakov] IndeedCM-test-server#POWERED_ON#POWERED_ON#0#0#False
+[vv.kutueva] - ePO1#POWERED_OFF#POWERED_OFF#1601916645.524554#334.28844571113586#False
+[as.ivashneva] FortiSIEM-Supervisor#POWERED_ON#POWERED_ON#0#0#False
+[fa.litvyakov] - winserv2008-base#POWERED_OFF#POWERED_OFF#1601916645.524554#334.28844571113586#False
+da.shley_Rapid7#POWERED_OFF#POWERED_OFF#1601916645.524554#334.28844571113586#False
+[yo.bykhankov] IVA_VKS#POWERED_ON#POWERED_ON#0#0#False
+[yo.bykhankov] win10_iva_client#POWERED_ON#POWERED_ON#0#0#False
+[vv.kutueva] - McAfee Endpoint Security#POWERED_OFF#POWERED_OFF#1601916645.5255523#334.28744745254517#False
+[as.ivashneva] Anomali-Threatstream#POWERED_ON#POWERED_ON#0#0#False
+[dkazmirchuk] TrapX Appliance 10.31.45.122#POWERED_ON#POWERED_ON#0#0#False
+[as.ivashneva] Anomali-Match#POWERED_ON#POWERED_ON#0#0#False
+[as.ivashneva] Anomali-Integrator#POWERED_ON#POWERED_ON#0#0#False
+[fa.litvyakov] - windows7_vipnet_client_2#POWERED_ON#POWERED_ON#0#0#False
+[fa.litvyakov] - windows7_vipnet_client_3#POWERED_ON#POWERED_ON#0#0#False
+[fa.litvyakov] - hw_va_vipnet_2#POWERED_ON#POWERED_ON#0#0#False
+[fa.litvyakov] - WinServ_vipnet_client_adm#POWERED_ON#POWERED_ON#0#0#False
+[an.zhukov] - CSM_Win2016#POWERED_ON#POWERED_ON#0#0#False
+[fa.litvyakov] - hw_va_vipnet_1#POWERED_ON#POWERED_ON#0#0#False
+[se.nozhenko] Ubuntu 18.04#POWERED_ON#POWERED_ON#0#0#False
+vi.shekemov_vpn#POWERED_ON#POWERED_ON#0#0#False
+[as.kuznetsov] Crosstech_DSS#POWERED_ON#POWERED_ON#0#0#False
+[so.reznikov] Trend Micro DS Manager#POWERED_ON#POWERED_ON#0#0#False
+vi,shekemov_serv1#POWERED_ON#POWERED_ON#0#0#False
+vi.shekemov_srv2#POWERED_OFF#POWERED_OFF#1601916645.5275464#334.28545331954956#False
+vi.shekemov_microserv#POWERED_ON#POWERED_ON#0#0#False
+vi.shekemov_ARM2#POWERED_OFF#POWERED_OFF#1601916645.528544#334.2844557762146#False
+vi.shekemov_ARM1#POWERED_ON#POWERED_ON#0#0#False
+[ia.kudryavtsev] -sterra4.2lab#POWERED_ON#POWERED_ON#0#0#False
+[dv.bulgakov} JMS#POWERED_ON#POWERED_ON#0#0#False
+[as.kuznetsov] Esxi-6.5#POWERED_ON#POWERED_ON#0#0#False
+[dv.dushenok] - CheckPoint_MGMT2#POWERED_ON#POWERED_ON#0#0#False
+[dv.dushenok] - CHKP_Log2#POWERED_ON#POWERED_ON#0#0#False
+[an.zhukov]- Cisco_FMC-6.2.3#POWERED_OFF#POWERED_OFF#1601916645.5295415#334.28345823287964#False
+[an.zhukov] - CiscoFTD_6.5.0#POWERED_OFF#POWERED_OFF#1601916645.5295415#334.28345823287964#False
+[an.zhukov] - CiscoFMC_6.5.0#POWERED_OFF#POWERED_OFF#1601916645.5295415#334.28345823287964#False
+[ia.kudryavtsev] -cp77.30vsx#POWERED_ON#POWERED_ON#0#0#False
+[dv.bulgakov] Win16_RADIUS#POWERED_ON#POWERED_ON#0#0#False
+[ia.kudryavtsev] -sterralab4.2n2#POWERED_OFF#POWERED_OFF#1601916645.530538#334.282461643219#False
+marusov_BIGIP-15.1.0.4-0.0.6-vmware#POWERED_ON#POWERED_ON#0#0#False
+es.markov-la-svm#POWERED_ON#POWERED_ON#0#0#False
+[as.ivashneva] Centos#POWERED_ON#POWERED_ON#0#0#False
+[so.reznikov] MobileIron Core#POWERED_ON#POWERED_ON#0#0#False
+[so.reznikov] InfoWatch db CentOS PostgreSQL node2#POWERED_OFF#POWERED_OFF#1601916645.530538#334.282461643219#False
+vi.shekemov_astra 1.6#POWERED_ON#POWERED_ON#0#0#False
+[dv.dushenok] - CheckPoint_MGMT3#POWERED_ON#POWERED_ON#0#0#False
+[so.reznikov] Mflash 7 CentOS Web#POWERED_ON#POWERED_ON#0#0#False
+[dkazmirchuk] Illusive Decoy 10.31.45.231#POWERED_ON#POWERED_ON#0#0#False
+[dkazmirchuk] Illusive Emulations 10.31.45.232-233#POWERED_ON#POWERED_ON#0#0#False
+[so.reznikov] Mflash 7 Windows Data#POWERED_ON#POWERED_ON#0#0#False
+[dp.borisov] - uralsib-fac#POWERED_ON#POWERED_ON#0#0#False
+[ya.leonov] cortex-xsoar-test#POWERED_ON#POWERED_ON#0#0#False
+da.shley_vipnet_moesk#POWERED_ON#POWERED_ON#0#0#False
+da.shley_HW-VA#POWERED_ON#POWERED_ON#0#0#False
+[ya.leonov] nessus_test#POWERED_ON#POWERED_ON#0#0#False
+[ys.lisovol] - cpr80.10-sms#POWERED_ON#POWERED_ON#0#0#False
+[azhuk] dcazjet#POWERED_ON#POWERED_ON#0#0#False
+[am.pankin] -TenableSC_Test#POWERED_ON#POWERED_ON#0#0#False
+[ys.lisovol] - cpr80.10-sg#POWERED_ON#POWERED_ON#0#0#False
+[av.izotov] vGate1#POWERED_OFF#POWERED_OFF#1601916645.533531#334.27946877479553#False
+[av.izotov] vGate2#POWERED_OFF#POWERED_OFF#1601916645.533531#334.27946877479553#False
+[azhuk] JMS-2#POWERED_ON#POWERED_ON#0#0#False
+[azhuk] 10#POWERED_ON#POWERED_ON#0#0#False
+[ae.konopak] CentOS+Skybox#POWERED_OFF#POWERED_OFF#1601916645.533531#334.27946877479553#False
+marusov_ESXi 6.5-1#POWERED_OFF#POWERED_OFF#1601916645.5345275#334.2784721851349#False
+[dp.borisov] - ws2016-mail#POWERED_OFF#POWERED_OFF#1601916645.5345275#334.2784721851349#False
+[dp.borisov] - ubusrv-18.04-nfs#POWERED_OFF#POWERED_OFF#1601916645.5345275#334.2784721851349#False
+[shoroh] CentOS 6.9 46.186 CommuniGate#POWERED_ON#POWERED_ON#0#0#False
+asmolov_owasp_bwa#POWERED_OFF#POWERED_OFF#1601916645.5345275#334.2784721851349#False
+marusov_ELK#SUSPENDED#POWERED_OFF#1601916645.5345275#0#False
+asmolov__kali#POWERED_OFF#POWERED_OFF#1601916645.535525#334.2774746417999#False
+asmolov_fortigate_1#POWERED_OFF#POWERED_OFF#1601916645.535525#334.2774746417999#False
+asmolov_fortigate_2#POWERED_OFF#POWERED_OFF#1601916645.535525#334.2774746417999#False
+asmolov_win2012_r2#POWERED_OFF#POWERED_OFF#1601916645.535525#334.2774746417999#False
+asmolov_win7#POWERED_OFF#POWERED_OFF#1601916645.535525#334.2774746417999#False
+asmolov_win10#POWERED_OFF#POWERED_OFF#1601916645.535525#334.2774746417999#False
+New Virtual Machine#POWERED_OFF#POWERED_OFF#1601916645.536522#334.2764778137207#False
+VMware vCenter Server Appliance#POWERED_ON#POWERED_ON#0#0#False
+BIG-IP_VE_A#POWERED_OFF#POWERED_OFF#1601916645.536522#334.2764778137207#False
+vtok-ubu#POWERED_OFF#POWERED_OFF#1601916645.536522#334.2764778137207#False
+[sapunov] – Win2016-Archer#POWERED_ON#POWERED_ON#0#0#False
+[asmolov] asav-esxi#POWERED_OFF#POWERED_OFF#1601916645.5375214#334.2754783630371#False
+marusov_MineMeldviaProxy#POWERED_OFF#POWERED_OFF#1601916645.5375214#334.2754783630371#False
+[dp.borisov] - hq-fsa#POWERED_ON#POWERED_ON#0#0#False
+marusov_BIGIP-14.1.0-0.0.116-scsi-SSLO#POWERED_OFF#POWERED_OFF#1601916645.5375214#334.2754783630371#False
+[ds.kudryashov] arcsight-esm-7#POWERED_ON#POWERED_ON#0#0#False
+[ds.kudryashov] arcsght-connectors#POWERED_OFF#POWERED_OFF#1601916645.5375214#334.2754783630371#False
+[sapunov] - BIGIP-14.0.0.2-0.0.2-scsi#POWERED_OFF#POWERED_OFF#1601916645.5385168#334.27448296546936#False
+[ae.asmolov] - FSA 10.31.45.122#POWERED_OFF#POWERED_OFF#1601916645.5385168#334.27448296546936#False
+[ae.asmolov] - FML G 10.31.45.120#POWERED_OFF#POWERED_OFF#1601916645.5385168#334.27448296546936#False
+[ae.asmolov] - FML S 10.31.34.121#POWERED_OFF#POWERED_OFF#1601916645.5385168#334.27448296546936#False
+[iv.smirnov] ArcMC#POWERED_OFF#POWERED_OFF#1601916645.5385168#334.27448296546936#False
+[so.reznikov] SearchInform win2012r2#POWERED_OFF#POWERED_OFF#1601916645.5385168#334.27448296546936#False
+[ds.kudryashov] arcsight-logger#POWERED_OFF#POWERED_OFF#1601916645.5395143#334.2734854221344#False
+[pa.yankov] RADIUS-2#POWERED_OFF#POWERED_OFF#1601916645.5395143#334.2734854221344#False
+%2fvmfs%2fvolumes%2fe8f15f2e-c0f7ea6a%2f123%2f123.vmx#POWERED_OFF#POWERED_OFF#1601916645.5395143#334.2734854221344#False
+[aa.patsyuk]ISE-2.6.0.156_10.31.41.139#POWERED_OFF#POWERED_OFF#1601916645.5395143#334.2734854221344#False
+[dkazmirchuk] CBR Offline#POWERED_OFF#POWERED_OFF#1601916645.5395143#334.2734854221344#False
+[es.shmatova] Windows 7 - 1#POWERED_OFF#POWERED_OFF#1601916645.5395143#334.2734854221344#False
+[so.reznikov] Searchinform Arm win 7x64#POWERED_OFF#POWERED_OFF#1601916645.5405114#334.2724883556366#False
+sapunov-Ixia_BreakingPoint_Virtual_Blade_8.40.17_EA_ESXi_skipmanifest#POWERED_OFF#POWERED_OFF#1601916645.5405114#334.2724883556366#False
+sapunov-Ixia_BreakingPoint_Virtual_Controller_8.40.17_EA_ESXi_skipmanifest#POWERED_OFF#POWERED_OFF#1601916645.5405114#334.2724883556366#False
+VirtualBlade301#POWERED_OFF#POWERED_OFF#1601916645.5405114#334.2724883556366#False
+[dkazmirchuk] CBR Minion#SUSPENDED#POWERED_OFF#1601916645.5405114#0#False
+[aa.patsyuk]zabbix3.4_10.31.41.136#POWERED_OFF#POWERED_OFF#1601916645.5415094#334.2714903354645#False
+[dkazmirchuk] Windows Server DC 10.31.43.124#POWERED_ON#POWERED_ON#0#0#False
+[mi.ragulin]_Win_10_Rus#POWERED_OFF#POWERED_OFF#1601916645.5415094#334.2714903354645#False
+[dkazmirchuk] Windows 10 10.31.44.125#POWERED_ON#POWERED_ON#0#0#False
+pagolovistikov_resilient#POWERED_OFF#POWERED_OFF#1601916645.5415094#334.2714903354645#False
+Avkw5.1.2-ng3_n2_34.202#POWERED_ON#POWERED_ON#0#0#False
+Avkw5.1.2-ng3_n3_34.203#POWERED_ON#POWERED_ON#0#0#False
+Avkw5.1.2-ng3_n1_34.201#POWERED_ON#POWERED_ON#0#0#False
+Avkw5.1.2-ng3_n4_34.204#POWERED_ON#POWERED_ON#0#0#False
+Avkw5.1.2-ng3_n5_34.205#POWERED_ON#POWERED_ON#0#0#False
+[dkazmirchuk] RedHat#POWERED_OFF#POWERED_OFF#1601916645.5425062#334.27049350738525#False
+[shoroh] SI Manager#POWERED_OFF#POWERED_OFF#1601916645.5425062#334.27049350738525#False
+[shoroh] SI Collector1#POWERED_OFF#POWERED_OFF#1601916645.5435035#334.2694962024689#False
+[shoroh] SI Collector2#POWERED_OFF#POWERED_OFF#1601916645.5435035#334.2694962024689#False
+[es.shmatova] win2008#POWERED_OFF#POWERED_OFF#1601916645.5435035#334.2694962024689#False
+[es.shmatova] RedHat#POWERED_OFF#POWERED_OFF#1601916645.5435035#334.2694962024689#False
+[ia.morozov] - Zabbix_Clear_Inet#POWERED_OFF#POWERED_OFF#1601916645.5445013#334.26849842071533#False
