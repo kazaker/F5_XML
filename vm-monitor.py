@@ -1,15 +1,36 @@
 import json
 import requests
 import re
-import sys
 import time
+from shutil import copyfile
 
-
-vm = [{'name': 'vm1', 'status': 'POWERED_ON', 'previous_status': 'POWERED_ON', 'starter': 1601510400, 'distance': 0, 'red': False, 'exists': True},
-      {'name': 'vm2', 'status': 'POWERED_OFF', 'previous_status': 'POWERED_OFF', 'starter': 1601510400, 'distance': 0, 'red': False, 'exists': True}]  # 1601510400 in epoch -  01 Oct 2020 00:00:00 GMT
+vm = [{'name': 'vm1', 'status': 'POWERED_ON', 'previous_status': 'POWERED_ON', 'monitoring_started': 1601510400, 'inactivity_period': 0, 'inactive_too_long': False, 'vm_exists': True},
+      {'name': 'vm2', 'status': 'POWERED_OFF', 'previous_status': 'POWERED_OFF', 'monitoring_started': 1601510400, 'inactivity_period': 0, 'inactive_too_long': False, 'vm_exists': True}]  # 1601510400 in epoch -  01 Oct 2020 00:00:00 GMT
+fields = ['name', 'status', 'previous_status', 'monitoring_started', 'inactivity_period', 'inactive_too_long', 'vm_exists']
+choice = input("Please choose starting mode:\nSelect 1 to start a clear run.\nSelect 2 to restore data from previous run.\n")
 while True:
+    if choice == '1':
+        break
+    elif choice == '2':
+        filein = open('vm_status.txt', "r")
+        data = filein.readlines()
+        # Create the table's row data
+        for line in data[2:]:
+            temp_dict = {}
+            row = line.split("#")
+            for item in fields:
+                temp_dict[item] = row[fields.index(item)]
+            vm.append(temp_dict)
+        break
+    else:
+        choice = input("Please choose starting mode:\nSelect 1 to start a clear run.\nSelect 2 to restore data from previous run.\n")
+
+
+
+while True:
+    copyfile('vm_status.txt', 'vm_status.txt.back')
     for x in vm:
-        x['exists'] = False
+        x['vm_exists'] = False
     auth_url = "https://10.31.32.10/rest/com/vmware/cis/session"
 
     auth_payload = {}
@@ -37,7 +58,9 @@ while True:
     #     i += 1
 
     f = open('vm_status.txt', 'w')
-    f.writelines('Name#Status#Prev.status#Start#Distance#Warn')
+    f.writelines(time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time())))
+    f.writelines('\n')
+    f.writelines('VM Name#Current Status#Previous Status#Powered off at#Powered off for#Warning (>30 days)#vm_exists')
     f.writelines('\n')
     i = 0
     while i < len(data['value']):
@@ -48,43 +71,43 @@ while True:
         for x in vm:
             if name == x.get('name'):
                 x['status'] = state
-                x['exists'] = True
+                x['vm_exists'] = True
                 flag = 0
                 break
             else:
                 flag = 1
         if flag == 1:
             vm.append({'name': name, 'status': state,
-                   'previous_status': 'POWERED_OFF', 'starter': time.time(), 'distance': 0, 'red': False, 'exists': True})
+                   'previous_status': 'POWERED_OFF', 'monitoring_started': time.time(), 'inactivity_period': 0, 'inactive_too_long': False, 'vm_exists': True})
     for x in vm:
-        if x['exists'] == False:
+        if x['vm_exists'] == False:
             vm.remove(x)
     for x in vm:
         if x['status'] == 'POWERED_ON':
             if x['previous_status'] == 'POWERED_ON':
-                x['distance'] = 0
+                x['inactivity_period'] = 0
                 x['previous_status'] = x['status']
-                x['red'] = False
+                x['inactive_too_long'] = False
                 continue
             if x['previous_status'] == 'POWERED_OFF':
-                x['distance'] = 0
-                x['starter'] = 0
+                x['inactivity_period'] = 0
+                x['monitoring_started'] = 0
                 x['previous_status'] = x['status']
-                x['red'] = False
+                x['inactive_too_long'] = False
                 continue
         if x['status'] == 'POWERED_OFF':
             if x['previous_status'] == 'POWERED_ON':
-                x['starter'] = time.time()
+                x['monitoring_started'] = time.time()
                 x['previous_status'] = x['status']
                 continue
             if x['previous_status'] == 'POWERED_OFF':
-                x['distance'] = time.time() - x['starter']
+                x['inactivity_period'] = time.time() - float(x['monitoring_started'])
                 x['previous_status'] = x['status']
-                if x['distance'] > 2592000:
-                    x['red'] = True
+                if x['inactivity_period'] > 2592000:
+                    x['inactive_too_long'] = True
                 continue
     for x in vm:
-        f.writelines(x.get('name') + '#' + x.get('status') + '#' + x.get('previous_status') + '#' + str(x.get('starter')) + '#' + str(x.get('distance')) + '#' + str(x.get('red')))
+        f.writelines(x.get('name') + '#' + x.get('status') + '#' + x.get('previous_status') + '#' + str(x.get('monitoring_started')) + '#' + str(x.get('inactivity_period')) + '#' + str(x.get('inactive_too_long'))+ '#' + str(x.get('vm_exists')))
         f.writelines('\n')
 
     f.close()
@@ -96,14 +119,14 @@ while True:
     table = "<table>\n"
 
     # Create the table's column headers
-    header = data[0].split("#")
+    header = data[1].split("#")
     table += "  <tr>\n"
     for column in header:
         table += "    <th>{0}</th>\n".format(column.strip())
     table += "  </tr>\n"
 
     # Create the table's row data
-    for line in data[1:]:
+    for line in data[2:]:
         row = line.split("#")
         table += "  <tr>\n"
         for column in row:
@@ -115,8 +138,4 @@ while True:
     fileout.writelines(table)
     fileout.close()
     filein.close()
-    time.sleep(30) 
-
-
-
-
+    time.sleep(30)
