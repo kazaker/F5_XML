@@ -33,7 +33,8 @@ policy_description = root.find('description').text  # Description
 policy_type = root.find('type').text  # Policy Type
 policy_encoding = root.find('encoding').text  # Application Language
 if policy_type != 'Parent':
-    if root.find('parent_policy_name'):
+    test = root.find('parent_policy_name')
+    if root.find('parent_policy_name') != None:
         policy_parent_policy_name = root.find('parent_policy_name').text  # Parent Policy
     else:
         policy_parent_policy_name = 'None'
@@ -140,7 +141,6 @@ policy_attack_signature_sets = []
 signatures_alarm_block_learn = []
 signature_names = []
 signature_status = []
-disabled_signatures = []
 
 for x in root.iter('attack_signatures'):
     for y in x.iter('signature_set'):
@@ -158,59 +158,71 @@ for x in root.iter('attack_signatures'):
         signature_names.append(y.get('signature_id'))
         for z in y.findall('enabled'):
             signature_status.append(z.text)
-    enable_staging = x.find('enable_staging').text
+    signatures_enable_staging = x.find('enable_staging').text
     place_signatures_in_staging = x.find('place_signatures_in_staging').text
     min_accuracy_for_auto_added_signatures = x.find('min_accuracy_for_auto_added_signatures').text
     attack_signature_false_positive_mode = x.find('attack_signature_false_positive_mode').text
 
-for x in signature_status:
-    if x == 'false':
-        disabled_signatures.append(signature_names[signature_status.index(x)])
-
-f.writelines(policy_table_list[0] + ',' + policy_name)
+f.writelines('###Общие настройки политики###')
 f.writelines('\n')
-f.writelines(policy_table_list[1] + ',' + policy_description)
+f.writelines('Параметр,Значение,Комментарий')
 f.writelines('\n')
-f.writelines(policy_table_list[2] + ',' + policy_type)
+f.writelines(policy_table_list[0] + ',' + policy_name + ',')
+f.writelines('\n')
+f.writelines(policy_table_list[1] + ',' + policy_description + ',')
+f.writelines('\n')
+f.writelines(policy_table_list[2] + ',' + policy_type + ',')
 f.writelines('\n')
 if policy_type != 'Parent':
-    f.writelines(policy_table_list[3] + ',' + policy_parent_policy_name)
+    f.writelines(policy_table_list[3] + ',' + policy_parent_policy_name + ',')
     f.writelines('\n')
-f.writelines(policy_table_list[4] + ',' + policy_template)
+f.writelines(policy_table_list[4] + ',' + policy_template + ',')
 f.writelines('\n')
-f.writelines(policy_table_list[5] + ',' + policy_encoding)
+f.writelines(policy_table_list[5] + ',' + policy_encoding + ',')
 f.writelines('\n')
-f.writelines(policy_table_list[6] + ',' + policy_enforcement_mode)
+f.writelines(policy_table_list[6] + ',' + policy_enforcement_mode + ',')
 f.writelines('\n')
-f.writelines(policy_table_list[7] + ',' + policy_learning_mode)
+f.writelines(policy_table_list[7] + ',' + policy_learning_mode + ',')
 f.writelines('\n')
-f.writelines(policy_table_list[8] + ',' + policy_staging_period_in_days)
+f.writelines(policy_table_list[8] + ',' + policy_staging_period_in_days + ',')
 f.writelines('\n')
-f.writelines(policy_table_list[9] + ',' + 'shpongle'.join(policy_server_technology))
+f.writelines(policy_table_list[9] + ',' + 'shpongle'.join(policy_server_technology) + ',')
 f.writelines('\n')
-f.writelines(policy_table_list[10] + ',' + policy_case_insensitive)
+f.writelines(policy_table_list[10] + ',' + policy_case_insensitive + ',')
 f.writelines('\n')
-f.writelines(policy_table_list[11] + ',' + policy_enable_correlation)
+f.writelines(policy_table_list[11] + ',' + policy_enable_correlation + ',')
 f.writelines('\n')
-f.writelines(policy_table_list[12] + ',' + policy_mask_sensitive)
+f.writelines(policy_table_list[12] + ',' + policy_mask_sensitive + ',')
 f.writelines('\n')
-f.writelines(policy_table_list[13] + ',' + policy_maximum_http_length)
+f.writelines(policy_table_list[13] + ',' + policy_maximum_http_length + ',')
 f.writelines('\n')
-f.writelines(policy_table_list[14] + ',' + policy_maximum_cookie_length)
+f.writelines(policy_table_list[14] + ',' + policy_maximum_cookie_length + ',')
 f.writelines('\n')
-f.writelines(policy_table_list[15] + ',' + 'shpongle'.join(policy_allowed_response_code))
+f.writelines(policy_table_list[15] + ',' + 'shpongle'.join(policy_allowed_response_code) + ',')
 f.writelines('\n')
-f.writelines(policy_table_list[16] + ',' + policy_trigger_asm_irule_event)
+f.writelines(policy_table_list[16] + ',' + policy_trigger_asm_irule_event + ',')
 f.writelines('\n')
-f.writelines(policy_table_list[17] + ',' + policy_trust_xff)
+f.writelines(policy_table_list[17] + ',' + policy_trust_xff + ',')
 f.writelines('\n')
-f.writelines(policy_table_list[18] + ',' + policy_path_parameter_handling)
+f.writelines(policy_table_list[18] + ',' + policy_path_parameter_handling + ',')
 f.writelines('\n')
 f.writelines('\n')
+
+disabled_signatures = []
+for index, value in enumerate(signature_status):
+    if value == 'false':
+        print(index)
+        disabled_signatures.append(signature_names[index])
+f.writelines('###Globally Disabled Signatures###')
+f.writelines('\n')
+for item in disabled_signatures:
+    f.writelines(item)
+    f.writelines('\n')
+
 
 # Learning Threat Campaign options
 for x in root.iter('threat_campaign_attributes'):
-    enable_staging = x.find('enable_staging').text
+    threat_enable_staging = x.find('enable_staging').text
     staging_period_in_days = x.find('staging_period_in_days').text
 
 # Learning cookies options
@@ -275,28 +287,9 @@ for x in root.iter('policy_builder_sessions_and_logins'):
 for x in root.iter('policy_builder_server_technologies'):
     learn_server_technologies = x.find('learn_server_technologies').text
 
-headers_type = []
-headers_name = []
-headers_is_mandatory = []
-headers_check_signatures = []
-headers_is_base64 = []
-headers_percent_normalization = []
-headers_uri_normalization = []
-headers_html_normalization = []
-headers_is_default = []
-headers_mask_value = []
-for y in root.findall('header'):
-    headers_type.append(y.get('type'))
-    headers_name.append(y.get('name'))
-    headers_is_mandatory.append(y.find('is_mandatory').text)
-    headers_check_signatures.append(y.find('check_signatures').text)
-    headers_is_base64.append(y.find('is_base64').text)
-    headers_percent_normalization.append(y.find('percent_normalization').text)
-    headers_uri_normalization.append(y.find('uri_normalization').text)
-    headers_html_normalization.append(y.find('html_normalization').text)
-    headers_is_default.append(y.find('is_default').text)
-    headers_mask_value.append(y.find('mask_value').text)
-
+f.writelines('\n')
+f.writelines('###Настройки обучения и блокировок###')
+f.writelines('\n')
 f.writelines('Name,Learn,Alarm,Block,Comment')
 f.writelines('\n')
 
@@ -306,14 +299,14 @@ f.writelines('Virus detected' + ',' + ','.join(policy_alarm_block_learn[policy_v
 f.writelines('\n')
 f.writelines('\n')
 
-f.writelines('Attach Signatures')
+f.writelines('Attack Signatures')
 f.writelines('\n')
 for index, item in enumerate(policy_attack_signature_sets):
     f.writelines(item + ',' + ','.join(signatures_alarm_block_learn[index]))
     f.writelines('\n')
 f.writelines('Auto-Added Signature Accuracy' + ',' + min_accuracy_for_auto_added_signatures)
 f.writelines('\n')
-f.writelines('Enable Signature Staging' + ',' + enable_staging)
+f.writelines('Enable Signature Staging' + ',' + signatures_enable_staging)
 f.writelines('\n')
 place_signatures_in_staging = 'Retain previous rule enforcement and place updated rule in staging' if place_signatures_in_staging == 'true' else 'Enforce updated rule immediately for non-staged signatures'
 f.writelines('Updated Signature Enforcement' + ',' + place_signatures_in_staging)
@@ -652,7 +645,7 @@ f.writelines('\n')
 f.writelines('Threat Campaign detected' + ',' + ','.join(
     policy_alarm_block_learn[policy_violations.index('Threat Campaign detected')]))
 f.writelines('\n')
-f.writelines('Enable Threat Campaign Staging' + ',' + enable_staging)
+f.writelines('Enable Threat Campaign Staging' + ',' + threat_enable_staging)
 f.writelines('\n')
 f.writelines('Threat Campaign Enforcement Readiness Period' + ',' + staging_period_in_days + ' day')
 f.writelines('\n')
@@ -808,14 +801,14 @@ for x in root.iter('parameter'):
     # user_input_format = x.find('user_input_format').text
     # parameter_data_type.append(x.find('user_input_format').text)
     if x.attrib['type'] != 'wildcard':
-        if x.find('user_input_format'):
+         if x.find('user_input_format') != None:
             temp = x.find('user_input_format').text
             if temp == 'binary':
                 parameter_data_type.append('File Upload')
             else:
                 parameter_data_type.append('Alpha-Numeric')
-        else:
-            parameter_data_type.append('-')
+         else:
+             parameter_data_type.append('Ignore value')
     else:
         parameter_data_type.append('-')
     # minimum_value = x.find('minimum_value').text
@@ -854,39 +847,43 @@ for x in root.iter('parameter'):
         disabled_signatures_local.append(temp)
     parameter_disabled_signatures.append('shpongle'.join(disabled_signatures_local))
 
-# write results to file in csv-like format
+
+f.writelines('###Параметры###')
+f.writelines('\n')
+f.writelines('Параметр,Значение,Комментарий')
+f.writelines('\n')
 for index, item in enumerate(parameter_name):
-    f.writelines(parameters_table_list[0] + ',' + item)
+    f.writelines(parameters_table_list[0] + ',' + item + ',')
     f.writelines('\n')
-    f.writelines(parameters_table_list[15] + ',' + parameter_type[index])
+    f.writelines(parameters_table_list[15] + ',' + parameter_type[index] + ',')
     f.writelines('\n')
-    f.writelines(parameters_table_list[1] + ',' + parameter_is_mandatory[index])
+    f.writelines(parameters_table_list[1] + ',' + parameter_is_mandatory[index] + ',')
     f.writelines('\n')
-    f.writelines(parameters_table_list[2] + ',' + parameter_allow_empty_value[index])
+    f.writelines(parameters_table_list[2] + ',' + parameter_allow_empty_value[index] + ',')
     f.writelines('\n')
-    f.writelines(parameters_table_list[3] + ',' + parameter_value_type[index])
+    f.writelines(parameters_table_list[3] + ',' + parameter_value_type[index] + ',')
     f.writelines('\n')
-    f.writelines(parameters_table_list[14] + ',' + parameter_data_type[index])
+    f.writelines(parameters_table_list[14] + ',' + parameter_data_type[index] + ',')
     f.writelines('\n')
-    f.writelines(parameters_table_list[4] + ',' + parameter_minimum_length[index])
+    f.writelines(parameters_table_list[4] + ',' + parameter_minimum_length[index] + ',')
     f.writelines('\n')
-    f.writelines(parameters_table_list[5] + ',' + parameter_minimum_length[index])
+    f.writelines(parameters_table_list[5] + ',' + parameter_minimum_length[index] + ',')
     f.writelines('\n')
-    f.writelines(parameters_table_list[6] + ',' + parameter_is_sensitive[index])
+    f.writelines(parameters_table_list[6] + ',' + parameter_is_sensitive[index] + ',')
     f.writelines('\n')
-    f.writelines(parameters_table_list[7] + ',' + parameter_parameter_name_metachars[index])
+    f.writelines(parameters_table_list[7] + ',' + parameter_parameter_name_metachars[index] + ',')
     f.writelines('\n')
-    f.writelines(parameters_table_list[8] + ',' + parameter_check_metachars[index])
+    f.writelines(parameters_table_list[8] + ',' + parameter_check_metachars[index] + ',')
     f.writelines('\n')
-    f.writelines(parameters_table_list[9] + ',' + parameter_check_attack_signatures[index])
+    f.writelines(parameters_table_list[9] + ',' + parameter_check_attack_signatures[index] + ',')
     f.writelines('\n')
-    f.writelines(parameters_table_list[10] + ',' + parameter_allow_repeated_parameter_name[index])
+    f.writelines(parameters_table_list[10] + ',' + parameter_allow_repeated_parameter_name[index] + ',')
     f.writelines('\n')
-    f.writelines(parameters_table_list[11] + ',' + parameter_is_base64[index])
+    f.writelines(parameters_table_list[11] + ',' + parameter_is_base64[index] + ',')
     f.writelines('\n')
-    f.writelines(parameters_table_list[12] + ',' + parameter_disabled_metachar[index])
+    f.writelines(parameters_table_list[12] + ',' + parameter_disabled_metachar[index] + ',')
     f.writelines('\n')
-    f.writelines(parameters_table_list[13] + ',' + parameter_disabled_signatures[index])
+    f.writelines(parameters_table_list[13] + ',' + parameter_disabled_signatures[index] + ',')
     f.writelines('\n')
     f.writelines('\n')
 
@@ -946,7 +943,7 @@ f.writelines('\n')
 urls_table_list = ['URL Name', 'URL Type', 'Clickjacking Protection', 'Check Flows to this URL', 'URL is Entry Point',
                    'URL is Referrer', 'URL can change Domain Cookie', 'Body is Mandatory',
                    'Wildcard Match Includes Slashes', 'Check attack signatures and threat campaigns on this URL',
-                   'Check characters on this URL', 'Method Enforcement']
+                   'Check characters on this URL', 'Method Enforcement', 'Disabled Attack Signatures']
 
 url_name = []
 url_type = []
@@ -962,6 +959,10 @@ url_check_methods = []
 url_check_metachars = []
 url_mandatory_body = []
 url_check_attack_signatures = []
+url_disallowed_metachars = []
+disabled_metachar_local = []
+disabled_signatures_local = []
+url_disabled_signatures = []
 
 for x in root.iter('urls'):
     for z in root.iter('clickjacking_protection'):
@@ -994,39 +995,179 @@ for x in root.iter('urls'):
                 url_is_entry_point.append('-')
                 url_is_referrer.append('-')
                 url_can_change_domain_cookie.append('-')
+        disabled_signatures_local = []
+        for z in y.findall('attack_signature'):
+            temp = z.get('sig_id')
+            disabled_signatures_local.append(temp)
+        url_disabled_signatures.append('shpongle'.join(disabled_signatures_local))
 
+f.writelines('###URLs###')
+f.writelines('\n')
+f.writelines('Параметр,Значение,Комментарий')
+f.writelines('\n')
 # write results to file in csv-like format
 for index, item in enumerate(url_name):
     f.writelines(urls_table_list[0] + ',' + 'Protocol: ' + url_protocol[index] + 'shpongle' + 'Methods: ' + url_method[
-        index] + 'shpongle' + 'URL: ' + item)
+        index] + 'shpongle' + 'URL: ' + item + ',')
     f.writelines('\n')
-    f.writelines(urls_table_list[1] + ',' + url_type[index])
+    f.writelines(urls_table_list[1] + ',' + url_type[index] + ',')
     f.writelines('\n')
-    f.writelines(urls_table_list[2] + ',' + url_clickjacking_protection[index])
+    f.writelines(urls_table_list[2] + ',' + url_clickjacking_protection[index] + ',')
     f.writelines('\n')
-    f.writelines(urls_table_list[3] + ',' + url_check_flows[index])
+    f.writelines(urls_table_list[3] + ',' + url_check_flows[index] + ',')
     f.writelines('\n')
-    f.writelines(urls_table_list[4] + ',' + url_is_entry_point[index])
+    f.writelines(urls_table_list[4] + ',' + url_is_entry_point[index] + ',')
     f.writelines('\n')
-    f.writelines(urls_table_list[5] + ',' + url_is_referrer[index])
+    f.writelines(urls_table_list[5] + ',' + url_is_referrer[index] + ',')
     f.writelines('\n')
-    f.writelines(urls_table_list[6] + ',' + url_can_change_domain_cookie[index])
+    f.writelines(urls_table_list[6] + ',' + url_can_change_domain_cookie[index] + ',')
     f.writelines('\n')
-    f.writelines(urls_table_list[7] + ',' + url_mandatory_body[index])
+    f.writelines(urls_table_list[7] + ',' + url_mandatory_body[index] + ',')
     f.writelines('\n')
-    f.writelines(urls_table_list[8] + ',' + url_flg_wildcard_includes_slash[index])
+    f.writelines(urls_table_list[8] + ',' + url_flg_wildcard_includes_slash[index] + ',')
     f.writelines('\n')
-    f.writelines(urls_table_list[9] + ',' + url_check_attack_signatures[index])
+    f.writelines(urls_table_list[9] + ',' + url_check_attack_signatures[index] + ',')
     f.writelines('\n')
-    f.writelines(urls_table_list[10] + ',' + url_check_metachars[index])
+    f.writelines(urls_table_list[10] + ',' + url_check_metachars[index] + ',')
     f.writelines('\n')
-    f.writelines(urls_table_list[11] + ',' + url_check_methods[index])
+    f.writelines(urls_table_list[11] + ',' + url_check_methods[index] + ',')
+    f.writelines('\n')
+    f.writelines(urls_table_list[12] + ',' + url_disabled_signatures[index] + ',')
+    f.writelines('\n')
+    f.writelines('\n')
+f.writelines('\n')
+
+# Now let's export cookies
+cookies_table_list = ['Cookie Name', 'Cookie Type', 'Perform Staging', 'Insert HttpOnly attribute', 'Insert SameSite attribute',
+                   'Insert Secure attribute', 'Base64 Decoding', 'Mask Value in Logs', 'Check attack signatures and threat campaigns on this cookie', 'Disabled Attack Signatures']
+cookie_name = []
+cookie_type = []
+cookie_in_staging = []
+cookie_enforcement_mode = []
+cookie_http_only = []
+cookie_secure = []
+cookie_check_signatures = []
+cookie_is_base64 = []
+cookie_mask_value = []
+cookie_same_site_attribute = []
+cookie_disabled_signatures = []
+disabled_signatures_local = []
+
+for x in root.iter('headers'):
+    for y in x.findall('allowed_modified_cookie'):
+        cookie_name.append(y.get('name'))
+        cookie_type.append(y.get('type'))
+        cookie_in_staging.append(y.find('in_staging').text)
+        cookie_enforcement_mode.append(y.find('enforcement_mode').text)
+        cookie_http_only.append(y.find('http_only').text)
+        cookie_secure.append(y.find('secure').text)
+        cookie_check_signatures.append(y.find('check_signatures').text)
+        cookie_is_base64.append(y.find('is_base64').text)
+        cookie_mask_value.append(y.find('mask_value').text)
+        cookie_same_site_attribute.append(y.find('same_site_attribute').text)
+        disabled_signatures_local = []
+        for z in y.findall('attack_signature'):
+            temp = z.get('sig_id')
+            disabled_signatures_local.append(temp)
+        cookie_disabled_signatures.append('shpongle'.join(disabled_signatures_local))
+
+f.writelines('###Cookies###')
+f.writelines('\n')
+f.writelines('Параметр,Значение,Комментарий')
+f.writelines('\n')
+# write results to file in csv-like format
+for index, item in enumerate(cookie_name):
+    f.writelines(cookies_table_list[0] + ',' + item + 'shpongle' + cookie_type[index] + ',')
+    f.writelines('\n')
+    f.writelines(cookies_table_list[1] + ',' + cookie_enforcement_mode[index] + ',')
+    f.writelines('\n')
+    f.writelines(cookies_table_list[2] + ',' + cookie_in_staging[index] + ',')
+    f.writelines('\n')
+    f.writelines(cookies_table_list[3] + ',' + cookie_http_only[index] + ',')
+    f.writelines('\n')
+    f.writelines(cookies_table_list[4] + ',' + cookie_same_site_attribute[index] + ',')
+    f.writelines('\n')
+    f.writelines(cookies_table_list[5] + ',' + cookie_secure[index] + ',')
+    f.writelines('\n')
+    f.writelines(cookies_table_list[6] + ',' + cookie_is_base64[index] + ',')
+    f.writelines('\n')
+    f.writelines(cookies_table_list[7] + ',' + cookie_mask_value[index] + ',')
+    f.writelines('\n')
+    f.writelines(cookies_table_list[8] + ',' + cookie_check_signatures[index] + ',')
+    f.writelines('\n')
+    f.writelines(cookies_table_list[9] + ',' + cookie_disabled_signatures[index] + ',')
     f.writelines('\n')
     f.writelines('\n')
 
+
 f.writelines('\n')
-f.writelines('Globally Disabled Signatures')
+
+
+headers_name = []
+headers_type = []
+headers_is_mandatory = []
+headers_check_signatures = []
+headers_is_base64 = []
+headers_percent_normalization = []
+headers_uri_normalization = []
+headers_html_normalization = []
+headers_is_default = []
+headers_mask_value = []
+headers_normalization_settings = []
+headers_disabled_signatures = []
+disabled_signatures_local = []
+
+
+for y in root.findall('header'):
+    headers_name.append(y.get('name'))
+    headers_type.append(y.get('type'))
+    headers_is_mandatory.append(y.find('is_mandatory').text)
+    headers_check_signatures.append(y.find('check_signatures').text)
+    headers_is_base64.append(y.find('is_base64').text)
+    headers_is_default.append(y.find('is_default').text)
+    headers_mask_value.append(y.find('mask_value').text)
+
+    headers_normalization_settings_temp = ''
+    if y.find('percent_normalization').text == 'true':
+        headers_normalization_settings_temp += 'Percent Decodingshpongle'
+    if y.find('uri_normalization').text == 'true':
+        headers_normalization_settings_temp += 'Url Normalizationshpongle'
+    if y.find('html_normalization').text == 'true':
+        headers_normalization_settings_temp += 'HTML Normalizationshpongle'
+    headers_normalization_settings.append(headers_normalization_settings_temp)
+    disabled_signatures_local = []
+    for z in y.findall('attack_signature'):
+        temp = z.get('sig_id')
+        disabled_signatures_local.append(temp)
+    headers_disabled_signatures.append('shpongle'.join(disabled_signatures_local))
+
+# list of fields for resulting table
+headers_table_list = ['Header Name', 'Type', 'Default Header', 'Mandatory', 'Check Attack Signatures and Threat Campaigns',
+                         'Base64 Decoding', 'Normalization Settings', 'Evasion Techniques Violations',
+                         'Mask Value in Logs', 'Disabled Attack Signatures']
+f.writelines('###Заголовки###')
 f.writelines('\n')
-for item in disabled_signatures:
-    f.writelines(item)
+f.writelines('Параметр,Значение,Комментарий')
+f.writelines('\n')
+for index, item in enumerate(headers_name):
+    f.writelines(headers_table_list[0] + ',' + item + ',')
+    f.writelines('\n')
+    f.writelines(headers_table_list[1] + ',' + headers_type[index] + ',')
+    f.writelines('\n')
+    f.writelines(headers_table_list[2] + ',' + headers_is_default[index] + ',')
+    f.writelines('\n')
+    f.writelines(headers_table_list[3] + ',' + headers_is_mandatory[index] + ',')
+    f.writelines('\n')
+    f.writelines(headers_table_list[4] + ',' + headers_check_signatures[index] + ',')
+    f.writelines('\n')
+    f.writelines(headers_table_list[5] + ',' + headers_is_base64[index] + ',')
+    f.writelines('\n')
+    f.writelines(headers_table_list[6] + ',' + headers_normalization_settings[index] + ',')
+    f.writelines('\n')
+    f.writelines(headers_table_list[7] + ',' + ' ' + ',')
+    f.writelines('\n')
+    f.writelines(headers_table_list[8] + ',' + headers_mask_value[index] + ',')
+    f.writelines('\n')
+    f.writelines(headers_table_list[9] + ',' + headers_disabled_signatures[index] + ',')
+    f.writelines('\n')
     f.writelines('\n')

@@ -1,10 +1,10 @@
 # path to XML configure from F5
-source_file = 'C:/Users/MAY/PycharmProjects/XML/data.xml'
-# source_file = 'C:/Users/Cynic/PycharmProjects/F5_XML/data.xml'
+# source_file = 'C:/Users/MAY/PycharmProjects/XML/data.xml'
+source_file = 'C:/Users/Cynic/PycharmProjects/F5_XML/data.xml'
 
 # path to result csv
-result_file = 'C:/Users/MAY/PycharmProjects/XML/result.txt'
-# result_file = 'C:/Users/Cynic/PycharmProjects/F5_XML/result.txt'
+# result_file = 'C:/Users/MAY/PycharmProjects/XML/result.txt'
+result_file = 'C:/Users/Cynic/PycharmProjects/F5_XML/result.txt'
 
 # Extracted from XML (counting position from zero)
 # 4. Web Services Security failure
