@@ -211,7 +211,6 @@ f.writelines('\n')
 disabled_signatures = []
 for index, value in enumerate(signature_status):
     if value == 'false':
-        print(index)
         disabled_signatures.append(signature_names[index])
 f.writelines('###Globally Disabled Signatures###')
 f.writelines('\n')
